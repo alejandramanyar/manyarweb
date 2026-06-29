@@ -755,66 +755,101 @@ function buildCarousel(images, emoji) {
   carouselImgs = images && images.length ? images : [];
   carouselIdx = 0;
   var imgWrap = document.getElementById('mImgWrap');
-  var closeBtn = '<button class="modal-close-btn" onclick="closeProductModal()">✕</button>';
-  
+  var closeBtn = document.createElement('button');
+  closeBtn.className = 'modal-close-btn';
+  closeBtn.textContent = '✕';
+  closeBtn.onclick = closeProductModal;
+
+  imgWrap.innerHTML = '';
+  imgWrap.appendChild(closeBtn);
+
   if (!carouselImgs.length) {
-    imgWrap.innerHTML = closeBtn + '<div style="font-size:80px;opacity:.25">' + emoji + '</div>';
+    var ph = document.createElement('div');
+    ph.style.cssText = 'font-size:80px;opacity:.25';
+    ph.textContent = emoji;
+    imgWrap.appendChild(ph);
     return;
   }
 
   if (carouselImgs.length === 1) {
-    // Single image — no carousel needed
-    imgWrap.innerHTML = closeBtn + '<img src="' + carouselImgs[0] + '" style="width:100%;height:100%;object-fit:cover" onerror="this.style.display='none'">';
+    var img = document.createElement('img');
+    img.src = carouselImgs[0];
+    img.style.cssText = 'width:100%;height:100%;object-fit:cover';
+    img.onerror = function() { this.style.display = 'none'; };
+    imgWrap.appendChild(img);
+    var thumbsEl = document.getElementById('mCarouselThumbs');
+    if (thumbsEl) thumbsEl.innerHTML = '';
     return;
   }
 
-  // Build carousel
-  var slides = carouselImgs.map(function(src) {
-    return '<div class="carousel-slide"><img src="' + src + '" onerror="this.style.display='none'"></div>';
-  }).join('');
+  // Build track
+  var track = document.createElement('div');
+  track.className = 'carousel-track';
+  track.id = 'carouselTrack';
 
-  var dots = carouselImgs.map(function(_, i) {
-    return '<button class="carousel-dot' + (i===0?' active':'') + '" onclick="goToSlide(' + i + ')"></button>';
-  }).join('');
+  carouselImgs.forEach(function(src) {
+    var slide = document.createElement('div');
+    slide.className = 'carousel-slide';
+    var img = document.createElement('img');
+    img.src = src;
+    img.onerror = function() { this.style.display = 'none'; };
+    slide.appendChild(img);
+    track.appendChild(slide);
+  });
+  imgWrap.appendChild(track);
 
-  var thumbs = carouselImgs.map(function(src, i) {
-    return '<div class="carousel-thumb' + (i===0?' active':'') + '" onclick="goToSlide(' + i + ')"><img src="' + src + '" onerror="this.style.display='none'"></div>';
-  }).join('');
+  // Prev/Next buttons
+  var prev = document.createElement('button');
+  prev.className = 'carousel-btn carousel-prev';
+  prev.innerHTML = '‹';
+  prev.onclick = prevSlide;
+  imgWrap.appendChild(prev);
 
-  imgWrap.innerHTML = closeBtn +
-    '<div class="carousel-track" id="carouselTrack">' + slides + '</div>' +
-    '<button class="carousel-btn carousel-prev" onclick="prevSlide()">‹</button>' +
-    '<button class="carousel-btn carousel-next" onclick="nextSlide()">›</button>' +
-    '<div class="carousel-dots">' + dots + '</div>';
+  var next = document.createElement('button');
+  next.className = 'carousel-btn carousel-next';
+  next.innerHTML = '›';
+  next.onclick = nextSlide;
+  imgWrap.appendChild(next);
 
-  // Add thumbnails below the image wrap
+  // Dots
+  var dotsEl = document.createElement('div');
+  dotsEl.className = 'carousel-dots';
+  carouselImgs.forEach(function(_, i) {
+    var dot = document.createElement('button');
+    dot.className = 'carousel-dot' + (i === 0 ? ' active' : '');
+    dot.onclick = (function(idx) { return function() { goToSlide(idx); }; })(i);
+    dotsEl.appendChild(dot);
+  });
+  imgWrap.appendChild(dotsEl);
+
+  // Thumbnails
   var thumbsEl = document.getElementById('mCarouselThumbs');
-  if (thumbsEl) thumbsEl.innerHTML = thumbs;
+  if (thumbsEl) {
+    thumbsEl.innerHTML = '';
+    carouselImgs.forEach(function(src, i) {
+      var thumb = document.createElement('div');
+      thumb.className = 'carousel-thumb' + (i === 0 ? ' active' : '');
+      thumb.onclick = (function(idx) { return function() { goToSlide(idx); }; })(i);
+      var tImg = document.createElement('img');
+      tImg.src = src;
+      tImg.onerror = function() { this.style.display = 'none'; };
+      thumb.appendChild(tImg);
+      thumbsEl.appendChild(thumb);
+    });
+  }
 }
 
 function goToSlide(idx) {
   carouselIdx = idx;
   var track = document.getElementById('carouselTrack');
-  if (track) track.style.transform = 'translateX(-' + idx*100 + '%)';
-  document.querySelectorAll('.carousel-dot').forEach(function(d,i){ d.classList.toggle('active', i===idx); });
-  document.querySelectorAll('.carousel-thumb').forEach(function(t,i){ t.classList.toggle('active', i===idx); });
+  if (track) track.style.transform = 'translateX(-' + (idx * 100) + '%)';
+  document.querySelectorAll('.carousel-dot').forEach(function(d, i) { d.classList.toggle('active', i === idx); });
+  document.querySelectorAll('.carousel-thumb').forEach(function(t, i) { t.classList.toggle('active', i === idx); });
 }
 
-function nextSlide() {
-  goToSlide((carouselIdx + 1) % carouselImgs.length);
-}
+function nextSlide() { goToSlide((carouselIdx + 1) % carouselImgs.length); }
+function prevSlide() { goToSlide((carouselIdx - 1 + carouselImgs.length) % carouselImgs.length); }
 
-function prevSlide() {
-  goToSlide((carouselIdx - 1 + carouselImgs.length) % carouselImgs.length);
-}
-
-// Keyboard navigation for carousel
-document.addEventListener('keydown', function(e) {
-  if (document.getElementById('prodModal').classList.contains('open')) {
-    if (e.key === 'ArrowRight') nextSlide();
-    if (e.key === 'ArrowLeft') prevSlide();
-  }
-});
 
 /* ── Producer logo map ── */
 function buildLogoMap() {
@@ -1043,7 +1078,17 @@ function selectFormat(btn, priceEnc, fmtImgEnc) {
     if (fmtImg) {
       var imgWrap = document.getElementById('mImgWrap');
       var closeBtn = '<button class="modal-close-btn" onclick="closeProductModal()">✕</button>';
-      imgWrap.innerHTML = closeBtn + '<img src="' + fmtImg + '" alt="" style="width:100%;height:100%;object-fit:cover" onerror="this.style.display='none'">';
+      var fmtImgEl = document.createElement('img');
+    fmtImgEl.src = fmtImg;
+    fmtImgEl.style.cssText = 'width:100%;height:100%;object-fit:cover';
+    fmtImgEl.onerror = function() { this.style.display = 'none'; };
+    var closeBtnEl = document.createElement('button');
+    closeBtnEl.className = 'modal-close-btn';
+    closeBtnEl.textContent = '✕';
+    closeBtnEl.onclick = closeProductModal;
+    imgWrap.innerHTML = '';
+    imgWrap.appendChild(closeBtnEl);
+    imgWrap.appendChild(fmtImgEl);
     }
   }
   // Enable add button
