@@ -165,7 +165,7 @@
       "descripcion": "Vermut artesanal elaborado con plantas aromáticas seleccionadas. Producción limitada.",
       "seccion": "Vinos & Destilados",
       "estado": "Activo",
-      "imagen": "700mlfondoblancooronomada.webp",
+      "imagen": "1782726255862_antonanza_vermut.jpg",
       "logo": "",
       "productos": [
         "vermut-artesano-oro-nomada",
@@ -1196,29 +1196,6 @@
       "emoji": "🍽️"
     },
     {
-      "id": "vino-tinto-blanco-vemut",
-      "nombre": "Vino tinto/blanco/Vemut",
-      "productor": "Bodega Cristo del Humilladero",
-      "seccion": "Bebidas",
-      "categoria": "Vino tinto/blanco/Vemut",
-      "subcategoria": "Vino tinto/Vino blanco/Vemut",
-      "region": "Sierra de Gredos",
-      "descripcion": "Granel",
-      "estado": "Activo",
-      "do": "",
-      "tags": "",
-      "premios": "",
-      "stock_limitado": false,
-      "formatos": [
-        {
-          "formato": "Granel",
-          "precio": "precio según necesidades y cantidades"
-        }
-      ],
-      "imagen": "",
-      "emoji": "🍽️"
-    },
-    {
       "id": "carne-de-centollo-al-natural",
       "nombre": "Carne de Centollo al Natural",
       "productor": "La Mar de Tazones",
@@ -1928,7 +1905,7 @@
           "precio": "9,40"
         }
       ],
-      "imagen": "700mlfondoblancooronomada.webp",
+      "imagen": "1782726255862_antonanza_vermut.jpg",
       "emoji": "🍽️"
     },
     {
@@ -1959,7 +1936,7 @@
           "precio": "2,82 €/und. Total 62,15€/22 und"
         }
       ],
-      "imagen": "700mlfondoblancooronomada.webp",
+      "imagen": "1782726255862_antonanza_vermut.jpg",
       "emoji": "🍽️"
     },
     {
