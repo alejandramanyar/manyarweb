@@ -24,7 +24,7 @@
       "descripcion": "Especialistas en gildas y aperitivos gourmet artesanales.",
       "seccion": "Gildas & Aperitivos",
       "estado": "Activo",
-      "imagen": "forberry_gildamatrimonio.png",
+      "imagen": "",
       "logo": "forberry_logo.png",
       "productos": [
         "gilda-anchoa",
@@ -46,7 +46,7 @@
       "descripcion": "Quesería artesanal cantábrica con elaboración tradicional de quesos pasiegos y madurados.",
       "seccion": "Quesos",
       "estado": "Activo",
-      "imagen": "tasugueras_Briniro.png",
+      "imagen": "",
       "logo": "tasugueras_logo.png",
       "productos": [
         "briniro",
@@ -62,7 +62,7 @@
       "descripcion": "Más de 130 años elaborando queso azul en cuevas naturales de los Picos de Europa.",
       "seccion": "Quesos",
       "estado": "Activo",
-      "imagen": "provdencia_queso.jpeg",
+      "imagen": "",
       "logo": "logoprovidencia.png",
       "productos": [
         "queso-la-providencia"
@@ -75,7 +75,7 @@
       "descripcion": "Bodega artesanal de la Sierra de Gredos. Proyecto 57 — vinos de autor con etiquetas artísticas.",
       "seccion": "Vinos & Destilados",
       "estado": "Activo",
-      "imagen": "TRINOS.jpg",
+      "imagen": "",
       "logo": "logo_bodega_cristo_humilladero.jpg",
       "productos": [
         "trinos",
@@ -99,7 +99,7 @@
       "descripcion": "Conservas premium de marisco del Cantábrico. Tradición marinera asturiana.",
       "seccion": "Marisco & Conservas",
       "estado": "Activo",
-      "imagen": "carnedecentollo_lamardetazones.png",
+      "imagen": "",
       "logo": "logolamardetazones.png",
       "productos": [
         "carne-de-centollo-al-natural",
@@ -124,7 +124,7 @@
       "descripcion": "Aceite de oliva virgen extra ecológico BIO de cosecha temprana.",
       "seccion": "Aceites",
       "estado": "Activo",
-      "imagen": "almacantarofrutadoverde_500ml.png",
+      "imagen": "",
       "logo": "lOGO_ACEITES_ALMA_DE_CANTARO.png",
       "productos": [
         "frutado-verde-premium-bio",
@@ -139,7 +139,7 @@
       "descripcion": "Bodega y destilería artesanal en los Picos de Europa. Vinos, whiskys, gins y licores.",
       "seccion": "Vinos & Destilados",
       "estado": "Activo",
-      "imagen": "ginebra-picos-cabariezo.jpg",
+      "imagen": "",
       "logo": "logobodegapicoscabariezo.png",
       "productos": [
         "vino-tinto-selecci-n",
@@ -165,7 +165,7 @@
       "descripcion": "Vermut artesanal elaborado con plantas aromáticas seleccionadas. Producción limitada.",
       "seccion": "Vinos & Destilados",
       "estado": "Activo",
-      "imagen": "1782726255862_antonanza_vermut.jpg",
+      "imagen": "",
       "logo": "logo_bodegantonanza.png",
       "productos": [
         "vermut-artesano-oro-nomada",
@@ -193,7 +193,7 @@
       "seccion": "Aceite",
       "estado": "Activo",
       "imagen": "",
-      "logo": "",
+      "logo": "logo_eoloe.png",
       "productos": [
         "aove-monovarietal-pajarero-"
       ]
@@ -218,7 +218,7 @@
       "descripcion": "AOVE DOP Picual de Sierra de alta calidad en múltiples formatos y variedades.",
       "seccion": "Aceites",
       "estado": "Activo",
-      "imagen": "almacantarofrutadoverde_500ml.png",
+      "imagen": "",
       "logo": "logopotosi10.png",
       "productos": [
         "aove-dop-picual-de-sierra",

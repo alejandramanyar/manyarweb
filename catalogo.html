@@ -726,6 +726,25 @@ fetch('productos.json')
     init();
   });
 
+
+/* ── Producer logo map ── */
+function buildLogoMap() {
+  const map = {};
+  if (DATA && DATA.productores) {
+    DATA.productores.forEach(pr => {
+      if (pr.logo) map[pr.nombre] = pr.logo;
+    });
+  }
+  return map;
+}
+
+function getProducerLogoHtml(nombre) {
+  const map = buildLogoMap();
+  const logo = map[nombre];
+  if (!logo) return '';
+  return `<img src="${logo}" alt="${nombre}" style="width:22px;height:22px;border-radius:5px;object-fit:contain;background:#f5f0e8;flex-shrink:0;border:1px solid rgba(13,27,42,.07)" onerror="this.style.display='none'">`;
+}
+
 // ── Init ──
 function init() {
   buildFilters();
@@ -827,7 +846,9 @@ function renderCard(p) {
     <div class="pcard-body">
       <div class="pcard-cat">${(p.seccion || p.categoria || '').trim()}</div>
       <div class="pcard-name">${p.nombre}</div>
-      <div class="pcard-prod">${p.productor}</div>
+      <div class="pcard-prod" style="display:flex;align-items:center;gap:5px">
+        ${getProducerLogoHtml(p.productor)}${p.productor}
+      </div>
       ${p.region ? `<div class="pcard-region">📍 ${p.region}</div>` : ''}
     </div>
     <div class="pcard-footer">
@@ -846,12 +867,13 @@ function renderProducers(producers) {
     const nProds = pr.productos ? pr.productos.length : 0;
     const emojiMap = {'Marisco & Conservas':'🦞','Gildas & Aperitivos':'🫒','Quesos':'🧀','Vinos & Destilados':'🍷','Aceites':'🫙','Jamones & Embutidos':'🥩','Cárnicos':'🥩'};
     const emoji = emojiMap[pr.seccion] || '🏭';
-    const prImgHtml = pr.imagen 
-      ? `<img src="${pr.imagen}" style="width:100%;height:100%;object-fit:cover" onerror="this.parentElement.innerHTML='${emoji}'">`
-      : emoji;
+    const logoSrc = pr.logo || '';
+    const logoContent = logoSrc
+      ? `<img src="${logoSrc}" alt="${pr.nombre}" style="width:100%;height:100%;object-fit:contain;padding:8px" onerror="this.parentElement.innerHTML='<span style=font-size:28px>${emoji}</span>'">`
+      : `<span style="font-size:28px">${emoji}</span>`;
     return `<div class="prcard" onclick="openProducerModal('${encodeStr(pr.nombre)}')">
       <div class="prcard-top">
-        <div class="prcard-img">${emoji}</div>
+        <div class="prcard-img" style="background:#fff;border:1px solid var(--border)">${logoContent}</div>
         <span class="badge-activo">● Activo</span>
       </div>
       <div>
@@ -938,13 +960,14 @@ function openProducerModal(nameEnc) {
   const header = document.getElementById('prModalHeader');
   const emojiMap = {'Marisco & Conservas':'🦞','Gildas & Aperitivos':'🫒','Quesos':'🧀','Vinos & Destilados':'🍷','Aceites':'🫙','Jamones & Embutidos':'🥩','Cárnicos':'🥩'};
   const emoji = emojiMap[pr.seccion] || '🏭';
-    const prImgHtml = pr.imagen 
-      ? `<img src="${pr.imagen}" style="width:100%;height:100%;object-fit:cover" onerror="this.parentElement.innerHTML='${emoji}'">`
-      : emoji;
+  const prLogoSrc = pr.logo || '';
+  const prLogoHtml = prLogoSrc
+    ? `<img src="${prLogoSrc}" alt="${pr.nombre}" style="width:100%;height:100%;object-fit:contain;padding:8px" onerror="this.style.display='none'">`
+    : `<span style="font-size:28px">${emoji}</span>`;
 
   header.innerHTML = `
     <button class="modal-close-btn" style="position:absolute;top:14px;right:14px" onclick="closePrModal()">✕</button>
-    <div class="pr-modal-logo">${emoji}</div>
+    <div class="pr-modal-logo" style="background:rgba(255,255,255,.15);border-radius:10px;overflow:hidden">${prLogoHtml}</div>
     <div class="pr-modal-titles">
       <h2>${pr.nombre}</h2>
       <div class="pr-region">📍 ${pr.region}</div>
@@ -963,7 +986,7 @@ function openProducerModal(nameEnc) {
       ? `<img src="${p.imagen}" alt="${p.nombre}" loading="lazy" onerror="this.parentElement.innerHTML='${p.emoji||'🍽️'}'">`
       : (p.emoji || '🍽️');
     return `<div class="pr-prod-mini" onclick="closePrModal();openProductModal('${encodeStr(p.productor + '||' + p.nombre)}')">
-      <div class="pr-prod-mini-img">${typeof imgHtml === 'string' && imgHtml.startsWith('<') ? imgHtml : imgHtml}</div>
+      <div class="pr-prod-mini-img">${imgHtml}</div>
       <div>
         <div class="pr-prod-mini-name">${p.nombre}</div>
         <div class="pr-prod-mini-price">${precio}</div>
