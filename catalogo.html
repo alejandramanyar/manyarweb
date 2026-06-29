@@ -444,6 +444,85 @@ a { color: inherit; text-decoration: none; }
   .pedido-modal { padding: 24px 18px; }
   .form-2col { grid-template-columns: 1fr; }
 }
+
+  /* ═══ CESTA PREMIUM ═══ */
+  .cart-nav-btn{display:flex;align-items:center;gap:8px;padding:8px 16px;background:var(--navy);color:#fff;border:none;border-radius:100px;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:600;cursor:pointer;transition:all .2s;white-space:nowrap}
+  .cart-nav-btn:hover{background:var(--terra)}
+  .cart-nav-count{background:var(--terra);color:#fff;border-radius:50%;width:20px;height:20px;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+
+  /* Toast notification */
+  .cart-toast{position:fixed;bottom:32px;left:50%;transform:translateX(-50%) translateY(12px);background:var(--navy);color:#fff;padding:14px 22px 14px 16px;border-radius:14px;font-size:13px;font-weight:500;display:flex;align-items:center;gap:10px;opacity:0;transition:opacity .25s,transform .25s;pointer-events:none;z-index:800;white-space:nowrap;box-shadow:0 8px 32px rgba(13,27,42,.22)}
+  .cart-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+  .ct-check{background:rgba(104,211,145,.2);color:#68D391;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0}
+
+  /* Drawer */
+  .cart-overlay{display:none;position:fixed;inset:0;background:rgba(13,27,42,.4);z-index:590}
+  .cart-overlay.open{display:block}
+  .cart-drawer{position:fixed;top:0;right:-440px;width:440px;max-width:95vw;height:100vh;background:#fff;z-index:600;box-shadow:-8px 0 40px rgba(13,27,42,.15);transition:right .3s cubic-bezier(.4,0,.2,1);display:flex;flex-direction:column}
+  .cart-drawer.open{right:0}
+  .drawer-header{padding:24px 24px 20px;border-bottom:1px solid rgba(255,255,255,.1);display:flex;justify-content:space-between;align-items:flex-start;flex-shrink:0;background:var(--navy)}
+  .drawer-header h3{font-family:'Playfair Display',serif;font-size:20px;font-weight:700;color:#fff;margin-bottom:2px}
+  .drawer-header-sub{font-size:11px;color:rgba(255,255,255,.4);font-weight:400}
+  .drawer-close{background:rgba(255,255,255,.12);border:none;width:32px;height:32px;border-radius:8px;font-size:16px;cursor:pointer;color:rgba(255,255,255,.7);display:flex;align-items:center;justify-content:center;transition:all .15s;flex-shrink:0}
+  .drawer-close:hover{background:rgba(255,255,255,.22);color:#fff}
+  .drawer-items{flex:1;overflow-y:auto;padding:8px 0}
+  .drawer-empty{text-align:center;padding:48px 24px;color:var(--muted)}
+  .drawer-empty-icon{font-size:36px;margin-bottom:12px;opacity:.3}
+
+  /* Cart items */
+  .ci{display:flex;gap:14px;padding:16px 24px;border-bottom:1px solid var(--border);align-items:flex-start;transition:background .15s}
+  .ci:hover{background:var(--cream2)}
+  .ci-img{width:54px;height:54px;border-radius:10px;background:var(--cream2);overflow:hidden;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:22px;border:1px solid var(--border)}
+  .ci-img img{width:100%;height:100%;object-fit:cover}
+  .ci-info{flex:1;min-width:0}
+  .ci-name{font-family:'Playfair Display',serif;font-size:13px;font-weight:700;color:var(--navy);margin-bottom:1px;line-height:1.3}
+  .ci-prod{font-size:11px;color:var(--muted);margin-bottom:3px}
+  .ci-fmt{font-size:11px;color:var(--terra);font-weight:600;background:rgba(201,135,74,.08);padding:2px 8px;border-radius:100px;display:inline-block}
+  .ci-row{display:flex;align-items:center;justify-content:space-between;margin-top:8px}
+  .ci-qty{display:flex;align-items:center;gap:0;background:var(--cream2);border:1px solid var(--border);border-radius:8px;overflow:hidden}
+  .ci-qbtn{width:28px;height:28px;border:none;background:none;cursor:pointer;font-size:15px;font-weight:600;color:var(--navy);transition:all .15s;display:flex;align-items:center;justify-content:center}
+  .ci-qbtn:hover{background:rgba(201,135,74,.12);color:var(--terra)}
+  .ci-qval{font-size:13px;font-weight:700;min-width:24px;text-align:center;color:var(--navy);border-left:1px solid var(--border);border-right:1px solid var(--border);line-height:28px}
+  .ci-price{font-size:13px;font-weight:700;color:var(--navy)}
+  .ci-rm{background:none;border:none;color:var(--muted);cursor:pointer;font-size:13px;padding:4px 6px;border-radius:6px;transition:all .15s;margin-left:6px}
+  .ci-rm:hover{color:#E53E3E;background:rgba(229,62,62,.08)}
+
+  /* Drawer footer */
+  .drawer-footer{padding:20px 24px;border-top:2px solid rgba(201,135,74,.15);background:var(--cream2);flex-shrink:0}
+  .drawer-total{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:14px}
+  .drawer-total-label{font-size:12px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+  .drawer-total-val{text-align:right}
+  .drawer-total-price{font-size:26px;font-weight:800;color:var(--navy);line-height:1}
+  .drawer-total-iva{font-size:11px;color:var(--muted);margin-top:2px}
+  .btn-presupuesto{width:100%;padding:15px;background:var(--terra);color:#fff;border:none;border-radius:var(--r);font-size:15px;font-weight:700;cursor:pointer;transition:background .18s;font-family:'DM Sans',sans-serif;letter-spacing:.01em}
+  .btn-presupuesto:hover{background:var(--terra2)}
+
+  /* Qty stepper in modal */
+  .qty-row{display:flex;align-items:center;gap:14px;margin-bottom:20px;padding:14px 18px;background:var(--cream2);border-radius:12px;border:1px solid var(--border)}
+  .qty-row label{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;flex-shrink:0}
+  .qty-stepper{display:flex;align-items:center;background:#fff;border:1.5px solid var(--border);border-radius:10px;overflow:hidden}
+  .qty-step{width:36px;height:36px;border:none;background:none;cursor:pointer;font-size:18px;color:var(--navy);display:flex;align-items:center;justify-content:center;transition:all .15s}
+  .qty-step:hover{background:rgba(201,135,74,.1);color:var(--terra)}
+  .qty-num{font-size:16px;font-weight:700;min-width:32px;text-align:center;color:var(--navy);border-left:1px solid var(--border);border-right:1px solid var(--border);line-height:36px}
+  .qty-total{margin-left:auto;font-size:15px;font-weight:700;color:var(--terra)}
+  .btn-add-cart{width:100%;padding:15px;background:var(--terra);color:#fff;border:none;border-radius:var(--r);font-size:15px;font-weight:700;cursor:pointer;transition:background .18s;font-family:'DM Sans',sans-serif}
+  .btn-add-cart:hover{background:var(--terra2)}
+
+  /* Presupuesto form fields */
+  .pf-row{margin-bottom:14px}
+  .pf-label{display:block;font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin-bottom:6px}
+  .pf-input{width:100%;padding:11px 14px;border:1.5px solid var(--border);border-radius:10px;font-family:'DM Sans',sans-serif;font-size:14px;color:var(--navy);background:#fff;transition:border-color .18s}
+  .pf-input:focus{outline:none;border-color:var(--terra)}
+  .pf-resumen{background:var(--cream2);border-radius:10px;padding:14px;margin:14px 0;font-size:12px;line-height:1.7;max-height:150px;overflow-y:auto}
+  .pf-resumen-item{display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px solid rgba(13,27,42,.06);gap:8px}
+  .pf-total{display:flex;justify-content:space-between;padding:8px 0 0;font-weight:700;font-size:13px}
+
+  /* Price display in modal */
+  .price-display{background:var(--cream2);border:1px solid var(--border);border-radius:14px;padding:16px 20px;margin-bottom:20px;display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+  .price-val{font-size:28px;font-weight:800;color:var(--navy)}
+  .price-currency{font-size:20px;font-weight:700;color:var(--terra)}
+  .price-no-iva{font-size:12px;color:var(--muted);font-weight:500;background:rgba(13,27,42,.06);padding:3px 8px;border-radius:100px}
+
 </style>
 </head>
 <body>
@@ -462,6 +541,9 @@ a { color: inherit; text-decoration: none; }
     </ul>
     <div style="display:flex;gap:8px">
       <a href="index.html#contacto" style="display:inline-flex;align-items:center;padding:8px 16px;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:500;border-radius:100px;border:1px solid rgba(13,27,42,.15);color:var(--navy);text-decoration:none;margin-right:8px">Acceso B2B</a>
+      <button onclick="openCart()" style="display:flex;align-items:center;gap:6px;padding:8px 16px;background:none;border:1.5px solid var(--border);border-radius:100px;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:600;color:var(--navy);cursor:pointer;transition:all .18s" onmouseover="this.style.borderColor='var(--terra)'" onmouseout="this.style.borderColor='var(--border)'">
+        🛒 Ver cesta <span id="cartNavCountAlt" style="background:var(--terra);color:#fff;border-radius:50%;width:18px;height:18px;font-size:10px;font-weight:800;display:none;align-items:center;justify-content:center">0</span>
+      </button>
       <button class="cart-nav-btn" id="cartNavBtn" onclick="openCart()" style="display:none">
         🛒 <span id="cartNavCount" class="cart-nav-count">0</span>
         <span id="cartNavTotal" class="cart-nav-total"></span>
@@ -534,7 +616,7 @@ a { color: inherit; text-decoration: none; }
         <div class="format-grid" id="mFormats"></div>
       </div>
       <div class="price-display" id="mPriceDisplay" style="display:none">
-        <span class="price-val" id="mPriceVal"></span>
+        <span class="price-val" id="mPriceVal"></span> <span class="price-currency">€</span>
         <span class="price-no-iva">sin IVA</span>
       </div>
       <div class="qty-row">
@@ -548,7 +630,6 @@ a { color: inherit; text-decoration: none; }
       </div>
       <div class="modal-cta">
         <button class="btn-add-cart" onclick="addToCart()">+ Añadir a solicitud</button>
-        <button class="btn-manyar" onclick="closeProductModal();openCart()">Ver solicitud</button>
       </div>
     </div>
   </div>
@@ -734,8 +815,8 @@ function renderProducts(products) {
 function renderCard(p) {
   const precio = p.formatos && p.formatos.length ? p.formatos[0].precio : '';
   const imgHtml = p.imagen
-    ? `<img src="${p.imagen}" alt="${p.nombre}" loading="lazy" onerror="this.parentElement.innerHTML='<span style=font-size:48px>${p.emoji||'🍽️'}</span>'">`
-    : `<span style="font-size:48px">${p.emoji || '🍽️'}</span>`;
+    ? `<img src="${p.imagen}" alt="${p.nombre}" loading="lazy" onerror="this.style.opacity='.15'">`
+    : `<span style="font-size:40px;opacity:.3">${p.emoji || '🍽️'}</span>`;
 
   return `<div class="pcard" onclick="openProductModal('${encodeStr(p.productor + '||' + p.nombre)}')">
     <div class="pcard-img">
@@ -751,7 +832,7 @@ function renderCard(p) {
     </div>
     <div class="pcard-footer">
       <div>
-        ${precio ? `<div class="pcard-price-label">Desde (sin IVA)</div><div class="pcard-price">${precio}</div>` : '<div class="pcard-since">Consultar precio</div>'}
+        ${precio ? `<div class="pcard-price-label">Desde (sin IVA)</div><div class="pcard-price">${precio.includes('€') ? precio : precio + ' €'}</div>` : '<div class="pcard-since">Consultar precio</div>'}
       </div>
       <button class="btn-ver">Ver →</button>
     </div>
@@ -798,9 +879,9 @@ function openProductModal(key) {
   const imgWrap = document.getElementById('mImgWrap');
   const closeBtn = '<button class="modal-close-btn" onclick="closeProductModal()">✕</button>';
   if (p.imagen) {
-    imgWrap.innerHTML = closeBtn + `<img src="${p.imagen}" alt="${p.nombre}" style="width:100%;height:100%;object-fit:cover" onerror="this.parentElement.innerHTML='${closeBtn}<span style=font-size:80px>${p.emoji||'🍽️'}</span>'">`;
+    imgWrap.innerHTML = closeBtn + `<img src="${p.imagen}" alt="${p.nombre}" style="width:100%;height:100%;object-fit:cover" onerror="this.style.display='none'">`;
   } else {
-    imgWrap.innerHTML = closeBtn + `<span style="font-size:80px">${p.emoji || '🍽️'}</span>`;
+    imgWrap.innerHTML = closeBtn + `<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:64px;opacity:.25">${p.emoji || '🍽️'}</div>`;
   }
 
   // Eyebrow tags
@@ -822,10 +903,10 @@ function openProductModal(key) {
     fmtGrid.innerHTML = p.formatos.map((f, i) => `
       <button class="fmt-btn ${i===0?'selected':''}" onclick="selectFormat(this,'${encodeStr(f.precio)}')">
         ${f.formato}
-        <div class="fmt-price">${f.precio}</div>
+        <div class="fmt-price">${f.precio}${f.precio && !f.precio.includes("€") ? " €" : ""} sin IVA</div>
       </button>`).join('');
     priceDisp.style.display = 'flex';
-    document.getElementById('mPriceVal').textContent = p.formatos[0].precio;
+    const pr0 = p.formatos[0].precio; document.getElementById('mPriceVal').textContent = pr0 || '';
   } else {
     fmtGrid.innerHTML = '<span style="font-size:13px;color:var(--muted)">Consultar disponibilidad y precio</span>';
     priceDisp.style.display = 'none';
@@ -1025,6 +1106,17 @@ function updateCartUI() {
     navBtn.style.display = 'none';
   }
   
+
+  // Update alt cart counter
+  var altCount = document.getElementById('cartNavCountAlt');
+  if (altCount) {
+    if (cart.length) {
+      altCount.style.display = 'flex';
+      altCount.textContent = count;
+    } else {
+      altCount.style.display = 'none';
+    }
+  }
   // Drawer total
   document.getElementById('drawerTotalPrice').textContent = totalStr + ' €';
   document.getElementById('drawerFooter').style.display = cart.length ? '' : 'none';
@@ -1118,7 +1210,7 @@ document.addEventListener('keydown', e => {
 
 <!-- CART TOAST -->
 <div class="cart-toast" id="cartToast">
-  <span class="ct-check">✓</span>
+  <div class="ct-check">✓</div>
   <span id="cartToastMsg">Producto añadido</span>
 </div>
 
@@ -1128,7 +1220,10 @@ document.addEventListener('keydown', e => {
 <!-- CART DRAWER -->
 <div class="cart-drawer" id="cartDrawer">
   <div class="drawer-header">
-    <h3>Tu solicitud</h3>
+    <div>
+      <h3>Tu solicitud</h3>
+      <div class="drawer-header-sub">Precios sin IVA · B2B</div>
+    </div>
     <button class="drawer-close" onclick="closeCart()">✕</button>
   </div>
   <div class="drawer-items" id="drawerItems">
@@ -1138,7 +1233,7 @@ document.addEventListener('keydown', e => {
       <p style="font-size:12px;color:var(--muted);margin-top:4px">Añade productos desde el catálogo</p>
     </div>
   </div>
-  <div class="drawer-footer" id="drawerFooter" style="display:none">
+  <div class="drawer-footer" id="drawerFooter" style="display:none;border-top:2px solid rgba(201,135,74,.15)">
     <div class="drawer-total">
       <span class="drawer-total-label">Total estimado</span>
       <div class="drawer-total-val">
