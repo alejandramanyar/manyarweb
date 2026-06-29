@@ -533,9 +533,14 @@ a { color: inherit; text-decoration: none; }
         <span class="price-val" id="mPriceVal"></span>
         <span class="price-no-iva">sin IVA</span>
       </div>
+      <div class="qty-row">
+        <label>Cantidad:</label>
+        <input type="number" class="qty-input" id="mQty" value="1" min="1" max="999" oninput="updateCartPreview()">
+        <span id="mQtyPrice" style="font-size:13px;color:var(--muted)"></span>
+      </div>
       <div class="modal-cta">
-        <button class="btn-pedido" onclick="openPedido()">Hacer pedido →</button>
-        <button class="btn-manyar" onclick="openPedido()">Consultar disponibilidad</button>
+        <button class="btn-add-cart" onclick="addToCart()">+ Añadir a solicitud</button>
+        <button class="btn-manyar" onclick="openSolicitud()">Ver solicitud</button>
       </div>
     </div>
   </div>
@@ -945,9 +950,229 @@ function encodeStr(s) { return encodeURIComponent(s).replace(/'/g, '%27'); }
 function decodeStr(s) { return decodeURIComponent(s); }
 
 // ── Keyboard ──
+
+/* ═══ CESTA / SOLICITUD ═══ */
+let cart = [];
+
+function addToCart() {
+  if (!currentProduct) return;
+  const sel = document.querySelector('.fmt-btn.selected');
+  const formato = sel ? sel.querySelector(':first-child') ? sel.childNodes[0].textContent.trim() : sel.textContent.trim().split('\n')[0].trim() : 'Formato único';
+  const precioStr = document.getElementById('mPriceVal').textContent || '0';
+  const precio = parseFloat(precioStr.replace(',','.').replace(/[^0-9.]/g,'')) || 0;
+  const qty = parseInt(document.getElementById('mQty').value) || 1;
+
+  // Check if already in cart
+  const existing = cart.find(i => i.nombre === currentProduct.nombre && i.formato === formato);
+  if (existing) {
+    existing.qty += qty;
+  } else {
+    cart.push({
+      nombre: currentProduct.nombre,
+      productor: currentProduct.productor,
+      imagen: currentProduct.imagen,
+      emoji: currentProduct.emoji || '🍽️',
+      formato: formato,
+      precio: precio,
+      precioStr: precioStr,
+      qty: qty
+    });
+  }
+  updateCartUI();
+  closeProdModal();
+  openCart();
+}
+
+function updateCartPreview() {
+  const precio = parseFloat((document.getElementById('mPriceVal').textContent||'0').replace(',','.').replace(/[^0-9.]/g,'')) || 0;
+  const qty = parseInt(document.getElementById('mQty').value) || 1;
+  const total = (precio * qty).toFixed(2).replace('.',',');
+  document.getElementById('mQtyPrice').textContent = qty > 1 ? '= ' + total + ' €' : '';
+}
+
+function updateCartUI() {
+  const total = cart.reduce((s,i) => s + i.precio * i.qty, 0);
+  const count = cart.reduce((s,i) => s + i.qty, 0);
+  
+  document.getElementById('cartBadge').textContent = count;
+  document.getElementById('cartTotalVal').textContent = total.toFixed(2).replace('.',',') + ' €';
+  document.getElementById('cartBtnFloat').style.display = cart.length ? 'flex' : 'none';
+
+  const itemsEl = document.getElementById('cartItems');
+  if (!cart.length) {
+    itemsEl.innerHTML = '<div class="cart-empty"><div style="font-size:40px;margin-bottom:12px">🛒</div><p>No has añadido productos todavía.</p></div>';
+    return;
+  }
+
+  itemsEl.innerHTML = cart.map((item, idx) => {
+    const subtotal = (item.precio * item.qty).toFixed(2).replace('.',',');
+    const imgHtml = item.imagen 
+      ? `<img src="${item.imagen}" alt="${item.nombre}" onerror="this.parentElement.innerHTML='${item.emoji}'">`
+      : item.emoji;
+    return `<div class="cart-item">
+      <div class="cart-item-img">${imgHtml}</div>
+      <div class="cart-item-info">
+        <div class="cart-item-name">${item.nombre}</div>
+        <div class="cart-item-prod">${item.productor}</div>
+        <div class="cart-item-fmt">${item.formato} · ${item.precioStr} sin IVA</div>
+        <div class="cart-item-row">
+          <div class="cart-item-qty">
+            <button class="qty-btn" onclick="changeQty(${idx},-1)">−</button>
+            <span class="qty-val">${item.qty}</span>
+            <button class="qty-btn" onclick="changeQty(${idx},1)">+</button>
+          </div>
+          <span class="cart-item-price">${subtotal} €</span>
+          <button class="cart-item-remove" onclick="removeFromCart(${idx})">🗑️</button>
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function changeQty(idx, delta) {
+  cart[idx].qty = Math.max(1, cart[idx].qty + delta);
+  updateCartUI();
+}
+
+function removeFromCart(idx) {
+  cart.splice(idx, 1);
+  updateCartUI();
+}
+
+function openCart() {
+  document.getElementById('cartPanel').classList.add('open');
+  document.getElementById('cartOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeCart() {
+  document.getElementById('cartPanel').classList.remove('open');
+  document.getElementById('cartOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function openSolicitud() {
+  closeCart();
+  const total = cart.reduce((s,i) => s + i.precio * i.qty, 0).toFixed(2).replace('.',',');
+  
+  // Build summary
+  const resumen = cart.map(i => 
+    `<div style="display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px solid rgba(13,27,42,.06)">
+      <span><strong>${i.nombre}</strong> · ${i.formato} × ${i.qty}</span>
+      <span style="color:var(--terra);font-weight:700">${(i.precio*i.qty).toFixed(2).replace('.',',')} €</span>
+    </div>`
+  ).join('') + `<div style="display:flex;justify-content:space-between;padding:8px 0;font-weight:700;font-size:13px">
+    <span>Total estimado</span><span>${total} € sin IVA</span>
+  </div>`;
+  
+  document.getElementById('solicitudResumen').innerHTML = resumen;
+  
+  // Set hidden fields
+  const productosText = cart.map(i => `${i.nombre} (${i.formato}) x${i.qty} = ${(i.precio*i.qty).toFixed(2)}€`).join(' | ');
+  document.getElementById('hiddenProductos').value = productosText;
+  document.getElementById('hiddenTotal').value = total + ' € sin IVA';
+  
+  document.getElementById('solicitudModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeSolicitud() {
+  document.getElementById('solicitudModal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function enviarSolicitud(e) {
+  if (!cart.length) { alert('Añade productos a tu solicitud primero.'); return false; }
+  // Netlify Forms handles submission — let it proceed
+  return true;
+}
+
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') { closeProdModal(); closePrModal(); closePedidoModal(); }
 });
 </script>
+
+<!-- CART OVERLAY -->
+<div class="cart-overlay" id="cartOverlay" onclick="closeCart()"></div>
+
+<!-- CART PANEL -->
+<div class="cart-panel" id="cartPanel">
+  <div class="cart-header">
+    <h3>🛒 Tu solicitud</h3>
+    <button class="cart-close" onclick="closeCart()">✕</button>
+  </div>
+  <div class="cart-items" id="cartItems">
+    <div class="cart-empty">
+      <div style="font-size:40px;margin-bottom:12px">🛒</div>
+      <p>No has añadido productos todavía.</p>
+    </div>
+  </div>
+  <div class="cart-footer">
+    <div class="cart-total">
+      <span class="cart-total-label">Total estimado</span>
+      <div style="text-align:right">
+        <span class="cart-total-val" id="cartTotalVal">0,00 €</span>
+        <div class="cart-total-iva">sin IVA</div>
+      </div>
+    </div>
+    <button class="btn-solicitar" onclick="openSolicitud()">Enviar solicitud →</button>
+  </div>
+</div>
+
+<!-- FLOATING CART BUTTON -->
+<button class="cart-btn-float" id="cartBtnFloat" onclick="openCart()" style="display:none">
+  🛒 Mi solicitud <span class="cart-count" id="cartBadge">0</span>
+</button>
+
+<!-- SOLICITUD MODAL -->
+<div class="overlay" id="solicitudModal" onclick="if(event.target===this)closeSolicitud()">
+  <div class="pedido-modal" style="max-width:580px">
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:4px">
+      <h3 style="font-family:'Playfair Display',serif;font-size:22px;font-weight:700">Enviar solicitud</h3>
+      <button style="background:none;border:none;font-size:20px;color:var(--muted);cursor:pointer" onclick="closeSolicitud()">✕</button>
+    </div>
+    <p style="font-size:13px;color:var(--muted);margin-bottom:16px">MANYAR gestionará tu pedido con los productores en menos de 24h.</p>
+    <div id="solicitudResumen" style="background:var(--cream2);border-radius:10px;padding:14px;margin-bottom:16px;font-size:12px;max-height:160px;overflow-y:auto"></div>
+    <form name="solicitud-manyar" method="POST" data-netlify="true" netlify-honeypot="bot-field" onsubmit="return enviarSolicitud(event)">
+      <input type="hidden" name="form-name" value="solicitud-manyar">
+      <input type="hidden" name="productos" id="hiddenProductos">
+      <input type="hidden" name="total" id="hiddenTotal">
+      <p style="display:none"><input name="bot-field"></p>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+        <div class="form-row">
+          <label style="display:block;font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px">Nombre *</label>
+          <input type="text" name="nombre" required placeholder="Tu nombre" style="width:100%;padding:10px 12px;border:1.5px solid var(--border);border-radius:10px;font-family:'DM Sans',sans-serif;font-size:13px;background:var(--cream2)">
+        </div>
+        <div class="form-row">
+          <label style="display:block;font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px">Empresa *</label>
+          <input type="text" name="empresa" required placeholder="Nombre del negocio" style="width:100%;padding:10px 12px;border:1.5px solid var(--border);border-radius:10px;font-family:'DM Sans',sans-serif;font-size:13px;background:var(--cream2)">
+        </div>
+        <div class="form-row">
+          <label style="display:block;font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px">Email *</label>
+          <input type="email" name="email" required placeholder="email@empresa.com" style="width:100%;padding:10px 12px;border:1.5px solid var(--border);border-radius:10px;font-family:'DM Sans',sans-serif;font-size:13px;background:var(--cream2)">
+        </div>
+        <div class="form-row">
+          <label style="display:block;font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px">Teléfono</label>
+          <input type="tel" name="telefono" placeholder="+34 000 000 000" style="width:100%;padding:10px 12px;border:1.5px solid var(--border);border-radius:10px;font-family:'DM Sans',sans-serif;font-size:13px;background:var(--cream2)">
+        </div>
+      </div>
+      <div class="form-row" style="margin-top:12px">
+        <label style="display:block;font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px">Tipo de negocio</label>
+        <select name="tipo" style="width:100%;padding:10px 12px;border:1.5px solid var(--border);border-radius:10px;font-family:'DM Sans',sans-serif;font-size:13px;background:var(--cream2)">
+          <option value="">Selecciona...</option>
+          <option>Restaurante</option><option>Hotel</option><option>Distribuidor</option>
+          <option>Tienda gourmet</option><option>Catering</option><option>Otro</option>
+        </select>
+      </div>
+      <div class="form-row" style="margin-top:12px">
+        <label style="display:block;font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px">Notas adicionales</label>
+        <textarea name="notas" rows="2" placeholder="Condiciones de entrega, frecuencia de pedido..." style="width:100%;padding:10px 12px;border:1.5px solid var(--border);border-radius:10px;font-family:'DM Sans',sans-serif;font-size:13px;background:var(--cream2);resize:vertical"></textarea>
+      </div>
+      <button type="submit" style="width:100%;margin-top:14px;padding:14px;background:var(--terra);color:#fff;border:none;border-radius:var(--r);font-size:15px;font-weight:700;cursor:pointer">Enviar solicitud →</button>
+      <p style="font-size:11px;color:var(--muted);text-align:center;margin-top:10px">MANYAR te contactará en menos de 24h · Precios sin IVA</p>
+    </form>
+  </div>
+</div>
+
 </body>
 </html>

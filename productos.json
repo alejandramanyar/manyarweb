@@ -25,7 +25,7 @@
       "seccion": "Gildas & Aperitivos",
       "estado": "Activo",
       "imagen": "forberry_gildamatrimonio.png",
-      "logo": "",
+      "logo": "forberry_logo.png",
       "productos": [
         "gilda-anchoa",
         "gilda-doble-anchoa",
@@ -47,7 +47,7 @@
       "seccion": "Quesos",
       "estado": "Activo",
       "imagen": "tasugueras_Briniro.png",
-      "logo": "",
+      "logo": "tasugueras_logo.png",
       "productos": [
         "briniro",
         "reques-n",
@@ -62,8 +62,8 @@
       "descripcion": "Más de 130 años elaborando queso azul en cuevas naturales de los Picos de Europa.",
       "seccion": "Quesos",
       "estado": "Activo",
-      "imagen": "laprovivencia1888_quesoazul.jpeg",
-      "logo": "",
+      "imagen": "provdencia_queso.jpeg",
+      "logo": "logoprovidencia.png",
       "productos": [
         "queso-la-providencia"
       ]
@@ -76,7 +76,7 @@
       "seccion": "Vinos & Destilados",
       "estado": "Activo",
       "imagen": "TRINOS.jpg",
-      "logo": "",
+      "logo": "logo_bodega_cristo_humilladero.jpg",
       "productos": [
         "trinos",
         "nigromante",
@@ -100,7 +100,7 @@
       "seccion": "Marisco & Conservas",
       "estado": "Activo",
       "imagen": "carnedecentollo_lamardetazones.png",
-      "logo": "",
+      "logo": "logolamardetazones.png",
       "productos": [
         "carne-de-centollo-al-natural",
         "carne-de-centollo-al-natural-premium",
@@ -125,7 +125,7 @@
       "seccion": "Aceites",
       "estado": "Activo",
       "imagen": "almacantarofrutadoverde_500ml.png",
-      "logo": "",
+      "logo": "lOGO_ACEITES_ALMA_DE_CANTARO.png",
       "productos": [
         "frutado-verde-premium-bio",
         "frutado-envero-bio",
@@ -140,7 +140,7 @@
       "seccion": "Vinos & Destilados",
       "estado": "Activo",
       "imagen": "ginebra-picos-cabariezo.jpg",
-      "logo": "",
+      "logo": "logobodegapicoscabariezo.png",
       "productos": [
         "vino-tinto-selecci-n",
         "vino-tinto-crianza-finca-morillas",
@@ -166,7 +166,7 @@
       "seccion": "Vinos & Destilados",
       "estado": "Activo",
       "imagen": "1782726255862_antonanza_vermut.jpg",
-      "logo": "",
+      "logo": "logo_bodegantonanza.png",
       "productos": [
         "vermut-artesano-oro-nomada",
         "wemujito-artesano-oro-nomada"
@@ -180,7 +180,7 @@
       "seccion": "Vinos & Destilados",
       "estado": "Activo",
       "imagen": "",
-      "logo": "",
+      "logo": "logo_guardianesdelreyno.png",
       "productos": [
         "vino-tinto"
       ]
@@ -200,13 +200,13 @@
     },
     {
       "id": "bodega-dalamcio-gallego",
-      "nombre": "bodega Dalamcio Gallego",
+      "nombre": "Bodega Dalmacio Gallego",
       "region": "Toro, Zamora",
       "descripcion": "Vino tinto Tinta del Toro de productor artesanal.",
       "seccion": "Vinos & Destilados",
       "estado": "Activo",
       "imagen": "",
-      "logo": "",
+      "logo": "logo_bodegasdalmacio.jpg",
       "productos": [
         "vino-tinto--tinta-del-toro"
       ]
@@ -238,7 +238,7 @@
       "seccion": "Quesos",
       "estado": "Activo",
       "imagen": "",
-      "logo": "",
+      "logo": "logo_villarejo.png",
       "productos": [
         "queso-semicurado-d-o-p--ntra--sra--de-fu",
         "queso-curado-d-o-p--ntra--sra--de-fuente",
@@ -264,7 +264,7 @@
       "seccion": "Jamones & Embutidos",
       "estado": "Activo",
       "imagen": "",
-      "logo": "",
+      "logo": "logoei_riz.jpg",
       "productos": [
         "jam-n-de-bellota-100---ib-rico-dop-jabug",
         "jam-n-de-bellota-100---ib-rico-dop-jabug",
@@ -939,7 +939,7 @@
           "precio": "40,00/kg"
         }
       ],
-      "imagen": "laprovivencia1888_quesoazul.jpeg",
+      "imagen": "provdencia_queso.jpeg",
       "emoji": "🍽️"
     },
     {
@@ -1992,7 +1992,7 @@
     {
       "id": "vino-tinto--tinta-del-toro",
       "nombre": "Vino tinto, Tinta del Toro",
-      "productor": "bodega Dalamcio Gallego",
+      "productor": "Bodega Dalmacio Gallego",
       "seccion": "Bebidas",
       "categoria": "Vino",
       "subcategoria": "Vino tinto",
@@ -2009,7 +2009,7 @@
           "precio": "6,50"
         }
       ],
-      "imagen": "",
+      "imagen": "Vino_Tinto_del_toro_bodegas_dalmacio.jpg",
       "emoji": "🍽️"
     },
     {
@@ -2058,7 +2058,7 @@
     {
       "id": "valroble-pack--picual--arbequino--fusion",
       "nombre": "VALROBLE PACK (Picual- Arbequino- Fusion-Ecologico)",
-      "productor": "Potosi 10",
+      "productor": "Potosí 10",
       "seccion": "Aceite",
       "categoria": "Aceite",
       "subcategoria": "AOVE",
@@ -2081,7 +2081,7 @@
     {
       "id": "valroble-aove-picual---arbequino---fusio",
       "nombre": "VALROBLE AOVE Picual - Arbequino - Fusion",
-      "productor": "Potosi 10",
+      "productor": "Potosí 10",
       "seccion": "Aceite",
       "categoria": "Aceite",
       "subcategoria": "AOVE",
@@ -2104,7 +2104,7 @@
     {
       "id": "valroble-aove-picual-ecologico",
       "nombre": "VALROBLE AOVE Picual Ecologico",
-      "productor": "Potosi 10",
+      "productor": "Potosí 10",
       "seccion": "Aceite",
       "categoria": "Aceite",
       "subcategoria": "AOVE",
@@ -2127,7 +2127,7 @@
     {
       "id": "valroble-aove--fusion",
       "nombre": "VALROBLE AOVE  Fusion",
-      "productor": "Potosi 10",
+      "productor": "Potosí 10",
       "seccion": "Aceite",
       "categoria": "Aceite",
       "subcategoria": "AOVE",
@@ -2150,7 +2150,7 @@
     {
       "id": "valroble-aove-ecologico",
       "nombre": "VALROBLE AOVE Ecologico",
-      "productor": "Potosi 10",
+      "productor": "Potosí 10",
       "seccion": "Aceite",
       "categoria": "Aceite",
       "subcategoria": "AOVE",
