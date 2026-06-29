@@ -523,6 +523,24 @@ a { color: inherit; text-decoration: none; }
   .price-currency{font-size:20px;font-weight:700;color:var(--terra)}
   .price-no-iva{font-size:12px;color:var(--muted);font-weight:500;background:rgba(13,27,42,.06);padding:3px 8px;border-radius:100px}
 
+
+  /* ── CAROUSEL ── */
+  .modal-img-wrap{position:relative;overflow:hidden}
+  .carousel-track{display:flex;height:100%;transition:transform .35s cubic-bezier(.4,0,.2,1)}
+  .carousel-slide{min-width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:var(--cream2);flex-shrink:0}
+  .carousel-slide img{width:100%;height:100%;object-fit:cover}
+  .carousel-btn{position:absolute;top:50%;transform:translateY(-50%);background:rgba(255,255,255,.9);border:none;width:36px;height:36px;border-radius:50%;cursor:pointer;font-size:16px;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(13,27,42,.15);z-index:10;transition:all .18s}
+  .carousel-btn:hover{background:#fff;box-shadow:0 4px 16px rgba(13,27,42,.2)}
+  .carousel-prev{left:10px}
+  .carousel-next{right:10px}
+  .carousel-dots{position:absolute;bottom:10px;left:50%;transform:translateX(-50%);display:flex;gap:5px;z-index:10}
+  .carousel-dot{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.5);cursor:pointer;transition:all .2s;border:none;padding:0}
+  .carousel-dot.active{background:#fff;width:18px;border-radius:3px}
+  .carousel-thumbs{display:flex;gap:6px;margin-top:10px;overflow-x:auto;padding:2px}
+  .carousel-thumb{width:52px;height:52px;border-radius:8px;overflow:hidden;cursor:pointer;flex-shrink:0;border:2px solid transparent;transition:border-color .18s;background:var(--cream2)}
+  .carousel-thumb img{width:100%;height:100%;object-fit:cover}
+  .carousel-thumb.active{border-color:var(--terra)}
+
 </style>
 </head>
 <body>
@@ -606,6 +624,7 @@ a { color: inherit; text-decoration: none; }
     <div class="modal-img-wrap" id="mImgWrap">
       <button class="modal-close-btn" onclick="closeProductModal()">✕</button>
     </div>
+    <div class="carousel-thumbs" id="mCarouselThumbs" style="padding:6px 12px 0;background:#fff"></div>
     <div class="modal-body">
       <div class="modal-eyebrow" id="mEyebrow"></div>
       <h2 class="modal-name" id="mName"></h2>
@@ -726,6 +745,76 @@ fetch('productos.json')
     init();
   });
 
+
+
+/* ── IMAGE CAROUSEL ── */
+var carouselIdx = 0;
+var carouselImgs = [];
+
+function buildCarousel(images, emoji) {
+  carouselImgs = images && images.length ? images : [];
+  carouselIdx = 0;
+  var imgWrap = document.getElementById('mImgWrap');
+  var closeBtn = '<button class="modal-close-btn" onclick="closeProductModal()">✕</button>';
+  
+  if (!carouselImgs.length) {
+    imgWrap.innerHTML = closeBtn + '<div style="font-size:80px;opacity:.25">' + emoji + '</div>';
+    return;
+  }
+
+  if (carouselImgs.length === 1) {
+    // Single image — no carousel needed
+    imgWrap.innerHTML = closeBtn + '<img src="' + carouselImgs[0] + '" style="width:100%;height:100%;object-fit:cover" onerror="this.style.display='none'">';
+    return;
+  }
+
+  // Build carousel
+  var slides = carouselImgs.map(function(src) {
+    return '<div class="carousel-slide"><img src="' + src + '" onerror="this.style.display='none'"></div>';
+  }).join('');
+
+  var dots = carouselImgs.map(function(_, i) {
+    return '<button class="carousel-dot' + (i===0?' active':'') + '" onclick="goToSlide(' + i + ')"></button>';
+  }).join('');
+
+  var thumbs = carouselImgs.map(function(src, i) {
+    return '<div class="carousel-thumb' + (i===0?' active':'') + '" onclick="goToSlide(' + i + ')"><img src="' + src + '" onerror="this.style.display='none'"></div>';
+  }).join('');
+
+  imgWrap.innerHTML = closeBtn +
+    '<div class="carousel-track" id="carouselTrack">' + slides + '</div>' +
+    '<button class="carousel-btn carousel-prev" onclick="prevSlide()">‹</button>' +
+    '<button class="carousel-btn carousel-next" onclick="nextSlide()">›</button>' +
+    '<div class="carousel-dots">' + dots + '</div>';
+
+  // Add thumbnails below the image wrap
+  var thumbsEl = document.getElementById('mCarouselThumbs');
+  if (thumbsEl) thumbsEl.innerHTML = thumbs;
+}
+
+function goToSlide(idx) {
+  carouselIdx = idx;
+  var track = document.getElementById('carouselTrack');
+  if (track) track.style.transform = 'translateX(-' + idx*100 + '%)';
+  document.querySelectorAll('.carousel-dot').forEach(function(d,i){ d.classList.toggle('active', i===idx); });
+  document.querySelectorAll('.carousel-thumb').forEach(function(t,i){ t.classList.toggle('active', i===idx); });
+}
+
+function nextSlide() {
+  goToSlide((carouselIdx + 1) % carouselImgs.length);
+}
+
+function prevSlide() {
+  goToSlide((carouselIdx - 1 + carouselImgs.length) % carouselImgs.length);
+}
+
+// Keyboard navigation for carousel
+document.addEventListener('keydown', function(e) {
+  if (document.getElementById('prodModal').classList.contains('open')) {
+    if (e.key === 'ArrowRight') nextSlide();
+    if (e.key === 'ArrowLeft') prevSlide();
+  }
+});
 
 /* ── Producer logo map ── */
 function buildLogoMap() {
@@ -897,14 +986,9 @@ function openProductModal(key) {
   if (!p) return;
   currentProduct = p;
 
-  // Image
-  const imgWrap = document.getElementById('mImgWrap');
-  const closeBtn = '<button class="modal-close-btn" onclick="closeProductModal()">✕</button>';
-  if (p.imagen) {
-    imgWrap.innerHTML = closeBtn + `<img src="${p.imagen}" alt="${p.nombre}" style="width:100%;height:100%;object-fit:cover" onerror="this.style.display='none'">`;
-  } else {
-    imgWrap.innerHTML = closeBtn + `<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:64px;opacity:.25">${p.emoji || '🍽️'}</div>`;
-  }
+  // Image / carousel
+  var allImgs = p.imagenes && p.imagenes.length ? p.imagenes : (p.imagen ? [p.imagen] : []);
+  buildCarousel(allImgs, p.emoji || '🍽️');
 
   // Eyebrow tags
   const tags = [];
@@ -922,11 +1006,13 @@ function openProductModal(key) {
   const fmtGrid = document.getElementById('mFormats');
   const priceDisp = document.getElementById('mPriceDisplay');
   if (p.formatos && p.formatos.length) {
-    fmtGrid.innerHTML = p.formatos.map((f, i) => `
-      <button class="fmt-btn ${i===0?'selected':''}" onclick="selectFormat(this,'${encodeStr(f.precio)}')">
+    fmtGrid.innerHTML = p.formatos.map((f, i) => {
+      var imgParam = f.imagen ? encodeStr(f.imagen) : '';
+      return `<button class="fmt-btn ${i===0?'selected':''}" onclick="selectFormat(this,'${encodeStr(f.precio)}','${imgParam}')">
         ${f.formato}
         <div class="fmt-price">${f.precio}${f.precio && !f.precio.includes("€") ? " €" : ""} sin IVA</div>
-      </button>`).join('');
+      </button>`;
+    }).join('');
     priceDisp.style.display = 'flex';
     const pr0 = p.formatos[0].precio; document.getElementById('mPriceVal').textContent = pr0 || '';
   } else {
@@ -946,11 +1032,23 @@ function openProductModal(key) {
   document.body.style.overflow = 'hidden';
 }
 
-function selectFormat(btn, priceEnc) {
+function selectFormat(btn, priceEnc, fmtImgEnc) {
   document.querySelectorAll('.fmt-btn').forEach(b => b.classList.remove('selected'));
   btn.classList.add('selected');
   document.getElementById('mPriceVal').textContent = decodeStr(priceEnc);
   document.getElementById('mPriceDisplay').style.display = 'flex';
+  // Change image if format has its own image
+  if (fmtImgEnc) {
+    var fmtImg = decodeStr(fmtImgEnc);
+    if (fmtImg) {
+      var imgWrap = document.getElementById('mImgWrap');
+      var closeBtn = '<button class="modal-close-btn" onclick="closeProductModal()">✕</button>';
+      imgWrap.innerHTML = closeBtn + '<img src="' + fmtImg + '" alt="" style="width:100%;height:100%;object-fit:cover" onerror="this.style.display='none'">';
+    }
+  }
+  // Enable add button
+  var _b = document.getElementById('btnAddCart');
+  if (_b && modalQty > 0) { _b.style.opacity='1'; _b.style.pointerEvents='auto'; _b.textContent='+ Añadir a solicitud'; }
 }
 
 function closeProductModal() {
