@@ -7,7 +7,7 @@
       "descripcion": "Empresa familiar con décadas de tradición en conservas artesanales del Cantábrico.",
       "seccion": "Marisco & Conservas",
       "estado": "Activo",
-      "imagen": "",
+      "imagen": "img_anchoas.jpg",
       "logo": "",
       "productos": [
         "anchoas-de-santo-a",
@@ -24,7 +24,7 @@
       "descripcion": "Especialistas en gildas y aperitivos gourmet artesanales.",
       "seccion": "Gildas & Aperitivos",
       "estado": "Activo",
-      "imagen": "",
+      "imagen": "forberry_gildamatrimonio.png",
       "logo": "",
       "productos": [
         "gilda-anchoa",
@@ -46,7 +46,7 @@
       "descripcion": "Quesería artesanal cantábrica con elaboración tradicional de quesos pasiegos y madurados.",
       "seccion": "Quesos",
       "estado": "Activo",
-      "imagen": "",
+      "imagen": "tasugueras_Briniro.png",
       "logo": "",
       "productos": [
         "briniro",
@@ -62,7 +62,7 @@
       "descripcion": "Más de 130 años elaborando queso azul en cuevas naturales de los Picos de Europa.",
       "seccion": "Quesos",
       "estado": "Activo",
-      "imagen": "",
+      "imagen": "laprovivencia1888_quesoazul.jpeg",
       "logo": "",
       "productos": [
         "queso-la-providencia"
@@ -75,7 +75,7 @@
       "descripcion": "Bodega artesanal de la Sierra de Gredos. Proyecto 57 — vinos de autor con etiquetas artísticas.",
       "seccion": "Vinos & Destilados",
       "estado": "Activo",
-      "imagen": "",
+      "imagen": "TRINOS.jpg",
       "logo": "",
       "productos": [
         "trinos",
@@ -99,7 +99,7 @@
       "descripcion": "Conservas premium de marisco del Cantábrico. Tradición marinera asturiana.",
       "seccion": "Marisco & Conservas",
       "estado": "Activo",
-      "imagen": "",
+      "imagen": "carnedecentollo_lamardetazones.png",
       "logo": "",
       "productos": [
         "carne-de-centollo-al-natural",
@@ -124,7 +124,7 @@
       "descripcion": "Aceite de oliva virgen extra ecológico BIO de cosecha temprana.",
       "seccion": "Aceites",
       "estado": "Activo",
-      "imagen": "",
+      "imagen": "almacantarofrutadoverde_500ml.png",
       "logo": "",
       "productos": [
         "frutado-verde-premium-bio",
@@ -139,7 +139,7 @@
       "descripcion": "Bodega y destilería artesanal en los Picos de Europa. Vinos, whiskys, gins y licores.",
       "seccion": "Vinos & Destilados",
       "estado": "Activo",
-      "imagen": "",
+      "imagen": "ginebra-picos-cabariezo.jpg",
       "logo": "",
       "productos": [
         "vino-tinto-selecci-n",
@@ -165,7 +165,7 @@
       "descripcion": "Vermut artesanal elaborado con plantas aromáticas seleccionadas. Producción limitada.",
       "seccion": "Vinos & Destilados",
       "estado": "Activo",
-      "imagen": "",
+      "imagen": "700mlfondoblancooronomada.webp",
       "logo": "",
       "productos": [
         "vermut-artesano-oro-nomada",
@@ -218,7 +218,7 @@
       "descripcion": "AOVE DOP Picual de Sierra de alta calidad en múltiples formatos y variedades.",
       "seccion": "Aceites",
       "estado": "Activo",
-      "imagen": "",
+      "imagen": "almacantarofrutadoverde_500ml.png",
       "logo": "",
       "productos": [
         "aove-dop-picual-de-sierra",
@@ -394,7 +394,7 @@
           "precio": "10,50"
         }
       ],
-      "imagen": "",
+      "imagen": "img_anchoas.jpg",
       "emoji": "🍽️"
     },
     {
@@ -417,7 +417,7 @@
           "precio": "4,50"
         }
       ],
-      "imagen": "",
+      "imagen": "img_boquerones.jpg",
       "emoji": "🍽️"
     },
     {
@@ -444,7 +444,7 @@
           "precio": "6,50"
         }
       ],
-      "imagen": "",
+      "imagen": "img_bonito.jpg",
       "emoji": "🍽️"
     },
     {
@@ -467,7 +467,7 @@
           "precio": "1,00"
         }
       ],
-      "imagen": "",
+      "imagen": "forberry_gildaanchoa.png",
       "emoji": "🫒"
     },
     {
@@ -490,7 +490,7 @@
           "precio": "1,30"
         }
       ],
-      "imagen": "",
+      "imagen": "Pastel_de_Cabracho__Receta_Ideal_para_Preparar_en_Fiestas.jpeg",
       "emoji": "🍽️"
     },
     {
@@ -1238,7 +1238,7 @@
           "precio": "8,10"
         }
       ],
-      "imagen": "",
+      "imagen": "carnedecentollo_lamardetazones.png",
       "emoji": "🍽️"
     },
     {
@@ -1261,7 +1261,7 @@
           "precio": "9,10"
         }
       ],
-      "imagen": "",
+      "imagen": "carnedecentolloalnatural_mardetazones.png",
       "emoji": "🍽️"
     },
     {
@@ -1284,7 +1284,7 @@
           "precio": "7,50"
         }
       ],
-      "imagen": "",
+      "imagen": "carnedebueyal_natural.png",
       "emoji": "🍽️"
     },
     {
@@ -1307,7 +1307,7 @@
           "precio": "14,50"
         }
       ],
-      "imagen": "",
+      "imagen": "cangrejodelasnieves.png",
       "emoji": "🍽️"
     },
     {
@@ -1330,7 +1330,7 @@
           "precio": "15,90"
         }
       ],
-      "imagen": "",
+      "imagen": "ostraslanatural.png",
       "emoji": "🍽️"
     },
     {
@@ -1353,7 +1353,7 @@
           "precio": "16,50"
         }
       ],
-      "imagen": "",
+      "imagen": "ostrasenvigraneta.png",
       "emoji": "🍽️"
     },
     {
@@ -1376,7 +1376,7 @@
           "precio": "19,80"
         }
       ],
-      "imagen": "",
+      "imagen": "bogavanteazul.png",
       "emoji": "🍽️"
     },
     {
@@ -1399,7 +1399,7 @@
           "precio": "18,80"
         }
       ],
-      "imagen": "",
+      "imagen": "pinzasycodosdebogavante.png",
       "emoji": "🍽️"
     },
     {
@@ -1422,7 +1422,7 @@
           "precio": "11,90"
         }
       ],
-      "imagen": "",
+      "imagen": "navajasahumadas.png",
       "emoji": "🍽️"
     },
     {
@@ -1445,7 +1445,7 @@
           "precio": "39,00"
         }
       ],
-      "imagen": "",
+      "imagen": "placton.png",
       "emoji": "🍽️"
     },
     {
@@ -1468,7 +1468,7 @@
           "precio": "35,40"
         }
       ],
-      "imagen": "",
+      "imagen": "centollo.png",
       "emoji": "🍽️"
     },
     {
@@ -1491,7 +1491,7 @@
           "precio": "39,80"
         }
       ],
-      "imagen": "",
+      "imagen": "centollo_al_natural.png",
       "emoji": "🍽️"
     },
     {
@@ -1514,7 +1514,7 @@
           "precio": "33,00"
         }
       ],
-      "imagen": "",
+      "imagen": "bueydemar.png",
       "emoji": "🍽️"
     },
     {
@@ -1537,7 +1537,7 @@
           "precio": "10,95 €"
         }
       ],
-      "imagen": "",
+      "imagen": "almacantarofrutadoverde_500ml.png",
       "emoji": "🫙"
     },
     {
@@ -1560,7 +1560,7 @@
           "precio": "10,45 €"
         }
       ],
-      "imagen": "",
+      "imagen": "almacantarobio500ml.png",
       "emoji": "🫙"
     },
     {
@@ -1583,7 +1583,7 @@
           "precio": "22,45 €"
         }
       ],
-      "imagen": "",
+      "imagen": "almacantaro3l.png",
       "emoji": "🫙"
     },
     {
@@ -1606,7 +1606,7 @@
           "precio": "6,00"
         }
       ],
-      "imagen": "",
+      "imagen": "vino-tinto-picos-seleccion.jpg",
       "emoji": "🍽️"
     },
     {
@@ -1629,7 +1629,7 @@
           "precio": "8,00"
         }
       ],
-      "imagen": "",
+      "imagen": "finca-morillas-bodega-picos-cabariezo-liebana.jpg",
       "emoji": "🍽️"
     },
     {
@@ -1675,7 +1675,7 @@
           "precio": "12,00"
         }
       ],
-      "imagen": "",
+      "imagen": "hielu-picos.jpg",
       "emoji": "🍽️"
     },
     {
@@ -1698,7 +1698,7 @@
           "precio": "31,00"
         }
       ],
-      "imagen": "",
+      "imagen": "whisky-as-picos.jpg",
       "emoji": "🍽️"
     },
     {
@@ -1721,7 +1721,7 @@
           "precio": "15,41"
         }
       ],
-      "imagen": "",
+      "imagen": "ginebra-picos-cabariezo.jpg",
       "emoji": "🍽️"
     },
     {
@@ -1744,7 +1744,7 @@
           "precio": "11,50"
         }
       ],
-      "imagen": "",
+      "imagen": "aguardiente-de-orujo.jpg",
       "emoji": "🍽️"
     },
     {
@@ -1767,7 +1767,7 @@
           "precio": "10,70"
         }
       ],
-      "imagen": "",
+      "imagen": "crema-de-orujo.jpg",
       "emoji": "🍽️"
     },
     {
@@ -1790,7 +1790,7 @@
           "precio": "10,70"
         }
       ],
-      "imagen": "",
+      "imagen": "licor-de-hierbas.jpg",
       "emoji": "🍽️"
     },
     {
@@ -1813,7 +1813,7 @@
           "precio": "10,70"
         }
       ],
-      "imagen": "",
+      "imagen": "licor-de-miel.jpg",
       "emoji": "🍽️"
     },
     {
@@ -1836,7 +1836,7 @@
           "precio": "10,70"
         }
       ],
-      "imagen": "",
+      "imagen": "crema-de-cafe.jpg",
       "emoji": "🍽️"
     },
     {
@@ -1859,7 +1859,7 @@
           "precio": "10,70"
         }
       ],
-      "imagen": "",
+      "imagen": "licor-de-cafe.jpg",
       "emoji": "🍽️"
     },
     {
@@ -1882,7 +1882,7 @@
           "precio": "15,41"
         }
       ],
-      "imagen": "",
+      "imagen": "ginebra-tropical-bodega-picos-cabariezo-liebana.jpg",
       "emoji": "🍽️"
     },
     {
@@ -1928,7 +1928,7 @@
           "precio": "9,40"
         }
       ],
-      "imagen": "",
+      "imagen": "700mlfondoblancooronomada.webp",
       "emoji": "🍽️"
     },
     {
@@ -1959,7 +1959,7 @@
           "precio": "2,82 €/und. Total 62,15€/22 und"
         }
       ],
-      "imagen": "",
+      "imagen": "700mlfondoblancooronomada.webp",
       "emoji": "🍽️"
     },
     {
@@ -2009,7 +2009,7 @@
           "precio": "27,90"
         }
       ],
-      "imagen": "",
+      "imagen": "Sin_Fondo_1.png",
       "emoji": "🫙"
     },
     {

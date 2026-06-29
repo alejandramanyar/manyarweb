@@ -448,24 +448,35 @@ a { color: inherit; text-decoration: none; }
 </head>
 <body>
 
-<!-- NAV -->
-<nav class="nav">
-  <div class="nav-logo">
-    <img src="MANYAR_logo.png" alt="MANYAR" onerror="this.style.display='none'">
-    <span>MANYAR</span>
-  </div>
-  <div class="nav-links">
-    <a href="index.html">Inicio</a>
-    <a href="#" class="active">Catálogo</a>
-    <a href="index.html#productores">Productores</a>
-    <a href="index.html#contacto" class="nav-cta">Solicitar acceso</a>
+<!-- NAV — mismo estilo que index.html -->
+<nav style="position:fixed;top:0;left:0;right:0;z-index:400;height:60px;display:flex;align-items:center;background:rgba(242,237,230,.97);backdrop-filter:blur(20px);border-bottom:1px solid rgba(13,27,42,.09);box-shadow:0 2px 16px rgba(13,27,42,.09)">
+  <div style="max-width:1140px;margin:0 auto;padding:0 28px;width:100%;display:flex;align-items:center;justify-content:space-between">
+    <a href="index.html" style="display:flex;align-items:center;gap:9px;text-decoration:none">
+      <img src="MANYAR_logo.png" style="height:32px;width:auto;object-fit:contain" alt="MANYAR" onerror="this.style.display='none'">
+      <span style="font-family:'Playfair Display',serif;font-weight:700;font-size:15px;letter-spacing:.16em;color:#0D1B2A">MANYAR</span>
+    </a>
+    <ul style="display:flex;gap:2px;list-style:none;position:absolute;left:50%;transform:translateX(-50%)">
+      <li><a href="index.html" style="padding:7px 14px;font-size:13px;font-weight:500;color:rgba(13,27,42,.55);border-radius:100px;transition:all .15s;text-decoration:none">Inicio</a></li>
+      <li><a href="catalogo.html" style="padding:7px 14px;font-size:13px;font-weight:600;color:#C9874A;border-radius:100px;text-decoration:none">Catálogo</a></li>
+      <li><a href="index.html#productores" style="padding:7px 14px;font-size:13px;font-weight:500;color:rgba(13,27,42,.55);border-radius:100px;text-decoration:none">Productores</a></li>
+    </ul>
+    <div style="display:flex;gap:8px">
+      <a href="index.html#contacto" style="display:inline-flex;align-items:center;padding:9px 20px;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:600;border-radius:100px;background:#0D1B2A;color:#fff;text-decoration:none;transition:all .18s">Solicitar acceso →</a>
+    </div>
   </div>
 </nav>
 
-<!-- HERO -->
-<div class="cat-hero">
-  <h1>Catálogo gourmet <em>MANYAR</em></h1>
-  <p>Precios sin IVA · Directo del productor · B2B</p>
+<!-- HERO STRIP — breadcrumb style -->
+<div style="background:var(--cream);padding:80px 28px 24px;border-bottom:1px solid var(--border)">
+  <div style="max-width:1140px;margin:0 auto">
+    <div style="font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--terra);margin-bottom:10px">
+      <a href="index.html" style="color:var(--muted);text-decoration:none">Inicio</a> → Catálogo completo
+    </div>
+    <h1 style="font-family:'Playfair Display',serif;font-size:clamp(28px,4vw,44px);font-weight:600;letter-spacing:-.025em;color:var(--navy);margin-bottom:8px">
+      Catálogo gourmet <em style="font-style:italic;color:var(--terra)">MANYAR.</em>
+    </h1>
+    <p style="font-size:15px;color:var(--muted)">Precios sin IVA · Directo del productor · Solo compradores B2B</p>
+  </div>
 </div>
 
 <!-- TABS -->
@@ -594,9 +605,12 @@ a { color: inherit; text-decoration: none; }
   </div>
 </div>
 
-<footer class="cat-footer">
-  <strong style="color:rgba(255,255,255,.8)">MANYAR</strong> — Plataforma B2B gourmet español · Todos los precios son sin IVA ·
-  <a href="index.html">Volver al inicio</a>
+<footer style="background:#0D1B2A;padding:32px 28px;text-align:center;margin-top:60px;border-top:1px solid rgba(201,135,74,.1)">
+  <div style="max-width:1140px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px">
+    <span style="font-family:'Playfair Display',serif;font-weight:700;font-size:14px;letter-spacing:.14em;color:rgba(255,255,255,.85)">MANYAR</span>
+    <span style="font-size:12px;color:rgba(255,255,255,.3)">Todos los precios son sin IVA · Plataforma B2B gourmet español</span>
+    <a href="index.html" style="font-size:13px;font-weight:600;color:#C9874A;text-decoration:none">← Volver al inicio</a>
+  </div>
 </footer>
 
 <script>
@@ -738,6 +752,9 @@ function renderProducers(producers) {
     const nProds = pr.productos ? pr.productos.length : 0;
     const emojiMap = {'Marisco & Conservas':'🦞','Gildas & Aperitivos':'🫒','Quesos':'🧀','Vinos & Destilados':'🍷','Aceites':'🫙','Jamones & Embutidos':'🥩','Cárnicos':'🥩'};
     const emoji = emojiMap[pr.seccion] || '🏭';
+    const prImgHtml = pr.imagen 
+      ? `<img src="${pr.imagen}" style="width:100%;height:100%;object-fit:cover" onerror="this.parentElement.innerHTML='${emoji}'">`
+      : emoji;
     return `<div class="prcard" onclick="openProducerModal('${encodeStr(pr.nombre)}')">
       <div class="prcard-top">
         <div class="prcard-img">${emoji}</div>
@@ -827,6 +844,9 @@ function openProducerModal(nameEnc) {
   const header = document.getElementById('prModalHeader');
   const emojiMap = {'Marisco & Conservas':'🦞','Gildas & Aperitivos':'🫒','Quesos':'🧀','Vinos & Destilados':'🍷','Aceites':'🫙','Jamones & Embutidos':'🥩','Cárnicos':'🥩'};
   const emoji = emojiMap[pr.seccion] || '🏭';
+    const prImgHtml = pr.imagen 
+      ? `<img src="${pr.imagen}" style="width:100%;height:100%;object-fit:cover" onerror="this.parentElement.innerHTML='${emoji}'">`
+      : emoji;
 
   header.innerHTML = `
     <button class="modal-close-btn" style="position:absolute;top:14px;right:14px" onclick="closePrModal()">✕</button>
