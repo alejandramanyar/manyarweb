@@ -623,13 +623,13 @@ a { color: inherit; text-decoration: none; }
         <label>Cantidad</label>
         <div class="qty-stepper">
           <button class="qty-step" onclick="changeModalQty(-1)">−</button>
-          <span class="qty-num" id="mQty">1</span>
+          <span class="qty-num" id="mQty">0</span>
           <button class="qty-step" onclick="changeModalQty(1)">+</button>
         </div>
         <span class="qty-total" id="mQtyTotal"></span>
       </div>
       <div class="modal-cta">
-        <button class="btn-add-cart" onclick="addToCart()">+ Añadir a solicitud</button>
+        <button class="btn-add-cart" id="btnAddCart" onclick="addToCart()" style="opacity:.45;pointer-events:none">+ Añadir a solicitud</button>
       </div>
     </div>
   </div>
@@ -934,6 +934,10 @@ function openProductModal(key) {
     priceDisp.style.display = 'none';
   }
 
+  modalQty = 0;
+  document.getElementById('mQty').textContent = '0';
+  var _btn = document.getElementById('btnAddCart');
+  if (_btn) { _btn.style.opacity='.45'; _btn.style.pointerEvents='none'; _btn.textContent='Selecciona cantidad'; }
   document.getElementById('prodModal').classList.add('open');
   document.body.style.overflow = 'hidden';
 }
@@ -1016,6 +1020,10 @@ function openPedido() {
     ${precio ? `<br><span>Precio sin IVA: ${precio}</span>` : ''}`;
 
   closeProductModal();
+  modalQty = 0;
+  document.getElementById('mQty').textContent = '0';
+  const btnAC = document.getElementById('btnAddCart');
+  if (btnAC) { btnAC.style.opacity='.45'; btnAC.style.pointerEvents='none'; btnAC.textContent='Selecciona cantidad'; }
   document.getElementById('pedidoModal').classList.add('open');
   document.body.style.overflow = 'hidden';
 }
@@ -1065,10 +1073,23 @@ function decodeStr(s) { return decodeURIComponent(s); }
 
 /* ═══ CESTA PREMIUM ═══ */
 let cart = [];
-let modalQty = 1;
+let modalQty = 0;
 
 function changeModalQty(delta) {
-  modalQty = Math.max(1, modalQty + delta);
+  const newQty = modalQty + delta;
+  modalQty = Math.max(0, newQty);
+  const btn = document.getElementById('btnAddCart');
+  if (btn) {
+    if (modalQty > 0) {
+      btn.style.opacity = '1';
+      btn.style.pointerEvents = 'auto';
+      btn.textContent = '+ Añadir a solicitud';
+    } else {
+      btn.style.opacity = '.45';
+      btn.style.pointerEvents = 'none';
+      btn.textContent = 'Selecciona cantidad';
+    }
+  }
   document.getElementById('mQty').textContent = modalQty;
   const precio = parseFloat((document.getElementById('mPriceVal').textContent||'0').replace(',','.').replace(/[^0-9.]/g,'')) || 0;
   const total = (precio * modalQty).toFixed(2).replace('.',',');
@@ -1102,7 +1123,8 @@ function addToCart() {
   updateCartUI();
   closeProductModal();
   showToast(currentProduct.nombre);
-  modalQty = 1;
+  modalQty = 0;
+  document.getElementById('mQty').textContent = '0';
 }
 
 function showToast(nombre) {
