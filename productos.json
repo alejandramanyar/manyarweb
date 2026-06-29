@@ -63,7 +63,7 @@
       "seccion": "Quesos",
       "estado": "Activo",
       "imagen": "",
-      "logo": "logoprovidencia.png",
+      "logo": "logo-providencia.png",
       "productos": [
         "queso-la-providencia"
       ]
@@ -100,7 +100,7 @@
       "seccion": "Marisco & Conservas",
       "estado": "Activo",
       "imagen": "",
-      "logo": "logolamardetazones.png",
+      "logo": "logo-lamardetazones.png",
       "productos": [
         "carne-de-centollo-al-natural",
         "carne-de-centollo-al-natural-premium",
@@ -140,7 +140,7 @@
       "seccion": "Vinos & Destilados",
       "estado": "Activo",
       "imagen": "",
-      "logo": "logobodegapicoscabariezo.png",
+      "logo": "logo-bodega-picos-cabariezo.png",
       "productos": [
         "vino-tinto-selecci-n",
         "vino-tinto-crianza-finca-morillas",
@@ -170,7 +170,8 @@
       "productos": [
         "vermut-artesano-oro-nomada",
         "wemujito-artesano-oro-nomada"
-      ]
+      ],
+      "premios": "Bacchus Oro 2025 · CINVE Oro 2025 · Carantinum Great Gold 2024 · Gran Arrière de Oro 2023"
     },
     {
       "id": "guardianes-del-reyno",
@@ -219,7 +220,7 @@
       "seccion": "Aceites",
       "estado": "Activo",
       "imagen": "",
-      "logo": "logopotosi10.png",
+      "logo": "logo-potosi10.png",
       "productos": [
         "aove-dop-picual-de-sierra",
         "valroble-pack--picual--arbequino--fusion",
@@ -264,7 +265,7 @@
       "seccion": "Jamones & Embutidos",
       "estado": "Activo",
       "imagen": "",
-      "logo": "logoei_riz.jpg",
+      "logo": "logo-ei_riz.jpg",
       "productos": [
         "jam-n-de-bellota-100---ib-rico-dop-jabug",
         "jam-n-de-bellota-100---ib-rico-dop-jabug",
