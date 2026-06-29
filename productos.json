@@ -1,0 +1,4342 @@
+{
+  "productores": [
+    {
+      "id": "sinobas",
+      "nombre": "Sinobas",
+      "region": "Santoña, Cantabria",
+      "descripcion": "Empresa familiar con décadas de tradición en conservas artesanales del Cantábrico.",
+      "seccion": "Marisco & Conservas",
+      "estado": "Activo",
+      "imagen": "",
+      "logo": "",
+      "productos": [
+        "anchoas-de-santo-a",
+        "boquerones-en-vinagre",
+        "bonito-del-norte",
+        "gildas-de-anchoa",
+        "pud-n-de-cabracho"
+      ]
+    },
+    {
+      "id": "forberry",
+      "nombre": "Forberry",
+      "region": "Cantabria",
+      "descripcion": "Especialistas en gildas y aperitivos gourmet artesanales.",
+      "seccion": "Gildas & Aperitivos",
+      "estado": "Activo",
+      "imagen": "",
+      "logo": "",
+      "productos": [
+        "gilda-anchoa",
+        "gilda-doble-anchoa",
+        "gilda-doble-boquer-n",
+        "banderilla",
+        "matrimonio",
+        "gilda-jam-n",
+        "gilda-lomo",
+        "gilda-cecina",
+        "pulpo-especial",
+        "gilda-del-mar"
+      ]
+    },
+    {
+      "id": "queser-a-tasugueras",
+      "nombre": "Quesería Tasugueras",
+      "region": "Santander, Cantabria",
+      "descripcion": "Quesería artesanal cantábrica con elaboración tradicional de quesos pasiegos y madurados.",
+      "seccion": "Quesos",
+      "estado": "Activo",
+      "imagen": "",
+      "logo": "",
+      "productos": [
+        "briniro",
+        "reques-n",
+        "g-p--58",
+        "sra--mercedes"
+      ]
+    },
+    {
+      "id": "la-providencia-1888",
+      "nombre": "La Providencia 1888",
+      "region": "Picos de Europa, Asturias",
+      "descripcion": "Más de 130 años elaborando queso azul en cuevas naturales de los Picos de Europa.",
+      "seccion": "Quesos",
+      "estado": "Activo",
+      "imagen": "",
+      "logo": "",
+      "productos": [
+        "queso-la-providencia"
+      ]
+    },
+    {
+      "id": "bodega-cristo-del-humilladero",
+      "nombre": "Bodega Cristo del Humilladero",
+      "region": "Cadalso de los Vidrios, Madrid",
+      "descripcion": "Bodega artesanal de la Sierra de Gredos. Proyecto 57 — vinos de autor con etiquetas artísticas.",
+      "seccion": "Vinos & Destilados",
+      "estado": "Activo",
+      "imagen": "",
+      "logo": "",
+      "productos": [
+        "trinos",
+        "nigromante",
+        "ladr-n-de-sue-os",
+        "el-sopl-n-de-vidrio",
+        "antropomorfo",
+        "cadalfarum",
+        "azogue",
+        "joyuelo",
+        "v-treo",
+        "plenilunio",
+        "vermut-el-sopl-n-de-vidrio",
+        "vino-tinto-blanco-vemut"
+      ]
+    },
+    {
+      "id": "la-mar-de-tazones",
+      "nombre": "La Mar de Tazones",
+      "region": "Tazones, Asturias",
+      "descripcion": "Conservas premium de marisco del Cantábrico. Tradición marinera asturiana.",
+      "seccion": "Marisco & Conservas",
+      "estado": "Activo",
+      "imagen": "",
+      "logo": "",
+      "productos": [
+        "carne-de-centollo-al-natural",
+        "carne-de-centollo-al-natural-premium",
+        "carne-de-buey-de-mar-al-natural",
+        "carne-de-cangrejo-de-las-nieves-snow-cra",
+        "ostras-al-natural-en-agua-de-mar",
+        "ostras-en-vinagreta-de-albari-o",
+        "carne-de-bogavante-azul-en-aceite-de-oli",
+        "pinzas-y-codos-de-bogavante-en-aceite-de",
+        "navajas-ahumadas-en-aceite-de-oliva",
+        "plancton-marino-tetraselmis-chuii",
+        "estuche-regalo-centollo-al-natural",
+        "estuche-regalo-centollo-al-natural-premi",
+        "estuche-regalo-buey-de-mar-al-natural"
+      ]
+    },
+    {
+      "id": "alma-de-c-ntaro",
+      "nombre": "Alma de Cántaro",
+      "region": "España",
+      "descripcion": "Aceite de oliva virgen extra ecológico BIO de cosecha temprana.",
+      "seccion": "Aceites",
+      "estado": "Activo",
+      "imagen": "",
+      "logo": "",
+      "productos": [
+        "frutado-verde-premium-bio",
+        "frutado-envero-bio",
+        "frutado-envero-bio-3-lts"
+      ]
+    },
+    {
+      "id": "picos-de-cabariezo",
+      "nombre": "Picos de Cabariezo",
+      "region": "Picos de Europa, Cantabria",
+      "descripcion": "Bodega y destilería artesanal en los Picos de Europa. Vinos, whiskys, gins y licores.",
+      "seccion": "Vinos & Destilados",
+      "estado": "Activo",
+      "imagen": "",
+      "logo": "",
+      "productos": [
+        "vino-tinto-selecci-n",
+        "vino-tinto-crianza-finca-morillas",
+        "vino-tinto-el-misterio",
+        "vino-blanco-dulce-hielu-de-picos",
+        "destilados--whisky-as-de-picos",
+        "destilados--gin-as-de-picos-classic",
+        "destilados--aguardiente-de-orujo-picos-d",
+        "destilados--crema-de-orujo",
+        "destilados---licor-de-hierbas-picos-de-c",
+        "destilados---licor-de-miel",
+        "destilados--crema-de-caf--picos-de-cabar",
+        "destilados---licor-de-caf-",
+        "destilados--gin-tropical-as-de-picos",
+        "destilados--brandy"
+      ]
+    },
+    {
+      "id": "bodega-artesana-antonanza",
+      "nombre": "Bodega Artesana Antonanza",
+      "region": "Navarra",
+      "descripcion": "Vermut artesanal elaborado con plantas aromáticas seleccionadas. Producción limitada.",
+      "seccion": "Vinos & Destilados",
+      "estado": "Activo",
+      "imagen": "",
+      "logo": "",
+      "productos": [
+        "vermut-artesano-oro-nomada",
+        "wemujito-artesano-oro-nomada"
+      ]
+    },
+    {
+      "id": "guardianes-del-reyno",
+      "nombre": "Guardianes del Reyno",
+      "region": "España",
+      "descripcion": "Vino tinto artesanal de productor familiar.",
+      "seccion": "Vinos & Destilados",
+      "estado": "Activo",
+      "imagen": "",
+      "logo": "",
+      "productos": [
+        "vino-tinto"
+      ]
+    },
+    {
+      "id": "eoloe",
+      "nombre": "Eoloe",
+      "region": "",
+      "descripcion": "",
+      "seccion": "Aceite",
+      "estado": "Activo",
+      "imagen": "",
+      "logo": "",
+      "productos": [
+        "aove-monovarietal-pajarero-"
+      ]
+    },
+    {
+      "id": "bodega-dalamcio-gallego",
+      "nombre": "bodega Dalamcio Gallego",
+      "region": "Toro, Zamora",
+      "descripcion": "Vino tinto Tinta del Toro de productor artesanal.",
+      "seccion": "Vinos & Destilados",
+      "estado": "Activo",
+      "imagen": "",
+      "logo": "",
+      "productos": [
+        "vino-tinto--tinta-del-toro"
+      ]
+    },
+    {
+      "id": "potosi-10",
+      "nombre": "Potosi 10",
+      "region": "Jaén",
+      "descripcion": "AOVE DOP Picual de Sierra de alta calidad en múltiples formatos y variedades.",
+      "seccion": "Aceites",
+      "estado": "Activo",
+      "imagen": "",
+      "logo": "",
+      "productos": [
+        "aove-dop-picual-de-sierra",
+        "valroble-pack--picual--arbequino--fusion",
+        "valroble-aove-picual---arbequino---fusio",
+        "valroble-aove-picual-ecologico",
+        "valroble-aove--fusion",
+        "valroble-aove-ecologico",
+        "5-litros"
+      ]
+    },
+    {
+      "id": "quesos-artesanos-villarejo",
+      "nombre": "Quesos Artesanos Villarejo",
+      "region": "Castilla-La Mancha",
+      "descripcion": "Quesos D.O.P. y artesanos de oveja en múltiples elaboraciones y maduaciones. Más de 15 referencias.",
+      "seccion": "Quesos",
+      "estado": "Activo",
+      "imagen": "",
+      "logo": "",
+      "productos": [
+        "queso-semicurado-d-o-p--ntra--sra--de-fu",
+        "queso-curado-d-o-p--ntra--sra--de-fuente",
+        "gran-reserva-d-o-p--ntra--sra--de-fuente",
+        "curado-en-miel-y-or-gano-villarejo",
+        "curado-al-romero--rosemary-",
+        "curado-en-tomillo-villarejo",
+        "curado-en-aceite-villarejo",
+        "curado-en-vino-tinto---blanco-villarejo",
+        "curado-en-licor-resoli",
+        "curado-en-cerveza-a-la-pimienta",
+        "queso-tierno-puro-de-oveja-san-blas",
+        "queso-semicurado-artesano-villarejo",
+        "queso-curado-artesano-villarejo",
+        "queso-de-oveja-extra-a-ejo-24-meses"
+      ]
+    },
+    {
+      "id": "jamones-e-riz",
+      "nombre": "Jamones Eíriz",
+      "region": "Huelva / DOP Jabugo",
+      "descripcion": "Jamones y embutidos ibéricos DOP Jabugo. Bellota 100% ibérico y gama completa de productos ibéricos.",
+      "seccion": "Jamones & Embutidos",
+      "estado": "Activo",
+      "imagen": "",
+      "logo": "",
+      "productos": [
+        "jam-n-de-bellota-100---ib-rico-dop-jabug",
+        "jam-n-de-bellota-100---ib-rico-dop-jabug",
+        "jam-n-de-bellota-100---ib-rico-dop-jabug",
+        "jam-n-de-bellota-100---ib-rico-loncheado",
+        "jam-n-de-bellota-100---ib-rico-loncheado",
+        "paleta-de-bellota-100---ib-rica-dop-jabu",
+        "paleta-de-bellota-100---ib-rica-deshuesa",
+        "paleta-de-bellota-100---ib-rica-lonchead",
+        "jam-n-de-cebo-de-campo-50---ib-rico",
+        "jam-n-de-cebo-de-campo-50---ib-rico-desh",
+        "jam-n-de-cebo-de-campo-50---ib-rico-lonc",
+        "paleta-de-cebo-de-campo-50---ib-rica",
+        "paleta-de-cebo-de-campo-50---ib-rica-des",
+        "paleta-de-cebo-de-campo-50---ib-rica-lon",
+        "jam-n-de-cebo-50---ib-rico",
+        "jam-n-de-cebo-50---ib-rico-deshuesado",
+        "jam-n-de-cebo-50---ib-rico-loncheado",
+        "paleta-de-cebo-50---ib-rica",
+        "paleta-de-cebo-50---ib-rica-deshuesada",
+        "paleta-de-cebo-50---ib-rica-loncheada",
+        "ca-a-de-lomo-de-bellota-100---ib-rica-co",
+        "ca-a-de-lomo-de-bellota-100---ib-rica-si",
+        "ca-a-de-lomo-de-bellota-100---ib-rica-cl",
+        "lomito-de-bellota-ib-rico-de-presa",
+        "ca-a-de-lomo-de-bellota-100---ib-rica-lo",
+        "lomito-de-bellota-ib-rico-loncheado",
+        "morc-n-de-bellota-ib-rico",
+        "salchich-n-de-bellota-ib-rico",
+        "chorizo-de-bellota-ib-rico",
+        "morc-n-de-bellota-ib-rico-loncheado",
+        "salchich-n-de-bellota-ib-rico-loncheado",
+        "chorizo-de-bellota-ib-rico-loncheado",
+        "morcilla-de-bellota-ib-rica-serrana",
+        "chorizo-de-bellota-ib-rico-de-1---jabugu",
+        "panceta-loncheada",
+        "taco-de-tocino-de-panceta-curado",
+        "queso-burgos-granja-puro-de-oveja",
+        "queso-casota-la-mancha-puro-de-oveja",
+        "queso-e-riz-zamora-puro-de-oveja",
+        "queso-dop-cabrales",
+        "queso-de-cabra-sierra-de-huelva",
+        "queso-de-cabra-payoya-de-grazalema",
+        "queso-de-cabra-payoya-y-oveja-curado-en-",
+        "flor-de-sal-natural",
+        "flor-de-sal-barbacoa",
+        "surtido-de-pat-s-ib-ricos",
+        "boletus-edulis-en-aceite-de-oliva",
+        "mix-de-setas",
+        "rovellones-en-aceite-de-oliva",
+        "harina-de-setas",
+        "almendras",
+        "almendras-en-cristal"
+      ]
+    },
+    {
+      "id": "carnicas-pozo-hondo",
+      "nombre": "Carnicas Pozo Hondo",
+      "region": "España",
+      "descripcion": "Cárnicas artesanales: embutidos, butifarras, morcillas y cerdo cocido.",
+      "seccion": "Cárnicos",
+      "estado": "Activo",
+      "imagen": "",
+      "logo": "",
+      "productos": [
+        "butifarra-negra",
+        "butifarra-blanca",
+        "morcilla",
+        "morro-cocido",
+        "oreja-cocida",
+        "oreja-cocida-adobada",
+        "rabo-cocido",
+        "salchich-n-extra",
+        "salchich-n-cular",
+        "salchich-n-tradicional",
+        "chorizo-dulce",
+        "chorizo-picante",
+        "fuet",
+        "sobrasada",
+        "salchicha-fresca",
+        "salchicha-fresca-fina",
+        "chistorra-picante",
+        "longaniza-blanca",
+        "chorizo-fresco",
+        "chorizo-fresco-picante"
+      ]
+    }
+  ],
+  "productos": [
+    {
+      "id": "anchoas-de-santo-a",
+      "nombre": "Anchoas de Santoña",
+      "productor": "Sinobas",
+      "seccion": "Marisco",
+      "categoria": "Conservas",
+      "subcategoria": "Anchoas",
+      "region": "Santoña",
+      "descripcion": "Costera de primavera · Elaboración artesanal· Aceite de oliva",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Artesanal",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Octavillo 50g",
+          "precio": "3,00"
+        },
+        {
+          "formato": "Tarro 100g",
+          "precio": "5,00"
+        },
+        {
+          "formato": "Tarro 210g, 30 tiras",
+          "precio": "10,60"
+        },
+        {
+          "formato": "Anchoas Hansan 14/16",
+          "precio": "8,70"
+        },
+        {
+          "formato": "Tarro 360g 50/55 tiras",
+          "precio": "29,00"
+        },
+        {
+          "formato": "Anchoas Serie Limitada Hansan 10/12",
+          "precio": "10,50"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "boquerones-en-vinagre",
+      "nombre": "Boquerones en vinagre",
+      "productor": "Sinobas",
+      "seccion": "Marisco",
+      "categoria": "Conservas",
+      "subcategoria": "Boquerones",
+      "region": "Santoña",
+      "descripcion": "Elaboración artesanal",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Artesanal",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "160g",
+          "precio": "4,50"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "bonito-del-norte",
+      "nombre": "Bonito del Norte",
+      "productor": "Sinobas",
+      "seccion": "Marisco",
+      "categoria": "Conservas",
+      "subcategoria": "Bonito",
+      "region": "Santoña",
+      "descripcion": "Elaboración artesanal",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Artesanal",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Tarro 250g",
+          "precio": "4,30"
+        },
+        {
+          "formato": "Tarro 450g",
+          "precio": "6,50"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "gildas-de-anchoa",
+      "nombre": "Gildas de anchoa",
+      "productor": "Sinobas",
+      "seccion": "Aperitivo",
+      "categoria": "Aperitivo",
+      "subcategoria": "Gilda",
+      "region": "Santoña",
+      "descripcion": "Piparra · Anchoa del Cantábrico · Aceituna",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Aperitivo",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Unidad | Bandeja",
+          "precio": "1,00"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🫒"
+    },
+    {
+      "id": "pud-n-de-cabracho",
+      "nombre": "Pudín de cabracho",
+      "productor": "Sinobas",
+      "seccion": "Marisco",
+      "categoria": "Conservas",
+      "subcategoria": "Pudín",
+      "region": "Santoña",
+      "descripcion": "Cantábrico · Receta tradicional · Formato individual",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Conserva",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "110g",
+          "precio": "1,30"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "gilda-anchoa",
+      "nombre": "Gilda Anchoa",
+      "productor": "Forberry",
+      "seccion": "Aperitivo",
+      "categoria": "Aperitivo",
+      "subcategoria": "Gilda",
+      "region": "Santander",
+      "descripcion": "2 aceitunas · 2 piparras · 1 anchoa",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Gilda · Aperitivo · Artesanal",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Bolsa 5 uds",
+          "precio": "5,00"
+        },
+        {
+          "formato": "Bolsa  12 uds",
+          "precio": "10,00"
+        },
+        {
+          "formato": "Bolsa  24 uds",
+          "precio": "20,00"
+        },
+        {
+          "formato": "Bolsa  55 uds",
+          "precio": "40,00"
+        }
+      ],
+      "imagen": "forberry_gildaanchoa.png",
+      "emoji": "🫒"
+    },
+    {
+      "id": "gilda-doble-anchoa",
+      "nombre": "Gilda Doble Anchoa",
+      "productor": "Forberry",
+      "seccion": "Aperitivo",
+      "categoria": "Aperitivo",
+      "subcategoria": "Gilda",
+      "region": "Santander",
+      "descripcion": "2 aceitunas · 3 piparras · 2 anchoas",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Gilda · Aperitivo · Artesanal",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Bolsa 5 uds",
+          "precio": "7,50"
+        },
+        {
+          "formato": "Bolsa 20 uds",
+          "precio": "20,00"
+        },
+        {
+          "formato": "Bolsa 50 uds",
+          "precio": "45,00"
+        }
+      ],
+      "imagen": "forberry_gildadobleanchoa.png",
+      "emoji": "🫒"
+    },
+    {
+      "id": "gilda-doble-boquer-n",
+      "nombre": "Gilda Doble Boquerón",
+      "productor": "Forberry",
+      "seccion": "Aperitivo",
+      "categoria": "Aperitivo",
+      "subcategoria": "Gilda",
+      "region": "Santander",
+      "descripcion": "2 aceitunas · 3 piparras · 2 boquerones",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Gilda · Aperitivo · Artesanal",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Bolsa 5 uds",
+          "precio": "7,50"
+        },
+        {
+          "formato": "Bolsa 20 uds",
+          "precio": "20,00"
+        },
+        {
+          "formato": "Bolsa 50 uds",
+          "precio": "45"
+        }
+      ],
+      "imagen": "forberry_gildadobleboqueron.png",
+      "emoji": "🫒"
+    },
+    {
+      "id": "banderilla",
+      "nombre": "Banderilla",
+      "productor": "Forberry",
+      "seccion": "Aperitivo",
+      "categoria": "Aperitivo",
+      "subcategoria": "Banderilla",
+      "region": "Santander",
+      "descripcion": "1 aceituna · 2 piparras · 1 anchoa · 1 pepinillo · 1 cebolleta",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Gilda · Aperitivo · Artesanal",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Bolsa 5 uds",
+          "precio": "5,00"
+        },
+        {
+          "formato": "Bolsa 12 uds",
+          "precio": "10,00"
+        },
+        {
+          "formato": "Bolsa 24 uds",
+          "precio": "20,00"
+        },
+        {
+          "formato": "Bolsa 55 uds",
+          "precio": "40,00"
+        }
+      ],
+      "imagen": "forberry_gildabanderilla.png",
+      "emoji": "🫒"
+    },
+    {
+      "id": "matrimonio",
+      "nombre": "Matrimonio",
+      "productor": "Forberry",
+      "seccion": "Aperitivo",
+      "categoria": "Aperitivo",
+      "subcategoria": "Gilda",
+      "region": "Santander",
+      "descripcion": "2 aceitunas · 1 piparra · 1 anchoa · 1 boquerón",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Gilda · Aperitivo · Artesanal",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Bolsa 5 uds",
+          "precio": "5,00"
+        },
+        {
+          "formato": "Bolsa 12 uds",
+          "precio": "10,00"
+        },
+        {
+          "formato": "Bolsa 24 uds",
+          "precio": "20,00"
+        },
+        {
+          "formato": "Bolsa 55 uds",
+          "precio": "45,00"
+        }
+      ],
+      "imagen": "forberry_gildamatrimonio.png",
+      "emoji": "🫒"
+    },
+    {
+      "id": "gilda-jam-n",
+      "nombre": "Gilda Jamón",
+      "productor": "Forberry",
+      "seccion": "Aperitivo",
+      "categoria": "Aperitivo",
+      "subcategoria": "Gilda",
+      "region": "Santander",
+      "descripcion": "2 aceitunas · 2 quesos · jamón",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Gilda · Aperitivo · Artesanal",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Bolsa 5 uds",
+          "precio": "5,00"
+        },
+        {
+          "formato": "Bolsa 12 uds",
+          "precio": "10,00"
+        },
+        {
+          "formato": "Bolsa 24 uds",
+          "precio": "20,00"
+        },
+        {
+          "formato": "Bolsa 55 uds",
+          "precio": "45,00"
+        }
+      ],
+      "imagen": "forberry_gildajamon.png",
+      "emoji": "🫒"
+    },
+    {
+      "id": "gilda-lomo",
+      "nombre": "Gilda Lomo",
+      "productor": "Forberry",
+      "seccion": "Aperitivo",
+      "categoria": "Aperitivo",
+      "subcategoria": "Gilda",
+      "region": "Santander",
+      "descripcion": "2 aceitunas · 2 quesos · lomo",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Gilda · Aperitivo · Artesanal",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Bolsa 5 uds",
+          "precio": "5,00"
+        },
+        {
+          "formato": "Bolsa 12 uds",
+          "precio": "10,00"
+        },
+        {
+          "formato": "Bolsa 24 uds",
+          "precio": "20,00"
+        },
+        {
+          "formato": "Bolsa 55 uds",
+          "precio": "45,00"
+        }
+      ],
+      "imagen": "forberry_gildalomo.png",
+      "emoji": "🫒"
+    },
+    {
+      "id": "gilda-cecina",
+      "nombre": "Gilda Cecina",
+      "productor": "Forberry",
+      "seccion": "Aperitivo",
+      "categoria": "Aperitivo",
+      "subcategoria": "Gilda",
+      "region": "Santander",
+      "descripcion": "2 aceitunas · 2 quesos · cecina",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Gilda · Aperitivo · Artesanal",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Bolsa 5 uds",
+          "precio": "5,00"
+        },
+        {
+          "formato": "Bolsa 12 uds",
+          "precio": "10,00"
+        },
+        {
+          "formato": "Bolsa 24 uds",
+          "precio": "20,00"
+        },
+        {
+          "formato": "Bolsa 55 uds",
+          "precio": "45,00"
+        }
+      ],
+      "imagen": "forberry_gildacecina.png",
+      "emoji": "🫒"
+    },
+    {
+      "id": "pulpo-especial",
+      "nombre": "Pulpo Especial",
+      "productor": "Forberry",
+      "seccion": "Aperitivo",
+      "categoria": "Aperitivo",
+      "subcategoria": "Gilda",
+      "region": "Santander",
+      "descripcion": "1 aceituna · 2 piparras · 1 anchoa · 1 pulpo",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Gilda · Aperitivo · Artesanal",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Bolsa 5 uds",
+          "precio": "7,50"
+        },
+        {
+          "formato": "Bolsa 20 uds",
+          "precio": "20,00"
+        },
+        {
+          "formato": "Bolsa 50 uds",
+          "precio": "50,00"
+        }
+      ],
+      "imagen": "forberry_gildapulpo.png",
+      "emoji": "🫒"
+    },
+    {
+      "id": "gilda-del-mar",
+      "nombre": "Gilda Del Mar",
+      "productor": "Forberry",
+      "seccion": "Aperitivo",
+      "categoria": "Aperitivo",
+      "subcategoria": "Gilda",
+      "region": "Santander",
+      "descripcion": "1 aceituna · 2 piparras · pulpo · langostino · huevo",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Gilda · Aperitivo · Artesanal",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Bolsa 5 uds",
+          "precio": "10,00"
+        },
+        {
+          "formato": "Bolsa 15 uds",
+          "precio": "25,00"
+        },
+        {
+          "formato": "Bolsa 40 uds",
+          "precio": "55,00"
+        }
+      ],
+      "imagen": "forberry_gildamar.png",
+      "emoji": "🫒"
+    },
+    {
+      "id": "briniro",
+      "nombre": "Briniro",
+      "productor": "Quesería Tasugueras",
+      "seccion": "Quesos",
+      "categoria": "Quesos frescos",
+      "subcategoria": "Queso",
+      "region": "Valles Pasiegos de Cantabria",
+      "descripcion": "Queso artesanal pasiego ideal para cocinar a la plancha. Elaborado con leche de vaca de Cantabria.Se elaboran bajo pedido y se envían en menos de 7 días.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Queso artesanal · Pasiego · Plancha · Bajo pedido",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Bloque aprox. 1 kg",
+          "precio": "14,00"
+        }
+      ],
+      "imagen": "tasugueras_Briniro.png",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "reques-n",
+      "nombre": "Requesón",
+      "productor": "Quesería Tasugueras",
+      "seccion": "Quesos",
+      "categoria": "Quesos frescos",
+      "subcategoria": "Queso",
+      "region": "Valles Pasiegos de Cantabria",
+      "descripcion": "Requesón artesanal fresco. Combina con dulce o salado. Ideal para tostadas, pasta y pizzas. Tarrinas limitadas.Requesón con caducidad de 30 días desde fabricación. Se elaboran bajo pedido y se envían en menos de 7 días.  máximo 10 tarrinas por envío.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Requesón · Fresco · Artesanal · Bajo pedido",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Tarrina aprox. 500 g",
+          "precio": "27,00€/kg"
+        }
+      ],
+      "imagen": "tasugueras_requeson.png",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "g-p--58",
+      "nombre": "G.P. 58",
+      "productor": "Quesería Tasugueras",
+      "seccion": "Quesos",
+      "categoria": "Quesos curados",
+      "subcategoria": "Queso",
+      "region": "Valles Pasiegos de Cantabria",
+      "descripcion": "Queso madurado prensado 58 kg. Edición limitada elaborada en honor a Generoso Pérez.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Queso curado · Edición limitada · Gourmet",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Pieza aprox. 12 kg | Cuña",
+          "precio": "Pieza aprox. 19,00€ | Cuña 27,00€/kg"
+        }
+      ],
+      "imagen": "tasugueras_gp58.png",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "sra--mercedes",
+      "nombre": "Sra. Mercedes",
+      "productor": "Quesería Tasugueras",
+      "seccion": "Quesos",
+      "categoria": "Quesos curados",
+      "subcategoria": "Queso",
+      "region": "Valles Pasiegos de Cantabria",
+      "descripcion": "Queso artesanal de larga maduración dedicado a Mercedes, figura histórica de la quesería.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Queso madurado · Gourmet · Tradicional",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Pieza aprox. 12 kg | Cuña",
+          "precio": "Pieza aprox. 16,00€ | Cuña 24,00€/kg"
+        }
+      ],
+      "imagen": "tasugueras_mercedes.png",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "queso-la-providencia",
+      "nombre": "Queso La Providencia",
+      "productor": "La Providencia 1888",
+      "seccion": "Quesos",
+      "categoria": "Quesos curados",
+      "subcategoria": "Queso Azul",
+      "region": "Picos de Europa",
+      "descripcion": "Queso azul artesanal madurado durante 8 meses en cuevas naturales de los Picos de Europa a 1.700 metros de altitud. Textura cremosa, sabor intenso y notas minerales propias de su afinado en alta montaña.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Queso azul · Curado 8 meses · Cueva natural · Gourmet · Artesanal",
+      "premios": "",
+      "stock_limitado": true,
+      "formatos": [
+        {
+          "formato": "1 kg",
+          "precio": "40,00/kg"
+        }
+      ],
+      "imagen": "laprovivencia1888_quesoazul.jpeg",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "trinos",
+      "nombre": "Trinos",
+      "productor": "Bodega Cristo del Humilladero",
+      "seccion": "Bebidas",
+      "categoria": "Vino",
+      "subcategoria": "Vino tinto",
+      "region": "Sierra de Gredos",
+      "descripcion": "Tinto Merlot de Cadalso de los Vidrios. Vino joven de perfil afrutado y fácil consumo.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Vino Tinto · Merlot · Sierra de Gredos · Madrid · Proyecto 57",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Botella 75 cl",
+          "precio": "5,00"
+        }
+      ],
+      "imagen": "TRINOS.jpg",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "nigromante",
+      "nombre": "Nigromante",
+      "productor": "Bodega Cristo del Humilladero",
+      "seccion": "Bebidas",
+      "categoria": "Vino",
+      "subcategoria": "Vino tinto",
+      "region": "Sierra de Gredos",
+      "descripcion": "Garnacha tinta de la Sierra de Gredos. Producción artesanal con imagen artística distintiva.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Vino Tinto · Garnacha · Sierra de Gredos · Madrid · Proyecto 57",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Botella 75 cl",
+          "precio": "5,63"
+        }
+      ],
+      "imagen": "NIGROMANTE_1.jpg",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "ladr-n-de-sue-os",
+      "nombre": "Ladrón de Sueños",
+      "productor": "Bodega Cristo del Humilladero",
+      "seccion": "Bebidas",
+      "categoria": "Vino",
+      "subcategoria": "Vino blanco",
+      "region": "Sierra de Gredos",
+      "descripcion": "Garnacha tinta de viñedos de altura. Perfil fresco y mineral característico de Gredos.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Vino Tinto · Garnacha · Viñedo de Altura · Sierra de Gredos · Premium",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Botella 75 cl",
+          "precio": "6,44"
+        }
+      ],
+      "imagen": "LADRON_DE_SUEN_OS.jpg",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "el-sopl-n-de-vidrio",
+      "nombre": "El Soplón de Vidrio",
+      "productor": "Bodega Cristo del Humilladero",
+      "seccion": "Bebidas",
+      "categoria": "Vino",
+      "subcategoria": "Vino tinto",
+      "region": "Sierra de Gredos",
+      "descripcion": "Tinto elaborado en Cadalso de los Vidrios con enfoque en fruta y frescura.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Vino Tinto · Sierra de Gredos · Madrid · Proyecto 57",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Botella 75 cl",
+          "precio": "5,19"
+        }
+      ],
+      "imagen": "EL_SOPLON_DE_VIDRIO.jpg",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "antropomorfo",
+      "nombre": "Antropomorfo",
+      "productor": "Bodega Cristo del Humilladero",
+      "seccion": "Bebidas",
+      "categoria": "Vino",
+      "subcategoria": "Vino Naranja",
+      "region": "Sierra de Gredos",
+      "descripcion": "Vino tinto de autor de producción limitada con etiqueta artística.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Vino Tinto · Autor · Sierra de Gredos · Madrid",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Botella 75 cl",
+          "precio": "5,63"
+        }
+      ],
+      "imagen": "ANTROPOMORFO.jpg",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "cadalfarum",
+      "nombre": "Cadalfarum",
+      "productor": "Bodega Cristo del Humilladero",
+      "seccion": "Bebidas",
+      "categoria": "Vino",
+      "subcategoria": "Vino tinto",
+      "region": "Sierra de Gredos",
+      "descripcion": "Garnacha Tinta y Tempranillo. Ensamblaje tradicional de la bodega.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Vino Tinto · Garnacha · Tempranillo · Madrid · Sierra de Gredos",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Botella 75 cl",
+          "precio": "4,38"
+        }
+      ],
+      "imagen": "CADALFARUM_1.jpg",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "azogue",
+      "nombre": "Azogue",
+      "productor": "Bodega Cristo del Humilladero",
+      "seccion": "Bebidas",
+      "categoria": "Vino",
+      "subcategoria": "Vino tinto",
+      "region": "Sierra de Gredos",
+      "descripcion": "Syrah · Garnacha · Tempranillo. Coupage moderno de perfil afrutado.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Vino Tinto · Syrah · Garnacha · Tempranillo · Madrid",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Botella 75 cl",
+          "precio": "5,63"
+        }
+      ],
+      "imagen": "AZOGUE_1.jpg",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "joyuelo",
+      "nombre": "Joyuelo",
+      "productor": "Bodega Cristo del Humilladero",
+      "seccion": "Bebidas",
+      "categoria": "Vino",
+      "subcategoria": "Vino blanco",
+      "region": "Sierra de Gredos",
+      "descripcion": "Albillo Real. Vino blanco representativo de la Sierra de Gredos.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Vino Blanco · Albillo Real · Sierra de Gredos · Madrid",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Botella 75 cl",
+          "precio": "5,63"
+        }
+      ],
+      "imagen": "JOYUELO.jpg",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "v-treo",
+      "nombre": "Vítreo",
+      "productor": "Bodega Cristo del Humilladero",
+      "seccion": "Bebidas",
+      "categoria": "Vino",
+      "subcategoria": "Vino tinto",
+      "region": "Sierra de Gredos",
+      "descripcion": "Vino de la gama Proyecto 57 elaborado en Cadalso de los Vidrios.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Vino · Proyecto 57 · Sierra de Gredos · Madrid",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Botella 75 cl",
+          "precio": "5,00"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "plenilunio",
+      "nombre": "Plenilunio",
+      "productor": "Bodega Cristo del Humilladero",
+      "seccion": "Bebidas",
+      "categoria": "Vino",
+      "subcategoria": "Vino tinto",
+      "region": "Sierra de Gredos",
+      "descripcion": "Vino de autor elaborado por la cooperativa dentro de la gama Proyecto 57.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Vino · Autor · Sierra de Gredos · Madrid",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Botella 75 cl",
+          "precio": "5,63"
+        }
+      ],
+      "imagen": "PLENILUNIO.jpg",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "vermut-el-sopl-n-de-vidrio",
+      "nombre": "Vermut El Soplón de Vidrio",
+      "productor": "Bodega Cristo del Humilladero",
+      "seccion": "Bebidas",
+      "categoria": "Vino",
+      "subcategoria": "Vermut",
+      "region": "Sierra de Gredos",
+      "descripcion": "Vermut artesanal elaborado por la bodega.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Vermut · Artesanal · Madrid · Proyecto 57",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Botella 75 cl",
+          "precio": "9,50"
+        }
+      ],
+      "imagen": "p57.jpg",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "vino-tinto-blanco-vemut",
+      "nombre": "Vino tinto/blanco/Vemut",
+      "productor": "Bodega Cristo del Humilladero",
+      "seccion": "Bebidas",
+      "categoria": "Vino tinto/blanco/Vemut",
+      "subcategoria": "Vino tinto/Vino blanco/Vemut",
+      "region": "Sierra de Gredos",
+      "descripcion": "Granel",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Granel",
+          "precio": "precio según necesidades y cantidades"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "carne-de-centollo-al-natural",
+      "nombre": "Carne de Centollo al Natural",
+      "productor": "La Mar de Tazones",
+      "seccion": "Marisco",
+      "categoria": "Conservas",
+      "subcategoria": "Centollo",
+      "region": "Asturias",
+      "descripcion": "Carne selecta de centollo al natural. Conserva gourmet elaborada sin conservantes ni aditivos.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Centollo · Marisco · Conserva Gourmet · Premium · Sin Conservantes",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Lata 120 g",
+          "precio": "8,10"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "carne-de-centollo-al-natural-premium",
+      "nombre": "Carne de Centollo al Natural Premium",
+      "productor": "La Mar de Tazones",
+      "seccion": "Marisco",
+      "categoria": "Conservas",
+      "subcategoria": "Centollo",
+      "region": "Asturias",
+      "descripcion": "Carne premium de centollo seleccionada con mayor rendimiento de carne.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Centollo · Premium · Marisco · Gourmet",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Lata 145 g (115 g escurrido)",
+          "precio": "9,10"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "carne-de-buey-de-mar-al-natural",
+      "nombre": "Carne de Buey de Mar al Natural",
+      "productor": "La Mar de Tazones",
+      "seccion": "Marisco",
+      "categoria": "Conservas",
+      "subcategoria": "Buey",
+      "region": "Asturias",
+      "descripcion": "Carne de buey de mar seleccionada conservada al natural.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Buey de Mar · Marisco · Gourmet · Conserva",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Lata 120 g",
+          "precio": "7,50"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "carne-de-cangrejo-de-las-nieves-snow-cra",
+      "nombre": "Carne de Cangrejo de las Nieves Snow Crab",
+      "productor": "La Mar de Tazones",
+      "seccion": "Marisco",
+      "categoria": "Conservas",
+      "subcategoria": "Cangrejo",
+      "region": "Asturias",
+      "descripcion": "Carne de Snow Crab premium conservada al natural.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Snow Crab · Cangrejo · Premium · Gourmet",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Lata 120 g (95 g escurrido)",
+          "precio": "14,50"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "ostras-al-natural-en-agua-de-mar",
+      "nombre": "Ostras al Natural en Agua de Mar",
+      "productor": "La Mar de Tazones",
+      "seccion": "Marisco",
+      "categoria": "Conservas",
+      "subcategoria": "Ostras",
+      "region": "Asturias",
+      "descripcion": "Ostras seleccionadas conservadas en agua de mar.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Ostras · Marisco Premium · Gourmet",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Lata RO-280 · 266 g (165 g escurrido)",
+          "precio": "15,90"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "ostras-en-vinagreta-de-albari-o",
+      "nombre": "Ostras en Vinagreta de Albariño",
+      "productor": "La Mar de Tazones",
+      "seccion": "Marisco",
+      "categoria": "Conservas",
+      "subcategoria": "Ostras",
+      "region": "Asturias",
+      "descripcion": "Ostras premium con receta de vinagreta de albariño.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Ostras · Albariño · Gourmet · Premium",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Lata RO-280 · 266 g (160 g escurrido)",
+          "precio": "16,50"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "carne-de-bogavante-azul-en-aceite-de-oli",
+      "nombre": "Carne de Bogavante Azul en Aceite de Oliva",
+      "productor": "La Mar de Tazones",
+      "seccion": "Marisco",
+      "categoria": "Conservas",
+      "subcategoria": "Bogavante",
+      "region": "Asturias",
+      "descripcion": "Carne de bogavante azul seleccionada conservada en aceite de oliva.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Bogavante Azul · Premium · Gourmet · Marisco",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Tarro 150 · 145 g (120 g escurrido)",
+          "precio": "19,80"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "pinzas-y-codos-de-bogavante-en-aceite-de",
+      "nombre": "Pinzas y Codos de Bogavante en Aceite de Oliva",
+      "productor": "La Mar de Tazones",
+      "seccion": "Marisco",
+      "categoria": "Conservas",
+      "subcategoria": "Navajas",
+      "region": "Asturias",
+      "descripcion": "Pinzas y codos de bogavante conservados en aceite de oliva.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Bogavante · Marisco Premium · Gourmet",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Tarro 150 · 145 g (120 g escurrido)",
+          "precio": "18,80"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "navajas-ahumadas-en-aceite-de-oliva",
+      "nombre": "Navajas Ahumadas en Aceite de Oliva",
+      "productor": "La Mar de Tazones",
+      "seccion": "Marisco",
+      "categoria": "Conservas",
+      "subcategoria": "Plancton",
+      "region": "Asturias",
+      "descripcion": "Navajas seleccionadas ligeramente ahumadas en aceite de oliva.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Navajas · Ahumado · Gourmet · Conserva",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Lata RO-120 · 110 g (62 g escurrido)",
+          "precio": "11,90"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "plancton-marino-tetraselmis-chuii",
+      "nombre": "Plancton Marino Tetraselmis Chuii",
+      "productor": "La Mar de Tazones",
+      "seccion": "Marisco",
+      "categoria": "Conservas",
+      "subcategoria": "Plancton",
+      "region": "Asturias",
+      "descripcion": "Plancton marino liofilizado para uso gastronómico profesional.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Plancton Marino · Alta Cocina · Innovación · Chef",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Bote 25 g",
+          "precio": "39,00"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "estuche-regalo-centollo-al-natural",
+      "nombre": "Estuche Regalo Centollo al Natural",
+      "productor": "La Mar de Tazones",
+      "seccion": "Marisco",
+      "categoria": "Conservas",
+      "subcategoria": "Centollo",
+      "region": "Asturias",
+      "descripcion": "Estuche gourmet con 4 latas de carne de centollo al natural.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Regalo Gourmet · Centollo · Premium",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Estuche 4 unidades",
+          "precio": "35,40"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "estuche-regalo-centollo-al-natural-premi",
+      "nombre": "Estuche Regalo Centollo al Natural Premium",
+      "productor": "La Mar de Tazones",
+      "seccion": "Marisco",
+      "categoria": "Conservas",
+      "subcategoria": "Centollo",
+      "region": "Asturias",
+      "descripcion": "Estuche premium con 4 latas de carne de centollo premium.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Regalo Gourmet · Centollo Premium · Luxury",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Estuche 4 unidades",
+          "precio": "39,80"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "estuche-regalo-buey-de-mar-al-natural",
+      "nombre": "Estuche Regalo Buey de Mar al Natural",
+      "productor": "La Mar de Tazones",
+      "seccion": "Marisco",
+      "categoria": "Conservas",
+      "subcategoria": "Buey",
+      "region": "Asturias",
+      "descripcion": "Estuche gourmet con 4 latas de carne de buey de mar.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Regalo Gourmet · Buey de Mar · Premium",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Estuche 4 unidades",
+          "precio": "33,00"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "frutado-verde-premium-bio",
+      "nombre": "Frutado Verde PREMIUM BIO",
+      "productor": "Alma de Cántaro",
+      "seccion": "Aceite",
+      "categoria": "Aceite",
+      "subcategoria": "AOVE",
+      "region": "Córdoba",
+      "descripcion": "AOVE Picual ecológico premium de recolección nocturna, elaborado con aceitunas recogidas en la última semana de septiembre. Aceite de frutado intenso, complejo, elegante y sedoso, con aromas a hierba, higuera, tomatera, plátano, melocotón, manzana y almendra recién pelada. Formato 500 ml con estuche incluido.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "AOVE · Picual · Ecológico · Premium · Frutado verde · Recolección nocturna · Cosecha temprana · Alta gama · Córdoba · Estuche regalo · Gourmet",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "500 ml · estuche incluido",
+          "precio": "10,95 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🫙"
+    },
+    {
+      "id": "frutado-envero-bio",
+      "nombre": "Frutado Envero BIO",
+      "productor": "Alma de Cántaro",
+      "seccion": "Aceite",
+      "categoria": "Aceite",
+      "subcategoria": "",
+      "region": "Córdoba",
+      "descripcion": "AOVE Picual ecológico de cosecha temprana, recogido entre la segunda y tercera semana de octubre, cuando el fruto empieza a pasar del verde al negro. En nariz recuerda a la planta de tomate y al frutado del olivo; en boca aparecen notas de manzana y melocotón, con un final fresco, intenso y refinado propio de la variedad Picual. Formato 500 ml con estuche incluido.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Frutado Envero BIO",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "500 ml · estuche incluido",
+          "precio": "10,45 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🫙"
+    },
+    {
+      "id": "frutado-envero-bio-3-lts",
+      "nombre": "Frutado Envero BIO 3 lts",
+      "productor": "Alma de Cántaro",
+      "seccion": "Aceite",
+      "categoria": "Aceite",
+      "subcategoria": "AOVE",
+      "region": "Córdoba",
+      "descripcion": "Mismo AOVE Picual ecológico Frutado Envero BIO en formato Bag in Box de 3 litros. Ideal para hostelería o consumo frecuente, manteniendo el aceite protegido de la luz y el oxígeno durante más tiempo. Aceite fresco, intenso y refinado, con notas de tomatera, manzana y melocotón.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Frutado Envero BIO 3 lts",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Bag in Box 3 lts",
+          "precio": "22,45 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🫙"
+    },
+    {
+      "id": "vino-tinto-selecci-n",
+      "nombre": "Vino tinto selección",
+      "productor": "Picos de Cabariezo",
+      "seccion": "Bebidas",
+      "categoria": "Vino",
+      "subcategoria": "Vino tinto",
+      "region": "Picos de Europa",
+      "descripcion": "Vino tinto de Cantabria elaborado por Picos de Cabariezo. Una referencia de entrada ideal para carta de vinos, tienda gourmet o consumo diario con personalidad local.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Vino tinto · Cantabria · Picos de Cabariezo · Selección · Bodega artesanal · Producto español · Gourmet",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Botella",
+          "precio": "6,00"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "vino-tinto-crianza-finca-morillas",
+      "nombre": "Vino tinto crianza Finca Morillas",
+      "productor": "Picos de Cabariezo",
+      "seccion": "Bebidas",
+      "categoria": "Vino",
+      "subcategoria": "Vino tinto",
+      "region": "Picos de Europa",
+      "descripcion": "Vino tinto crianza de Picos de Cabariezo, elaborado en Cantabria. Un vino con más estructura y carácter, pensado para acompañar carnes, quesos curados y platos de montaña.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Vino tinto · Crianza · Cantabria · Finca Morillas · Picos de Cabariezo · Bodega artesanal · Gourmet",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Botella",
+          "precio": "8,00"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "vino-tinto-el-misterio",
+      "nombre": "Vino tinto El Misterio",
+      "productor": "Picos de Cabariezo",
+      "seccion": "Bebidas",
+      "categoria": "Vino",
+      "subcategoria": "Vino tinto",
+      "region": "Picos de Europa",
+      "descripcion": "Vino tinto premium de Picos de Cabariezo. Una referencia especial y de mayor valor, con presentación cuidada y enfoque gourmet para restaurantes, vinotecas y regalo gastronómico.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Vino tinto · Premium · El Misterio · Cantabria · Picos de Cabariezo · Alta gama · Gourmet · Regalo gastronómico",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Botella",
+          "precio": "26,00"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "vino-blanco-dulce-hielu-de-picos",
+      "nombre": "Vino blanco dulce Hielu de Picos",
+      "productor": "Picos de Cabariezo",
+      "seccion": "Bebidas",
+      "categoria": "Vino",
+      "subcategoria": "Vino blanco",
+      "region": "Picos de Europa",
+      "descripcion": "Vino blanco dulce de Picos de Cabariezo. Una referencia ideal para postres, foie, quesos azules o consumo como vino dulce de sobremesa.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Vino blanco dulce · Hielu de Picos · Cantabria · Postre · Sobremesa · Picos de Cabariezo · Gourmet",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Botella",
+          "precio": "12,00"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "destilados--whisky-as-de-picos",
+      "nombre": "Destilados. Whisky As de Picos",
+      "productor": "Picos de Cabariezo",
+      "seccion": "Bebidas",
+      "categoria": "Destilados",
+      "subcategoria": "Whisky",
+      "region": "Picos de Europa",
+      "descripcion": "Whisky single malt de As de Picos, elaborado con una presentación premium y carácter artesanal. Ideal para amantes de destilados singulares y producto español de autor.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Whisky · Single Malt · As de Picos · Destilado artesanal · Cantabria · Premium · Producto español",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Botella",
+          "precio": "31,00"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "destilados--gin-as-de-picos-classic",
+      "nombre": "Destilados. Gin As de Picos Classic",
+      "productor": "Picos de Cabariezo",
+      "seccion": "Bebidas",
+      "categoria": "Destilados",
+      "subcategoria": "Gin",
+      "region": "Picos de Europa",
+      "descripcion": "Ginebra clásica de As de Picos, con perfil limpio y versátil. Pensada para coctelería, gin tonics premium y cartas de destilados con producto nacional.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Gin · Ginebra · Classic · As de Picos · Coctelería · Destilado artesanal · Cantabria",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Botella",
+          "precio": "15,41"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "destilados--aguardiente-de-orujo-picos-d",
+      "nombre": "Destilados. Aguardiente de Orujo Picos de Cabariezo",
+      "productor": "Picos de Cabariezo",
+      "seccion": "Bebidas",
+      "categoria": "Destilados",
+      "subcategoria": "Orujo",
+      "region": "Picos de Europa",
+      "descripcion": "Aguardiente de orujo elaborado por Picos de Cabariezo, con carácter tradicional y origen cántabro. Ideal para sobremesa, restauración y venta gourmet regional.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Orujo · Aguardiente · Picos de Cabariezo · Destilado tradicional · Cantabria · Sobremesa",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Botella",
+          "precio": "11,50"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "destilados--crema-de-orujo",
+      "nombre": "Destilados. Crema de Orujo",
+      "productor": "Picos de Cabariezo",
+      "seccion": "Bebidas",
+      "categoria": "Destilados",
+      "subcategoria": "Orujo",
+      "region": "Picos de Europa",
+      "descripcion": "Crema de orujo de Picos de Cabariezo, suave y cremosa, pensada para tomar fría en sobremesa o como licor dulce en restauración.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Crema de orujo · Licor cremoso · Sobremesa · Picos de Cabariezo · Cantabria · Gourmet",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Botella",
+          "precio": "10,70"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "destilados---licor-de-hierbas-picos-de-c",
+      "nombre": "Destilados.  Licor de Hierbas Picos de Cabariezo",
+      "productor": "Picos de Cabariezo",
+      "seccion": "Bebidas",
+      "categoria": "Destilados",
+      "subcategoria": "Licor de Hierbas",
+      "region": "Picos de Europa",
+      "descripcion": "Licor de hierbas de Picos de Cabariezo, de perfil aromático y digestivo. Una referencia clásica para sobremesa y cartas de licores tradicionales.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Licor de hierbas · Digestivo · Sobremesa · Picos de Cabariezo · Cantabria · Tradicional",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Botella",
+          "precio": "10,70"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "destilados---licor-de-miel",
+      "nombre": "Destilados.  Licor de Miel",
+      "productor": "Picos de Cabariezo",
+      "seccion": "Bebidas",
+      "categoria": "Destilados",
+      "subcategoria": "Licor de Miel",
+      "region": "Picos de Europa",
+      "descripcion": "Licor de miel de Picos de Cabariezo, dulce y aromático, ideal para sobremesa, regalo gastronómico o consumo frío.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Licor de miel · Licor dulce · Sobremesa · Picos de Cabariezo · Cantabria · Gourmet",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Botella",
+          "precio": "10,70"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "destilados--crema-de-caf--picos-de-cabar",
+      "nombre": "Destilados. Crema de Café Picos de Cabariezo",
+      "productor": "Picos de Cabariezo",
+      "seccion": "Bebidas",
+      "categoria": "Destilados",
+      "subcategoria": "Crema de Café",
+      "region": "Picos de Europa",
+      "descripcion": "Crema de café de Picos de Cabariezo, cremosa y con notas tostadas. Ideal para sobremesa, hostelería y combinaciones dulces.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Crema de café · Licor cremoso · Café · Sobremesa · Picos de Cabariezo · Cantabria",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Botella",
+          "precio": "10,70"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "destilados---licor-de-caf-",
+      "nombre": "Destilados.  Licor de Café",
+      "productor": "Picos de Cabariezo",
+      "seccion": "Bebidas",
+      "categoria": "Destilados",
+      "subcategoria": "Licor de Café",
+      "region": "Picos de Europa",
+      "descripcion": "Licor de café de Picos de Cabariezo, intenso y aromático, pensado para sobremesa, coctelería sencilla o servicio frío.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Licor de café · Café · Sobremesa · Picos de Cabariezo · Cantabria · Digestivo",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Botella",
+          "precio": "10,70"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "destilados--gin-tropical-as-de-picos",
+      "nombre": "Destilados. Gin Tropical As de Picos",
+      "productor": "Picos de Cabariezo",
+      "seccion": "Bebidas",
+      "categoria": "Destilados",
+      "subcategoria": "Gin",
+      "region": "Picos de Europa",
+      "descripcion": "Ginebra tropical de As de Picos, con perfil más fresco y afrutado. Ideal para gin tonics diferenciales, coctelería y cartas de destilados premium.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Gin · Ginebra tropical · As de Picos · Coctelería · Destilado artesanal · Cantabria",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Botella",
+          "precio": "15,41"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "destilados--brandy",
+      "nombre": "Destilados. Brandy",
+      "productor": "Picos de Cabariezo",
+      "seccion": "Bebidas",
+      "categoria": "Destilados",
+      "subcategoria": "Brandy",
+      "region": "Picos de Europa",
+      "descripcion": "Brandy de Picos de Cabariezo, destilado de perfil premium para sobremesa y carta de bebidas espirituosas.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Brandy · Destilado · Sobremesa · Picos de Cabariezo · Cantabria · Premium",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Botella",
+          "precio": "19,00"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "vermut-artesano-oro-nomada",
+      "nombre": "Vermut Artesano oro nomada",
+      "productor": "Bodega Artesana Antonanza",
+      "seccion": "Bebidas",
+      "categoria": "Vino",
+      "subcategoria": "Vermut",
+      "region": "Cordovilla, Navarra",
+      "descripcion": "Vermut artesanal elaborado por la bodega.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Botella de 700ml / 750 ml. + - 4€ envio",
+          "precio": "9,40"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "wemujito-artesano-oro-nomada",
+      "nombre": "Wemujito Artesano oro nomada",
+      "productor": "Bodega Artesana Antonanza",
+      "seccion": "Bebidas",
+      "categoria": "Vino",
+      "subcategoria": "Vermut",
+      "region": "Cordovilla, Navarra",
+      "descripcion": "Vermut artesanal elaborado por la bodega.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Botella de 700ml / 750 ml.  + - 4€ envio",
+          "precio": "9,40"
+        },
+        {
+          "formato": "Botella de 200 ml. Cajas de 22 unidades.  + - 4€ envio",
+          "precio": "2,82 €/und. Total 62,15€/22 und"
+        },
+        {
+          "formato": "Botella de 200 ml. Cajas de 22 unidades.  + - 4€ envio",
+          "precio": "2,82 €/und. Total 62,15€/22 und"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "vino-tinto",
+      "nombre": "Vino tinto",
+      "productor": "Guardianes del Reyno",
+      "seccion": "Bebidas",
+      "categoria": "Vino",
+      "subcategoria": "Vino tinto",
+      "region": "La Guardia, Álava",
+      "descripcion": "Vino tinto que representa el terruño de Laguardia, elaborado con uvas procedentes de dos viñas singulares: Carralogroño, plantada en 1979, y Carraelciego, plantada en 1940. Ambas parcelas, situadas a apenas tres kilómetros entre sí, aportan perfiles distintos que se vinifican por separado en depósitos pequeños mediante fermentación espontánea. Posteriormente, el vino pasa por barricas de roble francés de 500 litros, donde realiza la fermentación maloláctica y se estabiliza de forma natural, adquiriendo un sutil toque de madera. De color cereza picota, brillante y limpio, presenta aromas intensos a fruta madura y fruta negra. En boca es redondo, fresco, agradable y ligero, con tanino pulido e intensidad media.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "Vino tinto · Laguardia · Rioja Alavesa · Viñas viejas · Carralogroño · Carraelciego · Roble francés · Fermentación espontánea · Terruño · Fruta negra · Tanino pulido · Gourmet",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Botella de  750 ml",
+          "precio": "9,27"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "aove-monovarietal-pajarero-",
+      "nombre": "AOVE Monovarietal Pajarero.",
+      "productor": "Eoloe",
+      "seccion": "Aceite",
+      "categoria": "Aceite",
+      "subcategoria": "AOVE",
+      "region": "Priego de Córdoba",
+      "descripcion": "AOVE Monovarietal Pajarero.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": true,
+      "formatos": [
+        {
+          "formato": "Botella 500 mililitros estuchada",
+          "precio": "13,70"
+        },
+        {
+          "formato": "lata de 2,5 litros",
+          "precio": "27,90"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🫙"
+    },
+    {
+      "id": "vino-tinto--tinta-del-toro",
+      "nombre": "Vino tinto, Tinta del Toro",
+      "productor": "bodega Dalamcio Gallego",
+      "seccion": "Bebidas",
+      "categoria": "Vino",
+      "subcategoria": "Vino tinto",
+      "region": "Toro, Zamora",
+      "descripcion": "Criado en Barricas de Roble",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "botella 75 cl",
+          "precio": "6,50"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "aove-dop-picual-de-sierra",
+      "nombre": "AOVE DOP Picual de Sierra",
+      "productor": "Potosi 10",
+      "seccion": "Aceite",
+      "categoria": "Aceite",
+      "subcategoria": "AOVE",
+      "region": "Orcera, Jaén",
+      "descripcion": "Fuenroble",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "500 ml Frasca mas estuche",
+          "precio": "8,35"
+        },
+        {
+          "formato": "250 ml Frasca",
+          "precio": "4,20"
+        },
+        {
+          "formato": "Irrellenable",
+          "precio": "7,15"
+        },
+        {
+          "formato": "500 ml Lata",
+          "precio": "7,40"
+        },
+        {
+          "formato": "1 L Lata",
+          "precio": "22,12"
+        },
+        {
+          "formato": "3 L Lata",
+          "precio": "41,92"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🫙"
+    },
+    {
+      "id": "valroble-pack--picual--arbequino--fusion",
+      "nombre": "VALROBLE PACK (Picual- Arbequino- Fusion-Ecologico)",
+      "productor": "Potosi 10",
+      "seccion": "Aceite",
+      "categoria": "Aceite",
+      "subcategoria": "AOVE",
+      "region": "Orcera, Jaén",
+      "descripcion": "Valroble",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "LATA 1 LT (250ml x 4)",
+          "precio": "19,00"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🫙"
+    },
+    {
+      "id": "valroble-aove-picual---arbequino---fusio",
+      "nombre": "VALROBLE AOVE Picual - Arbequino - Fusion",
+      "productor": "Potosi 10",
+      "seccion": "Aceite",
+      "categoria": "Aceite",
+      "subcategoria": "AOVE",
+      "region": "Orcera, Jaén",
+      "descripcion": "Valroble",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "LATA 500 ML",
+          "precio": "4,70"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🫙"
+    },
+    {
+      "id": "valroble-aove-picual-ecologico",
+      "nombre": "VALROBLE AOVE Picual Ecologico",
+      "productor": "Potosi 10",
+      "seccion": "Aceite",
+      "categoria": "Aceite",
+      "subcategoria": "AOVE",
+      "region": "Orcera, Jaén",
+      "descripcion": "Valroble",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "LATA 500 ML",
+          "precio": "5,60"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🫙"
+    },
+    {
+      "id": "valroble-aove--fusion",
+      "nombre": "VALROBLE AOVE  Fusion",
+      "productor": "Potosi 10",
+      "seccion": "Aceite",
+      "categoria": "Aceite",
+      "subcategoria": "AOVE",
+      "region": "Orcera, Jaén",
+      "descripcion": "Valroble",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "CRISTAL IRRELLENABLE 500 ML",
+          "precio": "4,92"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🫙"
+    },
+    {
+      "id": "valroble-aove-ecologico",
+      "nombre": "VALROBLE AOVE Ecologico",
+      "productor": "Potosi 10",
+      "seccion": "Aceite",
+      "categoria": "Aceite",
+      "subcategoria": "AOVE",
+      "region": "Orcera, Jaén",
+      "descripcion": "Valroble",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "CRISTAL IRRELLENABLE  LATA 500 ML",
+          "precio": "5,80"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🫙"
+    },
+    {
+      "id": "5-litros",
+      "nombre": "5 LITROS",
+      "productor": "Potosi 10",
+      "seccion": "Aceite",
+      "categoria": "Aceite",
+      "subcategoria": "AOVE",
+      "region": "Orcera, Jaén",
+      "descripcion": "Fuenroble/Valroble",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "SUJETO A CAMBIOS DE MERCADO. CONSULTAR PRECIO",
+          "precio": "N/A"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🫙"
+    },
+    {
+      "id": "queso-semicurado-d-o-p--ntra--sra--de-fu",
+      "nombre": "Queso Semicurado D.O.P. Ntra. Sra. de Fuentes",
+      "productor": "Quesos Artesanos Villarejo",
+      "seccion": "Quesos",
+      "categoria": "Queso",
+      "subcategoria": "Semicurado",
+      "region": "Villarejo de Fuentes, Cuenca",
+      "descripcion": "Leche de oveja manchega. Mín. 3 meses.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "3 Kg",
+          "precio": "17,40 €/Kg"
+        },
+        {
+          "formato": "2 Kg",
+          "precio": "17,40 €/Kg"
+        },
+        {
+          "formato": "1 Kg",
+          "precio": "17,40 €/Kg"
+        },
+        {
+          "formato": "Cuña 1/4–1/8",
+          "precio": "17,90 €/Kg"
+        },
+        {
+          "formato": "Cuñas 1/12– 1/16",
+          "precio": "18,20 €/Kg"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "queso-curado-d-o-p--ntra--sra--de-fuente",
+      "nombre": "Queso Curado D.O.P. Ntra. Sra. de Fuentes",
+      "productor": "Quesos Artesanos Villarejo",
+      "seccion": "Quesos",
+      "categoria": "Queso",
+      "subcategoria": "Curado",
+      "region": "Villarejo de Fuentes, Cuenca",
+      "descripcion": "Leche de oveja manchega. Mín. 6 meses. Sin Lactosa,",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "3 Kg",
+          "precio": "18,40 €/Kg"
+        },
+        {
+          "formato": "2 Kg",
+          "precio": "18,40 €/Kg"
+        },
+        {
+          "formato": "Cuña 1/4–1/8",
+          "precio": "18,90 €/Kg"
+        },
+        {
+          "formato": "Cuñas 1/12– 1/16",
+          "precio": "19,20 €/Kg"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "gran-reserva-d-o-p--ntra--sra--de-fuente",
+      "nombre": "Gran Reserva D.O.P. Ntra. Sra. de Fuentes",
+      "productor": "Quesos Artesanos Villarejo",
+      "seccion": "Quesos",
+      "categoria": "Queso",
+      "subcategoria": "Gran Reserva",
+      "region": "Villarejo de Fuentes, Cuenca",
+      "descripcion": "Leche cruda de oveja. Mín. 14 meses. Sin Lactosa.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "3 Kg",
+          "precio": "21,60 €/Kg"
+        },
+        {
+          "formato": "Cuña 1/4–1/8",
+          "precio": "22,10 €/Kg"
+        },
+        {
+          "formato": "Cuñas 1/12– 1/16",
+          "precio": "22,40 €/Kg"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "curado-en-miel-y-or-gano-villarejo",
+      "nombre": "Curado en Miel y Orégano Villarejo",
+      "productor": "Quesos Artesanos Villarejo",
+      "seccion": "Quesos",
+      "categoria": "Queso",
+      "subcategoria": "Curado",
+      "region": "Villarejo de Fuentes, Cuenca",
+      "descripcion": "Leche cruda de oveja, miel y orégano Mín. 6 meses. Sin Lactosa",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "3 Kg",
+          "precio": "17,10 €/Kg"
+        },
+        {
+          "formato": "1 Kg",
+          "precio": "17,10 €/Kg"
+        },
+        {
+          "formato": "Cuña 1/4–1/8",
+          "precio": "17,60 €/Kg"
+        },
+        {
+          "formato": "Cuñas 1/12– 1/16",
+          "precio": "17,90 €/Kg"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "curado-al-romero--rosemary-",
+      "nombre": "Curado al Romero (Rosemary)",
+      "productor": "Quesos Artesanos Villarejo",
+      "seccion": "Quesos",
+      "categoria": "Queso",
+      "subcategoria": "Curado",
+      "region": "Villarejo de Fuentes, Cuenca",
+      "descripcion": "Leche cruda de oveja, manteca y romero Mín. 6 meses. Sin Lactosa",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "3 Kg",
+          "precio": "17,10 €/Kg"
+        },
+        {
+          "formato": "1 Kg (past.)",
+          "precio": "17,10 €/Kg"
+        },
+        {
+          "formato": "Cuña 1/4– 1/8",
+          "precio": "17,60 €/Kg"
+        },
+        {
+          "formato": "Cuñas 1/12– 1/16",
+          "precio": "17,90 €/Kg"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "curado-en-tomillo-villarejo",
+      "nombre": "Curado en Tomillo Villarejo",
+      "productor": "Quesos Artesanos Villarejo",
+      "seccion": "Quesos",
+      "categoria": "Queso",
+      "subcategoria": "Curado",
+      "region": "Villarejo de Fuentes, Cuenca",
+      "descripcion": "Leche cruda de oveja, manteca y tomillo Mín. 6 meses. Sin Lactosa",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "3 Kg",
+          "precio": "17,10 €/Kg"
+        },
+        {
+          "formato": "1 Kg (past.)",
+          "precio": "17,10 €/Kg"
+        },
+        {
+          "formato": "Cuña 1/4– 1/8",
+          "precio": "17,60 €/Kg"
+        },
+        {
+          "formato": "Cuñas 1/12– 1/16",
+          "precio": "17,90 €/Kg"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "curado-en-aceite-villarejo",
+      "nombre": "Curado en Aceite Villarejo",
+      "productor": "Quesos Artesanos Villarejo",
+      "seccion": "Quesos",
+      "categoria": "Queso",
+      "subcategoria": "Curado",
+      "region": "Villarejo de Fuentes, Cuenca",
+      "descripcion": "Leche cruda de oveja y aceite de oliva Mín. 6 meses. Sin Lactosa",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "3 Kg",
+          "precio": "17,10 €/Kg"
+        },
+        {
+          "formato": "1 Kg (past.)",
+          "precio": "17,10 €/Kg"
+        },
+        {
+          "formato": "Cuña 1/4– 1/8",
+          "precio": "17,60 €/Kg"
+        },
+        {
+          "formato": "Cuñas 1/12– 1/16",
+          "precio": "17,90 €/Kg"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "curado-en-vino-tinto---blanco-villarejo",
+      "nombre": "Curado en Vino Tinto / Blanco Villarejo",
+      "productor": "Quesos Artesanos Villarejo",
+      "seccion": "Quesos",
+      "categoria": "Queso",
+      "subcategoria": "Curado",
+      "region": "Villarejo de Fuentes, Cuenca",
+      "descripcion": "Leche cruda de oveja y vino tinto Mín. 6 meses. Sin Lactosa",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "3 Kg",
+          "precio": "17,10 €/Kg"
+        },
+        {
+          "formato": "Cuña 1/4– 1/8",
+          "precio": "17,60 €/Kg"
+        },
+        {
+          "formato": "Cuñas 1/12– 1/16",
+          "precio": "17,90 €/Kg"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "curado-en-licor-resoli",
+      "nombre": "Curado en Licor Resoli",
+      "productor": "Quesos Artesanos Villarejo",
+      "seccion": "Quesos",
+      "categoria": "Queso",
+      "subcategoria": "Curado",
+      "region": "Villarejo de Fuentes, Cuenca",
+      "descripcion": "Leche cruda de oveja y licor de café Mín. 6 meses. Sin Lactosa",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "3 Kg",
+          "precio": "17,10 €/Kg"
+        },
+        {
+          "formato": "Cuña 1/4– 1/8",
+          "precio": "17,60 €/Kg"
+        },
+        {
+          "formato": "Cuñas 1/12– 1/16",
+          "precio": "17,90 €/Kg"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "curado-en-cerveza-a-la-pimienta",
+      "nombre": "Curado en Cerveza a la Pimienta",
+      "productor": "Quesos Artesanos Villarejo",
+      "seccion": "Quesos",
+      "categoria": "Queso",
+      "subcategoria": "Curado",
+      "region": "Villarejo de Fuentes, Cuenca",
+      "descripcion": "Leche cruda de oveja y cerveza a la pimienta Mín. 6 meses. Sin Lactosa",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "3 Kg",
+          "precio": "17,10 €/Kg"
+        },
+        {
+          "formato": "Cuña 1/4– 1/8",
+          "precio": "17,60 €/Kg"
+        },
+        {
+          "formato": "Cuñas 1/12– 1/16",
+          "precio": "17,90 €/Kg"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "queso-tierno-puro-de-oveja-san-blas",
+      "nombre": "Queso Tierno Puro de Oveja San Blas",
+      "productor": "Quesos Artesanos Villarejo",
+      "seccion": "Quesos",
+      "categoria": "Queso",
+      "subcategoria": "Queso Tierno",
+      "region": "Villarejo de Fuentes, Cuenca",
+      "descripcion": "Leche pasteurizada. curacion: Tierno",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "3 Kg",
+          "precio": "12,90 €/Kg"
+        },
+        {
+          "formato": "1 Kg",
+          "precio": "12,90 €/Kg"
+        },
+        {
+          "formato": "Cuña 1/4– 1/8",
+          "precio": "13,40 €/Kg"
+        },
+        {
+          "formato": "Cuñas 1/12– 1/16",
+          "precio": "13,70 €/Kg"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "queso-semicurado-artesano-villarejo",
+      "nombre": "Queso Semicurado Artesano Villarejo",
+      "productor": "Quesos Artesanos Villarejo",
+      "seccion": "Quesos",
+      "categoria": "Queso",
+      "subcategoria": "Semicurado",
+      "region": "Villarejo de Fuentes, Cuenca",
+      "descripcion": "Leche cruda de oveja. curación: Mín. 60 días",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "3 Kg",
+          "precio": "16,00 €/Kg"
+        },
+        {
+          "formato": "Cuña 1/4– 1/8",
+          "precio": "16,60 €/Kg"
+        },
+        {
+          "formato": "Cuñas 1/12– 1/16",
+          "precio": "16,90 €/Kg"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "queso-curado-artesano-villarejo",
+      "nombre": "Queso Curado Artesano Villarejo",
+      "productor": "Quesos Artesanos Villarejo",
+      "seccion": "Quesos",
+      "categoria": "Queso",
+      "subcategoria": "Curado",
+      "region": "Villarejo de Fuentes, Cuenca",
+      "descripcion": "Leche cruda de oveja. curación: Mín. 6 meses Sin Lactosa",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "3 Kg",
+          "precio": "17,10 €/Kg"
+        },
+        {
+          "formato": "Cuña 1/4– 1/8",
+          "precio": "17,60 €/Kg"
+        },
+        {
+          "formato": "Cuñas 1/12– 1/16",
+          "precio": "17,90 €/Kg"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "queso-de-oveja-extra-a-ejo-24-meses",
+      "nombre": "Queso de Oveja Extra Añejo 24 Meses",
+      "productor": "Quesos Artesanos Villarejo",
+      "seccion": "Quesos",
+      "categoria": "Queso",
+      "subcategoria": "Extra Añejo",
+      "region": "Villarejo de Fuentes, Cuenca",
+      "descripcion": "Leche cruda de oveja. curación: Mín. 24 meses Sin Lactosa",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "3 Kg",
+          "precio": "21,60 €/Kg"
+        },
+        {
+          "formato": "Cuña 1/4– 1/8",
+          "precio": "22,10 €/Kg"
+        },
+        {
+          "formato": "Cuñas 1/12– 1/16",
+          "precio": "22,40 €/Kg"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "jam-n-de-bellota-100---ib-rico-dop-jabug",
+      "nombre": "Jamón de bellota 100 % ibérico DOP Jabugo",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Jamones y paletas",
+      "subcategoria": "Jamón de bellota 100 % ibérico",
+      "region": "Jabugo (Huelva)",
+      "descripcion": "Añada 2024 · Pieza entera · Certificado DOP Jabugo",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Pieza de 7-8 kg",
+          "precio": "40,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "jam-n-de-bellota-100---ib-rico-dop-jabug",
+      "nombre": "Jamón de bellota 100 % ibérico DOP Jabugo deshuesado",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Jamones y paletas",
+      "subcategoria": "Jamón de bellota 100 % ibérico",
+      "region": "Jabugo (Huelva)",
+      "descripcion": "Deshuesado · Certificado DOP Jabugo",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Pieza de 3-5 kg",
+          "precio": "84,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "jam-n-de-bellota-100---ib-rico-dop-jabug",
+      "nombre": "Jamón de bellota 100 % ibérico DOP Jabugo loncheado",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Jamones y paletas",
+      "subcategoria": "Jamón de bellota 100 % ibérico",
+      "region": "Jabugo (Huelva)",
+      "descripcion": "Loncheado a mano · Certificado DOP Jabugo",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Sobre de 100 g",
+          "precio": "11,80 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "jam-n-de-bellota-100---ib-rico-loncheado",
+      "nombre": "Jamón de bellota 100 % ibérico loncheado en atmósfera",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Jamones y paletas",
+      "subcategoria": "Jamón de bellota 100 % ibérico",
+      "region": "Huelva",
+      "descripcion": "Loncheado a mano · Envasado en atmósfera",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Sobre de 100 g",
+          "precio": "11,50 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "jam-n-de-bellota-100---ib-rico-loncheado",
+      "nombre": "Jamón de bellota 100 % ibérico loncheado",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Jamones y paletas",
+      "subcategoria": "Jamón de bellota 100 % ibérico",
+      "region": "Huelva",
+      "descripcion": "Loncheado a mano",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Sobre de 100 g",
+          "precio": "10,80 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "paleta-de-bellota-100---ib-rica-dop-jabu",
+      "nombre": "Paleta de bellota 100 % ibérica DOP Jabugo",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Jamones y paletas",
+      "subcategoria": "Paleta de bellota 100 % ibérica",
+      "region": "Jabugo (Huelva)",
+      "descripcion": "Añada 2024 · Pieza entera · Certificada DOP Jabugo",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Pieza de 4,5-6 kg",
+          "precio": "22,50 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "paleta-de-bellota-100---ib-rica-deshuesa",
+      "nombre": "Paleta de bellota 100 % ibérica deshuesada",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Jamones y paletas",
+      "subcategoria": "Paleta de bellota 100 % ibérica",
+      "region": "Huelva",
+      "descripcion": "Deshuesada",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Pieza de 1,9-2,3 kg",
+          "precio": "46,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "paleta-de-bellota-100---ib-rica-lonchead",
+      "nombre": "Paleta de bellota 100 % ibérica loncheada",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Jamones y paletas",
+      "subcategoria": "Paleta de bellota 100 % ibérica",
+      "region": "Huelva",
+      "descripcion": "Loncheada a mano",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Sobre de 100 g",
+          "precio": "8,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "jam-n-de-cebo-de-campo-50---ib-rico",
+      "nombre": "Jamón de cebo de campo 50 % ibérico",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Jamones y paletas",
+      "subcategoria": "Jamón de cebo de campo 50 % ibérico",
+      "region": "Huelva",
+      "descripcion": "Añada 2023 · Raza ibérica · Pedido mínimo: 3 jamones",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Pieza de 8-8,5 kg",
+          "precio": "21,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "jam-n-de-cebo-de-campo-50---ib-rico-desh",
+      "nombre": "Jamón de cebo de campo 50 % ibérico deshuesado",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Jamones y paletas",
+      "subcategoria": "Jamón de cebo de campo 50 % ibérico",
+      "region": "Huelva",
+      "descripcion": "Añada 2023 · Deshuesado y envasado al vacío",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Pieza de 4-4,5 kg",
+          "precio": "45,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "jam-n-de-cebo-de-campo-50---ib-rico-lonc",
+      "nombre": "Jamón de cebo de campo 50 % ibérico loncheado",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Jamones y paletas",
+      "subcategoria": "Jamón de cebo de campo 50 % ibérico",
+      "region": "Huelva",
+      "descripcion": "Loncheado a cuchillo · Emplatado redondo · Bolsa blanca",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Sobre de 100 g",
+          "precio": "6,40 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "paleta-de-cebo-de-campo-50---ib-rica",
+      "nombre": "Paleta de cebo de campo 50 % ibérica",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Jamones y paletas",
+      "subcategoria": "Paleta de cebo de campo 50 % ibérica",
+      "region": "Huelva",
+      "descripcion": "Añada 2023 · Raza ibérica · Pedido mínimo: 6 piezas",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Pieza de 5-5,5 kg",
+          "precio": "17,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "paleta-de-cebo-de-campo-50---ib-rica-des",
+      "nombre": "Paleta de cebo de campo 50 % ibérica deshuesada",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Jamones y paletas",
+      "subcategoria": "Paleta de cebo de campo 50 % ibérica",
+      "region": "Huelva",
+      "descripcion": "Añada 2023 · Deshuesada",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Pieza de 2,5-3,5 kg",
+          "precio": "36,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "paleta-de-cebo-de-campo-50---ib-rica-lon",
+      "nombre": "Paleta de cebo de campo 50 % ibérica loncheada",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Jamones y paletas",
+      "subcategoria": "Paleta de cebo de campo 50 % ibérica",
+      "region": "Huelva",
+      "descripcion": "Loncheada a máquina · Sobre negro",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Sobre de 85 g",
+          "precio": "6,20 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "jam-n-de-cebo-50---ib-rico",
+      "nombre": "Jamón de cebo 50 % ibérico",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Jamones y paletas",
+      "subcategoria": "Jamón de cebo 50 % ibérico",
+      "region": "Huelva",
+      "descripcion": "Añada 2023 · Brida blanca · Pedido mínimo: 3 jamones",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Pieza de 8-9 kg",
+          "precio": "19,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "jam-n-de-cebo-50---ib-rico-deshuesado",
+      "nombre": "Jamón de cebo 50 % ibérico deshuesado",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Jamones y paletas",
+      "subcategoria": "Jamón de cebo 50 % ibérico",
+      "region": "Huelva",
+      "descripcion": "Añada 2023 · Deshuesado · Brida blanca",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Pieza de 3-4 kg",
+          "precio": "40,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "jam-n-de-cebo-50---ib-rico-loncheado",
+      "nombre": "Jamón de cebo 50 % ibérico loncheado",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Jamones y paletas",
+      "subcategoria": "Jamón de cebo 50 % ibérico",
+      "region": "Huelva",
+      "descripcion": "Loncheado a máquina · Bolsa negra · Brida blanca",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Sobre de 85 g",
+          "precio": "5,60 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "paleta-de-cebo-50---ib-rica",
+      "nombre": "Paleta de cebo 50 % ibérica",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Jamones y paletas",
+      "subcategoria": "Paleta de cebo 50 % ibérica",
+      "region": "Huelva",
+      "descripcion": "Añada 2023 · Brida blanca · Pedido mínimo: 6 piezas",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Pieza de 5-6 kg",
+          "precio": "16,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "paleta-de-cebo-50---ib-rica-deshuesada",
+      "nombre": "Paleta de cebo 50 % ibérica deshuesada",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Jamones y paletas",
+      "subcategoria": "Paleta de cebo 50 % ibérica",
+      "region": "Huelva",
+      "descripcion": "Añada 2023 · Deshuesada · Brida blanca",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Pieza de 2-3 kg",
+          "precio": "34,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "paleta-de-cebo-50---ib-rica-loncheada",
+      "nombre": "Paleta de cebo 50 % ibérica loncheada",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Jamones y paletas",
+      "subcategoria": "Paleta de cebo 50 % ibérica",
+      "region": "Huelva",
+      "descripcion": "Añada 2023 · Loncheada a máquina · Brida blanca",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Sobre de 85 g",
+          "precio": "5,10 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "ca-a-de-lomo-de-bellota-100---ib-rica-co",
+      "nombre": "Caña de lomo de bellota 100 % ibérica con pimentón",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Embutidos ibéricos",
+      "subcategoria": "Lomo de bellota 100 % ibérico",
+      "region": "Huelva",
+      "descripcion": "Con pimentón · Brida negra",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Pieza de 1,1-1,4 kg aprox.",
+          "precio": "44,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "ca-a-de-lomo-de-bellota-100---ib-rica-si",
+      "nombre": "Caña de lomo de bellota 100 % ibérica sin pimentón",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Embutidos ibéricos",
+      "subcategoria": "Lomo de bellota 100 % ibérico",
+      "region": "Huelva",
+      "descripcion": "Pimienta negra y ajo · Envasada al vacío · Brida negra",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Pieza de 1-1,3 kg aprox.",
+          "precio": "44,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "ca-a-de-lomo-de-bellota-100---ib-rica-cl",
+      "nombre": "Caña de lomo de bellota 100 % ibérica clásica en aceite",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Embutidos ibéricos",
+      "subcategoria": "Lomo de bellota 100 % ibérico",
+      "region": "Huelva",
+      "descripcion": "Clásica · Conservada en aceite · Presentada en lata",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Lata con 2 unidades · 2,5 kg aprox.",
+          "precio": "63,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "lomito-de-bellota-ib-rico-de-presa",
+      "nombre": "Lomito de bellota ibérico de presa",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Embutidos ibéricos",
+      "subcategoria": "Lomito de bellota ibérico",
+      "region": "Huelva",
+      "descripcion": "Elaborado con presa · Envasado al vacío",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Pieza de 0,45-0,55 kg aprox.",
+          "precio": "49,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "ca-a-de-lomo-de-bellota-100---ib-rica-lo",
+      "nombre": "Caña de lomo de bellota 100 % ibérica loncheada",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Embutidos ibéricos",
+      "subcategoria": "Lomo de bellota 100 % ibérico",
+      "region": "Huelva",
+      "descripcion": "Clásica · Loncheada",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Sobre de 100 g",
+          "precio": "8,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "lomito-de-bellota-ib-rico-loncheado",
+      "nombre": "Lomito de bellota ibérico loncheado",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Embutidos ibéricos",
+      "subcategoria": "Lomito de bellota ibérico",
+      "region": "Huelva",
+      "descripcion": "Loncheado",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Sobre de 100 g",
+          "precio": "8,50 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "morc-n-de-bellota-ib-rico",
+      "nombre": "Morcón de bellota ibérico",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Embutidos ibéricos",
+      "subcategoria": "Morcón ibérico",
+      "region": "Huelva",
+      "descripcion": "Tacos cabeceros · Envasado al vacío",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Pieza de 0,8-1,2 kg",
+          "precio": "17,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "salchich-n-de-bellota-ib-rico",
+      "nombre": "Salchichón de bellota ibérico",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Embutidos ibéricos",
+      "subcategoria": "Salchichón ibérico",
+      "region": "Huelva",
+      "descripcion": "Media pieza · Envasado al vacío",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Pieza de 500 g",
+          "precio": "15,50 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "chorizo-de-bellota-ib-rico",
+      "nombre": "Chorizo de bellota ibérico",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Embutidos ibéricos",
+      "subcategoria": "Chorizo ibérico",
+      "region": "Huelva",
+      "descripcion": "Envasado al vacío",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Pieza de 400-500 g aprox.",
+          "precio": "15,50 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "morc-n-de-bellota-ib-rico-loncheado",
+      "nombre": "Morcón de bellota ibérico loncheado",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Embutidos ibéricos",
+      "subcategoria": "Morcón ibérico",
+      "region": "Huelva",
+      "descripcion": "Loncheado",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Sobre de 100 g",
+          "precio": "2,90 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "salchich-n-de-bellota-ib-rico-loncheado",
+      "nombre": "Salchichón de bellota ibérico loncheado",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Embutidos ibéricos",
+      "subcategoria": "Salchichón ibérico",
+      "region": "Huelva",
+      "descripcion": "Loncheado",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Sobre de 100 g",
+          "precio": "2,90 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "chorizo-de-bellota-ib-rico-loncheado",
+      "nombre": "Chorizo de bellota ibérico loncheado",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Embutidos ibéricos",
+      "subcategoria": "Chorizo ibérico",
+      "region": "Huelva",
+      "descripcion": "Loncheado",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Sobre de 100 g",
+          "precio": "2,90 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "morcilla-de-bellota-ib-rica-serrana",
+      "nombre": "Morcilla de bellota ibérica serrana",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Embutidos ibéricos",
+      "subcategoria": "Morcilla ibérica",
+      "region": "Huelva",
+      "descripcion": "Tipo vela",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Pieza de 0,4-0,5 kg",
+          "precio": "12,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "chorizo-de-bellota-ib-rico-de-1---jabugu",
+      "nombre": "Chorizo de bellota ibérico de 1.ª Jabuguito",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Embutidos ibéricos",
+      "subcategoria": "Chorizo ibérico",
+      "region": "Huelva",
+      "descripcion": "Calidad de 1.ª · Presentación Jabuguito",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Pack de 0,7 kg aprox.",
+          "precio": "15,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "panceta-loncheada",
+      "nombre": "Panceta loncheada",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Panceta y tocino",
+      "subcategoria": "Panceta curada",
+      "region": "Huelva",
+      "descripcion": "Loncheada",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Sobre de 100 g",
+          "precio": "2,10 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "taco-de-tocino-de-panceta-curado",
+      "nombre": "Taco de tocino de panceta curado",
+      "productor": "Jamones Eíriz",
+      "seccion": "Embutidos",
+      "categoria": "Panceta y tocino",
+      "subcategoria": "Tocino de panceta",
+      "region": "Huelva",
+      "descripcion": "Curado · En taco",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Venta por kg",
+          "precio": "7,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "queso-burgos-granja-puro-de-oveja",
+      "nombre": "Queso Burgos Granja puro de oveja",
+      "productor": "Jamones Eíriz",
+      "seccion": "Quesos",
+      "categoria": "Quesos de oveja",
+      "subcategoria": "Curado",
+      "region": "Burgos",
+      "descripcion": "Leche cruda de oveja · Curación de 12-14 meses · Envasado al vacío",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Cuarto de pieza",
+          "precio": "16,50 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "queso-casota-la-mancha-puro-de-oveja",
+      "nombre": "Queso Casota La Mancha puro de oveja",
+      "productor": "Jamones Eíriz",
+      "seccion": "Quesos",
+      "categoria": "Quesos de oveja",
+      "subcategoria": "Curado",
+      "region": "La Mancha",
+      "descripcion": "Leche cruda de oveja · Curación de 12-14 meses · Envasado al vacío",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Cuarto de pieza",
+          "precio": "15,50 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "queso-e-riz-zamora-puro-de-oveja",
+      "nombre": "Queso Eíriz Zamora puro de oveja",
+      "productor": "Jamones Eíriz",
+      "seccion": "Quesos",
+      "categoria": "Quesos de oveja",
+      "subcategoria": "Curado",
+      "region": "Zamora",
+      "descripcion": "Leche cruda de oveja · Curación de 16 meses · Envasado al vacío",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Cuarto de pieza",
+          "precio": "18,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "queso-dop-cabrales",
+      "nombre": "Queso DOP Cabrales",
+      "productor": "Jamones Eíriz",
+      "seccion": "Quesos",
+      "categoria": "Quesos azules",
+      "subcategoria": "Cabrales",
+      "region": "Cabrales (Asturias)",
+      "descripcion": "Queso azul · Denominación de Origen Protegida Cabrales",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Venta por kg",
+          "precio": "20,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "queso-de-cabra-sierra-de-huelva",
+      "nombre": "Queso de cabra Sierra de Huelva",
+      "productor": "Jamones Eíriz",
+      "seccion": "Quesos",
+      "categoria": "Quesos de cabra",
+      "subcategoria": "Curado",
+      "region": "Sierra de Huelva",
+      "descripcion": "Leche pasteurizada · Producto indicado como agotado en la tarifa",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Pieza de 600-800 g aprox.",
+          "precio": "15,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "queso-de-cabra-payoya-de-grazalema",
+      "nombre": "Queso de cabra Payoya de Grazalema",
+      "productor": "Jamones Eíriz",
+      "seccion": "Quesos",
+      "categoria": "Quesos de cabra",
+      "subcategoria": "Semicurado",
+      "region": "Grazalema (Cádiz)",
+      "descripcion": "Certificado · Semicurado",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Venta por kg",
+          "precio": "21,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "queso-de-cabra-payoya-y-oveja-curado-en-",
+      "nombre": "Queso de cabra Payoya y oveja curado en manteca",
+      "productor": "Jamones Eíriz",
+      "seccion": "Quesos",
+      "categoria": "Quesos de cabra",
+      "subcategoria": "Curado en manteca",
+      "region": "Grazalema (Cádiz)",
+      "descripcion": "Cabra Payoya certificada y oveja · Leche pasteurizada · Curado en manteca",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Venta por kg",
+          "precio": "23,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "flor-de-sal-natural",
+      "nombre": "Flor de sal natural",
+      "productor": "Jamones Eíriz",
+      "seccion": "Despensa",
+      "categoria": "Sales y condimentos",
+      "subcategoria": "Flor de sal",
+      "region": "Huelva",
+      "descripcion": "Flor de sal natural",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Bote grande",
+          "precio": "5,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "flor-de-sal-barbacoa",
+      "nombre": "Flor de sal barbacoa",
+      "productor": "Jamones Eíriz",
+      "seccion": "Despensa",
+      "categoria": "Sales y condimentos",
+      "subcategoria": "Flor de sal",
+      "region": "Huelva",
+      "descripcion": "Flor de sal aromatizada sabor barbacoa",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Bote",
+          "precio": "5,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "surtido-de-pat-s-ib-ricos",
+      "nombre": "Surtido de patés ibéricos",
+      "productor": "Jamones Eíriz",
+      "seccion": "Despensa",
+      "categoria": "Patés",
+      "subcategoria": "Paté ibérico",
+      "region": "Huelva",
+      "descripcion": "Sabores: clásico, PX, finas hierbas, pimienta blanca, jamón y lomo · Bolsa de regalo",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Pack de 6 latas de 80 g",
+          "precio": "6,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "boletus-edulis-en-aceite-de-oliva",
+      "nombre": "Boletus edulis en aceite de oliva",
+      "productor": "Jamones Eíriz",
+      "seccion": "Despensa",
+      "categoria": "Setas",
+      "subcategoria": "Boletus",
+      "region": "Huelva",
+      "descripcion": "Conservados en aceite de oliva · Peso escurrido: 150 g",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Tarro de 220 g netos",
+          "precio": "6,93 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "mix-de-setas",
+      "nombre": "Mix de setas",
+      "productor": "Jamones Eíriz",
+      "seccion": "Despensa",
+      "categoria": "Setas",
+      "subcategoria": "Mix de setas",
+      "region": "Huelva",
+      "descripcion": "Peso escurrido: 200 g",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Tarro de 350 g netos",
+          "precio": "3,80 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "rovellones-en-aceite-de-oliva",
+      "nombre": "Rovellones en aceite de oliva",
+      "productor": "Jamones Eíriz",
+      "seccion": "Despensa",
+      "categoria": "Setas",
+      "subcategoria": "Rovellones",
+      "region": "Huelva",
+      "descripcion": "Conservados en aceite de oliva · Peso escurrido: 200 g",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Tarro de 350 g netos",
+          "precio": "4,50 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "harina-de-setas",
+      "nombre": "Harina de setas",
+      "productor": "Jamones Eíriz",
+      "seccion": "Despensa",
+      "categoria": "Setas",
+      "subcategoria": "Harina de setas",
+      "region": "Huelva",
+      "descripcion": "Setas deshidratadas y molidas",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Bote de 70 g",
+          "precio": "7,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "almendras",
+      "nombre": "Almendras",
+      "productor": "Jamones Eíriz",
+      "seccion": "Despensa",
+      "categoria": "Frutos secos",
+      "subcategoria": "Almendras",
+      "region": "Huelva",
+      "descripcion": "Presentadas en tarrina de plástico",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Tarrina de 500 g",
+          "precio": "8,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "almendras-en-cristal",
+      "nombre": "Almendras en cristal",
+      "productor": "Jamones Eíriz",
+      "seccion": "Despensa",
+      "categoria": "Frutos secos",
+      "subcategoria": "Almendras",
+      "region": "Huelva",
+      "descripcion": "Presentadas en bote de cristal",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Bote de 115 g",
+          "precio": "5,00 €"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "butifarra-negra",
+      "nombre": "Butifarra negra",
+      "productor": "Carnicas Pozo Hondo",
+      "seccion": "Cárnicos",
+      "categoria": "Cárnicos",
+      "subcategoria": "Butifarras",
+      "region": "Albacete",
+      "descripcion": "Butifarra negra cocida elaborada de forma tradicional.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Kg",
+          "precio": "6,00"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🥩"
+    },
+    {
+      "id": "butifarra-blanca",
+      "nombre": "Butifarra blanca",
+      "productor": "Carnicas Pozo Hondo",
+      "seccion": "Cárnicos",
+      "categoria": "Cárnicos",
+      "subcategoria": "Butifarras",
+      "region": "Albacete",
+      "descripcion": "Butifarra blanca cocida elaborada de forma tradicional.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Kg",
+          "precio": "6,00"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🥩"
+    },
+    {
+      "id": "morcilla",
+      "nombre": "Morcilla",
+      "productor": "Carnicas Pozo Hondo",
+      "seccion": "Cárnicos",
+      "categoria": "Cárnicos",
+      "subcategoria": "Morcillas",
+      "region": "Albacete",
+      "descripcion": "Morcilla tradicional manchega.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Kg",
+          "precio": "5,95"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🥩"
+    },
+    {
+      "id": "morro-cocido",
+      "nombre": "Morro cocido",
+      "productor": "Carnicas Pozo Hondo",
+      "seccion": "Cárnicos",
+      "categoria": "Cárnicos",
+      "subcategoria": "Cerdo cocido",
+      "region": "Albacete",
+      "descripcion": "Morro de cerdo cocido listo para consumir o cocinar.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Kg",
+          "precio": "5,10"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🥩"
+    },
+    {
+      "id": "oreja-cocida",
+      "nombre": "Oreja cocida",
+      "productor": "Carnicas Pozo Hondo",
+      "seccion": "Cárnicos",
+      "categoria": "Cárnicos",
+      "subcategoria": "Cerdo cocido",
+      "region": "Albacete",
+      "descripcion": "Oreja de cerdo cocida.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Kg",
+          "precio": "6,10"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🥩"
+    },
+    {
+      "id": "oreja-cocida-adobada",
+      "nombre": "Oreja cocida adobada",
+      "productor": "Carnicas Pozo Hondo",
+      "seccion": "Cárnicos",
+      "categoria": "Cárnicos",
+      "subcategoria": "Cerdo cocido",
+      "region": "Albacete",
+      "descripcion": "Oreja de cerdo cocida y adobada.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Kg",
+          "precio": "6,10"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🥩"
+    },
+    {
+      "id": "rabo-cocido",
+      "nombre": "Rabo cocido",
+      "productor": "Carnicas Pozo Hondo",
+      "seccion": "Cárnicos",
+      "categoria": "Cárnicos",
+      "subcategoria": "Cerdo cocido",
+      "region": "Albacete",
+      "descripcion": "Rabo de cerdo cocido.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Kg",
+          "precio": "6,10"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🥩"
+    },
+    {
+      "id": "salchich-n-extra",
+      "nombre": "Salchichón extra",
+      "productor": "Carnicas Pozo Hondo",
+      "seccion": "embutidos",
+      "categoria": "embutidos",
+      "subcategoria": "embutidos",
+      "region": "Albacete",
+      "descripcion": "Salchichón extra curado.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Kg",
+          "precio": "7,50"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🥩"
+    },
+    {
+      "id": "salchich-n-cular",
+      "nombre": "Salchichón cular",
+      "productor": "Carnicas Pozo Hondo",
+      "seccion": "embutidos",
+      "categoria": "embutidos",
+      "subcategoria": "embutidos",
+      "region": "Albacete",
+      "descripcion": "Salchichón cular curado.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Kg",
+          "precio": "7,50"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🥩"
+    },
+    {
+      "id": "salchich-n-tradicional",
+      "nombre": "Salchichón tradicional",
+      "productor": "Carnicas Pozo Hondo",
+      "seccion": "embutidos",
+      "categoria": "embutidos",
+      "subcategoria": "embutidos",
+      "region": "Albacete",
+      "descripcion": "Salchichón tradicional curado.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Kg",
+          "precio": "7,50"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🥩"
+    },
+    {
+      "id": "chorizo-dulce",
+      "nombre": "Chorizo dulce",
+      "productor": "Carnicas Pozo Hondo",
+      "seccion": "embutidos",
+      "categoria": "embutidos",
+      "subcategoria": "embutidos",
+      "region": "Albacete",
+      "descripcion": "Chorizo curado de sabor dulce.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Kg",
+          "precio": "7,50"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🥩"
+    },
+    {
+      "id": "chorizo-picante",
+      "nombre": "Chorizo picante",
+      "productor": "Carnicas Pozo Hondo",
+      "seccion": "embutidos",
+      "categoria": "embutidos",
+      "subcategoria": "embutidos",
+      "region": "Albacete",
+      "descripcion": "Chorizo curado de sabor picante.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Kg",
+          "precio": "6,95"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🥩"
+    },
+    {
+      "id": "fuet",
+      "nombre": "Fuet",
+      "productor": "Carnicas Pozo Hondo",
+      "seccion": "embutidos",
+      "categoria": "embutidos",
+      "subcategoria": "embutidos",
+      "region": "Albacete",
+      "descripcion": "Fuet curado tradicional.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Kg",
+          "precio": "7,50"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🥩"
+    },
+    {
+      "id": "sobrasada",
+      "nombre": "Sobrasada",
+      "productor": "Carnicas Pozo Hondo",
+      "seccion": "embutidos",
+      "categoria": "embutidos",
+      "subcategoria": "embutidos",
+      "region": "Albacete",
+      "descripcion": "Sobrasada tradicional.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Kg",
+          "precio": "5,45"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🥩"
+    },
+    {
+      "id": "salchicha-fresca",
+      "nombre": "Salchicha fresca",
+      "productor": "Carnicas Pozo Hondo",
+      "seccion": "Cárnicos",
+      "categoria": "Cárnicos",
+      "subcategoria": "Salchichas",
+      "region": "Albacete",
+      "descripcion": "Salchicha fresca elaborada artesanalmente.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Kg",
+          "precio": "6,20"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🥩"
+    },
+    {
+      "id": "salchicha-fresca-fina",
+      "nombre": "Salchicha fresca fina",
+      "productor": "Carnicas Pozo Hondo",
+      "seccion": "Cárnicos",
+      "categoria": "Cárnicos",
+      "subcategoria": "Salchichas",
+      "region": "Albacete",
+      "descripcion": "Salchicha fresca de calibre fino.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Kg",
+          "precio": "6,15"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🥩"
+    },
+    {
+      "id": "chistorra-picante",
+      "nombre": "Chistorra picante",
+      "productor": "Carnicas Pozo Hondo",
+      "seccion": "Cárnicos",
+      "categoria": "Cárnicos",
+      "subcategoria": "Chistorras",
+      "region": "Albacete",
+      "descripcion": "Chistorra fresca de sabor picante.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Kg",
+          "precio": "6,15"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🥩"
+    },
+    {
+      "id": "longaniza-blanca",
+      "nombre": "Longaniza blanca",
+      "productor": "Carnicas Pozo Hondo",
+      "seccion": "Cárnicos",
+      "categoria": "Cárnicos",
+      "subcategoria": "Longanizas",
+      "region": "Albacete",
+      "descripcion": "Longaniza blanca fresca.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Kg",
+          "precio": "6,45"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🥩"
+    },
+    {
+      "id": "chorizo-fresco",
+      "nombre": "Chorizo fresco",
+      "productor": "Carnicas Pozo Hondo",
+      "seccion": "Cárnicos",
+      "categoria": "Cárnicos",
+      "subcategoria": "Chorizos frescos",
+      "region": "Albacete",
+      "descripcion": "Chorizo fresco tradicional.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Kg",
+          "precio": "6,20"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🥩"
+    },
+    {
+      "id": "chorizo-fresco-picante",
+      "nombre": "Chorizo fresco picante",
+      "productor": "Carnicas Pozo Hondo",
+      "seccion": "Cárnicos",
+      "categoria": "Cárnicos",
+      "subcategoria": "Chorizos frescos",
+      "region": "Albacete",
+      "descripcion": "Chorizo fresco de sabor picante.",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "Kg",
+          "precio": "6,50"
+        }
+      ],
+      "imagen": "",
+      "emoji": "🥩"
+    }
+  ]
+}
