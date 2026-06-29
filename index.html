@@ -621,6 +621,9 @@ footer{background:var(--navy);padding:48px 0 24px;border-top:1px solid rgba(201,
       <div class="s-eye">Catálogo</div>
       <h2 class="s-title">Explora el catálogo <span style="font-style:normal;color:#C9874A">MANYAR.</span></h2>
       <p class="s-sub">Producto con denominación de origen, proceso artesanal y productor identificado detrás de cada referencia.</p>
+      <div style="margin-top:20px">
+        <a href="catalogo.html" class="btn btn-black btn-lg" style="display:inline-flex;align-items:center;gap:8px;text-decoration:none">Ver catálogo completo → <span style="font-size:11px;opacity:.6;font-weight:400">160 referencias</span></a>
+      </div>
     </div>
   </div>
 
@@ -650,6 +653,20 @@ footer{background:var(--navy);padding:48px 0 24px;border-top:1px solid rgba(201,
   .cat-modal-cta{margin-top:24px;text-align:center;padding-top:20px;border-top:1px solid rgba(13,27,42,.08)}
   @media(max-width:640px){.cat-modal{padding:24px 16px;border-radius:16px}.cmi{padding:12px}}
   </style>
+<style>
+  /* ═══ PRODUCER CARDS (index.html escaparate) ═══ */
+  .pr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;margin-top:32px}
+  .pr-card{background:var(--white);border-radius:14px;border:1px solid var(--border);overflow:hidden;cursor:pointer;transition:transform .2s,box-shadow .2s;text-decoration:none;display:block}
+  .pr-card:hover{transform:translateY(-3px);box-shadow:var(--sh-md)}
+  .pr-card-img{height:160px;overflow:hidden;background:var(--bg);display:flex;align-items:center;justify-content:center;font-size:48px}
+  .pr-card-img img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+  .pr-card:hover .pr-card-img img{transform:scale(1.05)}
+  .pr-card-body{padding:14px}
+  .pr-card-cat{font-size:10px;font-weight:700;color:var(--terra);text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px}
+  .pr-card-name{font-family:'Playfair Display',serif;font-size:15px;font-weight:600;color:var(--navy);margin-bottom:4px;line-height:1.3}
+  .pr-card-region{font-size:11px;color:var(--muted)}
+  .pr-card-cta{margin-top:10px;font-size:11px;font-weight:700;color:var(--terra)}
+</style>
 
   <div class="cat-scroll fi in" id="catScroll">
     <div class="cat-row">
@@ -684,8 +701,9 @@ footer{background:var(--navy);padding:48px 0 24px;border-top:1px solid rgba(201,
       </div>
       <div class="cat-modal-count" id="catModalCount"></div>
       <div class="cat-modal-grid" id="catModalGrid"></div>
-      <div class="cat-modal-cta">
-        <button class="btn btn-black" onclick="closeCat();goC('comprador')">Solicitar precios B2B →</button>
+      <div class="cat-modal-cta" style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+        <a href="catalogo.html" class="btn btn-black" style="text-decoration:none" onclick="closeCat()">Ver catálogo completo →</a>
+        <button class="btn btn-outline" onclick="closeCat();goC('comprador')">Solicitar acceso B2B</button>
       </div>
     </div>
   </div>
@@ -694,1039 +712,123 @@ footer{background:var(--navy);padding:48px 0 24px;border-top:1px solid rgba(201,
 <!-- ═══ PRODUCTORES — CATÁLOGO DETALLADO ═══ -->
 <section class="prod-sec" id="productores">
   <div class="wrap">
-    <div class="fi in" style="margin-bottom:48px">
+    <div class="fi in" style="margin-bottom:32px">
       <div class="s-eye">Productores activos</div>
       <h2 class="s-title">Productores verificados <em>en la beta.</em></h2>
-      <p class="s-sub">Estos productores están activos ahora mismo. Solicita muestra antes de hacer tu primer pedido.</p>
-    </div>
-
-    
-    <div class="fi in">
-      <div class="prod-sup-hdr">
-        <div class="prod-sup-name">
-          <h3>Sinobas</h3>
-          <div class="prod-sup-meta">Conservas artesanales · Santoña, Cantabria</div>
-          <div class="prod-sup-badges">
-            <span class="psb psb-verified">✓ Verificado por MANYAR</span>
-            <span class="psb psb-origin">🇪🇸 España</span>
-            <span class="psb psb-origin">Productor artesanal</span>
+      <p class="s-sub">Estos productores están activos ahora mismo. Pincha en un productor para ver su ficha y todos sus productos.</p>
+      <!-- PRODUCER CARDS GRID -->
+      <div class="pr-grid">
+        <a href="catalogo.html" class="pr-card">
+          <div class="pr-card-img"><img src="img_anchoas.jpg" alt="Sinobas" onerror="this.parentElement.innerHTML='🐟'"></div>
+          <div class="pr-card-body">
+            <div class="pr-card-cat">Conservas · Marisco</div>
+            <div class="pr-card-name">Sinobas</div>
+            <div class="pr-card-region">📍 Santoña, Cantabria</div>
+            <div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--border)">
+              <div style="font-size:11px;color:var(--muted);margin-bottom:2px">Anchoas del Cantábrico</div>
+              <div style="font-size:14px;font-weight:700;color:var(--navy)">Desde 3,00 € <span style="font-size:10px;font-weight:400;color:var(--muted)">sin IVA</span></div>
+            </div>
+            <div class="pr-card-cta" style="margin-top:8px">Ver catálogo →</div>
           </div>
-        </div>
-        <div class="prod-sup-right">
-          <span class="prod-badge-active">● Activo</span>
-        </div>
+        </a>
+        <a href="catalogo.html" class="pr-card">
+          <div class="pr-card-img"><img src="forberry_gildamatrimonio.png" alt="Forberry" onerror="this.parentElement.innerHTML='🫒'"></div>
+          <div class="pr-card-body">
+            <div class="pr-card-cat">Gildas · Aperitivos</div>
+            <div class="pr-card-name">Forberry</div>
+            <div class="pr-card-region">📍 Cantabria</div>
+            <div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--border)">
+              <div style="font-size:11px;color:var(--muted);margin-bottom:2px">Gilda Anchoa</div>
+              <div style="font-size:14px;font-weight:700;color:var(--navy)">Desde 5,00 € <span style="font-size:10px;font-weight:400;color:var(--muted)">sin IVA</span></div>
+            </div>
+            <div class="pr-card-cta" style="margin-top:8px">Ver catálogo →</div>
+          </div>
+        </a>
+        <a href="catalogo.html" class="pr-card">
+          <div class="pr-card-img"><img src="tasugueras_Briniro.png" alt="Tasugueras" onerror="this.parentElement.innerHTML='🧀'"></div>
+          <div class="pr-card-body">
+            <div class="pr-card-cat">Quesos artesanos</div>
+            <div class="pr-card-name">Quesería Tasugueras</div>
+            <div class="pr-card-region">📍 Santander, Cantabria</div>
+            <div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--border)">
+              <div style="font-size:11px;color:var(--muted);margin-bottom:2px">Briniro</div>
+              <div style="font-size:14px;font-weight:700;color:var(--navy)">Desde 14,00 € <span style="font-size:10px;font-weight:400;color:var(--muted)">sin IVA</span></div>
+            </div>
+            <div class="pr-card-cta" style="margin-top:8px">Ver catálogo →</div>
+          </div>
+        </a>
+        <a href="catalogo.html" class="pr-card">
+          <div class="pr-card-img"><img src="laprovivencia1888_quesoazul.jpeg" alt="La Providencia" onerror="this.parentElement.innerHTML='🧀'"></div>
+          <div class="pr-card-body">
+            <div class="pr-card-cat">Quesos azules</div>
+            <div class="pr-card-name">La Providencia 1888</div>
+            <div class="pr-card-region">📍 Picos de Europa</div>
+            <div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--border)">
+              <div style="font-size:11px;color:var(--muted);margin-bottom:2px">Queso Azul Curado</div>
+              <div style="font-size:14px;font-weight:700;color:var(--navy)">Desde 40,00 €/kg <span style="font-size:10px;font-weight:400;color:var(--muted)">sin IVA</span></div>
+            </div>
+            <div class="pr-card-cta" style="margin-top:8px">Ver catálogo →</div>
+          </div>
+        </a>
+        <a href="catalogo.html" class="pr-card">
+          <div class="pr-card-img"><img src="TRINOS.jpg" alt="Bodega Cristo" onerror="this.parentElement.innerHTML='🍷'"></div>
+          <div class="pr-card-body">
+            <div class="pr-card-cat">Vinos · Vermut</div>
+            <div class="pr-card-name">Bodega Cristo del Humilladero</div>
+            <div class="pr-card-region">📍 Cadalso de los Vidrios</div>
+            <div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--border)">
+              <div style="font-size:11px;color:var(--muted);margin-bottom:2px">Trinos · Merlot</div>
+              <div style="font-size:14px;font-weight:700;color:var(--navy)">Desde 5,00 € <span style="font-size:10px;font-weight:400;color:var(--muted)">sin IVA</span></div>
+            </div>
+            <div class="pr-card-cta" style="margin-top:8px">Ver catálogo →</div>
+          </div>
+        </a>
+        <a href="catalogo.html" class="pr-card">
+          <div class="pr-card-img"><img src="carnedecentollo_lamardetazones.png" alt="La Mar de Tazones" onerror="this.parentElement.innerHTML='🦞'"></div>
+          <div class="pr-card-body">
+            <div class="pr-card-cat">Marisco premium</div>
+            <div class="pr-card-name">La Mar de Tazones</div>
+            <div class="pr-card-region">📍 Tazones, Asturias</div>
+            <div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--border)">
+              <div style="font-size:11px;color:var(--muted);margin-bottom:2px">Carne de Centollo</div>
+              <div style="font-size:14px;font-weight:700;color:var(--navy)">Desde 8,10 € <span style="font-size:10px;font-weight:400;color:var(--muted)">sin IVA</span></div>
+            </div>
+            <div class="pr-card-cta" style="margin-top:8px">Ver catálogo →</div>
+          </div>
+        </a>
+        <a href="catalogo.html" class="pr-card">
+          <div class="pr-card-img"><img src="almacantarofrutadoverde_500ml.png" alt="Alma de Cántaro" onerror="this.parentElement.innerHTML='🫙'"></div>
+          <div class="pr-card-body">
+            <div class="pr-card-cat">Aceites · AOVE</div>
+            <div class="pr-card-name">Alma de Cántaro</div>
+            <div class="pr-card-region">📍 Bujalance, Córdoba</div>
+            <div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--border)">
+              <div style="font-size:11px;color:var(--muted);margin-bottom:2px">Frutado Verde BIO</div>
+              <div style="font-size:14px;font-weight:700;color:var(--navy)">Desde 10,95 € <span style="font-size:10px;font-weight:400;color:var(--muted)">sin IVA</span></div>
+            </div>
+            <div class="pr-card-cta" style="margin-top:8px">Ver catálogo →</div>
+          </div>
+        </a>
+        <a href="catalogo.html" class="pr-card">
+          <div class="pr-card-img"><img src="ginebra-picos-cabariezo.jpg" alt="Picos de Cabariezo" onerror="this.parentElement.innerHTML='🥃'"></div>
+          <div class="pr-card-body">
+            <div class="pr-card-cat">Vinos · Destilados</div>
+            <div class="pr-card-name">Picos de Cabariezo</div>
+            <div class="pr-card-region">📍 Liébana, Cantabria</div>
+            <div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--border)">
+              <div style="font-size:11px;color:var(--muted);margin-bottom:2px">Gin As de Picos</div>
+              <div style="font-size:14px;font-weight:700;color:var(--navy)">Desde 15,41 € <span style="font-size:10px;font-weight:400;color:var(--muted)">sin IVA</span></div>
+            </div>
+            <div class="pr-card-cta" style="margin-top:8px">Ver catálogo →</div>
+          </div>
+        </a>
       </div>
-      <div class="prod-grid">
-        <div class="prod-item">
-          <img class="prod-img" src="img_anchoas.jpg" alt="Anchoas del Cantábrico" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Anchoas del Cantábrico</div>
-            <div class="prod-desc">Costera de primavera · Elaboración manual · Aceite de oliva</div>
-            <div class="prod-tags"><span class="prod-tag">Octavillo 50g</span><span class="prod-tag">Tarro 100g</span><span class="prod-tag">Tarro 210g</span><span class="prod-tag">Tarro 360g</span><span class="prod-tag">Serie limitada</span><span class="prod-tag">Artesanal</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="3,00 €">3,00 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="unlockPrices(this)">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="img_boquerones.jpg" alt="Boquerones en vinagre" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Boquerones en vinagre</div>
-            <div class="prod-desc">Cantábrico · Vinagre artesanal · Selección manual</div>
-            <div class="prod-tags"><span class="prod-tag">Tarro 160g</span><span class="prod-tag">Hansen 14/16</span><span class="prod-tag">Artesanal</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="4,50 €">4,50 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="unlockPrices(this)">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="img_bonito.jpg" alt="Bonito del Norte" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Bonito del Norte</div>
-            <div class="prod-desc">Cantábrico · En aceite de oliva · Elaboración artesanal</div>
-            <div class="prod-tags"><span class="prod-tag">Tarro 250g</span><span class="prod-tag">Tarro 450g</span><span class="prod-tag">Artesanal</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="4,30 €">4,30 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="unlockPrices(this)">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="forberry_gildaanchoa.png" alt="Gildas de anchoa" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Gildas de anchoa</div>
-            <div class="prod-desc">Piparra · Anchoa del Cantábrico · Aceituna</div>
-            <div class="prod-tags"><span class="prod-tag">Unidad</span><span class="prod-tag">Bandeja</span><span class="prod-tag">Aperitivo</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="1,00 €">1,00 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="unlockPrices(this)">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="Pastel_de_Cabracho__Receta_Ideal_para_Preparar_en_Fiestas.jpeg" alt="Pudín de cabracho" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Pudín de cabracho</div>
-            <div class="prod-desc">Cantábrico · Receta tradicional · Formato individual</div>
-            <div class="prod-tags"><span class="prod-tag">110g</span><span class="prod-tag">Conserva</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="1,30 €">1,30 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="unlockPrices(this)">🔒 Ver precios</button></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    
-    <div class="fi prod-divider in">
-      <div class="prod-sup-hdr">
-        <div class="prod-sup-name">
-          <h3>Forberry</h3>
-          <div class="prod-sup-meta">Gildas artesanales premium · Cantabria · Agricultura ecológica</div>
-          <div class="prod-sup-badges">
-            <span class="psb psb-verified">✓ Verificado por MANYAR</span>
-            <span class="psb psb-origin">🇪🇸 España</span>
-            <span class="psb psb-origin">Productor artesanal</span>
-            <span class="psb psb-origin">🌿 Ecológico</span>
-          </div>
-        </div>
-        <div class="prod-sup-right">
-          <span class="prod-badge-active">● Activo</span>
-        </div>
-      </div>
-      <div class="prod-grid">
-        <div class="prod-item">
-          <img class="prod-img" src="forberry_gildaanchoa.png" alt="Gilda Anchoa" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Gilda Anchoa</div>
-            <div class="prod-desc">2 aceitunas · 2 piparras · 1 anchoa</div>
-            <div class="prod-tags"><span class="prod-tag">Bolsa 5 uds</span><span class="prod-tag">Tarro 12 uds</span><span class="prod-tag">Tarro 24 uds</span><span class="prod-tag">Tarro 55 uds</span><span class="prod-tag">Gilda</span><span class="prod-tag">Aperitivo</span><span class="prod-tag">Artesanal</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="5,00 €">5,00 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="unlockPrices(this)">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="forberry_gildadobleanchoa.png" alt="Gilda Doble Anchoa" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Gilda Doble Anchoa</div>
-            <div class="prod-desc">2 aceitunas · 3 piparras · 2 anchoas</div>
-            <div class="prod-tags"><span class="prod-tag">Bolsa 5 uds</span><span class="prod-tag">Tarro 20 uds</span><span class="prod-tag">Tarro 50 uds</span><span class="prod-tag">Gilda</span><span class="prod-tag">Aperitivo</span><span class="prod-tag">Artesanal</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="7,50 €">7,50 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="unlockPrices(this)">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="forberry_gildadobleboqueron.png" alt="Gilda Doble Boquerón" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Gilda Doble Boquerón</div>
-            <div class="prod-desc">2 aceitunas · 3 piparras · 2 boquerones</div>
-            <div class="prod-tags"><span class="prod-tag">Bolsa 5 uds</span><span class="prod-tag">Tarro 20 uds</span><span class="prod-tag">Tarro 50 uds</span><span class="prod-tag">Gilda</span><span class="prod-tag">Aperitivo</span><span class="prod-tag">Artesanal</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="7,50 €">7,50 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="unlockPrices(this)">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="forberry_gildabanderilla.png" alt="Banderilla" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Banderilla</div>
-            <div class="prod-desc">1 aceituna · 2 piparras · anchoa · pepinillo · cebolleta</div>
-            <div class="prod-tags"><span class="prod-tag">Bolsa 5 uds</span><span class="prod-tag">Tarro 12 uds</span><span class="prod-tag">Tarro 24 uds</span><span class="prod-tag">Tarro 55 uds</span><span class="prod-tag">Gilda</span><span class="prod-tag">Aperitivo</span><span class="prod-tag">Artesanal</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="5,00 €">5,00 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="unlockPrices(this)">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="forberry_gildamatrimonio.png" alt="Matrimonio" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Matrimonio</div>
-            <div class="prod-desc">2 aceitunas · 1 piparra · 1 anchoa · 1 boquerón</div>
-            <div class="prod-tags"><span class="prod-tag">Bolsa 5 uds</span><span class="prod-tag">Tarro 12 uds</span><span class="prod-tag">Tarro 24 uds</span><span class="prod-tag">Tarro 55 uds</span><span class="prod-tag">Gilda</span><span class="prod-tag">Aperitivo</span><span class="prod-tag">Artesanal</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="5,00 €">5,00 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="unlockPrices(this)">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="forberry_gildajamon.png" alt="Gilda Jamón" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Gilda Jamón</div>
-            <div class="prod-desc">2 aceitunas · 2 quesos · jamón</div>
-            <div class="prod-tags"><span class="prod-tag">Bolsa 5 uds</span><span class="prod-tag">Tarro 12 uds</span><span class="prod-tag">Tarro 24 uds</span><span class="prod-tag">Tarro 55 uds</span><span class="prod-tag">Gilda</span><span class="prod-tag">Aperitivo</span><span class="prod-tag">Artesanal</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="5,00 €">5,00 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="unlockPrices(this)">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="forberry_gildalomo.png" alt="Gilda Lomo" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Gilda Lomo</div>
-            <div class="prod-desc">2 aceitunas · 2 quesos · lomo</div>
-            <div class="prod-tags"><span class="prod-tag">Bolsa 5 uds</span><span class="prod-tag">Tarro 12 uds</span><span class="prod-tag">Tarro 24 uds</span><span class="prod-tag">Tarro 55 uds</span><span class="prod-tag">Gilda</span><span class="prod-tag">Aperitivo</span><span class="prod-tag">Artesanal</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="5,00 €">5,00 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="unlockPrices(this)">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="forberry_gildacecina.png" alt="Gilda Cecina" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Gilda Cecina</div>
-            <div class="prod-desc">2 aceitunas · 2 quesos · cecina</div>
-            <div class="prod-tags"><span class="prod-tag">Bolsa 5 uds</span><span class="prod-tag">Tarro 12 uds</span><span class="prod-tag">Tarro 24 uds</span><span class="prod-tag">Tarro 55 uds</span><span class="prod-tag">Gilda</span><span class="prod-tag">Aperitivo</span><span class="prod-tag">Artesanal</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="5,00 €">5,00 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="unlockPrices(this)">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="forberry_gildapulpo.png" alt="Pulpo Especial" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Pulpo Especial</div>
-            <div class="prod-desc">1 aceituna · 2 piparras · 1 anchoa · pulpo</div>
-            <div class="prod-tags"><span class="prod-tag">Bolsa 5 uds</span><span class="prod-tag">Tarro 20 uds</span><span class="prod-tag">Tarro 50 uds</span><span class="prod-tag">Gilda</span><span class="prod-tag">Aperitivo</span><span class="prod-tag">Artesanal</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="7,50 €">7,50 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="unlockPrices(this)">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="forberry_gildamar.png" alt="Gilda Del Mar" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Gilda Del Mar</div>
-            <div class="prod-desc">1 aceituna · 2 piparras · pulpo · langostino · huevo</div>
-            <div class="prod-tags"><span class="prod-tag">Bolsa 5 uds</span><span class="prod-tag">Tarro 15 uds</span><span class="prod-tag">Tarro 40 uds</span><span class="prod-tag">Gilda</span><span class="prod-tag">Aperitivo</span><span class="prod-tag">Artesanal</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="10,00 €">10,00 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="unlockPrices(this)">🔒 Ver precios</button></div>
-          </div>
-        </div>
-      </div>
-      <div style="margin-top:12px;padding:10px 16px;background:var(--bg);border:1px solid var(--border);border-radius:10px;font-size:12px;color:var(--muted)">
-        Precios B2B exactos y condiciones de pedido mínimo disponibles tras registro como comprador profesional. <button onclick="goC('comprador')" style="background:none;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;font-size:12px;color:var(--terra);font-weight:600;padding:0">Acceder al catálogo →</button>
-      </div>
-    </div>
-
-    
-    <div class="fi prod-divider in">
-      <div class="prod-sup-hdr">
-        <div class="prod-sup-name">
-          <h3>Quesería Tasugueras</h3>
-          <div class="prod-sup-meta">Quesos artesanos y raclette · Santander, Cantabria</div>
-          <div class="prod-sup-badges">
-            <span class="psb psb-origin">🇪🇸 España</span>
-            <span class="psb psb-origin">Productor artesanal</span>
-            <span class="psb psb-origin">📍 Santander</span>
-          </div>
-        </div>
-        <div class="prod-sup-right">
-          <span class="prod-badge-active">● Activo</span>
-        </div>
-      </div>
-      <div class="prod-grid">
-        <div class="prod-item">
-          <img class="prod-img" src="tasugueras_Briniro.png" alt="Briniro" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Briniro</div>
-            <div class="prod-desc">Queso artesanal pasiego ideal para cocinar a la plancha. Elaborado con leche de vaca de Cantabria.Se elaboran bajo pedido y se envían en menos de 7 días.</div>
-            <div class="prod-tags"><span class="prod-tag">Bloque aprox. 1 kg</span><span class="prod-tag">Queso artesanal</span><span class="prod-tag">Pasiego</span><span class="prod-tag">Plancha</span><span class="prod-tag">Bajo pedido</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format" style="color:var(--terra)">Disponible</div>
-            <div class="prod-price price-locked" data-price="Precio B2B">Precio B2B</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="tasugueras_requeson.png" alt="Requesón" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Requesón</div>
-            <div class="prod-desc">Requesón artesanal fresco. Combina con dulce o salado. Ideal para tostadas, pasta y pizzas. Tarrinas limitadas.Requesón con caducidad de 30 días desde fabricación. Se elaboran bajo pedido y se envían en menos de 7 días.  máximo 10 tarrinas por envío.</div>
-            <div class="prod-tags"><span class="prod-tag">Tarrina aprox. 500 g</span><span class="prod-tag">Requesón</span><span class="prod-tag">Fresco</span><span class="prod-tag">Artesanal</span><span class="prod-tag">Bajo pedido</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format" style="color:var(--terra)">Disponible</div>
-            <div class="prod-price price-locked" data-price="Precio B2B">Precio B2B</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="tasugueras_gp58.png" alt="G.P. 58" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">G.P. 58</div>
-            <div class="prod-desc">Queso madurado prensado 58 kg. Edición limitada elaborada en honor a Generoso Pérez.</div>
-            <div class="prod-tags"><span class="prod-tag">Pieza aprox. 12 kg</span><span class="prod-tag">Cuña</span><span class="prod-tag">Queso curado</span><span class="prod-tag">Edición limitada</span><span class="prod-tag">Gourmet</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format" style="color:var(--terra)">Disponible</div>
-            <div class="prod-price price-locked" data-price="Precio B2B">Precio B2B</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="tasugueras_mercedes.png" alt="Sra. Mercedes" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Sra. Mercedes</div>
-            <div class="prod-desc">Queso artesanal de larga maduración dedicado a Mercedes, figura histórica de la quesería.</div>
-            <div class="prod-tags"><span class="prod-tag">Pieza aprox. 12 kg</span><span class="prod-tag">Cuña</span><span class="prod-tag">Queso madurado</span><span class="prod-tag">Gourmet</span><span class="prod-tag">Tradicional</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format" style="color:var(--terra)">Disponible</div>
-            <div class="prod-price price-locked" data-price="Precio B2B">Precio B2B</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    
-    <div class="fi prod-divider in">
-      <div class="prod-sup-hdr">
-        <div class="prod-sup-name">
-          <h3>La Providencia 1888</h3>
-          <div class="prod-sup-meta">Queso azul curado en cueva · Picos de Europa</div>
-          <div class="prod-sup-badges">
-            <span class="psb psb-origin">🇪🇸 España</span>
-            <span class="psb psb-origin">Productor artesanal</span>
-            <span class="psb psb-origin">🏔️ Picos de Europa</span>
-          </div>
-        </div>
-        <div class="prod-sup-right">
-          <span class="prod-badge-active">● Activo</span>
-        </div>
-      </div>
-      <div class="prod-grid">
-        <div class="prod-item">
-          <img class="prod-img" src="provdencia_queso.jpeg" alt="Queso Azul Curado" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Queso Azul Curado</div>
-            <div class="prod-desc">Queso azul artesanal madurado durante 8 meses en cuevas naturales de los Picos de Europa a 1.700 metros de altitud. Textura cremosa, sabor intenso y notas minerales propias de su afinado en alta montaña.</div>
-            <div class="prod-tags"><span class="prod-tag">Pieza entera</span><span class="prod-tag">Cuña</span><span class="prod-tag">Queso azul</span><span class="prod-tag">Curado 8 meses</span><span class="prod-tag">Cueva natural</span><span class="prod-tag">Gourmet</span><span class="prod-tag">Artesanal</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format" style="color:var(--terra)">Disponible</div>
-            <div class="prod-price price-locked" data-price="Precio B2B">Precio B2B</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <!-- INICIO: productor-bodega-cristo -->
-    <div class="fi prod-divider in">
-      <div class="prod-sup-hdr">
-        <div class="prod-sup-name">
-          <h3>Bodega Cristo del Humilladero</h3>
-          <div class="prod-sup-meta">Vinos artesanales · Cadalso de los Vidrios, Madrid · Sierra de Gredos</div>
-          <div class="prod-sup-badges">
-            <span class="psb psb-verified">✓ Verificado por MANYAR</span>
-            <span class="psb psb-origin">🇪🇸 España</span>
-            <span class="psb psb-origin">🍷 Proyecto 57</span>
-          </div>
-        </div>
-        <div class="prod-sup-right"><span class="prod-badge-active">● Activo</span></div>
-      </div>
-      <div class="prod-grid">
-        <div class="prod-item">
-          <img class="prod-img" src="TRINOS.jpg" alt="Trinos" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Trinos</div>
-            <div class="prod-desc">Tinto Merlot de Cadalso de los Vidrios. Perfil afrutado y fácil consumo.</div>
-            <div class="prod-tags"><span class="prod-tag">Botella 75 cl</span><span class="prod-tag">Merlot</span><span class="prod-tag">Proyecto 57</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="5,00 €">5,00 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="NIGROMANTE_1.jpg" alt="Nigromante" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Nigromante</div>
-            <div class="prod-desc">Garnacha tinta de la Sierra de Gredos. Producción artesanal con imagen artística distintiva.</div>
-            <div class="prod-tags"><span class="prod-tag">Botella 75 cl</span><span class="prod-tag">Garnacha</span><span class="prod-tag">Sierra de Gredos</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="5,63 €">5,63 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="LADRON_DE_SUEN_OS.jpg" alt="Ladrón de Sueños" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Ladrón de Sueños</div>
-            <div class="prod-desc">Garnacha tinta de viñedos de altura. Perfil fresco y mineral de Gredos.</div>
-            <div class="prod-tags"><span class="prod-tag">Botella 75 cl</span><span class="prod-tag">Garnacha</span><span class="prod-tag">Viñedo de Altura</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="6,44 €">6,44 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="EL_SOPLON_DE_VIDRIO.jpg" alt="El Soplón de Vidrio" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">El Soplón de Vidrio</div>
-            <div class="prod-desc">Tinto elaborado en Cadalso de los Vidrios con enfoque en fruta y frescura.</div>
-            <div class="prod-tags"><span class="prod-tag">Botella 75 cl</span><span class="prod-tag">Tinto</span><span class="prod-tag">Proyecto 57</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="5,19 €">5,19 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="ANTROPOMORFO.jpg" alt="Antropomorfo" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Antropomorfo</div>
-            <div class="prod-desc">Vino tinto de autor de producción limitada con etiqueta artística.</div>
-            <div class="prod-tags"><span class="prod-tag">Botella 75 cl</span><span class="prod-tag">Autor</span><span class="prod-tag">Limitado</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="5,63 €">5,63 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="CADALFARUM_1.jpg" alt="Cadalfarum" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Cadalfarum</div>
-            <div class="prod-desc">Garnacha Tinta y Tempranillo. Ensamblaje tradicional de la bodega.</div>
-            <div class="prod-tags"><span class="prod-tag">Botella 75 cl</span><span class="prod-tag">Garnacha</span><span class="prod-tag">Tempranillo</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="4,38 €">4,38 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="AZOGUE_1.jpg" alt="Azogue" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Azogue</div>
-            <div class="prod-desc">Syrah · Garnacha · Tempranillo. Coupage moderno de perfil afrutado.</div>
-            <div class="prod-tags"><span class="prod-tag">Botella 75 cl</span><span class="prod-tag">Syrah</span><span class="prod-tag">Garnacha</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="5,63 €">5,63 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="JOYUELO.jpg" alt="Joyuelo" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Joyuelo</div>
-            <div class="prod-desc">Albillo Real. Vino blanco representativo de la Sierra de Gredos.</div>
-            <div class="prod-tags"><span class="prod-tag">Botella 75 cl</span><span class="prod-tag">Albillo Real</span><span class="prod-tag">Blanco</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="5,63 €">5,63 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="PLENILUNIO.jpg" alt="Plenilunio" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Plenilunio</div>
-            <div class="prod-desc">Vino de autor elaborado por la bodega dentro de la gama Proyecto 57.</div>
-            <div class="prod-tags"><span class="prod-tag">Botella 75 cl</span><span class="prod-tag">Autor</span><span class="prod-tag">Proyecto 57</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="5,63 €">5,63 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="IMG-20260319-WA0028.jpg" alt="Vermut P57" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Vermut P57</div>
-            <div class="prod-desc">Vermut artesanal elaborado por la bodega.</div>
-            <div class="prod-tags"><span class="prod-tag">Botella 75 cl</span><span class="prod-tag">Vermut</span><span class="prod-tag">Artesanal</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="9,50 €">9,50 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- FIN: productor-bodega-cristo -->
-
-    <!-- INICIO: productor-lamar-tazones -->
-    <div class="fi prod-divider in">
-      <div class="prod-sup-hdr">
-        <div class="prod-sup-name">
-          <h3>La Mar de Tazones</h3>
-          <div class="prod-sup-meta">Conservas premium de marisco · Tazones, Asturias</div>
-          <div class="prod-sup-badges">
-            <span class="psb psb-verified">✓ Verificado por MANYAR</span>
-            <span class="psb psb-origin">🇪🇸 España</span>
-            <span class="psb psb-origin">🦞 Marisco premium</span>
-          </div>
-        </div>
-        <div class="prod-sup-right"><span class="prod-badge-active">● Activo</span></div>
-      </div>
-      <div class="prod-grid">
-        <div class="prod-item">
-          <img class="prod-img" src="carnedecentollo_lamardetazones.png" alt="Carne de Centollo al Natural" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Carne de Centollo al Natural</div>
-            <div class="prod-desc">Carne selecta de centollo al natural. Sin conservantes ni aditivos.</div>
-            <div class="prod-tags"><span class="prod-tag">Lata 120 g</span><span class="prod-tag">Sin conservantes</span><span class="prod-tag">Premium</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="8,10 €">8,10 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="carnedecentolloalnatural_mardetazones.png" alt="Carne de Centollo Premium" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Carne de Centollo Premium</div>
-            <div class="prod-desc">Carne premium de centollo con mayor rendimiento de carne.</div>
-            <div class="prod-tags"><span class="prod-tag">Lata 145 g</span><span class="prod-tag">Premium</span><span class="prod-tag">Gourmet</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="9,10 €">9,10 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="carnedebueyal_natural.png" alt="Carne de Buey de Mar al Natural" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Carne de Buey de Mar al Natural</div>
-            <div class="prod-desc">Carne de buey de mar seleccionada conservada al natural.</div>
-            <div class="prod-tags"><span class="prod-tag">Lata 120 g</span><span class="prod-tag">Marisco</span><span class="prod-tag">Gourmet</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="7,50 €">7,50 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="cangrejodelasnieves.png" alt="Carne de Cangrejo de las Nieves" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Snow Crab — Cangrejo de las Nieves</div>
-            <div class="prod-desc">Carne de Snow Crab premium conservada al natural.</div>
-            <div class="prod-tags"><span class="prod-tag">Lata 120 g</span><span class="prod-tag">Premium</span><span class="prod-tag">Exclusivo</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="14,50 €">14,50 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="ostraslanatural.png" alt="Ostras al Natural en Agua de Mar" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Ostras al Natural en Agua de Mar</div>
-            <div class="prod-desc">Ostras seleccionadas conservadas en agua de mar.</div>
-            <div class="prod-tags"><span class="prod-tag">Lata 266 g</span><span class="prod-tag">Agua de Mar</span><span class="prod-tag">Premium</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="16,50 €">16,50 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="ostrasenvigraneta.png" alt="Ostras en Vinagreta de Albariño" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Ostras en Vinagreta de Albariño</div>
-            <div class="prod-desc">Ostras premium con receta de vinagreta de albariño.</div>
-            <div class="prod-tags"><span class="prod-tag">Lata 266 g</span><span class="prod-tag">Albariño</span><span class="prod-tag">Gourmet</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="15,90 €">15,90 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="bogavanteazul.png" alt="Bogavante Azul en Aceite de Oliva" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Bogavante Azul en Aceite de Oliva</div>
-            <div class="prod-desc">Carne de bogavante azul seleccionada en aceite de oliva.</div>
-            <div class="prod-tags"><span class="prod-tag">Tarro 145 g</span><span class="prod-tag">Bogavante</span><span class="prod-tag">Premium</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="19,80 €">19,80 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="pinzasycodosdebogavante.png" alt="Pinzas y Codos de Bogavante" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Pinzas y Codos de Bogavante</div>
-            <div class="prod-desc">Pinzas y codos de bogavante conservados en aceite de oliva.</div>
-            <div class="prod-tags"><span class="prod-tag">Tarro 145 g</span><span class="prod-tag">Bogavante</span><span class="prod-tag">Gourmet</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="18,80 €">18,80 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="navajasahumadas.png" alt="Navajas Ahumadas en Aceite de Oliva" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Navajas Ahumadas en Aceite de Oliva</div>
-            <div class="prod-desc">Navajas ligeramente ahumadas en aceite de oliva.</div>
-            <div class="prod-tags"><span class="prod-tag">Lata 110 g</span><span class="prod-tag">Ahumado</span><span class="prod-tag">Gourmet</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="11,90 €">11,90 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="placton.png" alt="Plancton Marino Tetraselmis Chuii" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Plancton Marino Tetraselmis Chuii</div>
-            <div class="prod-desc">Plancton marino liofilizado para uso gastronómico profesional.</div>
-            <div class="prod-tags"><span class="prod-tag">Bote 25 g</span><span class="prod-tag">Alta Cocina</span><span class="prod-tag">Chef</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="39,00 €">39,00 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="centollo.png" alt="Estuche Regalo Centollo al Natural" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Estuche Regalo Centollo al Natural</div>
-            <div class="prod-desc">Estuche gourmet con 4 latas de carne de centollo al natural.</div>
-            <div class="prod-tags"><span class="prod-tag">Estuche 4 uds</span><span class="prod-tag">Regalo</span><span class="prod-tag">Gourmet</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="35,40 €">35,40 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="centollo_al_natural.png" alt="Estuche Regalo Centollo Premium" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Estuche Centollo Premium</div>
-            <div class="prod-desc">Estuche premium con 4 latas de carne de centollo seleccionada.</div>
-            <div class="prod-tags"><span class="prod-tag">Estuche 4 uds</span><span class="prod-tag">Premium</span><span class="prod-tag">Regalo</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="39,80 €">39,80 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="bueydemar.png" alt="Estuche Regalo Buey de Mar" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Estuche Buey de Mar al Natural</div>
-            <div class="prod-desc">Estuche gourmet con 4 latas de carne de buey de mar.</div>
-            <div class="prod-tags"><span class="prod-tag">Estuche 4 uds</span><span class="prod-tag">Regalo</span><span class="prod-tag">Gourmet</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format">Desde</div>
-            <div class="prod-price price-locked" data-price="33,00 €">33,00 €</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- FIN: productor-lamar-tazones -->
-
-    <!-- Resto de productores en proceso de alta -->
-    <div class="fi in" style="margin-top:32px;padding:22px;background:var(--bg);border-radius:14px;border:1px solid var(--border)">
-      
-      <!-- ═══ ALMA DE CÁNTARO ═══ -->
-      <div class="prod-sup">
-        <div class="prod-sup-left">
-          <h3>Alma de Cántaro</h3>
-          <div class="prod-sup-meta">AOVE ecológico premium · Bujalance, Córdoba</div>
-          <div class="prod-sup-badges">
-            <span class="psb psb-origin">🇪🇸 España</span>
-            <span class="psb psb-origin">Productor artesanal</span>
-            <span class="psb psb-origin">📍 Córdoba</span>
-          </div>
-        </div>
-        <div class="prod-sup-right">
-          <span class="prod-badge-active">● Activo</span>
-        </div>
-      </div>
-      <div class="prod-grid">
-        <div class="prod-item">
-          <img class="prod-img" src="almacantarofrutadoverde_500ml.png" alt="Frutado Verde Premium BIO" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Frutado Verde PREMIUM BIO</div>
-            <div class="prod-desc">AOVE Picual ecológico premium de recolección nocturna. Cosecha temprana. Con estuche.</div>
-            <div class="prod-tags"><span class="prod-tag">500ml</span><span class="prod-tag">Picual</span><span class="prod-tag">Ecológico</span><span class="prod-tag">Recolección nocturna</span><span class="prod-tag">Con estuche</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format" style="color:var(--terra)">Disponible</div>
-            <div class="prod-price price-locked" data-price="Precio B2B">Precio B2B</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="almacantarobio500ml.png" alt="Frutado Envero BIO" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Frutado Envero BIO</div>
-            <div class="prod-desc">AOVE Picual ecológico cosecha temprana. Notas de tomatera, manzana y melocotón. Con estuche.</div>
-            <div class="prod-tags"><span class="prod-tag">500ml</span><span class="prod-tag">Picual</span><span class="prod-tag">Ecológico</span><span class="prod-tag">Cosecha temprana</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format" style="color:var(--terra)">Disponible</div>
-            <div class="prod-price price-locked" data-price="Precio B2B">Precio B2B</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="almacantaro3l.png" alt="Frutado Envero BIO 3L" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Frutado Envero BIO 3 lts</div>
-            <div class="prod-desc">Mismo AOVE Picual ecológico en Bag in Box. Ideal para hostelería y consumo frecuente.</div>
-            <div class="prod-tags"><span class="prod-tag">Bag in Box 3L</span><span class="prod-tag">HORECA</span><span class="prod-tag">Ecológico</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format" style="color:var(--terra)">Disponible</div>
-            <div class="prod-price price-locked" data-price="Precio B2B">Precio B2B</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-      </div>
-
-      <!-- ═══ EOLOE ═══ -->
-      <div class="prod-sup">
-        <div class="prod-sup-left">
-          <h3>Eoloe</h3>
-          <div class="prod-sup-meta">AOVE Pajarero · Priego de Córdoba, Andalucía</div>
-          <div class="prod-sup-badges">
-            <span class="psb psb-origin">🇪🇸 España</span>
-            <span class="psb psb-origin">Productor artesanal</span>
-            <span class="psb psb-origin">📍 Priego de Córdoba</span>
-          </div>
-        </div>
-        <div class="prod-sup-right">
-          <span class="prod-badge-active">● Activo</span>
-        </div>
-      </div>
-      <div class="prod-grid">
-        <div class="prod-item">
-          <img class="prod-img" src="Sin_Fondo_1.png" alt="Eoloe AOVE Pajarero 500ml" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Eoloe AOVE Pajarero 500ml</div>
-            <div class="prod-desc">Aceite de oliva virgen extra Pajarero en botella de vidrio oscuro con estuche. Ideal para venta gourmet y regalo.</div>
-            <div class="prod-tags"><span class="prod-tag">Botella estuchada 500ml</span><span class="prod-tag">Pajarero</span><span class="prod-tag">Gourmet</span><span class="prod-tag">Regalo</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format" style="color:var(--terra)">Disponible</div>
-            <div class="prod-price price-locked" data-price="Precio B2B">Precio B2B</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="_DSC3855-min.png" alt="Eoloe AOVE Pajarero 2.5L" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Eoloe AOVE Pajarero 2,5 litros</div>
-            <div class="prod-desc">AOVE Pajarero en lata de 2,5 litros. Formato para hostelería y consumo frecuente.</div>
-            <div class="prod-tags"><span class="prod-tag">Lata 2,5L</span><span class="prod-tag">HORECA</span><span class="prod-tag">Pajarero</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format" style="color:var(--terra)">Disponible</div>
-            <div class="prod-price price-locked" data-price="Precio B2B">Precio B2B</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-      </div>
-
-      <!-- ═══ PICOS DE CABARIEZO ═══ -->
-      <div class="prod-sup">
-        <div class="prod-sup-left">
-          <h3>Picos de Cabariezo</h3>
-          <div class="prod-sup-meta">Vinos y destilados artesanales · Liébana, Cantabria</div>
-          <div class="prod-sup-badges">
-            <span class="psb psb-origin">🇪🇸 España</span>
-            <span class="psb psb-origin">Productor artesanal</span>
-            <span class="psb psb-origin">📍 Cantabria</span>
-          </div>
-        </div>
-        <div class="prod-sup-right">
-          <span class="prod-badge-active">● Activo</span>
-        </div>
-      </div>
-      <div class="prod-grid">
-        <div class="prod-item">
-          <img class="prod-img" src="vino-tinto-picos-seleccion.jpg" alt="Picos Selección" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Picos Selección</div>
-            <div class="prod-desc">Vino tinto de Cantabria. Referencia de entrada ideal para carta de vinos y tienda gourmet.</div>
-            <div class="prod-tags"><span class="prod-tag">Botella</span><span class="prod-tag">Vino tinto</span><span class="prod-tag">Cantabria</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format" style="color:var(--terra)">Disponible</div>
-            <div class="prod-price price-locked" data-price="Precio B2B">Precio B2B</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="finca-morillas-bodega-picos-cabariezo-liebana.jpg" alt="Finca Morillas" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Finca Morillas</div>
-            <div class="prod-desc">Vino tinto crianza de Cantabria. Más estructura y carácter para carnes y quesos curados.</div>
-            <div class="prod-tags"><span class="prod-tag">Botella</span><span class="prod-tag">Crianza</span><span class="prod-tag">Cantabria</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format" style="color:var(--terra)">Disponible</div>
-            <div class="prod-price price-locked" data-price="Precio B2B">Precio B2B</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="el-misterio.jpg" alt="El Misterio" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">El Misterio</div>
-            <div class="prod-desc">Vino tinto premium de Cantabria. Referencia especial con enfoque gourmet y presentación cuidada.</div>
-            <div class="prod-tags"><span class="prod-tag">Botella</span><span class="prod-tag">Premium</span><span class="prod-tag">Alta gama</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format" style="color:var(--terra)">Disponible</div>
-            <div class="prod-price price-locked" data-price="Precio B2B">Precio B2B</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="blanco-alba-picos.jpg" alt="Alba Blanco" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Alba</div>
-            <div class="prod-desc">Vino blanco de viñedos de montaña de Cantabria.</div>
-            <div class="prod-tags"><span class="prod-tag">Botella</span><span class="prod-tag">Vino blanco</span><span class="prod-tag">Cantabria</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format" style="color:var(--terra)">Disponible</div>
-            <div class="prod-price price-locked" data-price="Precio B2B">Precio B2B</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="hielu-picos.jpg" alt="Hielu de Picos" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Hielu de Picos</div>
-            <div class="prod-desc">Vino blanco dulce. Ideal para postres, foie, quesos azules y sobremesa.</div>
-            <div class="prod-tags"><span class="prod-tag">Botella</span><span class="prod-tag">Blanco dulce</span><span class="prod-tag">Postre</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format" style="color:var(--terra)">Disponible</div>
-            <div class="prod-price price-locked" data-price="Precio B2B">Precio B2B</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="whisky-as-picos.jpg" alt="Whisky As de Picos" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Whisky As de Picos</div>
-            <div class="prod-desc">Whisky single malt artesanal de Cantabria. Sherry Cask. Edición limitada.</div>
-            <div class="prod-tags"><span class="prod-tag">Botella</span><span class="prod-tag">Single Malt</span><span class="prod-tag">Sherry Cask</span><span class="prod-tag">Premium</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format" style="color:var(--terra)">Disponible</div>
-            <div class="prod-price price-locked" data-price="Precio B2B">Precio B2B</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="ginebra-picos-cabariezo.jpg" alt="Gin As de Picos Classic" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Gin As de Picos Classic</div>
-            <div class="prod-desc">Ginebra clásica London Dry de Cantabria. Perfil limpio y versátil para coctelería premium.</div>
-            <div class="prod-tags"><span class="prod-tag">Botella</span><span class="prod-tag">Gin</span><span class="prod-tag">London Dry</span><span class="prod-tag">Cantabria</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format" style="color:var(--terra)">Disponible</div>
-            <div class="prod-price price-locked" data-price="Precio B2B">Precio B2B</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="ginebra-tropical-bodega-picos-cabariezo-liebana.jpg" alt="Gin Tropical As de Picos" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Gin Tropical As de Picos</div>
-            <div class="prod-desc">Ginebra tropical con perfil fresco y afrutado. Gin tonics diferenciales y coctelería premium.</div>
-            <div class="prod-tags"><span class="prod-tag">Botella</span><span class="prod-tag">Gin Tropical</span><span class="prod-tag">Cantabria</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format" style="color:var(--terra)">Disponible</div>
-            <div class="prod-price price-locked" data-price="Precio B2B">Precio B2B</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="aguardiente-de-orujo.jpg" alt="Aguardiente de Orujo" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Aguardiente de Orujo Picos de Cabariezo</div>
-            <div class="prod-desc">Aguardiente de orujo tradicional cántabro. Ideal para sobremesa y restauración.</div>
-            <div class="prod-tags"><span class="prod-tag">Botella</span><span class="prod-tag">Orujo</span><span class="prod-tag">Tradicional</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format" style="color:var(--terra)">Disponible</div>
-            <div class="prod-price price-locked" data-price="Precio B2B">Precio B2B</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="crema-de-orujo.jpg" alt="Crema de Orujo" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Crema de Orujo</div>
-            <div class="prod-desc">Crema de orujo suave y cremosa. Para sobremesa o como licor dulce en restauración.</div>
-            <div class="prod-tags"><span class="prod-tag">Botella</span><span class="prod-tag">Crema</span><span class="prod-tag">Sobremesa</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format" style="color:var(--terra)">Disponible</div>
-            <div class="prod-price price-locked" data-price="Precio B2B">Precio B2B</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="licor-de-hierbas.jpg" alt="Licor de Hierbas" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Licor de Hierbas Picos de Cabariezo</div>
-            <div class="prod-desc">Licor de hierbas aromático y digestivo. Referencia clásica para sobremesa.</div>
-            <div class="prod-tags"><span class="prod-tag">Botella</span><span class="prod-tag">Licor de hierbas</span><span class="prod-tag">Digestivo</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format" style="color:var(--terra)">Disponible</div>
-            <div class="prod-price price-locked" data-price="Precio B2B">Precio B2B</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="licor-de-miel.jpg" alt="Licor de Miel" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Licor de Miel</div>
-            <div class="prod-desc">Licor de miel dulce y aromático. Ideal para sobremesa y regalo gastronómico.</div>
-            <div class="prod-tags"><span class="prod-tag">Botella</span><span class="prod-tag">Miel</span><span class="prod-tag">Dulce</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format" style="color:var(--terra)">Disponible</div>
-            <div class="prod-price price-locked" data-price="Precio B2B">Precio B2B</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="crema-de-cafe.jpg" alt="Crema de Café" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Crema de Café Picos de Cabariezo</div>
-            <div class="prod-desc">Crema de café con notas tostadas. Para sobremesa y combinaciones dulces.</div>
-            <div class="prod-tags"><span class="prod-tag">Botella</span><span class="prod-tag">Café</span><span class="prod-tag">Cremoso</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format" style="color:var(--terra)">Disponible</div>
-            <div class="prod-price price-locked" data-price="Precio B2B">Precio B2B</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-        <div class="prod-item">
-          <img class="prod-img" src="licor-de-cafe.jpg" alt="Licor de Café" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Licor de Café</div>
-            <div class="prod-desc">Licor de café intenso y aromático para sobremesa y coctelería.</div>
-            <div class="prod-tags"><span class="prod-tag">Botella</span><span class="prod-tag">Café</span><span class="prod-tag">Digestivo</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format" style="color:var(--terra)">Disponible</div>
-            <div class="prod-price price-locked" data-price="Precio B2B">Precio B2B</div>
-            <div class="prod-cta"><button class="btn-sample btn-lock" onclick="document.getElementById('priceModal').classList.add('open')">🔒 Ver precios</button></div>
-          </div>
-        </div>
-      </div>
-
-      <!-- ═══ BODEGA ARTESANA ANTONANZA ═══ -->
-      <div class="prod-sup">
-        <div class="prod-sup-left">
-          <h3>Bodega Artesana Antonanza</h3>
-          <div class="prod-sup-meta">Vermut artesanal · España</div>
-          <div class="prod-sup-badges">
-            <span class="psb psb-origin">🇪🇸 España</span>
-            <span class="psb psb-origin">Productor artesanal</span>
-          </div>
-        </div>
-        <div class="prod-sup-right">
-          <span style="padding:6px 14px;background:rgba(201,135,74,.08);color:var(--terra);border:1px solid rgba(201,135,74,.22);border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.05em">⏳ En alta</span>
-        </div>
-      </div>
-      <div class="prod-grid">
-        <div class="prod-item">
-          <img class="prod-img" src="700mlfondoblancooronomada.webp" alt="Vermut Oro Nómada" onerror="this.style.background='var(--bg)';this.style.opacity='.5'">
-          <div class="prod-body">
-            <div class="prod-name">Vermut Artesano Oro Nómada</div>
-            <div class="prod-desc">Vermut artesanal premiado. Gran Arribe de Oro Vinduero 2023. Bacchus Oro 2025. CINVE Gold 2025.</div>
-            <div class="prod-tags"><span class="prod-tag">700ml / 750ml</span><span class="prod-tag">Vermut artesanal</span><span class="prod-tag">Premiado</span></div>
-          </div>
-          <div class="prod-right">
-            <div class="prod-format" style="color:var(--terra)">Próximamente</div>
-            <div class="prod-price" style="font-size:13px;color:var(--muted)">Precio B2B</div>
-            <div class="prod-cta"><button class="btn-sample" onclick="goC('comprador')">Solicitar info</button></div>
-          </div>
-        </div>
-      </div>
-
-<div style="font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(13,27,42,.3);margin-bottom:6px">Más productores · En proceso de alta</div>
-      <div style="font-size:12px;color:var(--muted);margin-bottom:14px">Productores artesanales en fase de verificación. Disponibles en las próximas semanas.</div>
-      <div style="display:flex;flex-wrap:wrap;gap:7px">
-        <span style="padding:6px 13px;background:var(--white);border:1px solid rgba(201,135,74,.25);border-radius:100px;font-size:12px;color:var(--terra);font-weight:500">🍸 Vermut artesanal · En alta</span>
-        <span style="padding:6px 13px;background:var(--white);border:1px solid rgba(201,135,74,.25);border-radius:100px;font-size:12px;color:var(--terra);font-weight:500">🥩 Jamón · En alta</span>
-        <span style="padding:6px 13px;background:var(--white);border:1px solid rgba(201,135,74,.25);border-radius:100px;font-size:12px;color:var(--terra);font-weight:500">🐚 Mejillones · En alta</span>
-        <span style="padding:6px 13px;background:var(--white);border:1px solid rgba(201,135,74,.25);border-radius:100px;font-size:12px;color:var(--terra);font-weight:500">🫒 Aceite AOVE · En alta</span>
-        <span style="padding:6px 13px;background:var(--white);border:1px solid rgba(201,135,74,.25);border-radius:100px;font-size:12px;color:var(--terra);font-weight:500">🍷 Vino artesanal · En alta</span>
+      <div style="margin-top:24px;text-align:center">
+        <a href="catalogo.html" class="btn btn-outline" style="text-decoration:none">Ver todos los productores →</a>
       </div>
     </div>
   </div>
+
 </section>
 
 <!-- ═══ CÓMO FUNCIONA ═══ -->
