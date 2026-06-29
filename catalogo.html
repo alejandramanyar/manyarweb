@@ -938,6 +938,10 @@ function openProductModal(key) {
   document.getElementById('mQty').textContent = '0';
   var _btn = document.getElementById('btnAddCart');
   if (_btn) { _btn.style.opacity='.45'; _btn.style.pointerEvents='none'; _btn.textContent='Selecciona cantidad'; }
+  modalQty = 0;
+  document.getElementById('mQty').textContent = '0';
+  var _b2 = document.getElementById('btnAddCart');
+  if (_b2) { _b2.style.opacity='.4'; _b2.style.pointerEvents='none'; _b2.textContent='Selecciona cantidad'; }
   document.getElementById('prodModal').classList.add('open');
   document.body.style.overflow = 'hidden';
 }
@@ -1091,6 +1095,11 @@ function changeModalQty(delta) {
     }
   }
   document.getElementById('mQty').textContent = modalQty;
+  var _b = document.getElementById('btnAddCart');
+  if (_b) {
+    if (modalQty > 0) { _b.style.opacity='1'; _b.style.pointerEvents='auto'; _b.textContent='+ Añadir a solicitud'; }
+    else { _b.style.opacity='.4'; _b.style.pointerEvents='none'; _b.textContent='Selecciona cantidad'; }
+  }
   const precio = parseFloat((document.getElementById('mPriceVal').textContent||'0').replace(',','.').replace(/[^0-9.]/g,'')) || 0;
   const total = (precio * modalQty).toFixed(2).replace('.',',');
   document.getElementById('mQtyTotal').textContent = modalQty > 1 && precio ? '= ' + total + ' €' : '';
