@@ -389,32 +389,32 @@
         {
           "formato": "Octavillo 50g",
           "precio": "3.00 €",
-          "imagen": ""
+          "imagen": "img_anchoas.jpg"
         },
         {
           "formato": "Tarro 100g",
           "precio": "5.00 €",
-          "imagen": ""
+          "imagen": "img_anchoas.jpg"
         },
         {
           "formato": "Tarro 210g, 30 tiras",
           "precio": "10.60 €",
-          "imagen": ""
+          "imagen": "img_anchoas.jpg"
         },
         {
           "formato": "Anchoas Hansan 14/16",
           "precio": "8.70 €",
-          "imagen": ""
+          "imagen": "img_anchoas.jpg"
         },
         {
           "formato": "Tarro 360g 50/55 tiras",
           "precio": "29.00 €",
-          "imagen": ""
+          "imagen": "img_anchoas.jpg"
         },
         {
           "formato": "Anchoas Serie Limitada Hansan 10/12",
           "precio": "10.50 €",
-          "imagen": ""
+          "imagen": "img_anchoas.jpg"
         }
       ],
       "imagen": "img_anchoas.jpg",
@@ -438,7 +438,7 @@
         {
           "formato": "160g",
           "precio": "4.50 €",
-          "imagen": ""
+          "imagen": "img_boquerones.jpg"
         }
       ],
       "imagen": "img_boquerones.jpg",
@@ -462,15 +462,15 @@
         {
           "formato": "Tarro 250g",
           "precio": "4.30 €",
-          "imagen": ""
+          "imagen": "img_bonito.jpg"
         },
         {
           "formato": "Tarro 450g",
           "precio": "6.50 €",
-          "imagen": ""
+          "imagen": "img_bonito.jpg"
         }
       ],
-      "imagen": "IMG20260319WA0028.jpg",
+      "imagen": "img_bonito.jpg",
       "emoji": "🐟"
     },
     {
@@ -491,7 +491,7 @@
         {
           "formato": "Unidad | Bandeja",
           "precio": "1.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildaanchoa.png"
         }
       ],
       "imagen": "forberry_gildaanchoa.png",
@@ -515,7 +515,7 @@
         {
           "formato": "110g",
           "precio": "1.30 €",
-          "imagen": ""
+          "imagen": "Pastel_de_Cabracho__Receta_Ideal_para_Preparar_en_Fiestas.jpeg"
         }
       ],
       "imagen": "Pastel_de_Cabracho__Receta_Ideal_para_Preparar_en_Fiestas.jpeg",
@@ -539,22 +539,22 @@
         {
           "formato": "Bolsa 5 uds",
           "precio": "5.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildaanchoa.png"
         },
         {
           "formato": "Bolsa  12 uds",
           "precio": "10.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildaanchoa.png"
         },
         {
           "formato": "Bolsa  24 uds",
           "precio": "20.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildaanchoa.png"
         },
         {
           "formato": "Bolsa  55 uds",
           "precio": "40.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildaanchoa.png"
         }
       ],
       "imagen": "forberry_gildaanchoa.png",
@@ -578,17 +578,17 @@
         {
           "formato": "Bolsa 5 uds",
           "precio": "7.50 €",
-          "imagen": ""
+          "imagen": "forberry_gildadobleanchoa.png"
         },
         {
           "formato": "Bolsa 20 uds",
           "precio": "20.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildadobleanchoa.png"
         },
         {
           "formato": "Bolsa 50 uds",
           "precio": "45.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildadobleanchoa.png"
         }
       ],
       "imagen": "forberry_gildadobleanchoa.png",
@@ -612,17 +612,17 @@
         {
           "formato": "Bolsa 5 uds",
           "precio": "7.50 €",
-          "imagen": ""
+          "imagen": "forberry_gildadobleboqueron.png"
         },
         {
           "formato": "Bolsa 20 uds",
           "precio": "20.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildadobleboqueron.png"
         },
         {
           "formato": "Bolsa 50 uds",
           "precio": "45.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildadobleboqueron.png"
         }
       ],
       "imagen": "forberry_gildadobleboqueron.png",
@@ -646,22 +646,22 @@
         {
           "formato": "Bolsa 5 uds",
           "precio": "5.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildabanderilla.png"
         },
         {
           "formato": "Bolsa 12 uds",
           "precio": "10.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildabanderilla.png"
         },
         {
           "formato": "Bolsa 24 uds",
           "precio": "20.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildabanderilla.png"
         },
         {
           "formato": "Bolsa 55 uds",
           "precio": "40.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildabanderilla.png"
         }
       ],
       "imagen": "forberry_gildabanderilla.png",
@@ -685,22 +685,22 @@
         {
           "formato": "Bolsa 5 uds",
           "precio": "5.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildamatrimonio.png"
         },
         {
           "formato": "Bolsa 12 uds",
           "precio": "10.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildamatrimonio.png"
         },
         {
           "formato": "Bolsa 24 uds",
           "precio": "20.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildamatrimonio.png"
         },
         {
           "formato": "Bolsa 55 uds",
           "precio": "45.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildamatrimonio.png"
         }
       ],
       "imagen": "forberry_gildamatrimonio.png",
@@ -724,22 +724,22 @@
         {
           "formato": "Bolsa 5 uds",
           "precio": "5.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildajamon.png"
         },
         {
           "formato": "Bolsa 12 uds",
           "precio": "10.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildajamon.png"
         },
         {
           "formato": "Bolsa 24 uds",
           "precio": "20.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildajamon.png"
         },
         {
           "formato": "Bolsa 55 uds",
           "precio": "45.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildajamon.png"
         }
       ],
       "imagen": "forberry_gildajamon.png",
@@ -763,22 +763,22 @@
         {
           "formato": "Bolsa 5 uds",
           "precio": "5.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildalomo.png"
         },
         {
           "formato": "Bolsa 12 uds",
           "precio": "10.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildalomo.png"
         },
         {
           "formato": "Bolsa 24 uds",
           "precio": "20.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildalomo.png"
         },
         {
           "formato": "Bolsa 55 uds",
           "precio": "45.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildalomo.png"
         }
       ],
       "imagen": "forberry_gildalomo.png",
@@ -802,22 +802,22 @@
         {
           "formato": "Bolsa 5 uds",
           "precio": "5.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildacecina.png"
         },
         {
           "formato": "Bolsa 12 uds",
           "precio": "10.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildacecina.png"
         },
         {
           "formato": "Bolsa 24 uds",
           "precio": "20.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildacecina.png"
         },
         {
           "formato": "Bolsa 55 uds",
           "precio": "45.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildacecina.png"
         }
       ],
       "imagen": "forberry_gildacecina.png",
@@ -841,17 +841,17 @@
         {
           "formato": "Bolsa 5 uds",
           "precio": "7.50 €",
-          "imagen": ""
+          "imagen": "forberry_gildapulpo.png"
         },
         {
           "formato": "Bolsa 20 uds",
           "precio": "20.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildapulpo.png"
         },
         {
           "formato": "Bolsa 50 uds",
           "precio": "50.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildapulpo.png"
         }
       ],
       "imagen": "forberry_gildapulpo.png",
@@ -875,17 +875,17 @@
         {
           "formato": "Bolsa 5 uds",
           "precio": "10.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildamar.png"
         },
         {
           "formato": "Bolsa 15 uds",
           "precio": "25.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildamar.png"
         },
         {
           "formato": "Bolsa 40 uds",
           "precio": "55.00 €",
-          "imagen": ""
+          "imagen": "forberry_gildamar.png"
         }
       ],
       "imagen": "forberry_gildamar.png",
@@ -909,7 +909,7 @@
         {
           "formato": "Bloque aprox. 1 kg",
           "precio": "14.00 €",
-          "imagen": ""
+          "imagen": "tasugueras_Briniro.png"
         }
       ],
       "imagen": "tasugueras_Briniro.png",
@@ -933,7 +933,7 @@
         {
           "formato": "Tarrina aprox. 500 g",
           "precio": "13.50 €",
-          "imagen": ""
+          "imagen": "tasugueras_requeson.png"
         }
       ],
       "imagen": "tasugueras_requeson.png",
@@ -957,7 +957,7 @@
         {
           "formato": "Pieza aprox. 12 kg",
           "precio": "19.00 €",
-          "imagen": ""
+          "imagen": "tasugueras_gp58.png"
         }
       ],
       "imagen": "tasugueras_gp58.png",
@@ -981,10 +981,10 @@
         {
           "formato": "Pieza aprox. 12 kg",
           "precio": "16.00 €",
-          "imagen": ""
+          "imagen": "tasugueras_mercedes.png"
         }
       ],
-      "imagen": "",
+      "imagen": "tasugueras_mercedes.png",
       "emoji": "🍽️"
     },
     {
@@ -1005,7 +1005,7 @@
         {
           "formato": "1 kg",
           "precio": "40.00 €",
-          "imagen": ""
+          "imagen": "provdencia_queso.jpeg"
         }
       ],
       "imagen": "provdencia_queso.jpeg",
@@ -1029,7 +1029,7 @@
         {
           "formato": "Botella 75 cl",
           "precio": "5.00 €",
-          "imagen": ""
+          "imagen": "TRINOS.jpg"
         }
       ],
       "imagen": "TRINOS.jpg",
@@ -1053,7 +1053,7 @@
         {
           "formato": "Botella 75 cl",
           "precio": "5.63 €",
-          "imagen": ""
+          "imagen": "NIGROMANTE_1.jpg"
         }
       ],
       "imagen": "NIGROMANTE_1.jpg",
@@ -1077,7 +1077,7 @@
         {
           "formato": "Botella 75 cl",
           "precio": "6.44 €",
-          "imagen": ""
+          "imagen": "LADRON_DE_SUEN_OS.jpg"
         }
       ],
       "imagen": "LADRON_DE_SUEN_OS.jpg",
@@ -1101,7 +1101,7 @@
         {
           "formato": "Botella 75 cl",
           "precio": "5.19 €",
-          "imagen": ""
+          "imagen": "EL_SOPLON_DE_VIDRIO.jpg"
         }
       ],
       "imagen": "EL_SOPLON_DE_VIDRIO.jpg",
@@ -1125,7 +1125,7 @@
         {
           "formato": "Botella 75 cl",
           "precio": "5.63 €",
-          "imagen": ""
+          "imagen": "ANTROPOMORFO.jpg"
         }
       ],
       "imagen": "ANTROPOMORFO.jpg",
@@ -1149,7 +1149,7 @@
         {
           "formato": "Botella 75 cl",
           "precio": "4.38 €",
-          "imagen": ""
+          "imagen": "CADALFARUM_1.jpg"
         }
       ],
       "imagen": "CADALFARUM_1.jpg",
@@ -1173,7 +1173,7 @@
         {
           "formato": "Botella 75 cl",
           "precio": "5.63 €",
-          "imagen": ""
+          "imagen": "AZOGUE_1.jpg"
         }
       ],
       "imagen": "AZOGUE_1.jpg",
@@ -1197,7 +1197,7 @@
         {
           "formato": "Botella 75 cl",
           "precio": "5.63 €",
-          "imagen": ""
+          "imagen": "JOYUELO.jpg"
         }
       ],
       "imagen": "JOYUELO.jpg",
@@ -1221,7 +1221,7 @@
         {
           "formato": "Botella 75 cl",
           "precio": "5.00 €",
-          "imagen": ""
+          "imagen": "VITREO.jpg"
         }
       ],
       "imagen": "VITREO.jpg",
@@ -1245,7 +1245,7 @@
         {
           "formato": "Botella 75 cl",
           "precio": "5.63 €",
-          "imagen": ""
+          "imagen": "PLENILUNIO.jpg"
         }
       ],
       "imagen": "PLENILUNIO.jpg",
@@ -1269,10 +1269,10 @@
         {
           "formato": "Botella 75 cl",
           "precio": "9.50 €",
-          "imagen": ""
+          "imagen": "p57.jpg"
         }
       ],
-      "imagen": "vermut_soplon_de_vidrio.png",
+      "imagen": "p57.jpg",
       "emoji": "🍷"
     },
     {
@@ -1317,7 +1317,7 @@
         {
           "formato": "Lata 120 g",
           "precio": "8.10 €",
-          "imagen": ""
+          "imagen": "carnedecentollo_lamardetazones.png"
         }
       ],
       "imagen": "carnedecentollo_lamardetazones.png",
@@ -1341,7 +1341,7 @@
         {
           "formato": "Lata 145 g (115 g escurrido)",
           "precio": "9.10 €",
-          "imagen": ""
+          "imagen": "carnedecentolloalnatural_mardetazones.png"
         }
       ],
       "imagen": "carnedecentolloalnatural_mardetazones.png",
@@ -1365,7 +1365,7 @@
         {
           "formato": "Lata 120 g",
           "precio": "7.50 €",
-          "imagen": ""
+          "imagen": "carnedebueyal_natural.png"
         }
       ],
       "imagen": "carnedebueyal_natural.png",
@@ -1389,7 +1389,7 @@
         {
           "formato": "Lata 120 g (95 g escurrido)",
           "precio": "14.50 €",
-          "imagen": ""
+          "imagen": "cangrejodelasnieves.png"
         }
       ],
       "imagen": "cangrejodelasnieves.png",
@@ -1413,7 +1413,7 @@
         {
           "formato": "Lata RO-280 · 266 g (165 g escurrido)",
           "precio": "15.90 €",
-          "imagen": ""
+          "imagen": "ostraslanatural.png"
         }
       ],
       "imagen": "ostraslanatural.png",
@@ -1437,7 +1437,7 @@
         {
           "formato": "Lata RO-280 · 266 g (160 g escurrido)",
           "precio": "16.50 €",
-          "imagen": ""
+          "imagen": "ostrasenvigraneta.png"
         }
       ],
       "imagen": "ostrasenvigraneta.png",
@@ -1461,7 +1461,7 @@
         {
           "formato": "Tarro 150 · 145 g (120 g escurrido)",
           "precio": "19.80 €",
-          "imagen": ""
+          "imagen": "bogavanteazul.png"
         }
       ],
       "imagen": "bogavanteazul.png",
@@ -1485,7 +1485,7 @@
         {
           "formato": "Tarro 150 · 145 g (120 g escurrido)",
           "precio": "18.80 €",
-          "imagen": ""
+          "imagen": "pinzasycodosdebogavante.png"
         }
       ],
       "imagen": "pinzasycodosdebogavante.png",
@@ -1509,7 +1509,7 @@
         {
           "formato": "Lata RO-120 · 110 g (62 g escurrido)",
           "precio": "11.90 €",
-          "imagen": ""
+          "imagen": "navajasahumadas.png"
         }
       ],
       "imagen": "navajasahumadas.png",
@@ -1533,7 +1533,7 @@
         {
           "formato": "Bote 25 g",
           "precio": "39.00 €",
-          "imagen": ""
+          "imagen": "placton.png"
         }
       ],
       "imagen": "placton.png",
@@ -1557,10 +1557,10 @@
         {
           "formato": "Estuche 4 unidades",
           "precio": "35.40 €",
-          "imagen": ""
+          "imagen": "centollo.png"
         }
       ],
-      "imagen": "",
+      "imagen": "centollo.png",
       "emoji": "🐟"
     },
     {
@@ -1581,10 +1581,10 @@
         {
           "formato": "Estuche 4 unidades",
           "precio": "39.80 €",
-          "imagen": ""
+          "imagen": "centollo_al_natural.png"
         }
       ],
-      "imagen": "",
+      "imagen": "centollo_al_natural.png",
       "emoji": "🐟"
     },
     {
@@ -1605,10 +1605,10 @@
         {
           "formato": "Estuche 4 unidades",
           "precio": "33.00 €",
-          "imagen": ""
+          "imagen": "bueydemar.png"
         }
       ],
-      "imagen": "",
+      "imagen": "bueydemar.png",
       "emoji": "🐟"
     },
     {
@@ -1629,7 +1629,7 @@
         {
           "formato": "500 ml · estuche incluido",
           "precio": "10.95 €",
-          "imagen": ""
+          "imagen": "almacantarofrutadoverde_500ml.png"
         }
       ],
       "imagen": "almacantarofrutadoverde_500ml.png",
@@ -1653,10 +1653,10 @@
         {
           "formato": "500 ml · estuche incluido",
           "precio": "10.45 €",
-          "imagen": ""
+          "imagen": "almacantarobio500ml.png"
         }
       ],
-      "imagen": "",
+      "imagen": "almacantarobio500ml.png",
       "emoji": "🫙"
     },
     {
@@ -1677,7 +1677,7 @@
         {
           "formato": "Bag in Box 3 lts",
           "precio": "22.45 €",
-          "imagen": ""
+          "imagen": "almacantaro3l.png"
         }
       ],
       "imagen": "almacantaro3l.png",
@@ -1701,7 +1701,7 @@
         {
           "formato": "Botella",
           "precio": "6.00 €",
-          "imagen": ""
+          "imagen": "vinotintopicosseleccion.jpg"
         }
       ],
       "imagen": "vinotintopicosseleccion.jpg",
@@ -1725,7 +1725,7 @@
         {
           "formato": "Botella",
           "precio": "8.00 €",
-          "imagen": ""
+          "imagen": "fincamorillasbodegapicoscabariezoliebana.jpg"
         }
       ],
       "imagen": "fincamorillasbodegapicoscabariezoliebana.jpg",
@@ -1749,7 +1749,7 @@
         {
           "formato": "Botella",
           "precio": "26.00 €",
-          "imagen": ""
+          "imagen": "elmisterio.jpg"
         }
       ],
       "imagen": "elmisterio.jpg",
@@ -1773,7 +1773,7 @@
         {
           "formato": "Botella",
           "precio": "12.00 €",
-          "imagen": ""
+          "imagen": "hielupicos.jpg"
         }
       ],
       "imagen": "hielupicos.jpg",
@@ -1797,7 +1797,7 @@
         {
           "formato": "Botella",
           "precio": "31.00 €",
-          "imagen": ""
+          "imagen": "whiskyaspicos.jpg"
         }
       ],
       "imagen": "whiskyaspicos.jpg",
@@ -1821,7 +1821,7 @@
         {
           "formato": "Botella",
           "precio": "15.41 €",
-          "imagen": ""
+          "imagen": "ginebrapicoscabariezo.jpg"
         }
       ],
       "imagen": "ginebrapicoscabariezo.jpg",
@@ -1845,7 +1845,7 @@
         {
           "formato": "Botella",
           "precio": "11.50 €",
-          "imagen": ""
+          "imagen": "aguardientedeorujo.jpg"
         }
       ],
       "imagen": "aguardientedeorujo.jpg",
@@ -1869,7 +1869,7 @@
         {
           "formato": "Botella",
           "precio": "10.70 €",
-          "imagen": ""
+          "imagen": "cremadeorujo.jpg"
         }
       ],
       "imagen": "cremadeorujo.jpg",
@@ -1893,7 +1893,7 @@
         {
           "formato": "Botella",
           "precio": "10.70 €",
-          "imagen": ""
+          "imagen": "licordehierbas.jpg"
         }
       ],
       "imagen": "licordehierbas.jpg",
@@ -1917,7 +1917,7 @@
         {
           "formato": "Botella",
           "precio": "10.70 €",
-          "imagen": ""
+          "imagen": "licordemiel.jpg"
         }
       ],
       "imagen": "licordemiel.jpg",
@@ -1941,7 +1941,7 @@
         {
           "formato": "Botella",
           "precio": "10.70 €",
-          "imagen": ""
+          "imagen": "cremadecafe.jpg"
         }
       ],
       "imagen": "cremadecafe.jpg",
@@ -1965,7 +1965,7 @@
         {
           "formato": "Botella",
           "precio": "10.70 €",
-          "imagen": ""
+          "imagen": "licordecafe.jpg"
         }
       ],
       "imagen": "licordecafe.jpg",
@@ -1989,7 +1989,7 @@
         {
           "formato": "Botella",
           "precio": "15.41 €",
-          "imagen": ""
+          "imagen": "ginebratropicalbodegapicoscabariezoliebana.jpg"
         }
       ],
       "imagen": "ginebratropicalbodegapicoscabariezoliebana.jpg",
@@ -2013,10 +2013,10 @@
         {
           "formato": "Botella",
           "precio": "19.00 €",
-          "imagen": ""
+          "imagen": "img_vino.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_vino.jpg",
       "emoji": "🍷"
     },
     {
@@ -2037,7 +2037,7 @@
         {
           "formato": "Botella de 700ml / 750 ml. + - 4€ envio",
           "precio": "9.40 €",
-          "imagen": ""
+          "imagen": "Vermut_Artesano_Oro_No_mada_Experiencia_Artesanal_Premium_de_750ml_Edicio_n_Limitada.webp"
         }
       ],
       "imagen": "Vermut_Artesano_Oro_No_mada_Experiencia_Artesanal_Premium_de_750ml_Edicio_n_Limitada.webp",
@@ -2061,17 +2061,17 @@
         {
           "formato": "Botella de 700ml / 750 ml.  + - 4€ envio",
           "precio": "9.40 €",
-          "imagen": ""
+          "imagen": "antonanza_vermut.jpg"
         },
         {
           "formato": "Botella de 200 ml.",
           "precio": "2.82 €",
-          "imagen": ""
+          "imagen": "antonanza_vermut.jpg"
         },
         {
           "formato": "Cajas de 22 unidades (Botella de 200 ml.)",
           "precio": "62.15 €",
-          "imagen": ""
+          "imagen": "antonanza_vermut.jpg"
         }
       ],
       "imagen": "antonanza_vermut.jpg",
@@ -2095,10 +2095,10 @@
         {
           "formato": "Botella de  750 ml",
           "precio": "9.27 €",
-          "imagen": ""
+          "imagen": "img_vino.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_vino.jpg",
       "emoji": "🍷"
     },
     {
@@ -2148,7 +2148,7 @@
         {
           "formato": "botella 75 cl",
           "precio": "6.50 €",
-          "imagen": ""
+          "imagen": "Vino_Tinto_del_toro_bodegas_dalmacio.jpg"
         }
       ],
       "imagen": "Vino_Tinto_del_toro_bodegas_dalmacio.jpg",
@@ -2172,42 +2172,42 @@
         {
           "formato": "500 ml Frasca mas estuche",
           "precio": "8.35 €",
-          "imagen": ""
+          "imagen": "Aceite_de_Oliva_Virgen_Extra_Fuenroble_Picual_frasca_500_ml.webp"
         },
         {
           "formato": "250 ml Frasca",
           "precio": "4.20 €",
-          "imagen": ""
+          "imagen": "Aceite_de_Oliva_Virgen_Extra_Fuenroble_Picual_cosecha_temprana_250ml.jpg"
         },
         {
           "formato": "Irrellenable",
           "precio": "7.15 €",
-          "imagen": ""
+          "imagen": "Aceite_de_Oliva_Virgen_Extra_Fuenroble_Picual_frasca_500_ml.webp"
         },
         {
           "formato": "500 ml Lata",
           "precio": "7.40 €",
-          "imagen": ""
+          "imagen": "Aceite_de_Oliva_Virgen_Extra_Fuenroble_Picual_lata_500_ml.webp"
         },
         {
           "formato": "1 L Lata",
           "precio": "22.12 €",
-          "imagen": ""
+          "imagen": "Aceite_de_Oliva_Virgen_Extra_Fuenroble_Picual_lata_1_litro.webp"
         },
         {
           "formato": "3 L Lata",
           "precio": "41.92 €",
-          "imagen": ""
+          "imagen": "Aceite_de_Oliva_Virgen_Extra_Fuenroble_Picual_lata_3_litros.webp"
         }
       ],
       "imagen": "Aceite_de_Oliva_Virgen_Extra_Fuenroble_Picual_lata_500_ml.webp",
       "emoji": "🫙",
       "imagenes": [
-        "Aceite_de_Oliva_Virgen_Extra_Fuenroble_Picual_frasca_500_ml.webp",
-        "Aceite_de_Oliva_Virgen_Extra_Fuenroble_Picual_cosecha_temprana_250ml.jpg",
+        "Aceite_de_Oliva_Virgen_Extra_Fuenroble_Picual_lata_500_ml.webp",
         "Aceite_de_Oliva_Virgen_Extra_Fuenroble_Picual_lata_1_litro.webp",
         "Aceite_de_Oliva_Virgen_Extra_Fuenroble_Picual_lata_3_litros.webp",
-        "Aceite_de_Oliva_Virgen_Extra_Fuenroble_Picual_lata_500_ml.webp",
+        "Aceite_de_Oliva_Virgen_Extra_Fuenroble_Picual_frasca_500_ml.webp",
+        "Aceite_de_Oliva_Virgen_Extra_Fuenroble_Picual_cosecha_temprana_250ml.jpg",
         "Aceite_de_oliva_virgen_extra_Fuenroble_Picual_botella_500_ml.webp"
       ]
     },
@@ -2229,7 +2229,7 @@
         {
           "formato": "LATA 1 LT (250ml x 4)",
           "precio": "19.00 €",
-          "imagen": ""
+          "imagen": "Pack_de_Aceite_de_Oliva_Virgen_Extra_Valroble_4_latas.webp"
         }
       ],
       "imagen": "Pack_de_Aceite_de_Oliva_Virgen_Extra_Valroble_4_latas.webp",
@@ -2256,16 +2256,16 @@
         {
           "formato": "LATA 500 ML",
           "precio": "4.70 €",
-          "imagen": ""
+          "imagen": "Aceite_de_Oliva_Virgen_Extra_Valroble_Picual_lata_500_ml.webp"
         }
       ],
       "imagen": "Aceite_de_Oliva_Virgen_Extra_Valroble_Picual_lata_500_ml.webp",
       "emoji": "🫙",
       "imagenes": [
         "Aceite_de_Oliva_Virgen_Extra_Valroble_Picual_lata_500_ml.webp",
+        "Aceite_de_Oliva_Virgen_Extra_Valroble_Picual_botella_500_ml.webp",
         "Aceite_de_Oliva_Virgen_Extra_Valroble_Arbequina_lata_500_ml.webp",
-        "Aceite_de_Oliva_Virgen_Extra_Valroble_Arbequina_botella_500_ml.webp",
-        "Aceite_de_Oliva_Virgen_Extra_Valroble_Picual_botella_500_ml.webp"
+        "Aceite_de_Oliva_Virgen_Extra_Valroble_Arbequina_botella_500_ml.webp"
       ]
     },
     {
@@ -2286,7 +2286,7 @@
         {
           "formato": "LATA 500 ML",
           "precio": "5.60 €",
-          "imagen": ""
+          "imagen": "Aceite_de_Oliva_Virgen_Extra_Fuenroble_Picual_lata_500_ml.webp"
         }
       ],
       "imagen": "Aceite_de_Oliva_Virgen_Extra_Valroble_Organic_Picual_lata_500_ml.webp",
@@ -2313,7 +2313,7 @@
         {
           "formato": "CRISTAL IRRELLENABLE 500 ML",
           "precio": "4.92 €",
-          "imagen": ""
+          "imagen": "Valroble_Fusio_n_lata_500ml.webp"
         }
       ],
       "imagen": "Valroble_Fusio_n_lata_500ml.webp",
@@ -2340,7 +2340,7 @@
         {
           "formato": "CRISTAL IRRELLENABLE  LATA 500 ML",
           "precio": "5.80 €",
-          "imagen": ""
+          "imagen": "Aceite_de_Oliva_Virgen_Extra_Fuenroble_Picual_lata_500_ml.webp"
         }
       ],
       "imagen": "Aceite_de_Oliva_Virgen_Extra_Valroble_Organic_Picual_lata_500_ml.webp",
@@ -2388,14 +2388,14 @@
         {
           "formato": "1 Kg",
           "precio": "17.40 €",
-          "imagen": ""
+          "imagen": "QUESO_MANCHEGO_D_O_P__ARTESANO_SEMICURADO_NTRA__SRA__DE_FUENTES_2.jpg"
         }
       ],
       "imagen": "QUESO_MANCHEGO_D_O_P__ARTESANO_SEMICURADO_NTRA__SRA__DE_FUENTES_2.jpg",
       "emoji": "🧀",
       "imagenes": [
-        "QUESO_MANCHEGO_D_O_P__ARTESANO_SEMICURADO_NTRA__SRA__DE_FUENTES.jpg",
-        "QUESO_MANCHEGO_D_O_P__ARTESANO_SEMICURADO_NTRA__SRA__DE_FUENTES_2.jpg"
+        "QUESO_MANCHEGO_D_O_P__ARTESANO_SEMICURADO_NTRA__SRA__DE_FUENTES_2.jpg",
+        "QUESO_MANCHEGO_D_O_P__ARTESANO_SEMICURADO_NTRA__SRA__DE_FUENTES.jpg"
       ]
     },
     {
@@ -2416,14 +2416,14 @@
         {
           "formato": "1 Kg",
           "precio": "18.40 €",
-          "imagen": ""
+          "imagen": "QUESO_MANCHEGO_D_O_P__ARTESANO_CURADO_NTRA__SRA__DE_FUENTES_2.jpg"
         }
       ],
       "imagen": "QUESO_MANCHEGO_D_O_P__ARTESANO_CURADO_NTRA__SRA__DE_FUENTES_2.jpg",
       "emoji": "🍽️",
       "imagenes": [
-        "QUESO_MANCHEGO_D_O_P__ARTESANO_CURADO_NTRA__SRA__DE_FUENTES.jpg",
-        "QUESO_MANCHEGO_D_O_P__ARTESANO_CURADO_NTRA__SRA__DE_FUENTES_2.jpg"
+        "QUESO_MANCHEGO_D_O_P__ARTESANO_CURADO_NTRA__SRA__DE_FUENTES_2.jpg",
+        "QUESO_MANCHEGO_D_O_P__ARTESANO_CURADO_NTRA__SRA__DE_FUENTES.jpg"
       ]
     },
     {
@@ -2444,10 +2444,10 @@
         {
           "formato": "1 Kg",
           "precio": "17.10 €",
-          "imagen": ""
+          "imagen": "EN_MIEL_Y_ORE_GANO__VILLAREJO_.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "EN_MIEL_Y_ORE_GANO__VILLAREJO_.jpg",
       "emoji": "🍽️"
     },
     {
@@ -2468,7 +2468,7 @@
         {
           "formato": "1 Kg (past.)",
           "precio": "17.10 €",
-          "imagen": ""
+          "imagen": "QUESO_DE_OVEJA_ARTESANO_CURADO_EN_MANTECA_Y_ROMERO_VILLAREJO_ROSEMARY_2.jpg"
         }
       ],
       "imagen": "QUESO_DE_OVEJA_ARTESANO_CURADO_EN_MANTECA_Y_ROMERO_VILLAREJO_ROSEMARY_2.jpg",
@@ -2496,7 +2496,7 @@
         {
           "formato": "1 Kg (past.)",
           "precio": "17.10 €",
-          "imagen": ""
+          "imagen": "QUESO_DE_OVEJA_ARTESANO_CURADO_EN_MANTECA_2.jpg"
         }
       ],
       "imagen": "QUESO_DE_OVEJA_ARTESANO_CURADO_EN_MANTECA_2.jpg",
@@ -2524,7 +2524,7 @@
         {
           "formato": "1 Kg (past.)",
           "precio": "17.10 €",
-          "imagen": ""
+          "imagen": "QUESO_DE_OVEJA_ARTESANO_CURADO_AL_TOMILLO_2.jpg"
         }
       ],
       "imagen": "QUESO_DE_OVEJA_ARTESANO_CURADO_AL_TOMILLO_2.jpg",
@@ -2552,7 +2552,7 @@
         {
           "formato": "1 Kg (past.)",
           "precio": "17.10 €",
-          "imagen": ""
+          "imagen": "QUESO_DE_OVEJA_ARTESANO_CURADO_EN_ACEITE_DE_OLIVA_1.jpg"
         }
       ],
       "imagen": "QUESO_DE_OVEJA_ARTESANO_CURADO_EN_ACEITE_DE_OLIVA_1.jpg",
@@ -2580,7 +2580,7 @@
         {
           "formato": "1 Kg",
           "precio": "17.10 €",
-          "imagen": ""
+          "imagen": "QUESO_DE_OVEJA_ARTESANO_CURADO_AL_VINO_BLANCO_2.jpg"
         }
       ],
       "imagen": "QUESO_DE_OVEJA_ARTESANO_CURADO_AL_VINO_BLANCO_2.jpg",
@@ -2608,14 +2608,14 @@
         {
           "formato": "1 Kg",
           "precio": "17.10 €",
-          "imagen": ""
+          "imagen": "QUESO_DE_OVEJA_CURADO_AL_VINO_TINTO_2.jpg"
         }
       ],
       "imagen": "QUESO_DE_OVEJA_CURADO_AL_VINO_TINTO_2.jpg",
       "emoji": "🍽️",
       "imagenes": [
-        "QUESO_DE_OVEJA_CURADO_AL_VINO_TINTO.jpg",
-        "QUESO_DE_OVEJA_CURADO_AL_VINO_TINTO_2.jpg"
+        "QUESO_DE_OVEJA_CURADO_AL_VINO_TINTO_2.jpg",
+        "QUESO_DE_OVEJA_CURADO_AL_VINO_TINTO.jpg"
       ]
     },
     {
@@ -2636,14 +2636,14 @@
         {
           "formato": "1 Kg",
           "precio": "17.10 €",
-          "imagen": ""
+          "imagen": "QUESO_DE_OVEJA_CURADO_AL_RESOLI_2.jpg"
         }
       ],
       "imagen": "QUESO_DE_OVEJA_CURADO_AL_RESOLI_2.jpg",
       "emoji": "🍽️",
       "imagenes": [
-        "QUESO_DE_OVEJA_CURADO_AL_RESOLI.jpg",
-        "QUESO_DE_OVEJA_CURADO_AL_RESOLI_2.jpg"
+        "QUESO_DE_OVEJA_CURADO_AL_RESOLI_2.jpg",
+        "QUESO_DE_OVEJA_CURADO_AL_RESOLI.jpg"
       ]
     },
     {
@@ -2664,7 +2664,7 @@
         {
           "formato": "1 Kg",
           "precio": "17.10 €",
-          "imagen": ""
+          "imagen": "DEFINITIVO_QUESO_DE_OVEJA_CURADO_EN_CERVEZA_A_LA_PIMIENTA.png"
         }
       ],
       "imagen": "DEFINITIVO_QUESO_DE_OVEJA_CURADO_EN_CERVEZA_A_LA_PIMIENTA.png",
@@ -2693,14 +2693,14 @@
         {
           "formato": "1 Kg",
           "precio": "12.90 €",
-          "imagen": ""
+          "imagen": "QUESO_TIERNO_DE_OVEJA_SAN_BLAS_2.jpg"
         }
       ],
       "imagen": "QUESO_TIERNO_DE_OVEJA_SAN_BLAS_2.jpg",
       "emoji": "🍽️",
       "imagenes": [
-        "QUESO_TIERNO_DE_OVEJA_SAN_BLAS.jpg",
-        "QUESO_TIERNO_DE_OVEJA_SAN_BLAS_2.jpg"
+        "QUESO_TIERNO_DE_OVEJA_SAN_BLAS_2.jpg",
+        "QUESO_TIERNO_DE_OVEJA_SAN_BLAS.jpg"
       ]
     },
     {
@@ -2721,7 +2721,7 @@
         {
           "formato": "1 Kg",
           "precio": "16.00 €",
-          "imagen": ""
+          "imagen": "queso_de_oveja_semicurado.png"
         }
       ],
       "imagen": "queso_de_oveja_semicurado.png",
@@ -2748,7 +2748,7 @@
         {
           "formato": "1 Kg",
           "precio": "17.10 €",
-          "imagen": ""
+          "imagen": "QUESO_DE_OVEJA_ARTESANO_CURADO_VILLAREJO.jpg"
         }
       ],
       "imagen": "QUESO_DE_OVEJA_ARTESANO_CURADO_VILLAREJO.jpg",
@@ -2775,14 +2775,14 @@
         {
           "formato": "1 Kg",
           "precio": "21.60 €",
-          "imagen": ""
+          "imagen": "Queso_de_Oveja_An_ejo_Artesano_24_meses_2.png"
         }
       ],
       "imagen": "Queso_de_Oveja_An_ejo_Artesano_24_meses_2.png",
       "emoji": "🍽️",
       "imagenes": [
-        "Queso_de_Oveja_An_ejo_Artesano_24_meses.png",
-        "Queso_de_Oveja_An_ejo_Artesano_24_meses_2.png"
+        "Queso_de_Oveja_An_ejo_Artesano_24_meses_2.png",
+        "Queso_de_Oveja_An_ejo_Artesano_24_meses.png"
       ]
     },
     {
@@ -2803,10 +2803,10 @@
         {
           "formato": "Pieza de 7-8 kg",
           "precio": "40.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -2827,10 +2827,10 @@
         {
           "formato": "Pieza de 3-5 kg",
           "precio": "84.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -2851,10 +2851,10 @@
         {
           "formato": "Sobre de 100 g",
           "precio": "11.80 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -2875,10 +2875,10 @@
         {
           "formato": "Sobre de 100 g",
           "precio": "11.50 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -2899,10 +2899,10 @@
         {
           "formato": "Sobre de 100 g",
           "precio": "10.80 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -2923,10 +2923,10 @@
         {
           "formato": "Pieza de 4,5-6 kg",
           "precio": "22.50 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -2947,10 +2947,10 @@
         {
           "formato": "Pieza de 1,9-2,3 kg",
           "precio": "46.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -2971,10 +2971,10 @@
         {
           "formato": "Sobre de 100 g",
           "precio": "8.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -2995,10 +2995,10 @@
         {
           "formato": "Pieza de 8-8,5 kg",
           "precio": "21.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -3019,10 +3019,10 @@
         {
           "formato": "Pieza de 4-4,5 kg",
           "precio": "45.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -3043,10 +3043,10 @@
         {
           "formato": "Sobre de 100 g",
           "precio": "6.40 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -3067,10 +3067,10 @@
         {
           "formato": "Pieza de 5-5,5 kg",
           "precio": "17.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -3091,10 +3091,10 @@
         {
           "formato": "Pieza de 2,5-3,5 kg",
           "precio": "36.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -3115,10 +3115,10 @@
         {
           "formato": "Sobre de 85 g",
           "precio": "6.20 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -3139,10 +3139,10 @@
         {
           "formato": "Pieza de 8-9 kg",
           "precio": "19.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -3163,10 +3163,10 @@
         {
           "formato": "Pieza de 3-4 kg",
           "precio": "40.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -3187,10 +3187,10 @@
         {
           "formato": "Sobre de 85 g",
           "precio": "5.60 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -3211,10 +3211,10 @@
         {
           "formato": "Pieza de 5-6 kg",
           "precio": "16.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -3235,10 +3235,10 @@
         {
           "formato": "Pieza de 2-3 kg",
           "precio": "34.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -3259,10 +3259,10 @@
         {
           "formato": "Sobre de 85 g",
           "precio": "5.10 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -3283,10 +3283,10 @@
         {
           "formato": "Pieza de 1,1-1,4 kg aprox.",
           "precio": "44.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -3307,10 +3307,10 @@
         {
           "formato": "Pieza de 1-1,3 kg aprox.",
           "precio": "44.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -3331,10 +3331,10 @@
         {
           "formato": "Lata con 2 unidades · 2,5 kg aprox.",
           "precio": "63.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -3355,10 +3355,10 @@
         {
           "formato": "Pieza de 0,45-0,55 kg aprox.",
           "precio": "49.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -3379,10 +3379,10 @@
         {
           "formato": "Sobre de 100 g",
           "precio": "8.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -3403,10 +3403,10 @@
         {
           "formato": "Sobre de 100 g",
           "precio": "8.50 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -3427,10 +3427,10 @@
         {
           "formato": "Pieza de 0,8-1,2 kg",
           "precio": "17.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -3451,10 +3451,10 @@
         {
           "formato": "Pieza de 500 g",
           "precio": "15.50 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -3475,10 +3475,10 @@
         {
           "formato": "Pieza de 400-500 g aprox.",
           "precio": "15.50 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -3499,10 +3499,10 @@
         {
           "formato": "Sobre de 100 g",
           "precio": "2.90 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -3523,10 +3523,10 @@
         {
           "formato": "Sobre de 100 g",
           "precio": "2.90 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -3547,10 +3547,10 @@
         {
           "formato": "Sobre de 100 g",
           "precio": "2.90 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -3571,10 +3571,10 @@
         {
           "formato": "Pieza de 0,4-0,5 kg",
           "precio": "12.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -3595,10 +3595,10 @@
         {
           "formato": "Pack de 0,7 kg aprox.",
           "precio": "15.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -3619,10 +3619,10 @@
         {
           "formato": "Sobre de 100 g",
           "precio": "2.10 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -3643,10 +3643,10 @@
         {
           "formato": "Venta por kg",
           "precio": "7.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🥩"
     },
     {
@@ -3667,10 +3667,10 @@
         {
           "formato": "Cuarto de pieza",
           "precio": "16.50 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🧀"
     },
     {
@@ -3691,10 +3691,10 @@
         {
           "formato": "Cuarto de pieza",
           "precio": "15.50 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🧀"
     },
     {
@@ -3715,10 +3715,10 @@
         {
           "formato": "Cuarto de pieza",
           "precio": "18.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🧀"
     },
     {
@@ -3739,10 +3739,10 @@
         {
           "formato": "Venta por kg",
           "precio": "20.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🧀"
     },
     {
@@ -3763,10 +3763,10 @@
         {
           "formato": "Pieza de 600-800 g aprox.",
           "precio": "15.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🧀"
     },
     {
@@ -3787,10 +3787,10 @@
         {
           "formato": "Venta por kg",
           "precio": "21.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🧀"
     },
     {
@@ -3811,10 +3811,10 @@
         {
           "formato": "Venta por kg",
           "precio": "23.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🧀"
     },
     {
@@ -3835,10 +3835,10 @@
         {
           "formato": "Bote grande",
           "precio": "5.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🧂"
     },
     {
@@ -3859,10 +3859,10 @@
         {
           "formato": "Bote",
           "precio": "5.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🧂"
     },
     {
@@ -3883,10 +3883,10 @@
         {
           "formato": "Pack de 6 latas de 80 g",
           "precio": "6.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🧂"
     },
     {
@@ -3907,10 +3907,10 @@
         {
           "formato": "Tarro de 220 g netos",
           "precio": "6.93 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🧂"
     },
     {
@@ -3931,10 +3931,10 @@
         {
           "formato": "Tarro de 350 g netos",
           "precio": "3.80 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🧂"
     },
     {
@@ -3955,10 +3955,10 @@
         {
           "formato": "Tarro de 350 g netos",
           "precio": "4.50 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🧂"
     },
     {
@@ -3979,10 +3979,10 @@
         {
           "formato": "Bote de 70 g",
           "precio": "7.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🧂"
     },
     {
@@ -4003,10 +4003,10 @@
         {
           "formato": "Tarrina de 500 g",
           "precio": "8.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🧂"
     },
     {
@@ -4027,10 +4027,10 @@
         {
           "formato": "Bote de 115 g",
           "precio": "5.00 €",
-          "imagen": ""
+          "imagen": "img_jamon.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "img_jamon.jpg",
       "emoji": "🧂"
     },
     {
