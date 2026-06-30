@@ -934,6 +934,11 @@
           "formato": "Tarrina aprox. 500 g",
           "precio": "13.50 €",
           "imagen": "tasugueras_requesón.png"
+        },
+        {
+          "formato": "1 kg",
+          "precio": "27.00 €",
+          "imagen": "tasugueras_requesón.png"
         }
       ],
       "imagen": "tasugueras_requesón.png",
@@ -958,6 +963,11 @@
           "formato": "Pieza aprox. 12 kg",
           "precio": "19.00 €",
           "imagen": "tasugueras_gp58.png"
+        },
+        {
+          "formato": "Cuña (27€ kg)",
+          "precio": "6.75 €",
+          "imagen": "tasugueras_gp58.png"
         }
       ],
       "imagen": "tasugueras_gp58.png",
@@ -981,6 +991,11 @@
         {
           "formato": "Pieza aprox. 12 kg",
           "precio": "16.00 €",
+          "imagen": "tasugueras_mercedes.png"
+        },
+        {
+          "formato": "Cuña (24€ kg)",
+          "precio": "6.00 €",
           "imagen": "tasugueras_mercedes.png"
         }
       ],
@@ -2037,10 +2052,10 @@
         {
           "formato": "Botella de 700ml / 750 ml. + - 4€ envio",
           "precio": "9.40 €",
-          "imagen": "Vermut_Artesano_Oro_No_mada_Experiencia_Artesanal_Premium_de_750ml_Edicio_n_Limitada.webp"
+          "imagen": "Vermut Artesano Oro Nómada Experiencia Artesanal Premium de 750ml Edición Limitada.webp"
         }
       ],
-      "imagen": "Vermut_Artesano_Oro_No_mada_Experiencia_Artesanal_Premium_de_750ml_Edicio_n_Limitada.webp",
+      "imagen": "Vermut Artesano Oro Nómada Experiencia Artesanal Premium de 750ml Edición Limitada.webp",
       "emoji": "🍷"
     },
     {
@@ -2388,10 +2403,30 @@
         {
           "formato": "1 Kg",
           "precio": "17.40 €",
-          "imagen": "QUESO_MANCHEGO_D_O_P__ARTESANO_SEMICURADO_NTRA__SRA__DE_FUENTES_2.jpg"
+          "imagen": "QUESO MANCHEGO D.O.P. ARTESANO SEMICURADO NTRA. SRA. DE FUENTES 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/4",
+          "precio": "4.48 €",
+          "imagen": "QUESO MANCHEGO D.O.P. ARTESANO SEMICURADO NTRA. SRA. DE FUENTES 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/8",
+          "precio": "2.24 €",
+          "imagen": "QUESO MANCHEGO D.O.P. ARTESANO SEMICURADO NTRA. SRA. DE FUENTES 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/12",
+          "precio": "1.52 €",
+          "imagen": "QUESO MANCHEGO D.O.P. ARTESANO SEMICURADO NTRA. SRA. DE FUENTES 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1.14 €",
+          "imagen": "QUESO MANCHEGO D.O.P. ARTESANO SEMICURADO NTRA. SRA. DE FUENTES 2.jpg"
         }
       ],
-      "imagen": "QUESO_MANCHEGO_D_O_P__ARTESANO_SEMICURADO_NTRA__SRA__DE_FUENTES_2.jpg",
+      "imagen": "QUESO MANCHEGO D.O.P. ARTESANO SEMICURADO NTRA. SRA. DE FUENTES 2.jpg",
       "emoji": "🧀",
       "imagenes": [
         "QUESO_MANCHEGO_D_O_P__ARTESANO_SEMICURADO_NTRA__SRA__DE_FUENTES_2.jpg",
@@ -2416,10 +2451,30 @@
         {
           "formato": "1 Kg",
           "precio": "18.40 €",
-          "imagen": "QUESO_MANCHEGO_D_O_P__ARTESANO_CURADO_NTRA__SRA__DE_FUENTES_2.jpg"
+          "imagen": "QUESO MANCHEGO D.O.P. ARTESANO CURADO NTRA. SRA. DE FUENTES 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/4",
+          "precio": "4.73 €",
+          "imagen": "QUESO MANCHEGO D.O.P. ARTESANO CURADO NTRA. SRA. DE FUENTES 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/8",
+          "precio": "2.36 €",
+          "imagen": "QUESO MANCHEGO D.O.P. ARTESANO CURADO NTRA. SRA. DE FUENTES 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/12",
+          "precio": "1.60 €",
+          "imagen": "QUESO MANCHEGO D.O.P. ARTESANO CURADO NTRA. SRA. DE FUENTES 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1.20 €",
+          "imagen": "QUESO MANCHEGO D.O.P. ARTESANO CURADO NTRA. SRA. DE FUENTES 2.jpg"
         }
       ],
-      "imagen": "QUESO_MANCHEGO_D_O_P__ARTESANO_CURADO_NTRA__SRA__DE_FUENTES_2.jpg",
+      "imagen": "QUESO MANCHEGO D.O.P. ARTESANO CURADO NTRA. SRA. DE FUENTES 2.jpg",
       "emoji": "🍽️",
       "imagenes": [
         "QUESO_MANCHEGO_D_O_P__ARTESANO_CURADO_NTRA__SRA__DE_FUENTES_2.jpg",
@@ -2444,10 +2499,30 @@
         {
           "formato": "1 Kg",
           "precio": "17.10 €",
-          "imagen": "EN_MIEL_Y_ORE_GANO__VILLAREJO_.jpg"
+          "imagen": "EN MIEL Y ORÉGANO \"VILLAREJO\".jpg"
+        },
+        {
+          "formato": "Cuña 1/4",
+          "precio": "4.40 €",
+          "imagen": "EN MIEL Y ORÉGANO \"VILLAREJO\".jpg"
+        },
+        {
+          "formato": "Cuña 1/8",
+          "precio": "2.20 €",
+          "imagen": "EN MIEL Y ORÉGANO \"VILLAREJO\".jpg"
+        },
+        {
+          "formato": "Cuña 1/12",
+          "precio": "1.49 €",
+          "imagen": "EN MIEL Y ORÉGANO \"VILLAREJO\".jpg"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1.12 €",
+          "imagen": "EN MIEL Y ORÉGANO \"VILLAREJO\".jpg"
         }
       ],
-      "imagen": "EN_MIEL_Y_ORE_GANO__VILLAREJO_.jpg",
+      "imagen": "EN MIEL Y ORÉGANO \"VILLAREJO\".jpg",
       "emoji": "🍽️"
     },
     {
@@ -2468,10 +2543,30 @@
         {
           "formato": "1 Kg (past.)",
           "precio": "17.10 €",
-          "imagen": "QUESO_DE_OVEJA_ARTESANO_CURADO_EN_MANTECA_Y_ROMERO_VILLAREJO_ROSEMARY_2.jpg"
+          "imagen": "QUESO DE OVEJA ARTESANO CURADO EN MANTECA Y ROMERO VILLAREJO ROSEMARY 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/4",
+          "precio": "4.40 €",
+          "imagen": "QUESO DE OVEJA ARTESANO CURADO EN MANTECA Y ROMERO VILLAREJO ROSEMARY 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/8",
+          "precio": "2.20 €",
+          "imagen": "QUESO DE OVEJA ARTESANO CURADO EN MANTECA Y ROMERO VILLAREJO ROSEMARY 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/12",
+          "precio": "1.49 €",
+          "imagen": "QUESO DE OVEJA ARTESANO CURADO EN MANTECA Y ROMERO VILLAREJO ROSEMARY 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1.12 €",
+          "imagen": "QUESO DE OVEJA ARTESANO CURADO EN MANTECA Y ROMERO VILLAREJO ROSEMARY 2.jpg"
         }
       ],
-      "imagen": "QUESO_DE_OVEJA_ARTESANO_CURADO_EN_MANTECA_Y_ROMERO_VILLAREJO_ROSEMARY_2.jpg",
+      "imagen": "QUESO DE OVEJA ARTESANO CURADO EN MANTECA Y ROMERO VILLAREJO ROSEMARY 2.jpg",
       "emoji": "🍽️",
       "imagenes": [
         "QUESO_DE_OVEJA_ARTESANO_CURADO_EN_MANTECA_Y_ROMERO_VILLAREJO_ROSEMARY.jpg",
@@ -2496,6 +2591,26 @@
         {
           "formato": "1 Kg (past.)",
           "precio": "17.10 €",
+          "imagen": "QUESO DE OVEJA ARTESANO CURADO EN MANTECA 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/4",
+          "precio": "4.40 €",
+          "imagen": "QUESO DE OVEJA ARTESANO CURADO EN MANTECA 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/8",
+          "precio": "2.20 €",
+          "imagen": "QUESO DE OVEJA ARTESANO CURADO EN MANTECA 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/12",
+          "precio": "1.49 €",
+          "imagen": "QUESO DE OVEJA ARTESANO CURADO EN MANTECA 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1.12 €",
           "imagen": "QUESO DE OVEJA ARTESANO CURADO EN MANTECA 2.jpg"
         }
       ],
@@ -2525,6 +2640,26 @@
           "formato": "1 Kg (past.)",
           "precio": "17.10 €",
           "imagen": "QUESO DE OVEJA ARTESANO CURADO AL TOMILLO 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/4",
+          "precio": "4.40 €",
+          "imagen": "QUESO DE OVEJA ARTESANO CURADO AL TOMILLO 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/8",
+          "precio": "2.20 €",
+          "imagen": "QUESO DE OVEJA ARTESANO CURADO AL TOMILLO 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/12",
+          "precio": "1.49 €",
+          "imagen": "QUESO DE OVEJA ARTESANO CURADO AL TOMILLO 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1.12 €",
+          "imagen": "QUESO DE OVEJA ARTESANO CURADO AL TOMILLO 2.jpg"
         }
       ],
       "imagen": "QUESO DE OVEJA ARTESANO CURADO AL TOMILLO 2.jpg",
@@ -2552,6 +2687,26 @@
         {
           "formato": "1 Kg (past.)",
           "precio": "17.10 €",
+          "imagen": "QUESO DE OVEJA ARTESANO CURADO EN ACEITE DE OLIVA 1.jpg"
+        },
+        {
+          "formato": "Cuña 1/4",
+          "precio": "4.40 €",
+          "imagen": "QUESO DE OVEJA ARTESANO CURADO EN ACEITE DE OLIVA 1.jpg"
+        },
+        {
+          "formato": "Cuña 1/8",
+          "precio": "2.20 €",
+          "imagen": "QUESO DE OVEJA ARTESANO CURADO EN ACEITE DE OLIVA 1.jpg"
+        },
+        {
+          "formato": "Cuña 1/12",
+          "precio": "1.49 €",
+          "imagen": "QUESO DE OVEJA ARTESANO CURADO EN ACEITE DE OLIVA 1.jpg"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1.12 €",
           "imagen": "QUESO DE OVEJA ARTESANO CURADO EN ACEITE DE OLIVA 1.jpg"
         }
       ],
@@ -2581,6 +2736,26 @@
           "formato": "1 Kg",
           "precio": "17.10 €",
           "imagen": "QUESO DE OVEJA ARTESANO CURADO AL VINO BLANCO 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/4",
+          "precio": "4.40 €",
+          "imagen": "QUESO DE OVEJA ARTESANO CURADO AL VINO BLANCO 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/8",
+          "precio": "2.20 €",
+          "imagen": "QUESO DE OVEJA ARTESANO CURADO AL VINO BLANCO 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/12",
+          "precio": "1.49 €",
+          "imagen": "QUESO DE OVEJA ARTESANO CURADO AL VINO BLANCO 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1.12 €",
+          "imagen": "QUESO DE OVEJA ARTESANO CURADO AL VINO BLANCO 2.jpg"
         }
       ],
       "imagen": "QUESO DE OVEJA ARTESANO CURADO AL VINO BLANCO 2.jpg",
@@ -2608,6 +2783,26 @@
         {
           "formato": "1 Kg",
           "precio": "17.10 €",
+          "imagen": "QUESO DE OVEJA CURADO AL VINO TINTO 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/4",
+          "precio": "4.40 €",
+          "imagen": "QUESO DE OVEJA CURADO AL VINO TINTO 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/8",
+          "precio": "2.20 €",
+          "imagen": "QUESO DE OVEJA CURADO AL VINO TINTO 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/12",
+          "precio": "1.49 €",
+          "imagen": "QUESO DE OVEJA CURADO AL VINO TINTO 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1.12 €",
           "imagen": "QUESO DE OVEJA CURADO AL VINO TINTO 2.jpg"
         }
       ],
@@ -2637,6 +2832,26 @@
           "formato": "1 Kg",
           "precio": "17.10 €",
           "imagen": "QUESO DE OVEJA CURADO AL RESOLI 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/4",
+          "precio": "4.40 €",
+          "imagen": "QUESO DE OVEJA CURADO AL RESOLI 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/8",
+          "precio": "2.20 €",
+          "imagen": "QUESO DE OVEJA CURADO AL RESOLI 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/12",
+          "precio": "1.49 €",
+          "imagen": "QUESO DE OVEJA CURADO AL RESOLI 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1.12 €",
+          "imagen": "QUESO DE OVEJA CURADO AL RESOLI 2.jpg"
         }
       ],
       "imagen": "QUESO DE OVEJA CURADO AL RESOLI 2.jpg",
@@ -2664,6 +2879,26 @@
         {
           "formato": "1 Kg",
           "precio": "17.10 €",
+          "imagen": "DEFINITIVO QUESO DE OVEJA CURADO EN CERVEZA A LA PIMIENTA.png"
+        },
+        {
+          "formato": "Cuña 1/4",
+          "precio": "4.40 €",
+          "imagen": "DEFINITIVO QUESO DE OVEJA CURADO EN CERVEZA A LA PIMIENTA.png"
+        },
+        {
+          "formato": "Cuña 1/8",
+          "precio": "2.20 €",
+          "imagen": "DEFINITIVO QUESO DE OVEJA CURADO EN CERVEZA A LA PIMIENTA.png"
+        },
+        {
+          "formato": "Cuña 1/12",
+          "precio": "1.49 €",
+          "imagen": "DEFINITIVO QUESO DE OVEJA CURADO EN CERVEZA A LA PIMIENTA.png"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1.12 €",
           "imagen": "DEFINITIVO QUESO DE OVEJA CURADO EN CERVEZA A LA PIMIENTA.png"
         }
       ],
@@ -2693,10 +2928,30 @@
         {
           "formato": "1 Kg",
           "precio": "12.90 €",
-          "imagen": "QUESO_TIERNO_DE_OVEJA_SAN_BLAS_2.jpg"
+          "imagen": "QUESO TIERNO DE OVEJA SAN BLAS 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/4",
+          "precio": "3.35 €",
+          "imagen": "QUESO TIERNO DE OVEJA SAN BLAS 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/8",
+          "precio": "1.68 €",
+          "imagen": "QUESO TIERNO DE OVEJA SAN BLAS 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/12",
+          "precio": "1.39 €",
+          "imagen": "QUESO TIERNO DE OVEJA SAN BLAS 2.jpg"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "0.86 €",
+          "imagen": "QUESO TIERNO DE OVEJA SAN BLAS 2.jpg"
         }
       ],
-      "imagen": "QUESO_TIERNO_DE_OVEJA_SAN_BLAS_2.jpg",
+      "imagen": "QUESO TIERNO DE OVEJA SAN BLAS 2.jpg",
       "emoji": "🍽️",
       "imagenes": [
         "QUESO_TIERNO_DE_OVEJA_SAN_BLAS_2.jpg",
@@ -2721,10 +2976,30 @@
         {
           "formato": "1 Kg",
           "precio": "16.00 €",
-          "imagen": "queso_de_oveja_semicurado.png"
+          "imagen": "queso de oveja semicurado.png"
+        },
+        {
+          "formato": "Cuña 1/4",
+          "precio": "4.15 €",
+          "imagen": "queso de oveja semicurado.png"
+        },
+        {
+          "formato": "Cuña 1/8",
+          "precio": "2.08 €",
+          "imagen": "queso de oveja semicurado.png"
+        },
+        {
+          "formato": "Cuña 1/12",
+          "precio": "1.41 €",
+          "imagen": "queso de oveja semicurado.png"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1.06 €",
+          "imagen": "queso de oveja semicurado.png"
         }
       ],
-      "imagen": "queso_de_oveja_semicurado.png",
+      "imagen": "queso de oveja semicurado.png",
       "emoji": "🍽️",
       "imagenes": [
         "queso_de_oveja_semicurado.png"
@@ -2748,10 +3023,30 @@
         {
           "formato": "1 Kg",
           "precio": "17.10 €",
-          "imagen": "QUESO_DE_OVEJA_ARTESANO_CURADO_VILLAREJO.jpg"
+          "imagen": "QUESO DE OVEJA ARTESANO CURADO VILLAREJO.jpg"
+        },
+        {
+          "formato": "Cuña 1/4",
+          "precio": "4.40 €",
+          "imagen": "QUESO DE OVEJA ARTESANO CURADO VILLAREJO.jpg"
+        },
+        {
+          "formato": "Cuña 1/8",
+          "precio": "2.20 €",
+          "imagen": "QUESO DE OVEJA ARTESANO CURADO VILLAREJO.jpg"
+        },
+        {
+          "formato": "Cuña 1/12",
+          "precio": "1.49 €",
+          "imagen": "QUESO DE OVEJA ARTESANO CURADO VILLAREJO.jpg"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1.12 €",
+          "imagen": "QUESO DE OVEJA ARTESANO CURADO VILLAREJO.jpg"
         }
       ],
-      "imagen": "QUESO_DE_OVEJA_ARTESANO_CURADO_VILLAREJO.jpg",
+      "imagen": "QUESO DE OVEJA ARTESANO CURADO VILLAREJO.jpg",
       "emoji": "🍽️",
       "imagenes": [
         "QUESO_DE_OVEJA_ARTESANO_CURADO_VILLAREJO.jpg"
@@ -2775,10 +3070,30 @@
         {
           "formato": "1 Kg",
           "precio": "21.60 €",
-          "imagen": "Queso_de_Oveja_An_ejo_Artesano_24_meses_2.png"
+          "imagen": "Queso de Oveja Añejo Artesano 24 meses 2.png"
+        },
+        {
+          "formato": "Cuña 1/4",
+          "precio": "5.53 €",
+          "imagen": "Queso de Oveja Añejo Artesano 24 meses 2.png"
+        },
+        {
+          "formato": "Cuña 1/8",
+          "precio": "2.76 €",
+          "imagen": "Queso de Oveja Añejo Artesano 24 meses 2.png"
+        },
+        {
+          "formato": "Cuña 1/12",
+          "precio": "1.87 €",
+          "imagen": "Queso de Oveja Añejo Artesano 24 meses 2.png"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1.40 €",
+          "imagen": "Queso de Oveja Añejo Artesano 24 meses 2.png"
         }
       ],
-      "imagen": "Queso_de_Oveja_An_ejo_Artesano_24_meses_2.png",
+      "imagen": "Queso de Oveja Añejo Artesano 24 meses 2.png",
       "emoji": "🍽️",
       "imagenes": [
         "Queso_de_Oveja_An_ejo_Artesano_24_meses_2.png",

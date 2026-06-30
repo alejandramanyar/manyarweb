@@ -1030,7 +1030,7 @@ function openProductModal(key) {
   if (p.seccion || p.categoria) tags.push(`<span class="modal-tag mt-cat">${(p.seccion||p.categoria).trim()}</span>`);
   if (p.do) tags.push(`<span class="modal-tag mt-do">${p.do}</span>`);
   if (p.stock_limitado) tags.push(`<span class="modal-tag mt-stock">⚠️ Stock limitado</span>`);
-  if (p.premios) tags.push(`<span class="modal-tag mt-premio">🏆 ${p.premios}</span>`);
+  if (p.premios && p.premios !== 'No' && p.premios !== 'no') tags.push(`<span class="modal-tag mt-premio">🏆 Premiado</span>`);
   document.getElementById('mEyebrow').innerHTML = tags.join('');
 
   document.getElementById('mName').textContent = p.nombre;
