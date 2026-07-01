@@ -247,7 +247,9 @@
         "curado-al-romero--rosemary-",
         "curado-en-tomillo-villarejo",
         "curado-en-aceite-villarejo",
-        "curado-en-vino-tinto---blanco-villarejo",
+        "curado-en-vino-blanco-villarejo",
+        "curado-en-vino-tinto-villarejo",
+        "curado-en-manteca-villarejo",
         "curado-en-licor-resoli",
         "curado-en-cerveza-a-la-pimienta",
         "queso-tierno-puro-de-oveja-san-blas",
@@ -915,7 +917,12 @@
       "formatos": [
         {
           "formato": "Tarrina aprox. 500 g",
-          "precio": "27,00€/kg",
+          "precio": "13,50",
+          "imagen": "tasugueras_requeson.png"
+        },
+        {
+          "formato": "1 kg",
+          "precio": "27,00",
           "imagen": "tasugueras_requeson.png"
         }
       ],
@@ -938,8 +945,13 @@
       "stock_limitado": false,
       "formatos": [
         {
-          "formato": "Pieza aprox. 12 kg | Cuña",
-          "precio": "Pieza aprox. 19,00€ | Cuña 27,00€/kg",
+          "formato": "Pieza aprox. 12 kg",
+          "precio": "19,00",
+          "imagen": "tasugueras_gp58.png"
+        },
+        {
+          "formato": "Cuña (27€ kg)",
+          "precio": "6,75",
           "imagen": "tasugueras_gp58.png"
         }
       ],
@@ -962,8 +974,13 @@
       "stock_limitado": false,
       "formatos": [
         {
-          "formato": "Pieza aprox. 12 kg | Cuña",
-          "precio": "Pieza aprox. 16,00€ | Cuña 24,00€/kg",
+          "formato": "Pieza aprox. 12 kg",
+          "precio": "16,00",
+          "imagen": "tasugueras_mercedes.png"
+        },
+        {
+          "formato": "Cuña (24€ kg)",
+          "precio": "6,00",
           "imagen": "tasugueras_mercedes.png"
         }
       ],
@@ -2331,28 +2348,28 @@
       "stock_limitado": false,
       "formatos": [
         {
-          "formato": "3 Kg",
-          "precio": "17,40 €/Kg",
-          "imagen": "semicuradofuentesportada.jpg"
-        },
-        {
-          "formato": "2 Kg",
-          "precio": "17,40 €/Kg",
-          "imagen": "semicuradofuentesportada.jpg"
-        },
-        {
           "formato": "1 Kg",
-          "precio": "17,40 €/Kg",
+          "precio": "17,40",
           "imagen": "semicuradofuentesportada.jpg"
         },
         {
-          "formato": "Cuña 1/4–1/8",
-          "precio": "17,90 €/Kg",
+          "formato": "Cuña 1/4",
+          "precio": "4,48",
           "imagen": "semicuradofuentesportada.jpg"
         },
         {
-          "formato": "Cuñas 1/12– 1/16",
-          "precio": "18,20 €/Kg",
+          "formato": "Cuña 1/8",
+          "precio": "2,24",
+          "imagen": "semicuradofuentesportada.jpg"
+        },
+        {
+          "formato": "Cuña 1/12",
+          "precio": "1,52",
+          "imagen": "semicuradofuentesportada.jpg"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1,14",
           "imagen": "semicuradofuentesportada.jpg"
         }
       ],
@@ -2376,23 +2393,28 @@
       "stock_limitado": false,
       "formatos": [
         {
-          "formato": "3 Kg",
-          "precio": "18,40 €/Kg",
+          "formato": "1 Kg",
+          "precio": "18,40",
           "imagen": "curadofuentesportada.jpg"
         },
         {
-          "formato": "2 Kg",
-          "precio": "18,40 €/Kg",
+          "formato": "Cuña 1/4",
+          "precio": "4,73",
           "imagen": "curadofuentesportada.jpg"
         },
         {
-          "formato": "Cuña 1/4–1/8",
-          "precio": "18,90 €/Kg",
+          "formato": "Cuña 1/8",
+          "precio": "2,36",
           "imagen": "curadofuentesportada.jpg"
         },
         {
-          "formato": "Cuñas 1/12– 1/16",
-          "precio": "19,20 €/Kg",
+          "formato": "Cuña 1/12",
+          "precio": "1,60",
+          "imagen": "curadofuentesportada.jpg"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1,20",
           "imagen": "curadofuentesportada.jpg"
         }
       ],
@@ -2416,18 +2438,28 @@
       "stock_limitado": false,
       "formatos": [
         {
-          "formato": "3 Kg",
-          "precio": "21,60 €/Kg",
+          "formato": "1 Kg",
+          "precio": "21,60",
           "imagen": "reservaportadafuentes.jpg"
         },
         {
-          "formato": "Cuña 1/4–1/8",
-          "precio": "22,10 €/Kg",
+          "formato": "Cuña 1/4",
+          "precio": "5,53",
           "imagen": "reservaportadafuentes.jpg"
         },
         {
-          "formato": "Cuñas 1/12– 1/16",
-          "precio": "22,40 €/Kg",
+          "formato": "Cuña 1/8",
+          "precio": "2,76",
+          "imagen": "reservaportadafuentes.jpg"
+        },
+        {
+          "formato": "Cuña 1/12",
+          "precio": "1,87",
+          "imagen": "reservaportadafuentes.jpg"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1,40",
           "imagen": "reservaportadafuentes.jpg"
         }
       ],
@@ -2451,23 +2483,28 @@
       "stock_limitado": false,
       "formatos": [
         {
-          "formato": "3 Kg",
-          "precio": "17,10 €/Kg",
-          "imagen": "mielyoreganoportada.jpg"
-        },
-        {
           "formato": "1 Kg",
-          "precio": "17,10 €/Kg",
+          "precio": "17,10",
           "imagen": "mielyoreganoportada.jpg"
         },
         {
-          "formato": "Cuña 1/4–1/8",
-          "precio": "17,60 €/Kg",
+          "formato": "Cuña 1/4",
+          "precio": "4,40",
           "imagen": "mielyoreganoportada.jpg"
         },
         {
-          "formato": "Cuñas 1/12– 1/16",
-          "precio": "17,90 €/Kg",
+          "formato": "Cuña 1/8",
+          "precio": "2,20",
+          "imagen": "mielyoreganoportada.jpg"
+        },
+        {
+          "formato": "Cuña 1/12",
+          "precio": "1,49",
+          "imagen": "mielyoreganoportada.jpg"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1,12",
           "imagen": "mielyoreganoportada.jpg"
         }
       ],
@@ -2491,23 +2528,28 @@
       "stock_limitado": false,
       "formatos": [
         {
-          "formato": "3 Kg",
-          "precio": "17,10 €/Kg",
+          "formato": "1 Kg",
+          "precio": "17,10",
           "imagen": "rosemaryportada.jpg"
         },
         {
-          "formato": "1 Kg (past.)",
-          "precio": "17,10 €/Kg",
+          "formato": "Cuña 1/4",
+          "precio": "4,40",
           "imagen": "rosemaryportada.jpg"
         },
         {
-          "formato": "Cuña 1/4– 1/8",
-          "precio": "17,60 €/Kg",
+          "formato": "Cuña 1/8",
+          "precio": "2,20",
           "imagen": "rosemaryportada.jpg"
         },
         {
-          "formato": "Cuñas 1/12– 1/16",
-          "precio": "17,90 €/Kg",
+          "formato": "Cuña 1/12",
+          "precio": "1,49",
+          "imagen": "rosemaryportada.jpg"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1,12",
           "imagen": "rosemaryportada.jpg"
         }
       ],
@@ -2531,23 +2573,28 @@
       "stock_limitado": false,
       "formatos": [
         {
-          "formato": "3 Kg",
-          "precio": "17,10 €/Kg",
+          "formato": "1 Kg",
+          "precio": "17,10",
           "imagen": "tomilloportada.jpg"
         },
         {
-          "formato": "1 Kg (past.)",
-          "precio": "17,10 €/Kg",
+          "formato": "Cuña 1/4",
+          "precio": "4,40",
           "imagen": "tomilloportada.jpg"
         },
         {
-          "formato": "Cuña 1/4– 1/8",
-          "precio": "17,60 €/Kg",
+          "formato": "Cuña 1/8",
+          "precio": "2,20",
           "imagen": "tomilloportada.jpg"
         },
         {
-          "formato": "Cuñas 1/12– 1/16",
-          "precio": "17,90 €/Kg",
+          "formato": "Cuña 1/12",
+          "precio": "1,49",
+          "imagen": "tomilloportada.jpg"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1,12",
           "imagen": "tomilloportada.jpg"
         }
       ],
@@ -2571,23 +2618,28 @@
       "stock_limitado": false,
       "formatos": [
         {
-          "formato": "3 Kg",
-          "precio": "17,10 €/Kg",
+          "formato": "1 Kg",
+          "precio": "17,10",
           "imagen": "aceiteolivaportada.jpg"
         },
         {
-          "formato": "1 Kg (past.)",
-          "precio": "17,10 €/Kg",
+          "formato": "Cuña 1/4",
+          "precio": "4,40",
           "imagen": "aceiteolivaportada.jpg"
         },
         {
-          "formato": "Cuña 1/4– 1/8",
-          "precio": "17,60 €/Kg",
+          "formato": "Cuña 1/8",
+          "precio": "2,20",
           "imagen": "aceiteolivaportada.jpg"
         },
         {
-          "formato": "Cuñas 1/12– 1/16",
-          "precio": "17,90 €/Kg",
+          "formato": "Cuña 1/12",
+          "precio": "1,49",
+          "imagen": "aceiteolivaportada.jpg"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1,12",
           "imagen": "aceiteolivaportada.jpg"
         }
       ],
@@ -2596,8 +2648,52 @@
       "imagen_secundaria": "aceiteoliva2.jpg"
     },
     {
-      "id": "curado-en-vino-tinto---blanco-villarejo",
-      "nombre": "Curado en Vino Tinto / Blanco Villarejo",
+      "id": "curado-en-vino-blanco-villarejo",
+      "nombre": "Curado al Vino Blanco Villarejo",
+      "productor": "Quesos Artesanos Villarejo",
+      "seccion": "Quesos",
+      "categoria": "Queso",
+      "subcategoria": "Curado",
+      "region": "Villarejo de Fuentes, Cuenca",
+      "descripcion": "Leche cruda de oveja y vino blanco Mín. 6 meses. Sin Lactosa",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "1 Kg",
+          "precio": "17,10",
+          "imagen": "alvinoblancoportada.jpg"
+        },
+        {
+          "formato": "Cuña 1/4",
+          "precio": "4,40",
+          "imagen": "alvinoblancoportada.jpg"
+        },
+        {
+          "formato": "Cuña 1/8",
+          "precio": "2,20",
+          "imagen": "alvinoblancoportada.jpg"
+        },
+        {
+          "formato": "Cuña 1/12",
+          "precio": "1,49",
+          "imagen": "alvinoblancoportada.jpg"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1,12",
+          "imagen": "alvinoblancoportada.jpg"
+        }
+      ],
+      "imagen": "alvinoblancoportada.jpg",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "curado-en-vino-tinto-villarejo",
+      "nombre": "Curado al Vino Tinto Villarejo",
       "productor": "Quesos Artesanos Villarejo",
       "seccion": "Quesos",
       "categoria": "Queso",
@@ -2611,19 +2707,76 @@
       "stock_limitado": false,
       "formatos": [
         {
-          "formato": "3 Kg",
-          "precio": "17,10 €/Kg"
+          "formato": "1 Kg",
+          "precio": "17,10",
+          "imagen": "vinotintoportada.jpg"
         },
         {
-          "formato": "Cuña 1/4– 1/8",
-          "precio": "17,60 €/Kg"
+          "formato": "Cuña 1/4",
+          "precio": "4,40",
+          "imagen": "vinotintoportada.jpg"
         },
         {
-          "formato": "Cuñas 1/12– 1/16",
-          "precio": "17,90 €/Kg"
+          "formato": "Cuña 1/8",
+          "precio": "2,20",
+          "imagen": "vinotintoportada.jpg"
+        },
+        {
+          "formato": "Cuña 1/12",
+          "precio": "1,49",
+          "imagen": "vinotintoportada.jpg"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1,12",
+          "imagen": "vinotintoportada.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "vinotintoportada.jpg",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "curado-en-manteca-villarejo",
+      "nombre": "Queso de Oveja Artesano Curado en Manteca",
+      "productor": "Quesos Artesanos Villarejo",
+      "seccion": "Quesos",
+      "categoria": "Queso",
+      "subcategoria": "Curado",
+      "region": "Villarejo de Fuentes, Cuenca",
+      "descripcion": "Leche cruda de oveja y manteca Mín. 6 meses. Sin Lactosa",
+      "estado": "Activo",
+      "do": "",
+      "tags": "",
+      "premios": "",
+      "stock_limitado": false,
+      "formatos": [
+        {
+          "formato": "1 Kg",
+          "precio": "17,10",
+          "imagen": "mantecaportada.jpg"
+        },
+        {
+          "formato": "Cuña 1/4",
+          "precio": "4,40",
+          "imagen": "mantecaportada.jpg"
+        },
+        {
+          "formato": "Cuña 1/8",
+          "precio": "2,20",
+          "imagen": "mantecaportada.jpg"
+        },
+        {
+          "formato": "Cuña 1/12",
+          "precio": "1,49",
+          "imagen": "mantecaportada.jpg"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1,12",
+          "imagen": "mantecaportada.jpg"
+        }
+      ],
+      "imagen": "mantecaportada.jpg",
       "emoji": "🍽️"
     },
     {
@@ -2642,18 +2795,28 @@
       "stock_limitado": false,
       "formatos": [
         {
-          "formato": "3 Kg",
-          "precio": "17,10 €/Kg",
+          "formato": "1 Kg",
+          "precio": "17,10",
           "imagen": "resoliportada.jpg"
         },
         {
-          "formato": "Cuña 1/4– 1/8",
-          "precio": "17,60 €/Kg",
+          "formato": "Cuña 1/4",
+          "precio": "4,40",
           "imagen": "resoliportada.jpg"
         },
         {
-          "formato": "Cuñas 1/12– 1/16",
-          "precio": "17,90 €/Kg",
+          "formato": "Cuña 1/8",
+          "precio": "2,20",
+          "imagen": "resoliportada.jpg"
+        },
+        {
+          "formato": "Cuña 1/12",
+          "precio": "1,49",
+          "imagen": "resoliportada.jpg"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1,12",
           "imagen": "resoliportada.jpg"
         }
       ],
@@ -2677,18 +2840,28 @@
       "stock_limitado": false,
       "formatos": [
         {
-          "formato": "3 Kg",
-          "precio": "17,10 €/Kg",
+          "formato": "1 Kg",
+          "precio": "17,10",
           "imagen": "cervezaalapimienta.png"
         },
         {
-          "formato": "Cuña 1/4– 1/8",
-          "precio": "17,60 €/Kg",
+          "formato": "Cuña 1/4",
+          "precio": "4,40",
           "imagen": "cervezaalapimienta.png"
         },
         {
-          "formato": "Cuñas 1/12– 1/16",
-          "precio": "17,90 €/Kg",
+          "formato": "Cuña 1/8",
+          "precio": "2,20",
+          "imagen": "cervezaalapimienta.png"
+        },
+        {
+          "formato": "Cuña 1/12",
+          "precio": "1,49",
+          "imagen": "cervezaalapimienta.png"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1,12",
           "imagen": "cervezaalapimienta.png"
         }
       ],
@@ -2712,23 +2885,28 @@
       "stock_limitado": false,
       "formatos": [
         {
-          "formato": "3 Kg",
-          "precio": "12,90 €/Kg",
-          "imagen": "blasportada.jpg"
-        },
-        {
           "formato": "1 Kg",
-          "precio": "12,90 €/Kg",
+          "precio": "12,90",
           "imagen": "blasportada.jpg"
         },
         {
-          "formato": "Cuña 1/4– 1/8",
-          "precio": "13,40 €/Kg",
+          "formato": "Cuña 1/4",
+          "precio": "3,35",
           "imagen": "blasportada.jpg"
         },
         {
-          "formato": "Cuñas 1/12– 1/16",
-          "precio": "13,70 €/Kg",
+          "formato": "Cuña 1/8",
+          "precio": "1,68",
+          "imagen": "blasportada.jpg"
+        },
+        {
+          "formato": "Cuña 1/12",
+          "precio": "1,39",
+          "imagen": "blasportada.jpg"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "0,86",
           "imagen": "blasportada.jpg"
         }
       ],
@@ -2752,18 +2930,28 @@
       "stock_limitado": false,
       "formatos": [
         {
-          "formato": "3 Kg",
-          "precio": "16,00 €/Kg",
+          "formato": "1 Kg",
+          "precio": "16,00",
           "imagen": "queso de oveja semicurado.png"
         },
         {
-          "formato": "Cuña 1/4– 1/8",
-          "precio": "16,60 €/Kg",
+          "formato": "Cuña 1/4",
+          "precio": "4,15",
           "imagen": "queso de oveja semicurado.png"
         },
         {
-          "formato": "Cuñas 1/12– 1/16",
-          "precio": "16,90 €/Kg",
+          "formato": "Cuña 1/8",
+          "precio": "2,08",
+          "imagen": "queso de oveja semicurado.png"
+        },
+        {
+          "formato": "Cuña 1/12",
+          "precio": "1,41",
+          "imagen": "queso de oveja semicurado.png"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1,06",
           "imagen": "queso de oveja semicurado.png"
         }
       ],
@@ -2786,18 +2974,28 @@
       "stock_limitado": false,
       "formatos": [
         {
-          "formato": "3 Kg",
-          "precio": "17,10 €/Kg",
+          "formato": "1 Kg",
+          "precio": "17,10",
           "imagen": "curadovillarejo.jpg"
         },
         {
-          "formato": "Cuña 1/4– 1/8",
-          "precio": "17,60 €/Kg",
+          "formato": "Cuña 1/4",
+          "precio": "4,40",
           "imagen": "curadovillarejo.jpg"
         },
         {
-          "formato": "Cuñas 1/12– 1/16",
-          "precio": "17,90 €/Kg",
+          "formato": "Cuña 1/8",
+          "precio": "2,20",
+          "imagen": "curadovillarejo.jpg"
+        },
+        {
+          "formato": "Cuña 1/12",
+          "precio": "1,49",
+          "imagen": "curadovillarejo.jpg"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1,12",
           "imagen": "curadovillarejo.jpg"
         }
       ],
@@ -2820,18 +3018,28 @@
       "stock_limitado": false,
       "formatos": [
         {
-          "formato": "3 Kg",
-          "precio": "21,60 €/Kg",
+          "formato": "1 Kg",
+          "precio": "21,60",
           "imagen": "oveja24mportada.png"
         },
         {
-          "formato": "Cuña 1/4– 1/8",
-          "precio": "22,10 €/Kg",
+          "formato": "Cuña 1/4",
+          "precio": "5,53",
           "imagen": "oveja24mportada.png"
         },
         {
-          "formato": "Cuñas 1/12– 1/16",
-          "precio": "22,40 €/Kg",
+          "formato": "Cuña 1/8",
+          "precio": "2,76",
+          "imagen": "oveja24mportada.png"
+        },
+        {
+          "formato": "Cuña 1/12",
+          "precio": "1,87",
+          "imagen": "oveja24mportada.png"
+        },
+        {
+          "formato": "Cuña 1/16",
+          "precio": "1,40",
           "imagen": "oveja24mportada.png"
         }
       ],
