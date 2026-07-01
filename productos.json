@@ -1603,7 +1603,8 @@
       "formatos": [
         {
           "formato": "Botella",
-          "precio": "6,00"
+          "precio": "6,00",
+          "imagen": "vinotintopicosseleccion.jpg"
         }
       ],
       "imagen": "vinotintopicosseleccion.jpg",
@@ -1626,7 +1627,8 @@
       "formatos": [
         {
           "formato": "Botella",
-          "precio": "8,00"
+          "precio": "8,00",
+          "imagen": "fincamorillasbodegapicoscabariezoliebana.jpg"
         }
       ],
       "imagen": "fincamorillasbodegapicoscabariezoliebana.jpg",
@@ -1672,10 +1674,11 @@
       "formatos": [
         {
           "formato": "Botella",
-          "precio": "12,00"
+          "precio": "12,00",
+          "imagen": "blancoalbapicos.jpg"
         }
       ],
-      "imagen": "hielupicos.jpg",
+      "imagen": "blancoalbapicos.jpg",
       "emoji": "🍽️"
     },
     {
@@ -1695,7 +1698,8 @@
       "formatos": [
         {
           "formato": "Botella",
-          "precio": "31,00"
+          "precio": "31,00",
+          "imagen": "whiskyaspicos.jpg"
         }
       ],
       "imagen": "whiskyaspicos.jpg",
@@ -1718,7 +1722,8 @@
       "formatos": [
         {
           "formato": "Botella",
-          "precio": "15,41"
+          "precio": "15,41",
+          "imagen": "ginebrapicoscabariezo.jpg"
         }
       ],
       "imagen": "ginebrapicoscabariezo.jpg",
@@ -1741,7 +1746,8 @@
       "formatos": [
         {
           "formato": "Botella",
-          "precio": "11,50"
+          "precio": "11,50",
+          "imagen": "aguardientedeorujo.jpg"
         }
       ],
       "imagen": "aguardientedeorujo.jpg",
@@ -1764,7 +1770,8 @@
       "formatos": [
         {
           "formato": "Botella",
-          "precio": "10,70"
+          "precio": "10,70",
+          "imagen": "cremadeorujo.jpg"
         }
       ],
       "imagen": "cremadeorujo.jpg",
@@ -1787,7 +1794,8 @@
       "formatos": [
         {
           "formato": "Botella",
-          "precio": "10,70"
+          "precio": "10,70",
+          "imagen": "licordehierbas.jpg"
         }
       ],
       "imagen": "licordehierbas.jpg",
@@ -1810,7 +1818,8 @@
       "formatos": [
         {
           "formato": "Botella",
-          "precio": "10,70"
+          "precio": "10,70",
+          "imagen": "licordemiel.jpg"
         }
       ],
       "imagen": "licordemiel.jpg",
@@ -1833,7 +1842,8 @@
       "formatos": [
         {
           "formato": "Botella",
-          "precio": "10,70"
+          "precio": "10,70",
+          "imagen": "cremadecafe.jpg"
         }
       ],
       "imagen": "cremadecafe.jpg",
@@ -1856,7 +1866,8 @@
       "formatos": [
         {
           "formato": "Botella",
-          "precio": "10,70"
+          "precio": "10,70",
+          "imagen": "licordecafe.jpg"
         }
       ],
       "imagen": "licordecafe.jpg",
@@ -1879,7 +1890,8 @@
       "formatos": [
         {
           "formato": "Botella",
-          "precio": "15,41"
+          "precio": "15,41",
+          "imagen": "ginebratropicalbodegapicoscabariezoliebana.jpg"
         }
       ],
       "imagen": "ginebratropicalbodegapicoscabariezoliebana.jpg",

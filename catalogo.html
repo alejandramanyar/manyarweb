@@ -733,10 +733,7 @@ function renderCard(p) {
     <div class="pcard-body">
       <div class="pcard-cat">${(p.seccion || p.categoria || '').trim()}</div>
       <div class="pcard-name">${p.nombre}</div>
-      <div class="pcard-prod" style="display:flex;align-items:center;gap:5px">
-        ${(() => { const pr = DATA.productores.find(x => x.nombre === p.productor); return pr && pr.logo ? `<img src="${pr.logo}" style="height:16px;width:auto;object-fit:contain;opacity:.8" onerror="this.style.display='none'">` : ''; })()}
-        ${p.productor}
-      </div>
+      <div class="pcard-prod" style="display:flex;align-items:center;gap:4px">${(() => { const pr = DATA.productores.find(x => x.nombre === p.productor); return pr && pr.logo ? `<img src="${pr.logo}" style="height:14px;width:auto;object-fit:contain;opacity:.75" onerror="this.style.display='none'">` : ''; })()}${p.productor}</div>
       ${p.region ? `<div class="pcard-region">📍 ${p.region}</div>` : ''}
     </div>
     <div class="pcard-footer">
@@ -755,12 +752,12 @@ function renderProducers(producers) {
     const nProds = pr.productos ? pr.productos.length : 0;
     const emojiMap = {'Marisco & Conservas':'🦞','Gildas & Aperitivos':'🫒','Quesos':'🧀','Vinos & Destilados':'🍷','Aceites':'🫙','Jamones & Embutidos':'🥩','Cárnicos':'🥩'};
     const emoji = emojiMap[pr.seccion] || '🏭';
-    const logoHtml = pr.logo
+    const prLogoHtml = pr.logo
       ? `<img src="${pr.logo}" style="max-width:90%;max-height:90%;object-fit:contain" onerror="this.parentElement.innerHTML='${emoji}'">`
       : emoji;
     return `<div class="prcard" onclick="openProducerModal('${encodeStr(pr.nombre)}')">
       <div class="prcard-top">
-        <div class="prcard-img" style="display:flex;align-items:center;justify-content:center;padding:12px;background:#f8f5f0">${logoHtml}</div>
+        <div class="prcard-img" style="display:flex;align-items:center;justify-content:center;padding:12px;background:#f8f5f0">${prLogoHtml}</div>
         <span class="badge-activo">● Activo</span>
       </div>
       <div>
@@ -803,7 +800,7 @@ function openProductModal(key) {
 
   document.getElementById('mName').textContent = p.nombre;
   const mPr = DATA.productores.find(x => x.nombre === p.productor);
-  const mLogoHtml = mPr && mPr.logo ? `<img src="${mPr.logo}" style="height:20px;width:auto;object-fit:contain;vertical-align:middle;margin-right:5px;opacity:.85" onerror="this.style.display='none'">` : '';
+  const mLogoHtml = mPr && mPr.logo ? `<img src="${mPr.logo}" style="height:18px;width:auto;object-fit:contain;vertical-align:middle;margin-right:4px;opacity:.8" onerror="this.style.display='none'">` : '';
   document.getElementById('mProdLine').innerHTML = `${mLogoHtml}Por <a href="#" onclick="event.preventDefault();closeProdModal();openProducerModal('${encodeStr(p.productor)}')">${p.productor}</a>${p.region ? ' · 📍 ' + p.region : ''}`;
   document.getElementById('mDesc').textContent = p.descripcion || '';
 
@@ -849,16 +846,13 @@ function openProducerModal(nameEnc) {
   const header = document.getElementById('prModalHeader');
   const emojiMap = {'Marisco & Conservas':'🦞','Gildas & Aperitivos':'🫒','Quesos':'🧀','Vinos & Destilados':'🍷','Aceites':'🫙','Jamones & Embutidos':'🥩','Cárnicos':'🥩'};
   const emoji = emojiMap[pr.seccion] || '🏭';
-    const prImgHtml = pr.imagen 
-      ? `<img src="${pr.imagen}" style="width:100%;height:100%;object-fit:cover" onerror="this.parentElement.innerHTML='${emoji}'">`
-      : emoji;
-
-  const modalLogoHtml = pr.logo
+  const prModalLogoHtml = pr.logo
     ? `<img src="${pr.logo}" style="max-width:100%;max-height:100%;object-fit:contain" onerror="this.parentElement.innerHTML='${emoji}'">`
     : emoji;
+
   header.innerHTML = `
     <button class="modal-close-btn" style="position:absolute;top:14px;right:14px" onclick="closePrModal()">✕</button>
-    <div class="pr-modal-logo" style="display:flex;align-items:center;justify-content:center;padding:8px;background:#f8f5f0">${modalLogoHtml}</div>
+    <div class="pr-modal-logo" style="display:flex;align-items:center;justify-content:center;padding:8px;background:#f8f5f0">${prModalLogoHtml}</div>
     <div class="pr-modal-titles">
       <h2>${pr.nombre}</h2>
       <div class="pr-region">📍 ${pr.region}</div>
