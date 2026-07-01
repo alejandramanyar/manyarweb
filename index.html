@@ -658,8 +658,8 @@ footer{background:var(--navy);padding:48px 0 24px;border-top:1px solid rgba(201,
   .pr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;margin-top:32px}
   .pr-card{background:var(--white);border-radius:14px;border:1px solid var(--border);overflow:hidden;cursor:pointer;transition:transform .2s,box-shadow .2s;text-decoration:none;display:block}
   .pr-card:hover{transform:translateY(-3px);box-shadow:var(--sh-md)}
-  .pr-card-img{height:160px;overflow:hidden;background:var(--bg);display:flex;align-items:center;justify-content:center;font-size:48px}
-  .pr-card-img img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+  .pr-card-img{height:160px;overflow:hidden;background:#f8f5f0;display:flex;align-items:center;justify-content:center;font-size:48px}
+  .pr-card-img img{max-width:100%;max-height:100%;object-fit:contain;transition:transform .4s}
   .pr-card:hover .pr-card-img img{transform:scale(1.05)}
   .pr-card-body{padding:14px}
   .pr-card-cat{font-size:10px;font-weight:700;color:var(--terra);text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px}
@@ -719,7 +719,7 @@ footer{background:var(--navy);padding:48px 0 24px;border-top:1px solid rgba(201,
       <!-- PRODUCER CARDS GRID -->
       <div class="pr-grid">
         <a href="catalogo.html" class="pr-card">
-          <div class="pr-card-img"><img src="img_anchoas.jpg" alt="Sinobas" onerror="this.parentElement.innerHTML='🐟'"></div>
+          <div class="pr-card-img" style="display:flex;align-items:center;justify-content:center;padding:20px;background:#f8f5f0"><img src="img_anchoas.jpg" alt="Sinobas" style="max-height:90px;width:auto;object-fit:contain" onerror="this.parentElement.innerHTML='🐟'"></div>
           <div class="pr-card-body">
             <div class="pr-card-cat">Conservas · Marisco</div>
             <div class="pr-card-name">Sinobas</div>
@@ -732,7 +732,7 @@ footer{background:var(--navy);padding:48px 0 24px;border-top:1px solid rgba(201,
           </div>
         </a>
         <a href="catalogo.html" class="pr-card">
-          <div class="pr-card-img"><img src="forberry_gildamatrimonio.png" alt="Forberry" onerror="this.parentElement.innerHTML='🫒'"></div>
+          <div class="pr-card-img" style="display:flex;align-items:center;justify-content:center;padding:20px;background:#f8f5f0"><img src="forberry_logo.png" alt="Forberry" style="max-height:90px;width:auto;object-fit:contain" onerror="this.parentElement.innerHTML='🫒'"></div>
           <div class="pr-card-body">
             <div class="pr-card-cat">Gildas · Aperitivos</div>
             <div class="pr-card-name">Forberry</div>
@@ -745,7 +745,7 @@ footer{background:var(--navy);padding:48px 0 24px;border-top:1px solid rgba(201,
           </div>
         </a>
         <a href="catalogo.html" class="pr-card">
-          <div class="pr-card-img"><img src="tasugueras_Briniro.png" alt="Tasugueras" onerror="this.parentElement.innerHTML='🧀'"></div>
+          <div class="pr-card-img" style="display:flex;align-items:center;justify-content:center;padding:20px;background:#f8f5f0"><img src="tasugueras_logo.png" alt="Tasugueras" style="max-height:90px;width:auto;object-fit:contain" onerror="this.parentElement.innerHTML='🧀'"></div>
           <div class="pr-card-body">
             <div class="pr-card-cat">Quesos artesanos</div>
             <div class="pr-card-name">Quesería Tasugueras</div>
@@ -758,7 +758,7 @@ footer{background:var(--navy);padding:48px 0 24px;border-top:1px solid rgba(201,
           </div>
         </a>
         <a href="catalogo.html" class="pr-card">
-          <div class="pr-card-img"><img src="laprovivencia1888_quesoazul.jpeg" alt="La Providencia" onerror="this.parentElement.innerHTML='🧀'"></div>
+          <div class="pr-card-img" style="display:flex;align-items:center;justify-content:center;padding:20px;background:#f8f5f0"><img src="logoprovidencia.png" alt="La Providencia" style="max-height:90px;width:auto;object-fit:contain" onerror="this.parentElement.innerHTML='🧀'"></div>
           <div class="pr-card-body">
             <div class="pr-card-cat">Quesos azules</div>
             <div class="pr-card-name">La Providencia 1888</div>
@@ -771,7 +771,7 @@ footer{background:var(--navy);padding:48px 0 24px;border-top:1px solid rgba(201,
           </div>
         </a>
         <a href="catalogo.html" class="pr-card">
-          <div class="pr-card-img"><img src="TRINOS.jpg" alt="Bodega Cristo" onerror="this.parentElement.innerHTML='🍷'"></div>
+          <div class="pr-card-img" style="display:flex;align-items:center;justify-content:center;padding:20px;background:#f8f5f0"><img src="logo_bodega_cristo_humilladero.jpg" alt="Bodega Cristo del Humilladero" style="max-height:90px;width:auto;object-fit:contain" onerror="this.parentElement.innerHTML='🍷'"></div>
           <div class="pr-card-body">
             <div class="pr-card-cat">Vinos · Vermut</div>
             <div class="pr-card-name">Bodega Cristo del Humilladero</div>
@@ -784,7 +784,7 @@ footer{background:var(--navy);padding:48px 0 24px;border-top:1px solid rgba(201,
           </div>
         </a>
         <a href="catalogo.html" class="pr-card">
-          <div class="pr-card-img"><img src="carnedecentollo_lamardetazones.png" alt="La Mar de Tazones" onerror="this.parentElement.innerHTML='🦞'"></div>
+          <div class="pr-card-img" style="display:flex;align-items:center;justify-content:center;padding:20px;background:#f8f5f0"><img src="logolamardetazones.png" alt="La Mar de Tazones" style="max-height:90px;width:auto;object-fit:contain" onerror="this.parentElement.innerHTML='🦞'"></div>
           <div class="pr-card-body">
             <div class="pr-card-cat">Marisco premium</div>
             <div class="pr-card-name">La Mar de Tazones</div>
@@ -797,7 +797,7 @@ footer{background:var(--navy);padding:48px 0 24px;border-top:1px solid rgba(201,
           </div>
         </a>
         <a href="catalogo.html" class="pr-card">
-          <div class="pr-card-img"><img src="almacantarofrutadoverde_500ml.png" alt="Alma de Cántaro" onerror="this.parentElement.innerHTML='🫙'"></div>
+          <div class="pr-card-img" style="display:flex;align-items:center;justify-content:center;padding:20px;background:#f8f5f0"><img src="lOGO_ACEITES_ALMA_DE_CANTARO.png" alt="Alma de Cántaro" style="max-height:90px;width:auto;object-fit:contain" onerror="this.parentElement.innerHTML='🫙'"></div>
           <div class="pr-card-body">
             <div class="pr-card-cat">Aceites · AOVE</div>
             <div class="pr-card-name">Alma de Cántaro</div>
@@ -810,7 +810,7 @@ footer{background:var(--navy);padding:48px 0 24px;border-top:1px solid rgba(201,
           </div>
         </a>
         <a href="catalogo.html" class="pr-card">
-          <div class="pr-card-img"><img src="ginebra-picos-cabariezo.jpg" alt="Picos de Cabariezo" onerror="this.parentElement.innerHTML='🥃'"></div>
+          <div class="pr-card-img" style="display:flex;align-items:center;justify-content:center;padding:20px;background:#f8f5f0"><img src="logobodegapicoscabariezo.png" alt="Picos de Cabariezo" style="max-height:90px;width:auto;object-fit:contain" onerror="this.parentElement.innerHTML='🥃'"></div>
           <div class="pr-card-body">
             <div class="pr-card-cat">Vinos · Destilados</div>
             <div class="pr-card-name">Picos de Cabariezo</div>

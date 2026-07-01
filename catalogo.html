@@ -444,103 +444,6 @@ a { color: inherit; text-decoration: none; }
   .pedido-modal { padding: 24px 18px; }
   .form-2col { grid-template-columns: 1fr; }
 }
-
-  /* ═══ CESTA PREMIUM ═══ */
-  .cart-nav-btn{display:flex;align-items:center;gap:8px;padding:8px 16px;background:var(--navy);color:#fff;border:none;border-radius:100px;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:600;cursor:pointer;transition:all .2s;white-space:nowrap}
-  .cart-nav-btn:hover{background:var(--terra)}
-  .cart-nav-count{background:var(--terra);color:#fff;border-radius:50%;width:20px;height:20px;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0}
-
-  /* Toast notification */
-  .cart-toast{position:fixed;bottom:32px;left:50%;transform:translateX(-50%) translateY(12px);background:var(--navy);color:#fff;padding:14px 22px 14px 16px;border-radius:14px;font-size:13px;font-weight:500;display:flex;align-items:center;gap:10px;opacity:0;transition:opacity .25s,transform .25s;pointer-events:none;z-index:800;white-space:nowrap;box-shadow:0 8px 32px rgba(13,27,42,.22)}
-  .cart-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
-  .ct-check{background:rgba(104,211,145,.2);color:#68D391;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0}
-
-  /* Drawer */
-  .cart-overlay{display:none;position:fixed;inset:0;background:rgba(13,27,42,.4);z-index:590}
-  .cart-overlay.open{display:block}
-  .cart-drawer{position:fixed;top:0;right:-440px;width:440px;max-width:95vw;height:100vh;background:#fff;z-index:600;box-shadow:-8px 0 40px rgba(13,27,42,.15);transition:right .3s cubic-bezier(.4,0,.2,1);display:flex;flex-direction:column}
-  .cart-drawer.open{right:0}
-  .drawer-header{padding:24px 24px 20px;border-bottom:1px solid rgba(255,255,255,.1);display:flex;justify-content:space-between;align-items:flex-start;flex-shrink:0;background:var(--navy)}
-  .drawer-header h3{font-family:'Playfair Display',serif;font-size:20px;font-weight:700;color:#fff;margin-bottom:2px}
-  .drawer-header-sub{font-size:11px;color:rgba(255,255,255,.4);font-weight:400}
-  .drawer-close{background:rgba(255,255,255,.12);border:none;width:32px;height:32px;border-radius:8px;font-size:16px;cursor:pointer;color:rgba(255,255,255,.7);display:flex;align-items:center;justify-content:center;transition:all .15s;flex-shrink:0}
-  .drawer-close:hover{background:rgba(255,255,255,.22);color:#fff}
-  .drawer-items{flex:1;overflow-y:auto;padding:8px 0}
-  .drawer-empty{text-align:center;padding:48px 24px;color:var(--muted)}
-  .drawer-empty-icon{font-size:36px;margin-bottom:12px;opacity:.3}
-
-  /* Cart items */
-  .ci{display:flex;gap:14px;padding:16px 24px;border-bottom:1px solid var(--border);align-items:flex-start;transition:background .15s}
-  .ci:hover{background:var(--cream2)}
-  .ci-img{width:54px;height:54px;border-radius:10px;background:var(--cream2);overflow:hidden;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:22px;border:1px solid var(--border)}
-  .ci-img img{width:100%;height:100%;object-fit:cover}
-  .ci-info{flex:1;min-width:0}
-  .ci-name{font-family:'Playfair Display',serif;font-size:13px;font-weight:700;color:var(--navy);margin-bottom:1px;line-height:1.3}
-  .ci-prod{font-size:11px;color:var(--muted);margin-bottom:3px}
-  .ci-fmt{font-size:11px;color:var(--terra);font-weight:600;background:rgba(201,135,74,.08);padding:2px 8px;border-radius:100px;display:inline-block}
-  .ci-row{display:flex;align-items:center;justify-content:space-between;margin-top:8px}
-  .ci-qty{display:flex;align-items:center;gap:0;background:var(--cream2);border:1px solid var(--border);border-radius:8px;overflow:hidden}
-  .ci-qbtn{width:28px;height:28px;border:none;background:none;cursor:pointer;font-size:15px;font-weight:600;color:var(--navy);transition:all .15s;display:flex;align-items:center;justify-content:center}
-  .ci-qbtn:hover{background:rgba(201,135,74,.12);color:var(--terra)}
-  .ci-qval{font-size:13px;font-weight:700;min-width:24px;text-align:center;color:var(--navy);border-left:1px solid var(--border);border-right:1px solid var(--border);line-height:28px}
-  .ci-price{font-size:13px;font-weight:700;color:var(--navy)}
-  .ci-rm{background:none;border:none;color:var(--muted);cursor:pointer;font-size:13px;padding:4px 6px;border-radius:6px;transition:all .15s;margin-left:6px}
-  .ci-rm:hover{color:#E53E3E;background:rgba(229,62,62,.08)}
-
-  /* Drawer footer */
-  .drawer-footer{padding:20px 24px;border-top:2px solid rgba(201,135,74,.15);background:var(--cream2);flex-shrink:0}
-  .drawer-total{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:14px}
-  .drawer-total-label{font-size:12px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
-  .drawer-total-val{text-align:right}
-  .drawer-total-price{font-size:26px;font-weight:800;color:var(--navy);line-height:1}
-  .drawer-total-iva{font-size:11px;color:var(--muted);margin-top:2px}
-  .btn-presupuesto{width:100%;padding:15px;background:var(--terra);color:#fff;border:none;border-radius:var(--r);font-size:15px;font-weight:700;cursor:pointer;transition:background .18s;font-family:'DM Sans',sans-serif;letter-spacing:.01em}
-  .btn-presupuesto:hover{background:var(--terra2)}
-
-  /* Qty stepper in modal */
-  .qty-row{display:flex;align-items:center;gap:14px;margin-bottom:20px;padding:14px 18px;background:var(--cream2);border-radius:12px;border:1px solid var(--border)}
-  .qty-row label{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;flex-shrink:0}
-  .qty-stepper{display:flex;align-items:center;background:#fff;border:1.5px solid var(--border);border-radius:10px;overflow:hidden}
-  .qty-step{width:36px;height:36px;border:none;background:none;cursor:pointer;font-size:18px;color:var(--navy);display:flex;align-items:center;justify-content:center;transition:all .15s}
-  .qty-step:hover{background:rgba(201,135,74,.1);color:var(--terra)}
-  .qty-num{font-size:16px;font-weight:700;min-width:32px;text-align:center;color:var(--navy);border-left:1px solid var(--border);border-right:1px solid var(--border);line-height:36px}
-  .qty-total{margin-left:auto;font-size:15px;font-weight:700;color:var(--terra)}
-  .btn-add-cart{width:100%;padding:15px;background:var(--terra);color:#fff;border:none;border-radius:var(--r);font-size:15px;font-weight:700;cursor:pointer;transition:background .18s;font-family:'DM Sans',sans-serif}
-  .btn-add-cart:hover{background:var(--terra2)}
-
-  /* Presupuesto form fields */
-  .pf-row{margin-bottom:14px}
-  .pf-label{display:block;font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin-bottom:6px}
-  .pf-input{width:100%;padding:11px 14px;border:1.5px solid var(--border);border-radius:10px;font-family:'DM Sans',sans-serif;font-size:14px;color:var(--navy);background:#fff;transition:border-color .18s}
-  .pf-input:focus{outline:none;border-color:var(--terra)}
-  .pf-resumen{background:var(--cream2);border-radius:10px;padding:14px;margin:14px 0;font-size:12px;line-height:1.7;max-height:150px;overflow-y:auto}
-  .pf-resumen-item{display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px solid rgba(13,27,42,.06);gap:8px}
-  .pf-total{display:flex;justify-content:space-between;padding:8px 0 0;font-weight:700;font-size:13px}
-
-  /* Price display in modal */
-  .price-display{background:var(--cream2);border:1px solid var(--border);border-radius:14px;padding:16px 20px;margin-bottom:20px;display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
-  .price-val{font-size:28px;font-weight:800;color:var(--navy)}
-  .price-currency{font-size:20px;font-weight:700;color:var(--terra)}
-  .price-no-iva{font-size:12px;color:var(--muted);font-weight:500;background:rgba(13,27,42,.06);padding:3px 8px;border-radius:100px}
-
-
-  /* ── CAROUSEL ── */
-  .modal-img-wrap{position:relative;overflow:hidden}
-  .carousel-track{display:flex;height:100%;transition:transform .35s cubic-bezier(.4,0,.2,1)}
-  .carousel-slide{min-width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:var(--cream2);flex-shrink:0}
-  .carousel-slide img{width:100%;height:100%;object-fit:cover}
-  .carousel-btn{position:absolute;top:50%;transform:translateY(-50%);background:rgba(255,255,255,.9);border:none;width:36px;height:36px;border-radius:50%;cursor:pointer;font-size:16px;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(13,27,42,.15);z-index:10;transition:all .18s}
-  .carousel-btn:hover{background:#fff;box-shadow:0 4px 16px rgba(13,27,42,.2)}
-  .carousel-prev{left:10px}
-  .carousel-next{right:10px}
-  .carousel-dots{position:absolute;bottom:10px;left:50%;transform:translateX(-50%);display:flex;gap:5px;z-index:10}
-  .carousel-dot{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.5);cursor:pointer;transition:all .2s;border:none;padding:0}
-  .carousel-dot.active{background:#fff;width:18px;border-radius:3px}
-  .carousel-thumbs{display:flex;gap:6px;margin-top:10px;overflow-x:auto;padding:2px}
-  .carousel-thumb{width:52px;height:52px;border-radius:8px;overflow:hidden;cursor:pointer;flex-shrink:0;border:2px solid transparent;transition:border-color .18s;background:var(--cream2)}
-  .carousel-thumb img{width:100%;height:100%;object-fit:cover}
-  .carousel-thumb.active{border-color:var(--terra)}
-
 </style>
 </head>
 <body>
@@ -558,14 +461,7 @@ a { color: inherit; text-decoration: none; }
       <li><a href="index.html#productores" style="padding:7px 14px;font-size:13px;font-weight:500;color:rgba(13,27,42,.55);border-radius:100px;text-decoration:none">Productores</a></li>
     </ul>
     <div style="display:flex;gap:8px">
-      <a href="index.html#contacto" style="display:inline-flex;align-items:center;padding:8px 16px;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:500;border-radius:100px;border:1px solid rgba(13,27,42,.15);color:var(--navy);text-decoration:none;margin-right:8px">Acceso B2B</a>
-      <button onclick="openCart()" style="display:flex;align-items:center;gap:6px;padding:8px 16px;background:none;border:1.5px solid var(--border);border-radius:100px;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:600;color:var(--navy);cursor:pointer;transition:all .18s" onmouseover="this.style.borderColor='var(--terra)'" onmouseout="this.style.borderColor='var(--border)'">
-        🛒 Ver cesta <span id="cartNavCountAlt" style="background:var(--terra);color:#fff;border-radius:50%;width:18px;height:18px;font-size:10px;font-weight:800;display:none;align-items:center;justify-content:center">0</span>
-      </button>
-      <button class="cart-nav-btn" id="cartNavBtn" onclick="openCart()" style="display:none">
-        🛒 <span id="cartNavCount" class="cart-nav-count">0</span>
-        <span id="cartNavTotal" class="cart-nav-total"></span>
-      </button>
+      <a href="index.html#contacto" style="display:inline-flex;align-items:center;padding:9px 20px;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:600;border-radius:100px;background:#0D1B2A;color:#fff;text-decoration:none;transition:all .18s">Solicitar acceso →</a>
     </div>
   </div>
 </nav>
@@ -619,12 +515,11 @@ a { color: inherit; text-decoration: none; }
 </div>
 
 <!-- PRODUCT DETAIL MODAL -->
-<div class="overlay" id="prodModal" onclick="if(event.target===this)closeProductModal()">
+<div class="overlay" id="prodModal" onclick="if(event.target===this)closeProdModal()">
   <div class="modal" id="prodModalInner">
     <div class="modal-img-wrap" id="mImgWrap">
-      <button class="modal-close-btn" onclick="closeProductModal()">✕</button>
+      <button class="modal-close-btn" onclick="closeProdModal()">✕</button>
     </div>
-    <div class="carousel-thumbs" id="mCarouselThumbs" style="padding:6px 12px 0;background:#fff"></div>
     <div class="modal-body">
       <div class="modal-eyebrow" id="mEyebrow"></div>
       <h2 class="modal-name" id="mName"></h2>
@@ -635,20 +530,12 @@ a { color: inherit; text-decoration: none; }
         <div class="format-grid" id="mFormats"></div>
       </div>
       <div class="price-display" id="mPriceDisplay" style="display:none">
-        <span class="price-val" id="mPriceVal"></span> <span class="price-currency">€</span>
+        <span class="price-val" id="mPriceVal"></span>
         <span class="price-no-iva">sin IVA</span>
       </div>
-      <div class="qty-row">
-        <label>Cantidad</label>
-        <div class="qty-stepper">
-          <button class="qty-step" onclick="changeModalQty(-1)">−</button>
-          <span class="qty-num" id="mQty">0</span>
-          <button class="qty-step" onclick="changeModalQty(1)">+</button>
-        </div>
-        <span class="qty-total" id="mQtyTotal"></span>
-      </div>
       <div class="modal-cta">
-        <button class="btn-add-cart" id="btnAddCart" onclick="addToCart()" style="opacity:.45;pointer-events:none">+ Añadir a solicitud</button>
+        <button class="btn-pedido" onclick="openPedido()">Hacer pedido →</button>
+        <button class="btn-manyar" onclick="openPedido()">Consultar disponibilidad</button>
       </div>
     </div>
   </div>
@@ -745,130 +632,6 @@ fetch('productos.json')
     init();
   });
 
-
-
-/* ── IMAGE CAROUSEL ── */
-var carouselIdx = 0;
-var carouselImgs = [];
-
-function buildCarousel(images, emoji) {
-  carouselImgs = images && images.length ? images : [];
-  carouselIdx = 0;
-  var imgWrap = document.getElementById('mImgWrap');
-  var closeBtn = document.createElement('button');
-  closeBtn.className = 'modal-close-btn';
-  closeBtn.textContent = '✕';
-  closeBtn.onclick = closeProductModal;
-
-  imgWrap.innerHTML = '';
-  imgWrap.appendChild(closeBtn);
-
-  if (!carouselImgs.length) {
-    var ph = document.createElement('div');
-    ph.style.cssText = 'font-size:80px;opacity:.25';
-    ph.textContent = emoji;
-    imgWrap.appendChild(ph);
-    return;
-  }
-
-  if (carouselImgs.length === 1) {
-    var img = document.createElement('img');
-    img.src = carouselImgs[0];
-    img.style.cssText = 'width:100%;height:100%;object-fit:cover';
-    img.onerror = function() { this.style.display = 'none'; };
-    imgWrap.appendChild(img);
-    var thumbsEl = document.getElementById('mCarouselThumbs');
-    if (thumbsEl) thumbsEl.innerHTML = '';
-    return;
-  }
-
-  // Build track
-  var track = document.createElement('div');
-  track.className = 'carousel-track';
-  track.id = 'carouselTrack';
-
-  carouselImgs.forEach(function(src) {
-    var slide = document.createElement('div');
-    slide.className = 'carousel-slide';
-    var img = document.createElement('img');
-    img.src = src;
-    img.onerror = function() { this.style.display = 'none'; };
-    slide.appendChild(img);
-    track.appendChild(slide);
-  });
-  imgWrap.appendChild(track);
-
-  // Prev/Next buttons
-  var prev = document.createElement('button');
-  prev.className = 'carousel-btn carousel-prev';
-  prev.innerHTML = '‹';
-  prev.onclick = prevSlide;
-  imgWrap.appendChild(prev);
-
-  var next = document.createElement('button');
-  next.className = 'carousel-btn carousel-next';
-  next.innerHTML = '›';
-  next.onclick = nextSlide;
-  imgWrap.appendChild(next);
-
-  // Dots
-  var dotsEl = document.createElement('div');
-  dotsEl.className = 'carousel-dots';
-  carouselImgs.forEach(function(_, i) {
-    var dot = document.createElement('button');
-    dot.className = 'carousel-dot' + (i === 0 ? ' active' : '');
-    dot.onclick = (function(idx) { return function() { goToSlide(idx); }; })(i);
-    dotsEl.appendChild(dot);
-  });
-  imgWrap.appendChild(dotsEl);
-
-  // Thumbnails
-  var thumbsEl = document.getElementById('mCarouselThumbs');
-  if (thumbsEl) {
-    thumbsEl.innerHTML = '';
-    carouselImgs.forEach(function(src, i) {
-      var thumb = document.createElement('div');
-      thumb.className = 'carousel-thumb' + (i === 0 ? ' active' : '');
-      thumb.onclick = (function(idx) { return function() { goToSlide(idx); }; })(i);
-      var tImg = document.createElement('img');
-      tImg.src = src;
-      tImg.onerror = function() { this.style.display = 'none'; };
-      thumb.appendChild(tImg);
-      thumbsEl.appendChild(thumb);
-    });
-  }
-}
-
-function goToSlide(idx) {
-  carouselIdx = idx;
-  var track = document.getElementById('carouselTrack');
-  if (track) track.style.transform = 'translateX(-' + (idx * 100) + '%)';
-  document.querySelectorAll('.carousel-dot').forEach(function(d, i) { d.classList.toggle('active', i === idx); });
-  document.querySelectorAll('.carousel-thumb').forEach(function(t, i) { t.classList.toggle('active', i === idx); });
-}
-
-function nextSlide() { goToSlide((carouselIdx + 1) % carouselImgs.length); }
-function prevSlide() { goToSlide((carouselIdx - 1 + carouselImgs.length) % carouselImgs.length); }
-
-
-/* ── Producer logo map ── */
-function buildLogoMap() {
-  const map = {};
-  if (DATA && DATA.productores) {
-    DATA.productores.forEach(pr => {
-      if (pr.logo) map[pr.nombre] = pr.logo;
-    });
-  }
-  return map;
-}
-
-function getProducerLogoHtml(nombre) {
-  const map = buildLogoMap();
-  const logo = map[nombre];
-  if (!logo) return '';
-  return `<img src="${logo}" alt="${nombre}" style="width:22px;height:22px;border-radius:5px;object-fit:contain;background:#f5f0e8;flex-shrink:0;border:1px solid rgba(13,27,42,.07)" onerror="this.style.display='none'">`;
-}
-
 // ── Init ──
 function init() {
   buildFilters();
@@ -958,26 +721,27 @@ function renderProducts(products) {
 function renderCard(p) {
   const precio = p.formatos && p.formatos.length ? p.formatos[0].precio : '';
   const imgHtml = p.imagen
-    ? `<img src="${p.imagen}" alt="${p.nombre}" loading="lazy" onerror="this.style.opacity='.15'">`
-    : `<span style="font-size:40px;opacity:.3">${p.emoji || '🍽️'}</span>`;
+    ? `<img src="${p.imagen}" alt="${p.nombre}" loading="lazy" onerror="this.parentElement.innerHTML='<span style=font-size:48px>${p.emoji||'🍽️'}</span>'">`
+    : `<span style="font-size:48px">${p.emoji || '🍽️'}</span>`;
 
   return `<div class="pcard" onclick="openProductModal('${encodeStr(p.productor + '||' + p.nombre)}')">
     <div class="pcard-img">
       ${imgHtml}
       ${p.stock_limitado ? '<span class="badge-stock">⚠️ Stock limitado</span>' : ''}
-
+      ${(p.premios && p.premios !== 'No' && p.premios !== 'no') ? '<span class="badge-premio">🏆</span>' : ''}
     </div>
     <div class="pcard-body">
       <div class="pcard-cat">${(p.seccion || p.categoria || '').trim()}</div>
       <div class="pcard-name">${p.nombre}</div>
       <div class="pcard-prod" style="display:flex;align-items:center;gap:5px">
-        ${getProducerLogoHtml(p.productor)}${p.productor}
+        ${(() => { const pr = DATA.productores.find(x => x.nombre === p.productor); return pr && pr.logo ? `<img src="${pr.logo}" style="height:16px;width:auto;object-fit:contain;opacity:.8" onerror="this.style.display='none'">` : ''; })()}
+        ${p.productor}
       </div>
       ${p.region ? `<div class="pcard-region">📍 ${p.region}</div>` : ''}
     </div>
     <div class="pcard-footer">
       <div>
-        ${precio ? `<div class="pcard-price-label">Desde (sin IVA)</div><div class="pcard-price">${precio.includes('€') ? precio : precio + ' €'}</div>` : '<div class="pcard-since">Consultar precio</div>'}
+        ${precio ? `<div class="pcard-price-label">Desde (sin IVA)</div><div class="pcard-price">${precio}</div>` : '<div class="pcard-since">Consultar precio</div>'}
       </div>
       <button class="btn-ver">Ver →</button>
     </div>
@@ -991,13 +755,12 @@ function renderProducers(producers) {
     const nProds = pr.productos ? pr.productos.length : 0;
     const emojiMap = {'Marisco & Conservas':'🦞','Gildas & Aperitivos':'🫒','Quesos':'🧀','Vinos & Destilados':'🍷','Aceites':'🫙','Jamones & Embutidos':'🥩','Cárnicos':'🥩'};
     const emoji = emojiMap[pr.seccion] || '🏭';
-    const logoSrc = pr.logo || '';
-    const logoContent = logoSrc
-      ? `<img src="${logoSrc}" alt="${pr.nombre}" style="width:100%;height:100%;object-fit:contain;padding:8px" onerror="this.parentElement.innerHTML='<span style=font-size:28px>${emoji}</span>'">`
-      : `<span style="font-size:28px">${emoji}</span>`;
+    const logoHtml = pr.logo
+      ? `<img src="${pr.logo}" style="max-width:90%;max-height:90%;object-fit:contain" onerror="this.parentElement.innerHTML='${emoji}'">`
+      : emoji;
     return `<div class="prcard" onclick="openProducerModal('${encodeStr(pr.nombre)}')">
       <div class="prcard-top">
-        <div class="prcard-img" style="background:#fff;border:1px solid var(--border)">${logoContent}</div>
+        <div class="prcard-img" style="display:flex;align-items:center;justify-content:center;padding:12px;background:#f8f5f0">${logoHtml}</div>
         <span class="badge-activo">● Activo</span>
       </div>
       <div>
@@ -1021,9 +784,14 @@ function openProductModal(key) {
   if (!p) return;
   currentProduct = p;
 
-  // Image / carousel
-  var allImgs = p.imagenes && p.imagenes.length ? p.imagenes : (p.imagen ? [p.imagen] : []);
-  buildCarousel(allImgs, p.emoji || '🍽️');
+  // Image
+  const imgWrap = document.getElementById('mImgWrap');
+  const closeBtn = '<button class="modal-close-btn" onclick="closeProdModal()">✕</button>';
+  if (p.imagen) {
+    imgWrap.innerHTML = closeBtn + `<img src="${p.imagen}" alt="${p.nombre}" style="width:100%;height:100%;object-fit:cover" onerror="this.parentElement.innerHTML='${closeBtn}<span style=font-size:80px>${p.emoji||'🍽️'}</span>'">`;
+  } else {
+    imgWrap.innerHTML = closeBtn + `<span style="font-size:80px">${p.emoji || '🍽️'}</span>`;
+  }
 
   // Eyebrow tags
   const tags = [];
@@ -1034,69 +802,39 @@ function openProductModal(key) {
   document.getElementById('mEyebrow').innerHTML = tags.join('');
 
   document.getElementById('mName').textContent = p.nombre;
-  document.getElementById('mProdLine').innerHTML = `Por <a href="#" onclick="event.preventDefault();closeProductModal();openProducerModal('${encodeStr(p.productor)}')">${p.productor}</a>${p.region ? ' · 📍 ' + p.region : ''}`;
+  const mPr = DATA.productores.find(x => x.nombre === p.productor);
+  const mLogoHtml = mPr && mPr.logo ? `<img src="${mPr.logo}" style="height:20px;width:auto;object-fit:contain;vertical-align:middle;margin-right:5px;opacity:.85" onerror="this.style.display='none'">` : '';
+  document.getElementById('mProdLine').innerHTML = `${mLogoHtml}Por <a href="#" onclick="event.preventDefault();closeProdModal();openProducerModal('${encodeStr(p.productor)}')">${p.productor}</a>${p.region ? ' · 📍 ' + p.region : ''}`;
   document.getElementById('mDesc').textContent = p.descripcion || '';
 
   // Formats
   const fmtGrid = document.getElementById('mFormats');
   const priceDisp = document.getElementById('mPriceDisplay');
   if (p.formatos && p.formatos.length) {
-    fmtGrid.innerHTML = p.formatos.map((f, i) => {
-      var imgParam = f.imagen ? encodeStr(f.imagen) : '';
-      return `<button class="fmt-btn ${i===0?'selected':''}" onclick="selectFormat(this,'${encodeStr(f.precio)}','${imgParam}')">
+    fmtGrid.innerHTML = p.formatos.map((f, i) => `
+      <button class="fmt-btn ${i===0?'selected':''}" onclick="selectFormat(this,'${encodeStr(f.precio)}')">
         ${f.formato}
-        <div class="fmt-price">${f.precio}${f.precio && !f.precio.includes("€") ? " €" : ""} sin IVA</div>
-      </button>`;
-    }).join('');
+        <div class="fmt-price">${f.precio}</div>
+      </button>`).join('');
     priceDisp.style.display = 'flex';
-    const pr0 = p.formatos[0].precio; document.getElementById('mPriceVal').textContent = pr0 || '';
+    document.getElementById('mPriceVal').textContent = p.formatos[0].precio;
   } else {
     fmtGrid.innerHTML = '<span style="font-size:13px;color:var(--muted)">Consultar disponibilidad y precio</span>';
     priceDisp.style.display = 'none';
   }
 
-  modalQty = 0;
-  document.getElementById('mQty').textContent = '0';
-  var _btn = document.getElementById('btnAddCart');
-  if (_btn) { _btn.style.opacity='.45'; _btn.style.pointerEvents='none'; _btn.textContent='Selecciona cantidad'; }
-  modalQty = 0;
-  document.getElementById('mQty').textContent = '0';
-  var _b2 = document.getElementById('btnAddCart');
-  if (_b2) { _b2.style.opacity='.4'; _b2.style.pointerEvents='none'; _b2.textContent='Selecciona cantidad'; }
   document.getElementById('prodModal').classList.add('open');
   document.body.style.overflow = 'hidden';
 }
 
-function selectFormat(btn, priceEnc, fmtImgEnc) {
+function selectFormat(btn, priceEnc) {
   document.querySelectorAll('.fmt-btn').forEach(b => b.classList.remove('selected'));
   btn.classList.add('selected');
   document.getElementById('mPriceVal').textContent = decodeStr(priceEnc);
   document.getElementById('mPriceDisplay').style.display = 'flex';
-  // Change image if format has its own image
-  if (fmtImgEnc) {
-    var fmtImg = decodeStr(fmtImgEnc);
-    if (fmtImg) {
-      var imgWrap = document.getElementById('mImgWrap');
-      var closeBtn = '<button class="modal-close-btn" onclick="closeProductModal()">✕</button>';
-      var fmtImgEl = document.createElement('img');
-    fmtImgEl.src = fmtImg;
-    fmtImgEl.style.cssText = 'width:100%;height:100%;object-fit:cover';
-    fmtImgEl.onerror = function() { this.style.display = 'none'; };
-    var closeBtnEl = document.createElement('button');
-    closeBtnEl.className = 'modal-close-btn';
-    closeBtnEl.textContent = '✕';
-    closeBtnEl.onclick = closeProductModal;
-    imgWrap.innerHTML = '';
-    imgWrap.appendChild(closeBtnEl);
-    imgWrap.appendChild(fmtImgEl);
-    }
-  }
-  // Enable add button
-  var _b = document.getElementById('btnAddCart');
-  if (_b && modalQty > 0) { _b.style.opacity='1'; _b.style.pointerEvents='auto'; _b.textContent='+ Añadir a solicitud'; }
 }
 
-function closeProductModal() {
+function closeProdModal() {
   document.getElementById('prodModal').classList.remove('open');
   document.body.style.overflow = '';
 }
@@ -1111,14 +849,16 @@ function openProducerModal(nameEnc) {
   const header = document.getElementById('prModalHeader');
   const emojiMap = {'Marisco & Conservas':'🦞','Gildas & Aperitivos':'🫒','Quesos':'🧀','Vinos & Destilados':'🍷','Aceites':'🫙','Jamones & Embutidos':'🥩','Cárnicos':'🥩'};
   const emoji = emojiMap[pr.seccion] || '🏭';
-  const prLogoSrc = pr.logo || '';
-  const prLogoHtml = prLogoSrc
-    ? `<img src="${prLogoSrc}" alt="${pr.nombre}" style="width:100%;height:100%;object-fit:contain;padding:8px" onerror="this.style.display='none'">`
-    : `<span style="font-size:28px">${emoji}</span>`;
+    const prImgHtml = pr.imagen 
+      ? `<img src="${pr.imagen}" style="width:100%;height:100%;object-fit:cover" onerror="this.parentElement.innerHTML='${emoji}'">`
+      : emoji;
 
+  const modalLogoHtml = pr.logo
+    ? `<img src="${pr.logo}" style="max-width:100%;max-height:100%;object-fit:contain" onerror="this.parentElement.innerHTML='${emoji}'">`
+    : emoji;
   header.innerHTML = `
     <button class="modal-close-btn" style="position:absolute;top:14px;right:14px" onclick="closePrModal()">✕</button>
-    <div class="pr-modal-logo" style="background:rgba(255,255,255,.15);border-radius:10px;overflow:hidden">${prLogoHtml}</div>
+    <div class="pr-modal-logo" style="display:flex;align-items:center;justify-content:center;padding:8px;background:#f8f5f0">${modalLogoHtml}</div>
     <div class="pr-modal-titles">
       <h2>${pr.nombre}</h2>
       <div class="pr-region">📍 ${pr.region}</div>
@@ -1137,7 +877,7 @@ function openProducerModal(nameEnc) {
       ? `<img src="${p.imagen}" alt="${p.nombre}" loading="lazy" onerror="this.parentElement.innerHTML='${p.emoji||'🍽️'}'">`
       : (p.emoji || '🍽️');
     return `<div class="pr-prod-mini" onclick="closePrModal();openProductModal('${encodeStr(p.productor + '||' + p.nombre)}')">
-      <div class="pr-prod-mini-img">${imgHtml}</div>
+      <div class="pr-prod-mini-img">${typeof imgHtml === 'string' && imgHtml.startsWith('<') ? imgHtml : imgHtml}</div>
       <div>
         <div class="pr-prod-mini-name">${p.nombre}</div>
         <div class="pr-prod-mini-price">${precio}</div>
@@ -1166,11 +906,7 @@ function openPedido() {
     ${formato ? `<br><span>Formato: ${formato}</span>` : ''}
     ${precio ? `<br><span>Precio sin IVA: ${precio}</span>` : ''}`;
 
-  closeProductModal();
-  modalQty = 0;
-  document.getElementById('mQty').textContent = '0';
-  const btnAC = document.getElementById('btnAddCart');
-  if (btnAC) { btnAC.style.opacity='.45'; btnAC.style.pointerEvents='none'; btnAC.textContent='Selecciona cantidad'; }
+  closeProdModal();
   document.getElementById('pedidoModal').classList.add('open');
   document.body.style.overflow = 'hidden';
 }
@@ -1217,286 +953,9 @@ function encodeStr(s) { return encodeURIComponent(s).replace(/'/g, '%27'); }
 function decodeStr(s) { return decodeURIComponent(s); }
 
 // ── Keyboard ──
-
-/* ═══ CESTA PREMIUM ═══ */
-let cart = [];
-let modalQty = 0;
-
-function changeModalQty(delta) {
-  const newQty = modalQty + delta;
-  modalQty = Math.max(0, newQty);
-  const btn = document.getElementById('btnAddCart');
-  if (btn) {
-    if (modalQty > 0) {
-      btn.style.opacity = '1';
-      btn.style.pointerEvents = 'auto';
-      btn.textContent = '+ Añadir a solicitud';
-    } else {
-      btn.style.opacity = '.45';
-      btn.style.pointerEvents = 'none';
-      btn.textContent = 'Selecciona cantidad';
-    }
-  }
-  document.getElementById('mQty').textContent = modalQty;
-  var _b = document.getElementById('btnAddCart');
-  if (_b) {
-    if (modalQty > 0) { _b.style.opacity='1'; _b.style.pointerEvents='auto'; _b.textContent='+ Añadir a solicitud'; }
-    else { _b.style.opacity='.4'; _b.style.pointerEvents='none'; _b.textContent='Selecciona cantidad'; }
-  }
-  const precio = parseFloat((document.getElementById('mPriceVal').textContent||'0').replace(',','.').replace(/[^0-9.]/g,'')) || 0;
-  const total = (precio * modalQty).toFixed(2).replace('.',',');
-  document.getElementById('mQtyTotal').textContent = modalQty > 1 && precio ? '= ' + total + ' €' : '';
-}
-
-function addToCart() {
-  if (!currentProduct) return;
-  const sel = document.querySelector('.fmt-btn.selected');
-  const fmtText = sel ? sel.childNodes[0].textContent.trim() : 'Formato único';
-  const precioStr = document.getElementById('mPriceVal').textContent || '';
-  const precio = parseFloat(precioStr.replace(',','.').replace(/[^0-9.]/g,'')) || 0;
-  const qty = modalQty || 1;
-
-  const existing = cart.find(i => i.nombre === currentProduct.nombre && i.formato === fmtText);
-  if (existing) {
-    existing.qty += qty;
-  } else {
-    cart.push({
-      nombre: currentProduct.nombre,
-      productor: currentProduct.productor,
-      imagen: currentProduct.imagen || '',
-      emoji: currentProduct.emoji || '🍽️',
-      formato: fmtText,
-      precio: precio,
-      precioStr: precioStr,
-      qty: qty
-    });
-  }
-  
-  updateCartUI();
-  closeProductModal();
-  showToast(currentProduct.nombre);
-  modalQty = 0;
-  document.getElementById('mQty').textContent = '0';
-}
-
-function showToast(nombre) {
-  const toast = document.getElementById('cartToast');
-  document.getElementById('cartToastMsg').textContent = nombre.length > 35 ? nombre.substring(0,35) + '…' : nombre;
-  toast.classList.add('show');
-  setTimeout(() => toast.classList.remove('show'), 2800);
-}
-
-function updateCartUI() {
-  const total = cart.reduce((s,i) => s + i.precio * i.qty, 0);
-  const count = cart.reduce((s,i) => s + i.qty, 0);
-  const totalStr = total.toFixed(2).replace('.',',');
-  
-  // Nav button
-  const navBtn = document.getElementById('cartNavBtn');
-  const navCount = document.getElementById('cartNavCount');
-  const navTotal = document.getElementById('cartNavTotal');
-  if (cart.length) {
-    navBtn.style.display = 'flex';
-    navCount.textContent = count;
-    navTotal.textContent = total > 0 ? totalStr + ' €' : '';
-  } else {
-    navBtn.style.display = 'none';
-  }
-  
-
-  // Update alt cart counter
-  var altCount = document.getElementById('cartNavCountAlt');
-  if (altCount) {
-    if (cart.length) {
-      altCount.style.display = 'flex';
-      altCount.textContent = count;
-    } else {
-      altCount.style.display = 'none';
-    }
-  }
-  // Drawer total
-  document.getElementById('drawerTotalPrice').textContent = totalStr + ' €';
-  document.getElementById('drawerFooter').style.display = cart.length ? '' : 'none';
-  
-  // Drawer items
-  const el = document.getElementById('drawerItems');
-  if (!cart.length) {
-    el.innerHTML = '<div class="drawer-empty"><div class="drawer-empty-icon">🛒</div><p style="font-size:14px;color:var(--muted)">Tu solicitud está vacía</p><p style="font-size:12px;color:var(--muted);margin-top:4px">Añade productos desde el catálogo</p></div>';
-    return;
-  }
-  
-  el.innerHTML = cart.map((item, idx) => {
-    const sub = (item.precio * item.qty).toFixed(2).replace('.',',');
-    const imgHtml = item.imagen
-      ? `<img src="${item.imagen}" alt="${item.nombre}" onerror="this.parentElement.innerHTML='${item.emoji}'">`
-      : item.emoji;
-    return `<div class="ci">
-      <div class="ci-img">${imgHtml}</div>
-      <div class="ci-info">
-        <div class="ci-name">${item.nombre}</div>
-        <div class="ci-prod">${item.productor}</div>
-        <div class="ci-fmt">${item.formato}${item.precioStr ? ' · ' + item.precioStr + ' sin IVA' : ''}</div>
-        <div class="ci-row">
-          <div class="ci-qty">
-            <button class="ci-qbtn" onclick="changeQty(${idx},-1)">−</button>
-            <span class="ci-qval">${item.qty}</span>
-            <button class="ci-qbtn" onclick="changeQty(${idx},1)">+</button>
-          </div>
-          <span class="ci-price">${sub} €</span>
-          <button class="ci-rm" onclick="removeFromCart(${idx})" title="Eliminar">✕</button>
-        </div>
-      </div>
-    </div>`;
-  }).join('');
-}
-
-function changeQty(idx, delta) {
-  cart[idx].qty = Math.max(1, cart[idx].qty + delta);
-  updateCartUI();
-}
-
-function removeFromCart(idx) {
-  cart.splice(idx, 1);
-  updateCartUI();
-}
-
-function openCart() {
-  document.getElementById('cartDrawer').classList.add('open');
-  document.getElementById('cartOverlay').classList.add('open');
-  document.body.style.overflow = 'hidden';
-}
-
-function closeCart() {
-  document.getElementById('cartDrawer').classList.remove('open');
-  document.getElementById('cartOverlay').classList.remove('open');
-  document.body.style.overflow = '';
-}
-
-function openPresupuesto() {
-  closeCart();
-  const total = cart.reduce((s,i) => s + i.precio * i.qty, 0).toFixed(2).replace('.',',');
-  const resumen = cart.map(i => {
-    const sub = (i.precio * i.qty).toFixed(2).replace('.',',');
-    return `<div class="pf-resumen-item">
-      <span><strong>${i.nombre}</strong> · ${i.formato} × ${i.qty}</span>
-      <span style="color:var(--terra);font-weight:700;white-space:nowrap;margin-left:8px">${sub} €</span>
-    </div>`;
-  }).join('') + `<div class="pf-total"><span>Total estimado</span><span>${total} € sin IVA</span></div>`;
-  document.getElementById('presupuestoResumen').innerHTML = resumen;
-  const txt = cart.map(i => `${i.nombre} (${i.formato}) x${i.qty} = ${(i.precio*i.qty).toFixed(2)}€`).join(' | ');
-  document.getElementById('hiddenProductos').value = txt;
-  document.getElementById('hiddenTotal').value = total + ' € sin IVA';
-  document.getElementById('presupuestoModal').classList.add('open');
-  document.body.style.overflow = 'hidden';
-}
-
-function closePresupuesto() {
-  document.getElementById('presupuestoModal').classList.remove('open');
-  document.body.style.overflow = '';
-}
-
-function submitPresupuesto(e) {
-  if (!cart.length) { alert('Añade al menos un producto.'); return false; }
-  return true;
-}
-
 document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') { closeProductModal(); closePrModal(); closePedidoModal(); }
+  if (e.key === 'Escape') { closeProdModal(); closePrModal(); closePedidoModal(); }
 });
 </script>
-
-<!-- CART TOAST -->
-<div class="cart-toast" id="cartToast">
-  <div class="ct-check">✓</div>
-  <span id="cartToastMsg">Producto añadido</span>
-</div>
-
-<!-- CART OVERLAY -->
-<div class="cart-overlay" id="cartOverlay" onclick="closeCart()"></div>
-
-<!-- CART DRAWER -->
-<div class="cart-drawer" id="cartDrawer">
-  <div class="drawer-header">
-    <div>
-      <h3>Tu solicitud</h3>
-      <div class="drawer-header-sub">Precios sin IVA · B2B</div>
-    </div>
-    <button class="drawer-close" onclick="closeCart()">✕</button>
-  </div>
-  <div class="drawer-items" id="drawerItems">
-    <div class="drawer-empty">
-      <div class="drawer-empty-icon">🛒</div>
-      <p style="font-size:14px;color:var(--muted)">Tu solicitud está vacía</p>
-      <p style="font-size:12px;color:var(--muted);margin-top:4px">Añade productos desde el catálogo</p>
-    </div>
-  </div>
-  <div class="drawer-footer" id="drawerFooter" style="display:none;border-top:2px solid rgba(201,135,74,.15)">
-    <div class="drawer-total">
-      <span class="drawer-total-label">Total estimado</span>
-      <div class="drawer-total-val">
-        <div class="drawer-total-price" id="drawerTotalPrice">0,00 €</div>
-        <div class="drawer-total-iva">sin IVA</div>
-      </div>
-    </div>
-    <button class="btn-presupuesto" onclick="openPresupuesto()">Solicitar presupuesto →</button>
-  </div>
-</div>
-
-<!-- PRESUPUESTO MODAL -->
-<div class="overlay" id="presupuestoModal" onclick="if(event.target===this)closePresupuesto()">
-  <div style="background:#fff;border-radius:20px;width:100%;max-width:560px;overflow:hidden;animation:modalIn .22s ease;max-height:90vh;overflow-y:auto">
-    <div style="background:var(--navy);padding:24px 28px;display:flex;justify-content:space-between;align-items:center">
-      <div>
-        <h3 style="font-family:'Playfair Display',serif;font-size:22px;font-weight:700;color:#fff;margin-bottom:4px">Solicitar presupuesto</h3>
-        <p style="font-size:13px;color:rgba(255,255,255,.5)">MANYAR te contactará en menos de 24h</p>
-      </div>
-      <button onclick="closePresupuesto()" style="background:rgba(255,255,255,.1);border:none;color:#fff;width:32px;height:32px;border-radius:8px;font-size:16px;cursor:pointer">✕</button>
-    </div>
-    <div style="padding:24px 28px">
-      <form name="presupuesto-manyar" method="POST" data-netlify="true" netlify-honeypot="bot-field" onsubmit="return submitPresupuesto(event)">
-        <input type="hidden" name="form-name" value="presupuesto-manyar">
-        <input type="hidden" name="productos_solicitados" id="hiddenProductos">
-        <input type="hidden" name="total_estimado" id="hiddenTotal">
-        <p style="display:none"><input name="bot-field"></p>
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px">
-          <div class="pf-row" style="margin-bottom:0">
-            <label class="pf-label">Nombre *</label>
-            <input class="pf-input" type="text" name="nombre" required placeholder="Tu nombre">
-          </div>
-          <div class="pf-row" style="margin-bottom:0">
-            <label class="pf-label">Empresa *</label>
-            <input class="pf-input" type="text" name="empresa" required placeholder="Nombre del negocio">
-          </div>
-          <div class="pf-row" style="margin-bottom:0">
-            <label class="pf-label">Email *</label>
-            <input class="pf-input" type="email" name="email" required placeholder="email@empresa.com">
-          </div>
-          <div class="pf-row" style="margin-bottom:0">
-            <label class="pf-label">Teléfono</label>
-            <input class="pf-input" type="tel" name="telefono" placeholder="+34 000 000 000">
-          </div>
-        </div>
-        <div class="pf-row">
-          <label class="pf-label">Tipo de negocio</label>
-          <select class="pf-input" name="tipo_negocio">
-            <option value="">Selecciona...</option>
-            <option>Restaurante</option><option>Hotel</option><option>Distribuidor</option>
-            <option>Tienda gourmet</option><option>Catering</option><option>Otro</option>
-          </select>
-        </div>
-        <div class="pf-row">
-          <label class="pf-label">Comentarios</label>
-          <textarea class="pf-input" name="comentarios" rows="2" placeholder="Frecuencia de pedido, condiciones especiales..."></textarea>
-        </div>
-        <div style="margin-bottom:16px">
-          <label class="pf-label" style="margin-bottom:8px;display:block">Productos solicitados</label>
-          <div class="pf-resumen" id="presupuestoResumen"></div>
-        </div>
-        <button type="submit" class="btn-presupuesto">Enviar solicitud →</button>
-        <p style="font-size:11px;color:var(--muted);text-align:center;margin-top:10px">Todos los precios son sin IVA · Beta privada MANYAR</p>
-      </form>
-    </div>
-  </div>
-</div>
-
 </body>
+</html>
