@@ -658,7 +658,7 @@ footer{background:var(--navy);padding:48px 0 24px;border-top:1px solid rgba(201,
   .pr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;margin-top:32px}
   .pr-card{background:var(--white);border-radius:14px;border:1px solid var(--border);overflow:hidden;cursor:pointer;transition:transform .2s,box-shadow .2s;text-decoration:none;display:block}
   .pr-card:hover{transform:translateY(-3px);box-shadow:var(--sh-md)}
-  .pr-card-img{height:160px;overflow:hidden;background:#f8f5f0;display:flex;align-items:center;justify-content:center;font-size:48px}
+  .pr-card-img{height:160px;overflow:hidden;background:var(--bg);display:flex;align-items:center;justify-content:center;font-size:48px}
   .pr-card-img img{max-width:100%;max-height:100%;object-fit:contain;transition:transform .4s}
   .pr-card:hover .pr-card-img img{transform:scale(1.05)}
   .pr-card-body{padding:14px}
@@ -719,20 +719,33 @@ footer{background:var(--navy);padding:48px 0 24px;border-top:1px solid rgba(201,
       <!-- PRODUCER CARDS GRID -->
       <div class="pr-grid">
         <a href="catalogo.html" class="pr-card">
-          <div class="pr-card-img" style="display:flex;align-items:center;justify-content:center;padding:20px;background:#f8f5f0"><img src="img_anchoas.jpg" alt="Sinobas" style="max-height:90px;width:auto;object-fit:contain" onerror="this.parentElement.innerHTML='🐟'"></div>
+          <div class="pr-card-img" style="background:#f8f5f0;padding:16px"><img src="logo_villarejo.png" alt="Quesos Artesanos Villarejo" style="max-width:100%;max-height:100%;object-fit:contain" onerror="this.parentElement.innerHTML='🧀'"></div>
           <div class="pr-card-body">
-            <div class="pr-card-cat">Conservas · Marisco</div>
-            <div class="pr-card-name">Sinobas</div>
-            <div class="pr-card-region">📍 Santoña, Cantabria</div>
+            <div class="pr-card-cat">Quesos · DOP Manchego</div>
+            <div class="pr-card-name">Quesos Artesanos Villarejo</div>
+            <div class="pr-card-region">📍 Villarejo de Fuentes, Cuenca</div>
             <div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--border)">
-              <div style="font-size:11px;color:var(--muted);margin-bottom:2px">Anchoas del Cantábrico</div>
-              <div style="font-size:14px;font-weight:700;color:var(--navy)">Desde 3,00 € <span style="font-size:10px;font-weight:400;color:var(--muted)">sin IVA</span></div>
+              <div style="font-size:11px;color:var(--muted);margin-bottom:2px">Manchego DOP Artesano</div>
+              <div style="font-size:14px;font-weight:700;color:var(--navy)">Desde 1,14 € <span style="font-size:10px;font-weight:400;color:var(--muted)">sin IVA</span></div>
             </div>
             <div class="pr-card-cta" style="margin-top:8px">Ver catálogo →</div>
           </div>
         </a>
         <a href="catalogo.html" class="pr-card">
-          <div class="pr-card-img" style="display:flex;align-items:center;justify-content:center;padding:20px;background:#f8f5f0"><img src="forberry_logo.png" alt="Forberry" style="max-height:90px;width:auto;object-fit:contain" onerror="this.parentElement.innerHTML='🫒'"></div>
+          <div class="pr-card-img" style="background:#0a0a0a;padding:12px"><img src="logoei_riz.jpg" alt="Jamones Eíriz" style="max-width:100%;max-height:100%;object-fit:contain" onerror="this.parentElement.innerHTML='🍖'"></div>
+          <div class="pr-card-body">
+            <div class="pr-card-cat">Jamones · DOP Jabugo</div>
+            <div class="pr-card-name">Jamones Eíriz</div>
+            <div class="pr-card-region">📍 Huelva · DOP Jabugo</div>
+            <div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--border)">
+              <div style="font-size:11px;color:var(--muted);margin-bottom:2px">Jamón bellota 100% ibérico</div>
+              <div style="font-size:14px;font-weight:700;color:var(--navy)">Desde 40,00 € <span style="font-size:10px;font-weight:400;color:var(--muted)">sin IVA</span></div>
+            </div>
+            <div class="pr-card-cta" style="margin-top:8px">Ver catálogo →</div>
+          </div>
+        </a>
+        <a href="catalogo.html" class="pr-card">
+          <div class="pr-card-img" style="background:#f8f5f0;padding:16px"><img src="forberry_logo.png" alt="Forberry" style="max-width:100%;max-height:100%;object-fit:contain" onerror="this.parentElement.innerHTML='🫒'"></div>
           <div class="pr-card-body">
             <div class="pr-card-cat">Gildas · Aperitivos</div>
             <div class="pr-card-name">Forberry</div>
@@ -745,46 +758,72 @@ footer{background:var(--navy);padding:48px 0 24px;border-top:1px solid rgba(201,
           </div>
         </a>
         <a href="catalogo.html" class="pr-card">
-          <div class="pr-card-img" style="display:flex;align-items:center;justify-content:center;padding:20px;background:#f8f5f0"><img src="tasugueras_logo.png" alt="Tasugueras" style="max-height:90px;width:auto;object-fit:contain" onerror="this.parentElement.innerHTML='🧀'"></div>
+          <div class="pr-card-img" style="background:#f8f5f0;padding:16px"><img src="logobodegapicoscabariezo.png" alt="Picos de Cabariezo" style="max-width:100%;max-height:100%;object-fit:contain" onerror="this.parentElement.innerHTML='🥃'"></div>
           <div class="pr-card-body">
-            <div class="pr-card-cat">Quesos artesanos</div>
-            <div class="pr-card-name">Quesería Tasugueras</div>
-            <div class="pr-card-region">📍 Santander, Cantabria</div>
+            <div class="pr-card-cat">Vinos · Destilados</div>
+            <div class="pr-card-name">Picos de Cabariezo</div>
+            <div class="pr-card-region">📍 Liébana, Cantabria</div>
             <div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--border)">
-              <div style="font-size:11px;color:var(--muted);margin-bottom:2px">Briniro</div>
-              <div style="font-size:14px;font-weight:700;color:var(--navy)">Desde 14,00 € <span style="font-size:10px;font-weight:400;color:var(--muted)">sin IVA</span></div>
+              <div style="font-size:11px;color:var(--muted);margin-bottom:2px">Gin As de Picos</div>
+              <div style="font-size:14px;font-weight:700;color:var(--navy)">Desde 15,41 € <span style="font-size:10px;font-weight:400;color:var(--muted)">sin IVA</span></div>
             </div>
             <div class="pr-card-cta" style="margin-top:8px">Ver catálogo →</div>
           </div>
         </a>
         <a href="catalogo.html" class="pr-card">
-          <div class="pr-card-img" style="display:flex;align-items:center;justify-content:center;padding:20px;background:#f8f5f0"><img src="logoprovidencia.png" alt="La Providencia" style="max-height:90px;width:auto;object-fit:contain" onerror="this.parentElement.innerHTML='🧀'"></div>
+          <div class="pr-card-img" style="background:#1a1a2e;padding:16px"><img src="logopotosi10.png" alt="Potosi 10" style="max-width:100%;max-height:100%;object-fit:contain" onerror="this.parentElement.innerHTML='🫙'"></div>
           <div class="pr-card-body">
-            <div class="pr-card-cat">Quesos azules</div>
-            <div class="pr-card-name">La Providencia 1888</div>
-            <div class="pr-card-region">📍 Picos de Europa</div>
+            <div class="pr-card-cat">Aceites · DOP Sierra de Segura</div>
+            <div class="pr-card-name">Potosi 10</div>
+            <div class="pr-card-region">📍 Jaén</div>
             <div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--border)">
-              <div style="font-size:11px;color:var(--muted);margin-bottom:2px">Queso Azul Curado</div>
-              <div style="font-size:14px;font-weight:700;color:var(--navy)">Desde 40,00 €/kg <span style="font-size:10px;font-weight:400;color:var(--muted)">sin IVA</span></div>
+              <div style="font-size:11px;color:var(--muted);margin-bottom:2px">AOVE DOP Picual</div>
+              <div style="font-size:14px;font-weight:700;color:var(--navy)">Desde 4,20 € <span style="font-size:10px;font-weight:400;color:var(--muted)">sin IVA</span></div>
             </div>
             <div class="pr-card-cta" style="margin-top:8px">Ver catálogo →</div>
           </div>
         </a>
         <a href="catalogo.html" class="pr-card">
-          <div class="pr-card-img" style="display:flex;align-items:center;justify-content:center;padding:20px;background:#f8f5f0"><img src="logo_bodega_cristo_humilladero.jpg" alt="Bodega Cristo del Humilladero" style="max-height:90px;width:auto;object-fit:contain" onerror="this.parentElement.innerHTML='🍷'"></div>
+          <div class="pr-card-img" style="background:#f8f5f0;padding:16px"><img src="logo_bodegasdalmacio.jpg" alt="Bodegas Dalmacio Gallego" style="max-width:100%;max-height:100%;object-fit:contain" onerror="this.parentElement.innerHTML='🍷'"></div>
           <div class="pr-card-body">
-            <div class="pr-card-cat">Vinos · Vermut</div>
-            <div class="pr-card-name">Bodega Cristo del Humilladero</div>
-            <div class="pr-card-region">📍 Cadalso de los Vidrios</div>
+            <div class="pr-card-cat">Vinos · Toro</div>
+            <div class="pr-card-name">Bodegas Dalmacio Gallego</div>
+            <div class="pr-card-region">📍 Zamora</div>
             <div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--border)">
-              <div style="font-size:11px;color:var(--muted);margin-bottom:2px">Trinos · Merlot</div>
-              <div style="font-size:14px;font-weight:700;color:var(--navy)">Desde 5,00 € <span style="font-size:10px;font-weight:400;color:var(--muted)">sin IVA</span></div>
+              <div style="font-size:11px;color:var(--muted);margin-bottom:2px">Vino Tinto Tinta del Toro</div>
+              <div style="font-size:14px;font-weight:700;color:var(--navy)">Desde 6,50 € <span style="font-size:10px;font-weight:400;color:var(--muted)">sin IVA</span></div>
             </div>
             <div class="pr-card-cta" style="margin-top:8px">Ver catálogo →</div>
           </div>
         </a>
         <a href="catalogo.html" class="pr-card">
-          <div class="pr-card-img" style="display:flex;align-items:center;justify-content:center;padding:20px;background:#f8f5f0"><img src="logolamardetazones.png" alt="La Mar de Tazones" style="max-height:90px;width:auto;object-fit:contain" onerror="this.parentElement.innerHTML='🦞'"></div>
+          <div class="pr-card-img" style="background:#f8f5f0;padding:16px"><img src="logo_bodegantonanza.png" alt="Bodega Artesana Antonanza" style="max-width:100%;max-height:100%;object-fit:contain" onerror="this.parentElement.innerHTML='🍸'"></div>
+          <div class="pr-card-body">
+            <div class="pr-card-cat">Vermut · Aperitivos</div>
+            <div class="pr-card-name">Bodega Artesana Antonanza</div>
+            <div class="pr-card-region">📍 Rioja Alavesa</div>
+            <div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--border)">
+              <div style="font-size:11px;color:var(--muted);margin-bottom:2px">Vermut Oro Nómada</div>
+              <div style="font-size:14px;font-weight:700;color:var(--navy)">Desde 9,40 € <span style="font-size:10px;font-weight:400;color:var(--muted)">sin IVA</span></div>
+            </div>
+            <div class="pr-card-cta" style="margin-top:8px">Ver catálogo →</div>
+          </div>
+        </a>
+        <a href="catalogo.html" class="pr-card">
+          <div class="pr-card-img" style="background:#3d4a1e;padding:16px"><img src="logo_eoloe.png" alt="Eoloe" style="max-width:100%;max-height:100%;object-fit:contain" onerror="this.parentElement.innerHTML='🫙'"></div>
+          <div class="pr-card-body">
+            <div class="pr-card-cat">Aceites · AOVE</div>
+            <div class="pr-card-name">Eoloe</div>
+            <div class="pr-card-region">📍 Córdoba</div>
+            <div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--border)">
+              <div style="font-size:11px;color:var(--muted);margin-bottom:2px">AOVE Monovarietal Pajarero</div>
+              <div style="font-size:14px;font-weight:700;color:var(--navy)">Desde 13,70 € <span style="font-size:10px;font-weight:400;color:var(--muted)">sin IVA</span></div>
+            </div>
+            <div class="pr-card-cta" style="margin-top:8px">Ver catálogo →</div>
+          </div>
+        </a>
+        <a href="catalogo.html" class="pr-card">
+          <div class="pr-card-img" style="background:#f8f5f0;padding:16px"><img src="logolamardetazones.png" alt="La Mar de Tazones" style="max-width:100%;max-height:100%;object-fit:contain" onerror="this.parentElement.innerHTML='🦞'"></div>
           <div class="pr-card-body">
             <div class="pr-card-cat">Marisco premium</div>
             <div class="pr-card-name">La Mar de Tazones</div>
@@ -797,7 +836,7 @@ footer{background:var(--navy);padding:48px 0 24px;border-top:1px solid rgba(201,
           </div>
         </a>
         <a href="catalogo.html" class="pr-card">
-          <div class="pr-card-img" style="display:flex;align-items:center;justify-content:center;padding:20px;background:#f8f5f0"><img src="lOGO_ACEITES_ALMA_DE_CANTARO.png" alt="Alma de Cántaro" style="max-height:90px;width:auto;object-fit:contain" onerror="this.parentElement.innerHTML='🫙'"></div>
+          <div class="pr-card-img" style="background:#f8f5f0;padding:16px"><img src="lOGO_ACEITES_ALMA_DE_CANTARO.png" alt="Alma de Cántaro" style="max-width:100%;max-height:100%;object-fit:contain" onerror="this.parentElement.innerHTML='🫙'"></div>
           <div class="pr-card-body">
             <div class="pr-card-cat">Aceites · AOVE</div>
             <div class="pr-card-name">Alma de Cántaro</div>
@@ -805,19 +844,6 @@ footer{background:var(--navy);padding:48px 0 24px;border-top:1px solid rgba(201,
             <div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--border)">
               <div style="font-size:11px;color:var(--muted);margin-bottom:2px">Frutado Verde BIO</div>
               <div style="font-size:14px;font-weight:700;color:var(--navy)">Desde 10,95 € <span style="font-size:10px;font-weight:400;color:var(--muted)">sin IVA</span></div>
-            </div>
-            <div class="pr-card-cta" style="margin-top:8px">Ver catálogo →</div>
-          </div>
-        </a>
-        <a href="catalogo.html" class="pr-card">
-          <div class="pr-card-img" style="display:flex;align-items:center;justify-content:center;padding:20px;background:#f8f5f0"><img src="logobodegapicoscabariezo.png" alt="Picos de Cabariezo" style="max-height:90px;width:auto;object-fit:contain" onerror="this.parentElement.innerHTML='🥃'"></div>
-          <div class="pr-card-body">
-            <div class="pr-card-cat">Vinos · Destilados</div>
-            <div class="pr-card-name">Picos de Cabariezo</div>
-            <div class="pr-card-region">📍 Liébana, Cantabria</div>
-            <div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--border)">
-              <div style="font-size:11px;color:var(--muted);margin-bottom:2px">Gin As de Picos</div>
-              <div style="font-size:14px;font-weight:700;color:var(--navy)">Desde 15,41 € <span style="font-size:10px;font-weight:400;color:var(--muted)">sin IVA</span></div>
             </div>
             <div class="pr-card-cta" style="margin-top:8px">Ver catálogo →</div>
           </div>
@@ -1150,7 +1176,7 @@ footer{background:var(--navy);padding:48px 0 24px;border-top:1px solid rgba(201,
     <div class="footer-g">
       <div class="footer-brand">
         <a href="#" style="display:flex;align-items:center;gap:8px">
-          <img src="MANYAR_logo.png" style="height:48px;width:auto;filter:brightness(0) invert(1);opacity:.9" alt="MANYAR">
+          <img src="MANYAR_logo.png" onerror="this.style.display='none'" style="height:48px;width:auto;filter:brightness(0) invert(1);opacity:.9" alt="MANYAR">
           <span style="font-family:'Playfair Display',serif;font-weight:700;font-size:14px;letter-spacing:.14em;color:rgba(255,255,255,.85)">MANYAR</span>
         </a>
         <p>Marketplace B2B de producto gourmet español. Conectamos productores artesanales y gourmet con compradores profesionales.</p>
