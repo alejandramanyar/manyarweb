@@ -987,9 +987,9 @@ function openProductModal(key) {
   const closeBtn = '<button class="modal-close-btn" onclick="closeProdModal()">✕</button>';
   const initialImg = (p.formatos && p.formatos.length && p.formatos[0].imagen) ? p.formatos[0].imagen : p.imagen;
   if (initialImg) {
-    imgWrap.innerHTML = closeBtn + `<img src="${initialImg}" alt="${p.nombre}" style="width:100%;height:100%;object-fit:cover" onerror="this.parentElement.innerHTML='${closeBtn}<span style=font-size:80px>${p.emoji||'🍽️'}</span>'">`;
+    imgWrap.innerHTML = closeBtn + `<img src="${initialImg}" alt="${p.nombre}" style="width:100%;height:100%;object-fit:cover" onerror="this.style.display='none'">`;
   } else {
-    imgWrap.innerHTML = closeBtn + `<span style="font-size:80px">${p.emoji || '🍽️'}</span>`;
+    imgWrap.innerHTML = closeBtn;
   }
 
   // Eyebrow tags
@@ -1013,10 +1013,10 @@ function openProductModal(key) {
     fmtGrid.innerHTML = p.formatos.map((f, i) => `
       <button class="fmt-btn ${i===0?'selected':''}" onclick="selectFormat(this,'${encodeStr(f.precio)}','${encodeStr(f.imagen || '')}')">
         ${f.formato}
-        <div class="fmt-price">${f.precio}</div>
+        <div class="fmt-price">${withEuro(f.precio)}</div>
       </button>`).join('');
     priceDisp.style.display = 'flex';
-    document.getElementById('mPriceVal').textContent = p.formatos[0].precio;
+    document.getElementById('mPriceVal').textContent = withEuro(p.formatos[0].precio);
   } else {
     fmtGrid.innerHTML = '<span style="font-size:13px;color:var(--muted)">Consultar disponibilidad y precio</span>';
     priceDisp.style.display = 'none';
@@ -1036,6 +1036,13 @@ function parsePrice(str) {
 
 function formatPrice(n) {
   return (n || 0).toLocaleString('es-ES', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' €';
+}
+
+// Añade el símbolo € a un precio de texto (ficha de producto) solo si no lo tiene ya
+function withEuro(precio) {
+  if (!precio) return precio;
+  const s = String(precio).trim();
+  return /€/.test(s) ? s : s + ' €';
 }
 
 function changeModalQty(delta) {
@@ -1188,7 +1195,7 @@ function enviarPresupuesto(e) {
 function selectFormat(btn, priceEnc, imagenEnc) {
   document.querySelectorAll('.fmt-btn').forEach(b => b.classList.remove('selected'));
   btn.classList.add('selected');
-  document.getElementById('mPriceVal').textContent = decodeStr(priceEnc);
+  document.getElementById('mPriceVal').textContent = withEuro(decodeStr(priceEnc));
   document.getElementById('mPriceDisplay').style.display = 'flex';
 
   // Cambia la imagen si el formato tiene una específica; si no, usa la del producto
@@ -1198,9 +1205,9 @@ function selectFormat(btn, priceEnc, imagenEnc) {
   const imgWrap = document.getElementById('mImgWrap');
   const closeBtn = '<button class="modal-close-btn" onclick="closeProdModal()">✕</button>';
   if (targetImg) {
-    imgWrap.innerHTML = closeBtn + `<img src="${targetImg}" alt="${currentProduct ? currentProduct.nombre : ''}" style="width:100%;height:100%;object-fit:cover" onerror="this.parentElement.innerHTML='${closeBtn}<span style=font-size:80px>${currentProduct && currentProduct.emoji || '🍽️'}</span>'">`;
+    imgWrap.innerHTML = closeBtn + `<img src="${targetImg}" alt="${currentProduct ? currentProduct.nombre : ''}" style="width:100%;height:100%;object-fit:cover" onerror="this.style.display='none'">`;
   } else {
-    imgWrap.innerHTML = closeBtn + `<span style="font-size:80px">${currentProduct && currentProduct.emoji || '🍽️'}</span>`;
+    imgWrap.innerHTML = closeBtn;
   }
 }
 
