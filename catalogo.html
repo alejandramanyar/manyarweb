@@ -431,6 +431,113 @@ a { color: inherit; text-decoration: none; }
 }
 .cat-footer a { color: var(--terra); }
 
+/* ═══ CART ICON (NAV) ═══ */
+.cart-nav-group { display: flex; align-items: center; gap: 6px; }
+.cart-icon-btn {
+  position: relative;
+  display: flex; align-items: center; justify-content: center;
+  width: 38px; height: 38px;
+  background: rgba(13,27,42,.06); border: none; border-radius: 10px;
+  font-size: 17px; color: var(--navy);
+  transition: background .18s;
+}
+.cart-icon-btn:hover { background: rgba(13,27,42,.12); }
+.cart-badge {
+  position: absolute; top: -4px; right: -4px;
+  min-width: 17px; height: 17px; padding: 0 4px;
+  background: var(--terra); color: #fff;
+  border-radius: 100px; font-size: 10px; font-weight: 700;
+  display: none; align-items: center; justify-content: center;
+  border: 2px solid var(--cream);
+}
+.cart-total-nav { font-size: 13px; font-weight: 700; color: var(--navy); margin-left: 2px; }
+
+/* ═══ TOAST ═══ */
+.cart-toast {
+  position: fixed; bottom: 28px; left: 50%; z-index: 700;
+  transform: translateX(-50%) translateY(20px);
+  background: var(--navy); color: #fff;
+  padding: 12px 22px; border-radius: 100px;
+  font-size: 13px; font-weight: 600;
+  box-shadow: var(--sh-lg);
+  opacity: 0; pointer-events: none;
+  transition: opacity .25s, transform .25s;
+  white-space: nowrap;
+}
+.cart-toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+/* ═══ CART DRAWER ═══ */
+.cart-overlay {
+  display: none; position: fixed; inset: 0; z-index: 600;
+  background: rgba(13,27,42,.5);
+}
+.cart-overlay.open { display: block; }
+.cart-drawer {
+  position: absolute; top: 0; right: 0; bottom: 0;
+  width: 100%; max-width: 420px;
+  background: var(--white);
+  display: flex; flex-direction: column;
+  box-shadow: -12px 0 40px rgba(13,27,42,.18);
+  transform: translateX(100%); transition: transform .28s ease;
+}
+.cart-overlay.open .cart-drawer { transform: translateX(0); }
+.cart-drawer-header {
+  padding: 20px 24px; border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: space-between;
+}
+.cart-drawer-header h3 { font-family: 'Playfair Display', serif; font-size: 19px; font-weight: 700; }
+.cart-items { flex: 1; overflow-y: auto; padding: 4px 24px; }
+.cart-empty { text-align: center; padding: 60px 0; color: var(--muted); font-size: 14px; }
+.cart-item { display: flex; gap: 12px; align-items: center; padding: 14px 0; border-bottom: 1px solid var(--border); }
+.cart-item-img {
+  width: 52px; height: 52px; border-radius: 8px; background: var(--cream2);
+  flex-shrink: 0; overflow: hidden; display: flex; align-items: center; justify-content: center;
+}
+.cart-item-img img { width: 100%; height: 100%; object-fit: cover; }
+.cart-item-info { flex: 1; min-width: 0; }
+.cart-item-name { font-size: 13px; font-weight: 700; color: var(--navy); line-height: 1.3; }
+.cart-item-prod { font-size: 11px; color: var(--muted); margin: 2px 0 6px; }
+.cart-item-qty { display: flex; align-items: center; gap: 8px; }
+.cart-item-qty button {
+  width: 22px; height: 22px; border-radius: 6px; border: 1px solid var(--border);
+  background: none; font-size: 13px; color: var(--navy);
+  display: flex; align-items: center; justify-content: center;
+}
+.cart-item-qty button:hover { border-color: var(--terra); color: var(--terra); }
+.cart-item-qty span { font-size: 13px; font-weight: 600; min-width: 16px; text-align: center; }
+.cart-item-prices { text-align: right; flex-shrink: 0; }
+.cart-item-unit { font-size: 10px; color: var(--muted); }
+.cart-item-subtotal { font-size: 14px; font-weight: 700; color: var(--navy); margin-top: 2px; }
+.cart-footer { padding: 18px 24px 24px; border-top: 1px solid var(--border); }
+.cart-total-row { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 2px; }
+.cart-total-row span:first-child { font-size: 13px; color: var(--muted); font-weight: 600; }
+.cart-total-row span:last-child { font-size: 22px; font-weight: 700; color: var(--navy); font-family: 'Playfair Display', serif; }
+.cart-total-note { font-size: 11px; color: var(--muted); margin-bottom: 16px; }
+.btn-solicitar-presupuesto {
+  width: 100%; padding: 14px; background: var(--terra); color: #fff;
+  border: none; border-radius: var(--r); font-size: 14px; font-weight: 700;
+  transition: background .18s;
+}
+.btn-solicitar-presupuesto:hover { background: var(--terra2); }
+.btn-solicitar-presupuesto:disabled { opacity: .5; cursor: not-allowed; }
+
+/* ═══ QTY SELECTOR (modal producto) ═══ */
+.modal-qty-row { display: flex; align-items: center; gap: 14px; margin-bottom: 16px; }
+.modal-qty-selector { display: flex; align-items: center; gap: 10px; border: 1.5px solid var(--border); border-radius: 10px; padding: 6px 10px; }
+.modal-qty-selector button {
+  width: 26px; height: 26px; border-radius: 8px; border: none; background: var(--cream2);
+  font-size: 15px; color: var(--navy); display: flex; align-items: center; justify-content: center;
+}
+.modal-qty-selector button:hover { background: rgba(201,135,74,.15); color: var(--terra); }
+.modal-qty-selector span { font-size: 15px; font-weight: 700; min-width: 18px; text-align: center; }
+.btn-add-cart {
+  flex: 1; padding: 12px 16px; background: var(--navy); color: #fff;
+  border: none; border-radius: var(--r); font-size: 14px; font-weight: 700;
+  transition: background .18s;
+}
+.btn-add-cart:hover:not(:disabled) { background: var(--terra); }
+.btn-add-cart:disabled { opacity: .4; cursor: not-allowed; }
+
 /* ═══ MOBILE ═══ */
 @media (max-width: 768px) {
   .nav-links { display: none; }
@@ -443,6 +550,8 @@ a { color: inherit; text-decoration: none; }
   .pr-modal-body { padding: 20px; }
   .pedido-modal { padding: 24px 18px; }
   .form-2col { grid-template-columns: 1fr; }
+  .cart-drawer { max-width: 100%; }
+  .cart-total-nav { display: none; }
 }
 </style>
 </head>
@@ -460,7 +569,14 @@ a { color: inherit; text-decoration: none; }
       <li><a href="catalogo.html" style="padding:7px 14px;font-size:13px;font-weight:600;color:#C9874A;border-radius:100px;text-decoration:none">Catálogo</a></li>
       <li><a href="index.html#productores" style="padding:7px 14px;font-size:13px;font-weight:500;color:rgba(13,27,42,.55);border-radius:100px;text-decoration:none">Productores</a></li>
     </ul>
-    <div style="display:flex;gap:8px">
+    <div style="display:flex;gap:10px;align-items:center">
+      <div class="cart-nav-group">
+        <button class="cart-icon-btn" onclick="openCart()" aria-label="Ver cesta" type="button">
+          🛒
+          <span class="cart-badge" id="cartBadge">0</span>
+        </button>
+        <span class="cart-total-nav" id="cartTotalNav">0,00 €</span>
+      </div>
       <a href="index.html#contacto" style="display:inline-flex;align-items:center;padding:9px 20px;font-family:'DM Sans',sans-serif;font-size:13px;font-weight:600;border-radius:100px;background:#0D1B2A;color:#fff;text-decoration:none;transition:all .18s">Solicitar acceso →</a>
     </div>
   </div>
@@ -532,6 +648,14 @@ a { color: inherit; text-decoration: none; }
       <div class="price-display" id="mPriceDisplay" style="display:none">
         <span class="price-val" id="mPriceVal"></span>
         <span class="price-no-iva">sin IVA</span>
+      </div>
+      <div class="modal-qty-row">
+        <div class="modal-qty-selector">
+          <button type="button" onclick="changeModalQty(-1)">−</button>
+          <span id="mQty">0</span>
+          <button type="button" onclick="changeModalQty(1)">+</button>
+        </div>
+        <button class="btn-add-cart" id="mAddBtn" type="button" disabled onclick="addToCartFromModal()">Añadir a la cesta</button>
       </div>
       <div class="modal-cta">
         <button class="btn-pedido" onclick="openPedido()">Hacer pedido →</button>
@@ -605,6 +729,69 @@ a { color: inherit; text-decoration: none; }
   </div>
 </div>
 
+<!-- INICIO: cesta-solicitud -->
+<!-- Toast de confirmación -->
+<div class="cart-toast" id="cartToast"></div>
+
+<!-- Drawer lateral de la cesta -->
+<div class="cart-overlay" id="cartOverlay" onclick="if(event.target===this)closeCart()">
+  <div class="cart-drawer">
+    <div class="cart-drawer-header">
+      <h3>Tu cesta</h3>
+      <button class="modal-close-btn" style="position:static" onclick="closeCart()">✕</button>
+    </div>
+    <div class="cart-items" id="cartItemsContainer"></div>
+    <div class="cart-footer">
+      <div class="cart-total-row"><span>Total estimado</span><span id="cartTotalVal">0,00 €</span></div>
+      <div class="cart-total-note">Precios sin IVA</div>
+      <button class="btn-solicitar-presupuesto" onclick="openPresupuesto()">Solicitar presupuesto →</button>
+    </div>
+  </div>
+</div>
+
+<!-- Modal de solicitud de presupuesto (cesta completa) -->
+<div class="overlay" id="presupuestoModal" onclick="if(event.target===this)closePresupuesto()">
+  <div class="pedido-modal">
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:4px">
+      <h3>Solicitar presupuesto</h3>
+      <button style="background:none;border:none;font-size:20px;color:var(--muted)" onclick="closePresupuesto()">✕</button>
+    </div>
+    <p class="pm-sub">MANYAR gestionará tu solicitud directamente con los productores.</p>
+    <div class="pedido-context" id="presupuestoResumen"></div>
+    <form name="presupuesto-manyar" method="POST" data-netlify="true" id="presupuestoForm" onsubmit="return enviarPresupuesto(event)">
+      <input type="hidden" name="form-name" value="presupuesto-manyar">
+      <input type="hidden" name="resumen_pedido" id="resumenPedidoInput">
+      <div class="form-2col">
+        <div class="form-row">
+          <label>Nombre *</label>
+          <input type="text" name="nombre" id="cfNombre" placeholder="Tu nombre" required>
+        </div>
+        <div class="form-row">
+          <label>Empresa *</label>
+          <input type="text" name="empresa" id="cfEmpresa" placeholder="Nombre del negocio" required>
+        </div>
+      </div>
+      <div class="form-2col">
+        <div class="form-row">
+          <label>Email *</label>
+          <input type="email" name="email" id="cfEmail" placeholder="email@empresa.com" required>
+        </div>
+        <div class="form-row">
+          <label>Teléfono</label>
+          <input type="tel" name="telefono" id="cfTelefono" placeholder="+34 000 000 000">
+        </div>
+      </div>
+      <div class="form-row">
+        <label>Comentarios</label>
+        <textarea name="comentarios" id="cfComentarios" placeholder="Cualquier información adicional..."></textarea>
+      </div>
+      <button type="submit" class="btn-enviar">Enviar solicitud →</button>
+      <p class="form-nota">MANYAR se pondrá en contacto contigo en menos de 24h.</p>
+    </form>
+  </div>
+</div>
+<!-- FIN: cesta-solicitud -->
+
 <footer style="background:#0D1B2A;padding:32px 28px;text-align:center;margin-top:60px;border-top:1px solid rgba(201,135,74,.1)">
   <div style="max-width:1140px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px">
     <span style="font-family:'Playfair Display',serif;font-weight:700;font-size:14px;letter-spacing:.14em;color:rgba(255,255,255,.85)">MANYAR</span>
@@ -621,6 +808,9 @@ let DATA = { productores: [], productos: [] };
 let currentProduct = null;
 let currentProducer = null;
 let currentTab = 'productos';
+let cart = [];
+let modalQty = 0;
+let toastTimer;
 
 // ── Load JSON ──
 fetch('productos.json')
@@ -639,6 +829,7 @@ function init() {
   renderProducers(DATA.productores);
   document.getElementById('tab-count-p').textContent = '(' + DATA.productos.length + ')';
   document.getElementById('tab-count-pr').textContent = '(' + DATA.productores.length + ')';
+  updateCartUI();
 }
 
 // ── Filters ──
@@ -704,9 +895,13 @@ function renderProducts(products) {
     groups[g].push(p);
   });
 
-  container.innerHTML = Object.entries(groups).map(([prod, prods]) => `
+  container.innerHTML = Object.entries(groups).map(([prod, prods]) => {
+    const pr = DATA.productores.find(x => x.nombre === prod);
+    const hdrLogoHtml = pr && pr.logo ? `<img src="${pr.logo}" style="height:24px;width:24px;object-fit:contain;border-radius:4px;flex-shrink:0" onerror="this.style.display='none'">` : '';
+    return `
     <div class="cat-section">
       <div class="section-hdr">
+        ${hdrLogoHtml}
         <h2>${prod}</h2>
         <span class="sec-count">${prods.length}</span>
         <button onclick="openProducerModal('${encodeStr(prod)}')" style="margin-left:auto;background:none;border:1px solid var(--border);padding:5px 12px;border-radius:8px;font-size:12px;font-weight:600;color:var(--muted);transition:all .18s" onmouseover="this.style.borderColor='var(--terra)';this.style.color='var(--terra)'" onmouseout="this.style.borderColor='var(--border)';this.style.color='var(--muted)'">Ver productor →</button>
@@ -715,7 +910,8 @@ function renderProducts(products) {
         ${prods.map(p => renderCard(p)).join('')}
       </div>
     </div>
-  `).join('');
+  `;
+  }).join('');
 }
 
 function renderCard(p) {
@@ -733,7 +929,7 @@ function renderCard(p) {
     <div class="pcard-body">
       <div class="pcard-cat">${(p.seccion || p.categoria || '').trim()}</div>
       <div class="pcard-name">${p.nombre}</div>
-      <div class="pcard-prod" style="display:flex;align-items:center;gap:4px">${(() => { const pr = DATA.productores.find(x => x.nombre === p.productor); return pr && pr.logo ? `<img src="${pr.logo}" style="height:14px;width:auto;object-fit:contain;opacity:.75" onerror="this.style.display='none'">` : ''; })()}${p.productor}</div>
+      <div class="pcard-prod">${p.productor}</div>
       ${p.region ? `<div class="pcard-region">📍 ${p.region}</div>` : ''}
     </div>
     <div class="pcard-footer">
@@ -781,11 +977,17 @@ function openProductModal(key) {
   if (!p) return;
   currentProduct = p;
 
-  // Image
+  // Reset qty selector
+  modalQty = 0;
+  document.getElementById('mQty').textContent = modalQty;
+  document.getElementById('mAddBtn').disabled = true;
+
+  // Image (usa la imagen del formato seleccionado si existe, si no la del producto)
   const imgWrap = document.getElementById('mImgWrap');
   const closeBtn = '<button class="modal-close-btn" onclick="closeProdModal()">✕</button>';
-  if (p.imagen) {
-    imgWrap.innerHTML = closeBtn + `<img src="${p.imagen}" alt="${p.nombre}" style="width:100%;height:100%;object-fit:cover" onerror="this.parentElement.innerHTML='${closeBtn}<span style=font-size:80px>${p.emoji||'🍽️'}</span>'">`;
+  const initialImg = (p.formatos && p.formatos.length && p.formatos[0].imagen) ? p.formatos[0].imagen : p.imagen;
+  if (initialImg) {
+    imgWrap.innerHTML = closeBtn + `<img src="${initialImg}" alt="${p.nombre}" style="width:100%;height:100%;object-fit:cover" onerror="this.parentElement.innerHTML='${closeBtn}<span style=font-size:80px>${p.emoji||'🍽️'}</span>'">`;
   } else {
     imgWrap.innerHTML = closeBtn + `<span style="font-size:80px">${p.emoji || '🍽️'}</span>`;
   }
@@ -809,7 +1011,7 @@ function openProductModal(key) {
   const priceDisp = document.getElementById('mPriceDisplay');
   if (p.formatos && p.formatos.length) {
     fmtGrid.innerHTML = p.formatos.map((f, i) => `
-      <button class="fmt-btn ${i===0?'selected':''}" onclick="selectFormat(this,'${encodeStr(f.precio)}')">
+      <button class="fmt-btn ${i===0?'selected':''}" onclick="selectFormat(this,'${encodeStr(f.precio)}','${encodeStr(f.imagen || '')}')">
         ${f.formato}
         <div class="fmt-price">${f.precio}</div>
       </button>`).join('');
@@ -824,11 +1026,182 @@ function openProductModal(key) {
   document.body.style.overflow = 'hidden';
 }
 
-function selectFormat(btn, priceEnc) {
+// ── Cesta de solicitud ──
+function parsePrice(str) {
+  if (!str) return 0;
+  const cleaned = String(str).replace(/[^\d,.-]/g, '').replace(/\.(?=\d{3},)/g, '').replace(',', '.');
+  const n = parseFloat(cleaned);
+  return isNaN(n) ? 0 : n;
+}
+
+function formatPrice(n) {
+  return (n || 0).toLocaleString('es-ES', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' €';
+}
+
+function changeModalQty(delta) {
+  modalQty = Math.max(0, modalQty + delta);
+  document.getElementById('mQty').textContent = modalQty;
+  document.getElementById('mAddBtn').disabled = modalQty < 1;
+}
+
+function addToCartFromModal() {
+  if (modalQty < 1 || !currentProduct) return;
+  const sel = document.querySelector('.fmt-btn.selected');
+  const formato = sel ? sel.textContent.trim().split('\n')[0].trim() : '';
+  const precioStr = document.getElementById('mPriceVal').textContent || '';
+  const precioUnit = parsePrice(precioStr);
+  const id = currentProduct.productor + '||' + currentProduct.nombre + '||' + formato;
+
+  const existing = cart.find(i => i.id === id);
+  if (existing) {
+    existing.qty += modalQty;
+  } else {
+    cart.push({
+      id,
+      productor: currentProduct.productor,
+      nombre: currentProduct.nombre,
+      formato,
+      precioUnit,
+      imagen: currentProduct.imagen,
+      qty: modalQty
+    });
+  }
+  updateCartUI();
+  showToast(`${currentProduct.nombre} añadido a la cesta`);
+  modalQty = 0;
+  document.getElementById('mQty').textContent = modalQty;
+  document.getElementById('mAddBtn').disabled = true;
+}
+
+function changeCartQty(idx, delta) {
+  if (!cart[idx]) return;
+  cart[idx].qty += delta;
+  if (cart[idx].qty <= 0) cart.splice(idx, 1);
+  updateCartUI();
+}
+
+function updateCartUI() {
+  const count = cart.reduce((s, i) => s + i.qty, 0);
+  const total = cart.reduce((s, i) => s + i.qty * i.precioUnit, 0);
+  const badge = document.getElementById('cartBadge');
+  badge.textContent = count;
+  badge.style.display = count > 0 ? 'flex' : 'none';
+  document.getElementById('cartTotalNav').textContent = formatPrice(total);
+  renderCartDrawer();
+}
+
+function renderCartDrawer() {
+  const container = document.getElementById('cartItemsContainer');
+  if (!cart.length) {
+    container.innerHTML = '<div class="cart-empty">Tu cesta está vacía.</div>';
+  } else {
+    container.innerHTML = cart.map((item, idx) => {
+      const subtotal = item.qty * item.precioUnit;
+      const imgHtml = item.imagen
+        ? `<img src="${item.imagen}" alt="${item.nombre}" onerror="this.parentElement.innerHTML='<span style=font-size:20px>🍽️</span>'">`
+        : `<span style="font-size:20px">🍽️</span>`;
+      return `<div class="cart-item">
+        <div class="cart-item-img">${imgHtml}</div>
+        <div class="cart-item-info">
+          <div class="cart-item-name">${item.nombre}</div>
+          <div class="cart-item-prod">${item.productor}${item.formato ? ' · ' + item.formato : ''}</div>
+          <div class="cart-item-qty">
+            <button onclick="changeCartQty(${idx},-1)">−</button>
+            <span>${item.qty}</span>
+            <button onclick="changeCartQty(${idx},1)">+</button>
+          </div>
+        </div>
+        <div class="cart-item-prices">
+          <div class="cart-item-unit">${formatPrice(item.precioUnit)} /ud</div>
+          <div class="cart-item-subtotal">${formatPrice(subtotal)}</div>
+        </div>
+      </div>`;
+    }).join('');
+  }
+  const total = cart.reduce((s, i) => s + i.qty * i.precioUnit, 0);
+  document.getElementById('cartTotalVal').textContent = formatPrice(total);
+}
+
+function openCart() {
+  document.getElementById('cartOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeCart() {
+  document.getElementById('cartOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function showToast(msg) {
+  const toast = document.getElementById('cartToast');
+  toast.textContent = msg;
+  toast.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => toast.classList.remove('show'), 2500);
+}
+
+function buildResumenTexto() {
+  const lines = cart.map(i => `${i.nombre} (${i.productor}${i.formato ? ' - ' + i.formato : ''}) x${i.qty} = ${formatPrice(i.qty * i.precioUnit)}`);
+  const total = cart.reduce((s, i) => s + i.qty * i.precioUnit, 0);
+  lines.push(`TOTAL sin IVA: ${formatPrice(total)}`);
+  return lines.join('\n');
+}
+
+function buildResumenHtml() {
+  const total = cart.reduce((s, i) => s + i.qty * i.precioUnit, 0);
+  return cart.map(i => `<div style="margin-bottom:4px"><strong>${i.nombre}</strong> <span style="color:var(--muted)">x${i.qty}${i.formato ? ' · ' + i.formato : ''} — ${formatPrice(i.qty * i.precioUnit)}</span></div>`).join('')
+    + `<div style="margin-top:8px;padding-top:8px;border-top:1px solid var(--border);font-weight:700">Total sin IVA: ${formatPrice(total)}</div>`;
+}
+
+function openPresupuesto() {
+  if (!cart.length) { alert('Tu cesta está vacía. Añade productos antes de solicitar presupuesto.'); return; }
+  document.getElementById('presupuestoResumen').innerHTML = buildResumenHtml();
+  closeCart();
+  document.getElementById('presupuestoModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closePresupuesto() {
+  document.getElementById('presupuestoModal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function enviarPresupuesto(e) {
+  e.preventDefault();
+  const form = document.getElementById('presupuestoForm');
+  document.getElementById('resumenPedidoInput').value = buildResumenTexto();
+  const formData = new FormData(form);
+  fetch('/', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: new URLSearchParams(formData).toString()
+  }).then(() => {
+    closePresupuesto();
+    cart = [];
+    updateCartUI();
+    form.reset();
+    alert('¡Solicitud enviada correctamente! MANYAR se pondrá en contacto contigo en menos de 24h.');
+  }).catch(() => {
+    alert('Hubo un problema al enviar la solicitud. Escríbenos a hola@manyar.es');
+  });
+  return false;
+}
+
+function selectFormat(btn, priceEnc, imagenEnc) {
   document.querySelectorAll('.fmt-btn').forEach(b => b.classList.remove('selected'));
   btn.classList.add('selected');
   document.getElementById('mPriceVal').textContent = decodeStr(priceEnc);
   document.getElementById('mPriceDisplay').style.display = 'flex';
+
+  // Cambia la imagen si el formato tiene una específica; si no, usa la del producto
+  const fmtImg = imagenEnc ? decodeStr(imagenEnc) : '';
+  const fallbackImg = currentProduct ? currentProduct.imagen : '';
+  const targetImg = fmtImg || fallbackImg;
+  const imgWrap = document.getElementById('mImgWrap');
+  const closeBtn = '<button class="modal-close-btn" onclick="closeProdModal()">✕</button>';
+  if (targetImg) {
+    imgWrap.innerHTML = closeBtn + `<img src="${targetImg}" alt="${currentProduct ? currentProduct.nombre : ''}" style="width:100%;height:100%;object-fit:cover" onerror="this.parentElement.innerHTML='${closeBtn}<span style=font-size:80px>${currentProduct && currentProduct.emoji || '🍽️'}</span>'">`;
+  } else {
+    imgWrap.innerHTML = closeBtn + `<span style="font-size:80px">${currentProduct && currentProduct.emoji || '🍽️'}</span>`;
+  }
 }
 
 function closeProdModal() {
@@ -948,7 +1321,7 @@ function decodeStr(s) { return decodeURIComponent(s); }
 
 // ── Keyboard ──
 document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') { closeProdModal(); closePrModal(); closePedidoModal(); }
+  if (e.key === 'Escape') { closeProdModal(); closePrModal(); closePedidoModal(); closeCart(); closePresupuesto(); }
 });
 </script>
 </body>

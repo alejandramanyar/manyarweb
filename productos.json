@@ -25,7 +25,7 @@
       "seccion": "Gildas & Aperitivos",
       "estado": "Activo",
       "imagen": "forberry_gildamatrimonio.png",
-      "logo": "forberry_logo.png",
+      "logo": "forberry_logo.webp",
       "productos": [
         "gilda-anchoa",
         "gilda-doble-anchoa",
@@ -63,7 +63,7 @@
       "seccion": "Quesos",
       "estado": "Activo",
       "imagen": "laprovivencia1888_quesoazul.jpeg",
-      "logo": "logoprovidencia.png",
+      "logo": "logo-providencia.png",
       "productos": [
         "queso-la-providencia"
       ]
@@ -100,7 +100,7 @@
       "seccion": "Marisco & Conservas",
       "estado": "Activo",
       "imagen": "carnedecentollo_lamardetazones.png",
-      "logo": "logolamardetazones.png",
+      "logo": "logo-lamardetazones.png",
       "productos": [
         "carne-de-centollo-al-natural",
         "carne-de-centollo-al-natural-premium",
@@ -166,7 +166,7 @@
       "seccion": "Vinos & Destilados",
       "estado": "Activo",
       "imagen": "700mlfondoblancooronomada.webp",
-      "logo": "logo_bodegantonanza.png",
+      "logo": "logo_bodegaantonaza.webp",
       "productos": [
         "vermut-artesano-oro-nomada",
         "wemujito-artesano-oro-nomada"
@@ -193,7 +193,7 @@
       "seccion": "Aceite",
       "estado": "Activo",
       "imagen": "",
-      "logo": "logo_eoloe.png",
+      "logo": "logo_eoloe.jpeg",
       "productos": [
         "aove-monovarietal-pajarero-"
       ]
@@ -219,7 +219,7 @@
       "seccion": "Aceites",
       "estado": "Activo",
       "imagen": "almacantarofrutadoverde_500ml.png",
-      "logo": "logopotosi10.png",
+      "logo": "logo-potosi10.png",
       "productos": [
         "aove-dop-picual-de-sierra",
         "valroble-pack--picual--arbequino--fusion",
@@ -264,7 +264,7 @@
       "seccion": "Jamones & Embutidos",
       "estado": "Activo",
       "imagen": "",
-      "logo": "logoei_riz.jpg",
+      "logo": "logo-eiriz.jpg",
       "productos": [
         "jam-n-de-bellota-100---ib-rico-dop-jabug",
         "jam-n-de-bellota-100---ib-rico-dop-jabug",
@@ -371,27 +371,33 @@
       "formatos": [
         {
           "formato": "Octavillo 50g",
-          "precio": "3,00"
+          "precio": "3,00",
+          "imagen": "img_anchoas.jpg"
         },
         {
           "formato": "Tarro 100g",
-          "precio": "5,00"
+          "precio": "5,00",
+          "imagen": "img_anchoas.jpg"
         },
         {
           "formato": "Tarro 210g, 30 tiras",
-          "precio": "10,60"
+          "precio": "10,60",
+          "imagen": "img_anchoas.jpg"
         },
         {
           "formato": "Anchoas Hansan 14/16",
-          "precio": "8,70"
+          "precio": "8,70",
+          "imagen": "img_anchoas.jpg"
         },
         {
           "formato": "Tarro 360g 50/55 tiras",
-          "precio": "29,00"
+          "precio": "29,00",
+          "imagen": "img_anchoas.jpg"
         },
         {
           "formato": "Anchoas Serie Limitada Hansan 10/12",
-          "precio": "10,50"
+          "precio": "10,50",
+          "imagen": "img_anchoas.jpg"
         }
       ],
       "imagen": "img_anchoas.jpg",
@@ -414,7 +420,8 @@
       "formatos": [
         {
           "formato": "160g",
-          "precio": "4,50"
+          "precio": "4,50",
+          "imagen": "img_boquerones.jpg"
         }
       ],
       "imagen": "img_boquerones.jpg",
@@ -437,11 +444,13 @@
       "formatos": [
         {
           "formato": "Tarro 250g",
-          "precio": "4,30"
+          "precio": "4,30",
+          "imagen": "img_bonito.jpg"
         },
         {
           "formato": "Tarro 450g",
-          "precio": "6,50"
+          "precio": "6,50",
+          "imagen": "img_bonito.jpg"
         }
       ],
       "imagen": "img_bonito.jpg",
@@ -464,7 +473,8 @@
       "formatos": [
         {
           "formato": "Unidad | Bandeja",
-          "precio": "1,00"
+          "precio": "1,00",
+          "imagen": "forberry_gildaanchoa.png"
         }
       ],
       "imagen": "forberry_gildaanchoa.png",
@@ -487,7 +497,8 @@
       "formatos": [
         {
           "formato": "110g",
-          "precio": "1,30"
+          "precio": "1,30",
+          "imagen": "Pastel_de_Cabracho__Receta_Ideal_para_Preparar_en_Fiestas.jpeg"
         }
       ],
       "imagen": "Pastel_de_Cabracho__Receta_Ideal_para_Preparar_en_Fiestas.jpeg",
@@ -510,19 +521,23 @@
       "formatos": [
         {
           "formato": "Bolsa 5 uds",
-          "precio": "5,00"
+          "precio": "5,00",
+          "imagen": "forberry_gildaanchoa.png"
         },
         {
           "formato": "Bolsa  12 uds",
-          "precio": "10,00"
+          "precio": "10,00",
+          "imagen": "forberry_gildaanchoa.png"
         },
         {
           "formato": "Bolsa  24 uds",
-          "precio": "20,00"
+          "precio": "20,00",
+          "imagen": "forberry_gildaanchoa.png"
         },
         {
           "formato": "Bolsa  55 uds",
-          "precio": "40,00"
+          "precio": "40,00",
+          "imagen": "forberry_gildaanchoa.png"
         }
       ],
       "imagen": "forberry_gildaanchoa.png",
@@ -545,15 +560,18 @@
       "formatos": [
         {
           "formato": "Bolsa 5 uds",
-          "precio": "7,50"
+          "precio": "7,50",
+          "imagen": "forberry_gildadobleanchoa.png"
         },
         {
           "formato": "Bolsa 20 uds",
-          "precio": "20,00"
+          "precio": "20,00",
+          "imagen": "forberry_gildadobleanchoa.png"
         },
         {
           "formato": "Bolsa 50 uds",
-          "precio": "45,00"
+          "precio": "45,00",
+          "imagen": "forberry_gildadobleanchoa.png"
         }
       ],
       "imagen": "forberry_gildadobleanchoa.png",
@@ -576,15 +594,18 @@
       "formatos": [
         {
           "formato": "Bolsa 5 uds",
-          "precio": "7,50"
+          "precio": "7,50",
+          "imagen": "forberry_gildadobleboqueron.png"
         },
         {
           "formato": "Bolsa 20 uds",
-          "precio": "20,00"
+          "precio": "20,00",
+          "imagen": "forberry_gildadobleboqueron.png"
         },
         {
           "formato": "Bolsa 50 uds",
-          "precio": "45"
+          "precio": "45",
+          "imagen": "forberry_gildadobleboqueron.png"
         }
       ],
       "imagen": "forberry_gildadobleboqueron.png",
@@ -607,19 +628,23 @@
       "formatos": [
         {
           "formato": "Bolsa 5 uds",
-          "precio": "5,00"
+          "precio": "5,00",
+          "imagen": "forberry_gildabanderilla.png"
         },
         {
           "formato": "Bolsa 12 uds",
-          "precio": "10,00"
+          "precio": "10,00",
+          "imagen": "forberry_gildabanderilla.png"
         },
         {
           "formato": "Bolsa 24 uds",
-          "precio": "20,00"
+          "precio": "20,00",
+          "imagen": "forberry_gildabanderilla.png"
         },
         {
           "formato": "Bolsa 55 uds",
-          "precio": "40,00"
+          "precio": "40,00",
+          "imagen": "forberry_gildabanderilla.png"
         }
       ],
       "imagen": "forberry_gildabanderilla.png",
@@ -642,19 +667,23 @@
       "formatos": [
         {
           "formato": "Bolsa 5 uds",
-          "precio": "5,00"
+          "precio": "5,00",
+          "imagen": "forberry_gildamatrimonio.png"
         },
         {
           "formato": "Bolsa 12 uds",
-          "precio": "10,00"
+          "precio": "10,00",
+          "imagen": "forberry_gildamatrimonio.png"
         },
         {
           "formato": "Bolsa 24 uds",
-          "precio": "20,00"
+          "precio": "20,00",
+          "imagen": "forberry_gildamatrimonio.png"
         },
         {
           "formato": "Bolsa 55 uds",
-          "precio": "45,00"
+          "precio": "45,00",
+          "imagen": "forberry_gildamatrimonio.png"
         }
       ],
       "imagen": "forberry_gildamatrimonio.png",
@@ -677,19 +706,23 @@
       "formatos": [
         {
           "formato": "Bolsa 5 uds",
-          "precio": "5,00"
+          "precio": "5,00",
+          "imagen": "forberry_gildajamon.png"
         },
         {
           "formato": "Bolsa 12 uds",
-          "precio": "10,00"
+          "precio": "10,00",
+          "imagen": "forberry_gildajamon.png"
         },
         {
           "formato": "Bolsa 24 uds",
-          "precio": "20,00"
+          "precio": "20,00",
+          "imagen": "forberry_gildajamon.png"
         },
         {
           "formato": "Bolsa 55 uds",
-          "precio": "45,00"
+          "precio": "45,00",
+          "imagen": "forberry_gildajamon.png"
         }
       ],
       "imagen": "forberry_gildajamon.png",
@@ -712,19 +745,23 @@
       "formatos": [
         {
           "formato": "Bolsa 5 uds",
-          "precio": "5,00"
+          "precio": "5,00",
+          "imagen": "forberry_gildalomo.png"
         },
         {
           "formato": "Bolsa 12 uds",
-          "precio": "10,00"
+          "precio": "10,00",
+          "imagen": "forberry_gildalomo.png"
         },
         {
           "formato": "Bolsa 24 uds",
-          "precio": "20,00"
+          "precio": "20,00",
+          "imagen": "forberry_gildalomo.png"
         },
         {
           "formato": "Bolsa 55 uds",
-          "precio": "45,00"
+          "precio": "45,00",
+          "imagen": "forberry_gildalomo.png"
         }
       ],
       "imagen": "forberry_gildalomo.png",
@@ -747,19 +784,23 @@
       "formatos": [
         {
           "formato": "Bolsa 5 uds",
-          "precio": "5,00"
+          "precio": "5,00",
+          "imagen": "forberry_gildacecina.png"
         },
         {
           "formato": "Bolsa 12 uds",
-          "precio": "10,00"
+          "precio": "10,00",
+          "imagen": "forberry_gildacecina.png"
         },
         {
           "formato": "Bolsa 24 uds",
-          "precio": "20,00"
+          "precio": "20,00",
+          "imagen": "forberry_gildacecina.png"
         },
         {
           "formato": "Bolsa 55 uds",
-          "precio": "45,00"
+          "precio": "45,00",
+          "imagen": "forberry_gildacecina.png"
         }
       ],
       "imagen": "forberry_gildacecina.png",
@@ -782,15 +823,18 @@
       "formatos": [
         {
           "formato": "Bolsa 5 uds",
-          "precio": "7,50"
+          "precio": "7,50",
+          "imagen": "forberry_gildapulpo.png"
         },
         {
           "formato": "Bolsa 20 uds",
-          "precio": "20,00"
+          "precio": "20,00",
+          "imagen": "forberry_gildapulpo.png"
         },
         {
           "formato": "Bolsa 50 uds",
-          "precio": "50,00"
+          "precio": "50,00",
+          "imagen": "forberry_gildapulpo.png"
         }
       ],
       "imagen": "forberry_gildapulpo.png",
@@ -813,15 +857,18 @@
       "formatos": [
         {
           "formato": "Bolsa 5 uds",
-          "precio": "10,00"
+          "precio": "10,00",
+          "imagen": "forberry_gildamar.png"
         },
         {
           "formato": "Bolsa 15 uds",
-          "precio": "25,00"
+          "precio": "25,00",
+          "imagen": "forberry_gildamar.png"
         },
         {
           "formato": "Bolsa 40 uds",
-          "precio": "55,00"
+          "precio": "55,00",
+          "imagen": "forberry_gildamar.png"
         }
       ],
       "imagen": "forberry_gildamar.png",
@@ -844,7 +891,8 @@
       "formatos": [
         {
           "formato": "Bloque aprox. 1 kg",
-          "precio": "14,00"
+          "precio": "14,00",
+          "imagen": "tasugueras_Briniro.png"
         }
       ],
       "imagen": "tasugueras_Briniro.png",
@@ -867,7 +915,8 @@
       "formatos": [
         {
           "formato": "Tarrina aprox. 500 g",
-          "precio": "27,00€/kg"
+          "precio": "27,00€/kg",
+          "imagen": "tasugueras_requeson.png"
         }
       ],
       "imagen": "tasugueras_requeson.png",
@@ -890,7 +939,8 @@
       "formatos": [
         {
           "formato": "Pieza aprox. 12 kg | Cuña",
-          "precio": "Pieza aprox. 19,00€ | Cuña 27,00€/kg"
+          "precio": "Pieza aprox. 19,00€ | Cuña 27,00€/kg",
+          "imagen": "tasugueras_gp58.png"
         }
       ],
       "imagen": "tasugueras_gp58.png",
@@ -913,7 +963,8 @@
       "formatos": [
         {
           "formato": "Pieza aprox. 12 kg | Cuña",
-          "precio": "Pieza aprox. 16,00€ | Cuña 24,00€/kg"
+          "precio": "Pieza aprox. 16,00€ | Cuña 24,00€/kg",
+          "imagen": "tasugueras_mercedes.png"
         }
       ],
       "imagen": "tasugueras_mercedes.png",
@@ -936,7 +987,8 @@
       "formatos": [
         {
           "formato": "1 kg",
-          "precio": "40,00/kg"
+          "precio": "40,00/kg",
+          "imagen": "laprovivencia1888_quesoazul.jpeg"
         }
       ],
       "imagen": "laprovivencia1888_quesoazul.jpeg",
@@ -959,7 +1011,8 @@
       "formatos": [
         {
           "formato": "Botella 75 cl",
-          "precio": "5,00"
+          "precio": "5,00",
+          "imagen": "TRINOS.jpg"
         }
       ],
       "imagen": "TRINOS.jpg",
@@ -982,7 +1035,8 @@
       "formatos": [
         {
           "formato": "Botella 75 cl",
-          "precio": "5,63"
+          "precio": "5,63",
+          "imagen": "NIGROMANTE_1.jpg"
         }
       ],
       "imagen": "NIGROMANTE_1.jpg",
@@ -1005,7 +1059,8 @@
       "formatos": [
         {
           "formato": "Botella 75 cl",
-          "precio": "6,44"
+          "precio": "6,44",
+          "imagen": "LADRON_DE_SUEN_OS.jpg"
         }
       ],
       "imagen": "LADRON_DE_SUEN_OS.jpg",
@@ -1028,7 +1083,8 @@
       "formatos": [
         {
           "formato": "Botella 75 cl",
-          "precio": "5,19"
+          "precio": "5,19",
+          "imagen": "EL_SOPLON_DE_VIDRIO.jpg"
         }
       ],
       "imagen": "EL_SOPLON_DE_VIDRIO.jpg",
@@ -1051,7 +1107,8 @@
       "formatos": [
         {
           "formato": "Botella 75 cl",
-          "precio": "5,63"
+          "precio": "5,63",
+          "imagen": "ANTROPOMORFO.jpg"
         }
       ],
       "imagen": "ANTROPOMORFO.jpg",
@@ -1074,7 +1131,8 @@
       "formatos": [
         {
           "formato": "Botella 75 cl",
-          "precio": "4,38"
+          "precio": "4,38",
+          "imagen": "CADALFARUM_1.jpg"
         }
       ],
       "imagen": "CADALFARUM_1.jpg",
@@ -1097,7 +1155,8 @@
       "formatos": [
         {
           "formato": "Botella 75 cl",
-          "precio": "5,63"
+          "precio": "5,63",
+          "imagen": "AZOGUE_1.jpg"
         }
       ],
       "imagen": "AZOGUE_1.jpg",
@@ -1120,7 +1179,8 @@
       "formatos": [
         {
           "formato": "Botella 75 cl",
-          "precio": "5,63"
+          "precio": "5,63",
+          "imagen": "JOYUELO.jpg"
         }
       ],
       "imagen": "JOYUELO.jpg",
@@ -1143,10 +1203,11 @@
       "formatos": [
         {
           "formato": "Botella 75 cl",
-          "precio": "5,00"
+          "precio": "5,00",
+          "imagen": "vitreo.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "vitreo.jpg",
       "emoji": "🍽️"
     },
     {
@@ -1166,7 +1227,8 @@
       "formatos": [
         {
           "formato": "Botella 75 cl",
-          "precio": "5,63"
+          "precio": "5,63",
+          "imagen": "PLENILUNIO.jpg"
         }
       ],
       "imagen": "PLENILUNIO.jpg",
@@ -1189,7 +1251,8 @@
       "formatos": [
         {
           "formato": "Botella 75 cl",
-          "precio": "9,50"
+          "precio": "9,50",
+          "imagen": "p57.jpg"
         }
       ],
       "imagen": "p57.jpg",
@@ -1235,7 +1298,8 @@
       "formatos": [
         {
           "formato": "Lata 120 g",
-          "precio": "8,10"
+          "precio": "8,10",
+          "imagen": "carnedecentollo_lamardetazones.png"
         }
       ],
       "imagen": "carnedecentollo_lamardetazones.png",
@@ -1258,7 +1322,8 @@
       "formatos": [
         {
           "formato": "Lata 145 g (115 g escurrido)",
-          "precio": "9,10"
+          "precio": "9,10",
+          "imagen": "carnedecentolloalnatural_mardetazones.png"
         }
       ],
       "imagen": "carnedecentolloalnatural_mardetazones.png",
@@ -1281,7 +1346,8 @@
       "formatos": [
         {
           "formato": "Lata 120 g",
-          "precio": "7,50"
+          "precio": "7,50",
+          "imagen": "carnedebueyal_natural.png"
         }
       ],
       "imagen": "carnedebueyal_natural.png",
@@ -1304,7 +1370,8 @@
       "formatos": [
         {
           "formato": "Lata 120 g (95 g escurrido)",
-          "precio": "14,50"
+          "precio": "14,50",
+          "imagen": "cangrejodelasnieves.png"
         }
       ],
       "imagen": "cangrejodelasnieves.png",
@@ -1327,7 +1394,8 @@
       "formatos": [
         {
           "formato": "Lata RO-280 · 266 g (165 g escurrido)",
-          "precio": "15,90"
+          "precio": "15,90",
+          "imagen": "ostraslanatural.png"
         }
       ],
       "imagen": "ostraslanatural.png",
@@ -1350,7 +1418,8 @@
       "formatos": [
         {
           "formato": "Lata RO-280 · 266 g (160 g escurrido)",
-          "precio": "16,50"
+          "precio": "16,50",
+          "imagen": "ostrasenvigraneta.png"
         }
       ],
       "imagen": "ostrasenvigraneta.png",
@@ -1373,7 +1442,8 @@
       "formatos": [
         {
           "formato": "Tarro 150 · 145 g (120 g escurrido)",
-          "precio": "19,80"
+          "precio": "19,80",
+          "imagen": "bogavanteazul.png"
         }
       ],
       "imagen": "bogavanteazul.png",
@@ -1396,7 +1466,8 @@
       "formatos": [
         {
           "formato": "Tarro 150 · 145 g (120 g escurrido)",
-          "precio": "18,80"
+          "precio": "18,80",
+          "imagen": "pinzasycodosdebogavante.png"
         }
       ],
       "imagen": "pinzasycodosdebogavante.png",
@@ -1419,7 +1490,8 @@
       "formatos": [
         {
           "formato": "Lata RO-120 · 110 g (62 g escurrido)",
-          "precio": "11,90"
+          "precio": "11,90",
+          "imagen": "navajasahumadas.png"
         }
       ],
       "imagen": "navajasahumadas.png",
@@ -1442,7 +1514,8 @@
       "formatos": [
         {
           "formato": "Bote 25 g",
-          "precio": "39,00"
+          "precio": "39,00",
+          "imagen": "placton.png"
         }
       ],
       "imagen": "placton.png",
@@ -1465,7 +1538,8 @@
       "formatos": [
         {
           "formato": "Estuche 4 unidades",
-          "precio": "35,40"
+          "precio": "35,40",
+          "imagen": "centollo.png"
         }
       ],
       "imagen": "centollo.png",
@@ -1488,7 +1562,8 @@
       "formatos": [
         {
           "formato": "Estuche 4 unidades",
-          "precio": "39,80"
+          "precio": "39,80",
+          "imagen": "centollo_al_natural.png"
         }
       ],
       "imagen": "centollo_al_natural.png",
@@ -1511,7 +1586,8 @@
       "formatos": [
         {
           "formato": "Estuche 4 unidades",
-          "precio": "33,00"
+          "precio": "33,00",
+          "imagen": "bueydemar.png"
         }
       ],
       "imagen": "bueydemar.png",
@@ -1534,7 +1610,8 @@
       "formatos": [
         {
           "formato": "500 ml · estuche incluido",
-          "precio": "10,95 €"
+          "precio": "10,95 €",
+          "imagen": "almacantarofrutadoverde_500ml.png"
         }
       ],
       "imagen": "almacantarofrutadoverde_500ml.png",
@@ -1557,7 +1634,8 @@
       "formatos": [
         {
           "formato": "500 ml · estuche incluido",
-          "precio": "10,45 €"
+          "precio": "10,45 €",
+          "imagen": "almacantarobio500ml.png"
         }
       ],
       "imagen": "almacantarobio500ml.png",
@@ -1580,7 +1658,8 @@
       "formatos": [
         {
           "formato": "Bag in Box 3 lts",
-          "precio": "22,45 €"
+          "precio": "22,45 €",
+          "imagen": "almacantaro3l.png"
         }
       ],
       "imagen": "almacantaro3l.png",
@@ -1603,7 +1682,8 @@
       "formatos": [
         {
           "formato": "Botella",
-          "precio": "6,00"
+          "precio": "6,00",
+          "imagen": "vino-tinto-picos-seleccion.jpg"
         }
       ],
       "imagen": "vino-tinto-picos-seleccion.jpg",
@@ -1626,7 +1706,8 @@
       "formatos": [
         {
           "formato": "Botella",
-          "precio": "8,00"
+          "precio": "8,00",
+          "imagen": "finca-morillas-bodega-picos-cabariezo-liebana.jpg"
         }
       ],
       "imagen": "finca-morillas-bodega-picos-cabariezo-liebana.jpg",
@@ -1649,10 +1730,11 @@
       "formatos": [
         {
           "formato": "Botella",
-          "precio": "26,00"
+          "precio": "26,00",
+          "imagen": "elmisterio.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "elmisterio.jpg",
       "emoji": "🍽️"
     },
     {
@@ -1672,7 +1754,8 @@
       "formatos": [
         {
           "formato": "Botella",
-          "precio": "12,00"
+          "precio": "12,00",
+          "imagen": "hielu-picos.jpg"
         }
       ],
       "imagen": "hielu-picos.jpg",
@@ -1695,7 +1778,8 @@
       "formatos": [
         {
           "formato": "Botella",
-          "precio": "31,00"
+          "precio": "31,00",
+          "imagen": "whisky-as-picos.jpg"
         }
       ],
       "imagen": "whisky-as-picos.jpg",
@@ -1718,7 +1802,8 @@
       "formatos": [
         {
           "formato": "Botella",
-          "precio": "15,41"
+          "precio": "15,41",
+          "imagen": "ginebra-picos-cabariezo.jpg"
         }
       ],
       "imagen": "ginebra-picos-cabariezo.jpg",
@@ -1741,7 +1826,8 @@
       "formatos": [
         {
           "formato": "Botella",
-          "precio": "11,50"
+          "precio": "11,50",
+          "imagen": "aguardiente-de-orujo.jpg"
         }
       ],
       "imagen": "aguardiente-de-orujo.jpg",
@@ -1764,7 +1850,8 @@
       "formatos": [
         {
           "formato": "Botella",
-          "precio": "10,70"
+          "precio": "10,70",
+          "imagen": "crema-de-orujo.jpg"
         }
       ],
       "imagen": "crema-de-orujo.jpg",
@@ -1787,7 +1874,8 @@
       "formatos": [
         {
           "formato": "Botella",
-          "precio": "10,70"
+          "precio": "10,70",
+          "imagen": "licor-de-hierbas.jpg"
         }
       ],
       "imagen": "licor-de-hierbas.jpg",
@@ -1810,7 +1898,8 @@
       "formatos": [
         {
           "formato": "Botella",
-          "precio": "10,70"
+          "precio": "10,70",
+          "imagen": "licor-de-miel.jpg"
         }
       ],
       "imagen": "licor-de-miel.jpg",
@@ -1833,7 +1922,8 @@
       "formatos": [
         {
           "formato": "Botella",
-          "precio": "10,70"
+          "precio": "10,70",
+          "imagen": "crema-de-cafe.jpg"
         }
       ],
       "imagen": "crema-de-cafe.jpg",
@@ -1856,7 +1946,8 @@
       "formatos": [
         {
           "formato": "Botella",
-          "precio": "10,70"
+          "precio": "10,70",
+          "imagen": "licor-de-cafe.jpg"
         }
       ],
       "imagen": "licor-de-cafe.jpg",
@@ -1879,7 +1970,8 @@
       "formatos": [
         {
           "formato": "Botella",
-          "precio": "15,41"
+          "precio": "15,41",
+          "imagen": "ginebra-tropical-bodega-picos-cabariezo-liebana.jpg"
         }
       ],
       "imagen": "ginebra-tropical-bodega-picos-cabariezo-liebana.jpg",
@@ -1925,7 +2017,8 @@
       "formatos": [
         {
           "formato": "Botella de 700ml / 750 ml. + - 4€ envio",
-          "precio": "9,40"
+          "precio": "9,40",
+          "imagen": "700mlfondoblancooronomada.webp"
         }
       ],
       "imagen": "700mlfondoblancooronomada.webp",
@@ -1948,15 +2041,18 @@
       "formatos": [
         {
           "formato": "Botella de 700ml / 750 ml.  + - 4€ envio",
-          "precio": "9,40"
+          "precio": "9,40",
+          "imagen": "700mlfondoblancooronomada.webp"
         },
         {
           "formato": "Botella de 200 ml. Cajas de 22 unidades.  + - 4€ envio",
-          "precio": "2,82 €/und. Total 62,15€/22 und"
+          "precio": "2,82 €/und. Total 62,15€/22 und",
+          "imagen": "700mlfondoblancooronomada.webp"
         },
         {
           "formato": "Botella de 200 ml. Cajas de 22 unidades.  + - 4€ envio",
-          "precio": "2,82 €/und. Total 62,15€/22 und"
+          "precio": "2,82 €/und. Total 62,15€/22 und",
+          "imagen": "700mlfondoblancooronomada.webp"
         }
       ],
       "imagen": "700mlfondoblancooronomada.webp",
@@ -2002,11 +2098,13 @@
       "formatos": [
         {
           "formato": "Botella 500 mililitros estuchada",
-          "precio": "13,70"
+          "precio": "13,70",
+          "imagen": "Sin_Fondo_1.png"
         },
         {
           "formato": "lata de 2,5 litros",
-          "precio": "27,90"
+          "precio": "27,90",
+          "imagen": "Sin_Fondo_1.png"
         }
       ],
       "imagen": "Sin_Fondo_1.png",
@@ -2029,10 +2127,11 @@
       "formatos": [
         {
           "formato": "botella 75 cl",
-          "precio": "6,50"
+          "precio": "6,50",
+          "imagen": "vinotintodalmacio.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "vinotintodalmacio.jpg",
       "emoji": "🍽️"
     },
     {
@@ -2233,27 +2332,33 @@
       "formatos": [
         {
           "formato": "3 Kg",
-          "precio": "17,40 €/Kg"
+          "precio": "17,40 €/Kg",
+          "imagen": "semicuradofuentesportada.jpg"
         },
         {
           "formato": "2 Kg",
-          "precio": "17,40 €/Kg"
+          "precio": "17,40 €/Kg",
+          "imagen": "semicuradofuentesportada.jpg"
         },
         {
           "formato": "1 Kg",
-          "precio": "17,40 €/Kg"
+          "precio": "17,40 €/Kg",
+          "imagen": "semicuradofuentesportada.jpg"
         },
         {
           "formato": "Cuña 1/4–1/8",
-          "precio": "17,90 €/Kg"
+          "precio": "17,90 €/Kg",
+          "imagen": "semicuradofuentesportada.jpg"
         },
         {
           "formato": "Cuñas 1/12– 1/16",
-          "precio": "18,20 €/Kg"
+          "precio": "18,20 €/Kg",
+          "imagen": "semicuradofuentesportada.jpg"
         }
       ],
-      "imagen": "",
-      "emoji": "🍽️"
+      "imagen": "semicuradofuentesportada.jpg",
+      "emoji": "🍽️",
+      "imagen_secundaria": "semicuradofuentes2.jpg"
     },
     {
       "id": "queso-curado-d-o-p--ntra--sra--de-fuente",
@@ -2272,23 +2377,28 @@
       "formatos": [
         {
           "formato": "3 Kg",
-          "precio": "18,40 €/Kg"
+          "precio": "18,40 €/Kg",
+          "imagen": "curadofuentesportada.jpg"
         },
         {
           "formato": "2 Kg",
-          "precio": "18,40 €/Kg"
+          "precio": "18,40 €/Kg",
+          "imagen": "curadofuentesportada.jpg"
         },
         {
           "formato": "Cuña 1/4–1/8",
-          "precio": "18,90 €/Kg"
+          "precio": "18,90 €/Kg",
+          "imagen": "curadofuentesportada.jpg"
         },
         {
           "formato": "Cuñas 1/12– 1/16",
-          "precio": "19,20 €/Kg"
+          "precio": "19,20 €/Kg",
+          "imagen": "curadofuentesportada.jpg"
         }
       ],
-      "imagen": "",
-      "emoji": "🍽️"
+      "imagen": "curadofuentesportada.jpg",
+      "emoji": "🍽️",
+      "imagen_secundaria": "curadofuentes2.jpg"
     },
     {
       "id": "gran-reserva-d-o-p--ntra--sra--de-fuente",
@@ -2307,19 +2417,23 @@
       "formatos": [
         {
           "formato": "3 Kg",
-          "precio": "21,60 €/Kg"
+          "precio": "21,60 €/Kg",
+          "imagen": "reservaportadafuentes.jpg"
         },
         {
           "formato": "Cuña 1/4–1/8",
-          "precio": "22,10 €/Kg"
+          "precio": "22,10 €/Kg",
+          "imagen": "reservaportadafuentes.jpg"
         },
         {
           "formato": "Cuñas 1/12– 1/16",
-          "precio": "22,40 €/Kg"
+          "precio": "22,40 €/Kg",
+          "imagen": "reservaportadafuentes.jpg"
         }
       ],
-      "imagen": "",
-      "emoji": "🍽️"
+      "imagen": "reservaportadafuentes.jpg",
+      "emoji": "🍽️",
+      "imagen_secundaria": "reservafuentes2.jpg"
     },
     {
       "id": "curado-en-miel-y-or-gano-villarejo",
@@ -2338,23 +2452,28 @@
       "formatos": [
         {
           "formato": "3 Kg",
-          "precio": "17,10 €/Kg"
+          "precio": "17,10 €/Kg",
+          "imagen": "mielyoreganoportada.jpg"
         },
         {
           "formato": "1 Kg",
-          "precio": "17,10 €/Kg"
+          "precio": "17,10 €/Kg",
+          "imagen": "mielyoreganoportada.jpg"
         },
         {
           "formato": "Cuña 1/4–1/8",
-          "precio": "17,60 €/Kg"
+          "precio": "17,60 €/Kg",
+          "imagen": "mielyoreganoportada.jpg"
         },
         {
           "formato": "Cuñas 1/12– 1/16",
-          "precio": "17,90 €/Kg"
+          "precio": "17,90 €/Kg",
+          "imagen": "mielyoreganoportada.jpg"
         }
       ],
-      "imagen": "",
-      "emoji": "🍽️"
+      "imagen": "mielyoreganoportada.jpg",
+      "emoji": "🍽️",
+      "imagen_secundaria": "mielyoregano.jpg"
     },
     {
       "id": "curado-al-romero--rosemary-",
@@ -2373,23 +2492,28 @@
       "formatos": [
         {
           "formato": "3 Kg",
-          "precio": "17,10 €/Kg"
+          "precio": "17,10 €/Kg",
+          "imagen": "rosemaryportada.jpg"
         },
         {
           "formato": "1 Kg (past.)",
-          "precio": "17,10 €/Kg"
+          "precio": "17,10 €/Kg",
+          "imagen": "rosemaryportada.jpg"
         },
         {
           "formato": "Cuña 1/4– 1/8",
-          "precio": "17,60 €/Kg"
+          "precio": "17,60 €/Kg",
+          "imagen": "rosemaryportada.jpg"
         },
         {
           "formato": "Cuñas 1/12– 1/16",
-          "precio": "17,90 €/Kg"
+          "precio": "17,90 €/Kg",
+          "imagen": "rosemaryportada.jpg"
         }
       ],
-      "imagen": "",
-      "emoji": "🍽️"
+      "imagen": "rosemaryportada.jpg",
+      "emoji": "🍽️",
+      "imagen_secundaria": "rosemary2.jpg"
     },
     {
       "id": "curado-en-tomillo-villarejo",
@@ -2408,23 +2532,28 @@
       "formatos": [
         {
           "formato": "3 Kg",
-          "precio": "17,10 €/Kg"
+          "precio": "17,10 €/Kg",
+          "imagen": "tomilloportada.jpg"
         },
         {
           "formato": "1 Kg (past.)",
-          "precio": "17,10 €/Kg"
+          "precio": "17,10 €/Kg",
+          "imagen": "tomilloportada.jpg"
         },
         {
           "formato": "Cuña 1/4– 1/8",
-          "precio": "17,60 €/Kg"
+          "precio": "17,60 €/Kg",
+          "imagen": "tomilloportada.jpg"
         },
         {
           "formato": "Cuñas 1/12– 1/16",
-          "precio": "17,90 €/Kg"
+          "precio": "17,90 €/Kg",
+          "imagen": "tomilloportada.jpg"
         }
       ],
-      "imagen": "",
-      "emoji": "🍽️"
+      "imagen": "tomilloportada.jpg",
+      "emoji": "🍽️",
+      "imagen_secundaria": "tomillo2.jpg"
     },
     {
       "id": "curado-en-aceite-villarejo",
@@ -2443,23 +2572,28 @@
       "formatos": [
         {
           "formato": "3 Kg",
-          "precio": "17,10 €/Kg"
+          "precio": "17,10 €/Kg",
+          "imagen": "aceiteolivaportada.jpg"
         },
         {
           "formato": "1 Kg (past.)",
-          "precio": "17,10 €/Kg"
+          "precio": "17,10 €/Kg",
+          "imagen": "aceiteolivaportada.jpg"
         },
         {
           "formato": "Cuña 1/4– 1/8",
-          "precio": "17,60 €/Kg"
+          "precio": "17,60 €/Kg",
+          "imagen": "aceiteolivaportada.jpg"
         },
         {
           "formato": "Cuñas 1/12– 1/16",
-          "precio": "17,90 €/Kg"
+          "precio": "17,90 €/Kg",
+          "imagen": "aceiteolivaportada.jpg"
         }
       ],
-      "imagen": "",
-      "emoji": "🍽️"
+      "imagen": "aceiteolivaportada.jpg",
+      "emoji": "🍽️",
+      "imagen_secundaria": "aceiteoliva2.jpg"
     },
     {
       "id": "curado-en-vino-tinto---blanco-villarejo",
@@ -2509,19 +2643,23 @@
       "formatos": [
         {
           "formato": "3 Kg",
-          "precio": "17,10 €/Kg"
+          "precio": "17,10 €/Kg",
+          "imagen": "resoliportada.jpg"
         },
         {
           "formato": "Cuña 1/4– 1/8",
-          "precio": "17,60 €/Kg"
+          "precio": "17,60 €/Kg",
+          "imagen": "resoliportada.jpg"
         },
         {
           "formato": "Cuñas 1/12– 1/16",
-          "precio": "17,90 €/Kg"
+          "precio": "17,90 €/Kg",
+          "imagen": "resoliportada.jpg"
         }
       ],
-      "imagen": "",
-      "emoji": "🍽️"
+      "imagen": "resoliportada.jpg",
+      "emoji": "🍽️",
+      "imagen_secundaria": "resoli2.jpg"
     },
     {
       "id": "curado-en-cerveza-a-la-pimienta",
@@ -2540,19 +2678,23 @@
       "formatos": [
         {
           "formato": "3 Kg",
-          "precio": "17,10 €/Kg"
+          "precio": "17,10 €/Kg",
+          "imagen": "cervezaalapimienta.png"
         },
         {
           "formato": "Cuña 1/4– 1/8",
-          "precio": "17,60 €/Kg"
+          "precio": "17,60 €/Kg",
+          "imagen": "cervezaalapimienta.png"
         },
         {
           "formato": "Cuñas 1/12– 1/16",
-          "precio": "17,90 €/Kg"
+          "precio": "17,90 €/Kg",
+          "imagen": "cervezaalapimienta.png"
         }
       ],
-      "imagen": "",
-      "emoji": "🍽️"
+      "imagen": "cervezaalapimienta.png",
+      "emoji": "🍽️",
+      "imagen_secundaria": "cervezapimienta2.png"
     },
     {
       "id": "queso-tierno-puro-de-oveja-san-blas",
@@ -2571,23 +2713,28 @@
       "formatos": [
         {
           "formato": "3 Kg",
-          "precio": "12,90 €/Kg"
+          "precio": "12,90 €/Kg",
+          "imagen": "blasportada.jpg"
         },
         {
           "formato": "1 Kg",
-          "precio": "12,90 €/Kg"
+          "precio": "12,90 €/Kg",
+          "imagen": "blasportada.jpg"
         },
         {
           "formato": "Cuña 1/4– 1/8",
-          "precio": "13,40 €/Kg"
+          "precio": "13,40 €/Kg",
+          "imagen": "blasportada.jpg"
         },
         {
           "formato": "Cuñas 1/12– 1/16",
-          "precio": "13,70 €/Kg"
+          "precio": "13,70 €/Kg",
+          "imagen": "blasportada.jpg"
         }
       ],
-      "imagen": "",
-      "emoji": "🍽️"
+      "imagen": "blasportada.jpg",
+      "emoji": "🍽️",
+      "imagen_secundaria": "blas2.jpg"
     },
     {
       "id": "queso-semicurado-artesano-villarejo",
@@ -2606,18 +2753,21 @@
       "formatos": [
         {
           "formato": "3 Kg",
-          "precio": "16,00 €/Kg"
+          "precio": "16,00 €/Kg",
+          "imagen": "queso de oveja semicurado.png"
         },
         {
           "formato": "Cuña 1/4– 1/8",
-          "precio": "16,60 €/Kg"
+          "precio": "16,60 €/Kg",
+          "imagen": "queso de oveja semicurado.png"
         },
         {
           "formato": "Cuñas 1/12– 1/16",
-          "precio": "16,90 €/Kg"
+          "precio": "16,90 €/Kg",
+          "imagen": "queso de oveja semicurado.png"
         }
       ],
-      "imagen": "",
+      "imagen": "queso de oveja semicurado.png",
       "emoji": "🍽️"
     },
     {
@@ -2637,18 +2787,21 @@
       "formatos": [
         {
           "formato": "3 Kg",
-          "precio": "17,10 €/Kg"
+          "precio": "17,10 €/Kg",
+          "imagen": "curadovillarejo.jpg"
         },
         {
           "formato": "Cuña 1/4– 1/8",
-          "precio": "17,60 €/Kg"
+          "precio": "17,60 €/Kg",
+          "imagen": "curadovillarejo.jpg"
         },
         {
           "formato": "Cuñas 1/12– 1/16",
-          "precio": "17,90 €/Kg"
+          "precio": "17,90 €/Kg",
+          "imagen": "curadovillarejo.jpg"
         }
       ],
-      "imagen": "",
+      "imagen": "curadovillarejo.jpg",
       "emoji": "🍽️"
     },
     {
@@ -2668,19 +2821,23 @@
       "formatos": [
         {
           "formato": "3 Kg",
-          "precio": "21,60 €/Kg"
+          "precio": "21,60 €/Kg",
+          "imagen": "oveja24mportada.png"
         },
         {
           "formato": "Cuña 1/4– 1/8",
-          "precio": "22,10 €/Kg"
+          "precio": "22,10 €/Kg",
+          "imagen": "oveja24mportada.png"
         },
         {
           "formato": "Cuñas 1/12– 1/16",
-          "precio": "22,40 €/Kg"
+          "precio": "22,40 €/Kg",
+          "imagen": "oveja24mportada.png"
         }
       ],
-      "imagen": "",
-      "emoji": "🍽️"
+      "imagen": "oveja24mportada.png",
+      "emoji": "🍽️",
+      "imagen_secundaria": "oveja24m2.png"
     },
     {
       "id": "jam-n-de-bellota-100---ib-rico-dop-jabug",
